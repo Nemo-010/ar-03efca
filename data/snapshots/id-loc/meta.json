@@ -1,0 +1,85 @@
+{
+ "slug": "id-loc",
+ "name": "id.loc.gov (LC Linked Data)",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:56+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://id.loc.gov/",
+   "status": 403,
+   "final_url": "https://id.loc.gov/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5625,
+   "truncated": false,
+   "sha256": "e909f29eb6b6fb2cd5c6f93c1b951bf81c7a95210bd11e1e035d464628bd7bb6",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.id.loc.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.id.loc.gov/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://id.loc.gov/",
+   "status": 403,
+   "final_url": "https://id.loc.gov/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5603,
+   "truncated": false,
+   "sha256": "9b314f6fdf589bd5dcdac37f68d5c4491ab0a5bfbcb14c3208009a671cf28d4f",
+   "fetched_at": "2026-10-20T01:49:43+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://id.loc.gov/",
+   "status": 403,
+   "final_url": "https://id.loc.gov/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5603,
+   "truncated": false,
+   "sha256": "d9e0e8cf6ef53a19ded7f2b8c2989a45609d03761180af8c30813c04c4a6de9c",
+   "fetched_at": "2026-10-20T01:51:23+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://id.loc.gov/",
+   "status": 403,
+   "final_url": "https://id.loc.gov/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5603,
+   "truncated": false,
+   "sha256": "fb1d3d7a2489c9f66be7579e4737ae8aa57a442c9ab6113eb3b6b5ad195cdbcc",
+   "fetched_at": "2026-10-20T01:54:15+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://id.loc.gov/",
+   "status": 403,
+   "final_url": "https://id.loc.gov/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5603,
+   "truncated": false,
+   "sha256": "13fd84793299dc32293181cbbf15645d03048cb91c4a739fadff7994b70eb8d5",
+   "fetched_at": "2026-10-20T01:58:53+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://id.loc.gov/",
+   "status": 403,
+   "final_url": "https://id.loc.gov/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5603,
+   "truncated": false,
+   "sha256": "40d45c8a1ade3fc3a6784332095151e505f007be021b7ea41b225cc8aa6265bf",
+   "fetched_at": "2026-10-20T02:22:19+00:00",
+   "rate_headers": {}
+  }
+ }
+}

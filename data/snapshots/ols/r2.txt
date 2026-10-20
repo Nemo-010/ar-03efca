@@ -1,0 +1,19 @@
+{
+  "_links" : {
+    "individuals" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/individuals"
+    },
+    "ontologies" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/ontologies"
+    },
+    "properties" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/properties"
+    },
+    "terms" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/terms"
+    },
+    "profile" : {
+      "href" : "http://www.ebi.ac.uk/ols4/api/profile"
+    }
+  }
+}

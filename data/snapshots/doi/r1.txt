@@ -1,0 +1,83 @@
+What is a DOI? 
+ The Foundation 
+ About Us 
+ Board & Governance 
+ Sustainability 
+ The Community 
+ What are Registration Agencies? 
+ Existing Registration Agencies 
+ Who Are The Members and Users? 
+ The Identifier 
+ What is a DOI? 
+ DOI Handbook 
+ Resources 
+ The Identifier 
+ What is a DOI? 
+ A DOI is a digital identifier of an object, any object — physical, digital, or abstract. DOIs solve a common problem: keeping track of things. Things can be matter, material, content, or activities. 
+ A DOI is a unique number made up of a prefix and a suffix separated by a forward slash. This is an example of one: 10.1000/182 . It is resolvable using our proxy server by displaying it as a link: https://doi.org/10.1000/182. 
+ Designed to be used by humans as well as machines, DOIs identify objects persistently. They allow things to be uniquely identified and accessed reliably. You know what you have, where it is, and others can track it too. 
+ WHAT ARE THEY? 
+ A digital identifier of any object 
+ Physical, digital, or abstract 
+ Designed to be used by machines 
+ (As well as humans) 
+ Persistent identifiers 
+ A long-lasting reference to an object or to information about an object 
+ Here's an example 
+ https://doi.org/10.1000/182 
+ How many are being resolved? 
+ Average resolution rate over last 24 hours 
+ Total DOI resolutions to date (all time) 
+ of the resolutions performed in **MONTH** were from bots (it’s not always possible to reliably identify them) 
+ of the resolutions performed in **MONTH** used content negotiation 
+ Why are they important? 
+ They help to keep track of things 
+ Solving a common problem. Knowing what’s what, now and in the future. 
+ The DOI is actionable 
+ When you use it something useful will happen 
+ They help you find what you need 
+ Wherever it is at any given moment in time 
+ They’re free to resolve 
+ And always will be 
+ WHAT IS THE 
+ 1 
+ A not for profit organisation that governs the DOI system 
+ 2 
+ We comply with ISO 26324, which defines the syntax for a DOI name 
+ 3 
+ We had $884k operating costs in 2021* 
+ THE BENEFITS: WHAT PROBLEMS CAN DOIS SOLVE? 
+ KNOWING WHAT’S WHAT, NOW AND IN THE FUTURE 
+ The DOI is a persistent identifier, it is a long-lasting reference to an object or to information about an object. The object can be anything physical, digital, or abstract. Keeping track of objects like this over time is a problem. And that’s what the DOI is designed to solve. 
+ FINDING WHAT YOU NEED, WHEREVER IT IS OR HAS MOVED TO 
+ The DOI is not only persistent but it is “actionable” which means that you use it and something useful will happen. For instance, you can plug it into a web browser and be taken to an object. We call this resolving the DOI. Here is a chart of the resolutions over time: 
+ FILLING IN PAST GAPS 
+ In many sectors, a reliable archive is important and denoting the provenance of a record is imperative. Metadata, applications, and services associated with DOIs can be updated without having to change the DOI itself, so for instance as new information becomes available, past records can be updated even decades after they were first created. 
+ GROWTH OVER TIME 
+ The number of DOI resolutions per month over time; the yellow line shows the best fit 3 degree polynomial 
+ HOW CAN I RESOLVE A DOI? 
+ The DOI System will look up the unique string and redirect you or your machine to the object that it points to. This is most often a URL to a web page, but it can be a link to a database record, for instance. 
+ Sometimes there are multiple links behind a DOI (we call this multiple resolution) and users will be redirected to the appropriate one. 
+ HOW CAN I GET A DOI? 
+ You need to work with one of our DOI Registration Agencies who offer services that allow you to register a DOI or many DOIs and metadata specialised to their communities. You can contact any of them to see how they can help you. 
+ What is the DOI Handbook? 
+ The DOI Handbook is the main source of information about the DOI® System. You can find the latest version here: https://doi.org/10.1000/182 . 
+ DOIs and the Handle system 
+ We use Handle System technology for the resolution part of the DOI System. We believe it is the best infrastructure available today for managing digital objects. The Handle System was developed by CNRI and is currently administered and maintained by the DONA Foundation 
+ In order to guarantee persistence, the DOI Foundation has built a social infrastructure on top of the technical infrastructure of the Handle System. Persistence is a function of organizations, not of technology; a persistent identifier system requires a persistent organization, agreed policies and defined processes. Read more about our Registration Agencies’ committments . 
+ TOTAL DOIS 
+ The cumulative number of DOI registered in the DOI System over time; the yellow line shows the best fit exponential 
+ DOI AND STANDARDS (ISO 26324) 
+ We believe that standardization provides a further guarantee of good governance and persistence. The DOI system has been standardized through the International Standards Organization, as ISO 26324, Digital Object Identifier System. The Standard was approved in November 2010, published in May 2012 and revised in 2022. The history is described here . The Standard specifies the syntax and the functional components of the DOI System, plus the general principles for the creation, registration and administration of DOI names. The Standard is careful not to stipulate any specific technologies. 
+ RESOLUTIONS TO DATE PER COUNTRY 
+ Darker shades show higher number of total resolutions by country for the last complete month. Mousing over the map will show individual country totals 
+ The data used to create the visualisations on this page can be obtained here . 
+ Resources 
+ Governing Board 
+ Status page 
+ Email us 
+ The DOI Handbook 
+ ISO 26324 
+ Privacy Policy 
+ Trademarks (PDF) 
+ Copyright © 2026 DOI Foundation. The content of this site is licensed under a Creative Commons Attribution 4.0 International License . DOI®, DOI.ORG®, and shortDOI® are trademarks of the DOI Foundation.

@@ -1,0 +1,67 @@
+{
+ "slug": "arquivo",
+ "name": "Arquivo.pt",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:28+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://arquivo.pt/api",
+   "status": 200,
+   "final_url": "https://github.com/arquivo/pwa-technologies/wiki/APIs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 252847,
+   "truncated": false,
+   "sha256": "757a42b81b234207203d843c1b33ca2c79f3d42b5efcab8fdb2043eacca35762",
+   "fetched_at": "2026-10-20T01:47:28+00:00",
+   "rate_headers": {},
+   "text_bytes": 8732
+  },
+  "home": {
+   "url": "https://arquivo.pt/",
+   "status": 200,
+   "final_url": "https://arquivo.pt/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 31605,
+   "truncated": false,
+   "sha256": "03eb51a2f39bb84b874f85db9e02f80fbd652ac3901d90bc0bab5c67e3656202",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {},
+   "text_bytes": 2294
+  },
+  "llms-err": {
+   "url": "https://docs.arquivo.pt/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.arquivo.pt/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://arquivo.pt/api",
+   "status": 200,
+   "final_url": "https://github.com/arquivo/pwa-technologies/wiki/APIs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 252847,
+   "truncated": false,
+   "sha256": "8e6eddac32e8dbee452e83294682eb22fc51b5363f557461eab54c7ade6b2a0d",
+   "fetched_at": "2026-10-20T01:49:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 8732
+  },
+  "limits": {
+   "url": "https://arquivo.pt/api",
+   "status": 200,
+   "final_url": "https://github.com/arquivo/pwa-technologies/wiki/APIs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 252848,
+   "truncated": false,
+   "sha256": "4ef635e421aa6baada802fe5be6281e65f21e8fbfbf05f3d09b62530f4cf541f",
+   "fetched_at": "2026-10-20T01:54:04+00:00",
+   "rate_headers": {},
+   "text_bytes": 8732
+  }
+ }
+}

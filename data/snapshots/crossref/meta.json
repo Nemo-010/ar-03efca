@@ -1,0 +1,91 @@
+{
+ "slug": "crossref",
+ "name": "Crossref REST API",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:35+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/",
+   "status": 200,
+   "final_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/",
+   "content_type": "text/html",
+   "bytes": 76605,
+   "truncated": false,
+   "sha256": "6d207e8b60b0a3c6c4db0591337fd64d5cb9ca7e4d546cb9dc759c638dcfc94c",
+   "fetched_at": "2026-10-20T01:47:35+00:00",
+   "rate_headers": {},
+   "text_bytes": 19891
+  },
+  "home": {
+   "url": "https://www.crossref.org/",
+   "status": 200,
+   "final_url": "https://www.crossref.org/",
+   "content_type": "text/html",
+   "bytes": 35214,
+   "truncated": false,
+   "sha256": "9cb784e530d99946002a53ec983cad609f2c066bff38bc839f7c9d49a1eb4a59",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 4713
+  },
+  "llms-err": {
+   "url": "https://docs.crossref.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.crossref.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:38+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/",
+   "status": 200,
+   "final_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/",
+   "content_type": "text/html",
+   "bytes": 76605,
+   "truncated": false,
+   "sha256": "6d207e8b60b0a3c6c4db0591337fd64d5cb9ca7e4d546cb9dc759c638dcfc94c",
+   "fetched_at": "2026-10-20T01:49:38+00:00",
+   "rate_headers": {},
+   "text_bytes": 19891
+  },
+  "policy2": {
+   "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/",
+   "status": 200,
+   "final_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/",
+   "content_type": "text/html",
+   "bytes": 68857,
+   "truncated": false,
+   "sha256": "73ffe99bf11978a5bbf1cc485f81c257395e9e34ac01b6c1c70ad18012753879",
+   "fetched_at": "2026-10-20T01:50:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 13110
+  },
+  "limits": {
+   "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/",
+   "status": 200,
+   "final_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/",
+   "content_type": "text/html",
+   "bytes": 68857,
+   "truncated": false,
+   "sha256": "73ffe99bf11978a5bbf1cc485f81c257395e9e34ac01b6c1c70ad18012753879",
+   "fetched_at": "2026-10-20T01:54:19+00:00",
+   "rate_headers": {},
+   "text_bytes": 13110
+  },
+  "r1": {
+   "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/",
+   "status": 200,
+   "final_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/",
+   "content_type": "text/html",
+   "bytes": 68857,
+   "truncated": false,
+   "sha256": "73ffe99bf11978a5bbf1cc485f81c257395e9e34ac01b6c1c70ad18012753879",
+   "fetched_at": "2026-10-20T01:59:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 13110
+  }
+ }
+}

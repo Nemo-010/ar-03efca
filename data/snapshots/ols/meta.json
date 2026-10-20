@@ -1,0 +1,127 @@
+{
+ "slug": "ols",
+ "name": "EMBL-EBI Ontology Lookup Service",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:59+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.ebi.ac.uk/ols4/help",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/help",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "home": {
+   "url": "https://www.ebi.ac.uk/ols4/",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "llms": {
+   "url": "https://www.ebi.ac.uk/ols4/help/llms.txt",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/help/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:48:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "llms-d21dec": {
+   "url": "https://www.ebi.ac.uk/ols4/llms.txt",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:48:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "llms-6fc1ce-err": {
+   "url": "https://docs.ebi.ac.uk/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ebi.ac.uk/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:02+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.ebi.ac.uk/ols4/help",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/help",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:49:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "policy2": {
+   "url": "https://www.ebi.ac.uk/ols4/help",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/help",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:51:34+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "limits": {
+   "url": "https://www.ebi.ac.uk/ols4/help",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/help",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:53:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "r1": {
+   "url": "https://www.ebi.ac.uk/ols4/help",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/help",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2000,
+   "truncated": false,
+   "sha256": "80486ab771f3059ba6e96fa054baeb716b4a2878cd19c369f3f98ce707c912d1",
+   "fetched_at": "2026-10-20T01:58:35+00:00",
+   "rate_headers": {},
+   "text_bytes": 29
+  },
+  "r2": {
+   "url": "https://www.ebi.ac.uk/ols4/api",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ols4/api",
+   "content_type": "application/json",
+   "bytes": 437,
+   "truncated": false,
+   "sha256": "dc6f6b1ba3335adc170e34bbe9f7145056cbe809bcbbb48b2068341e8e9dee8e",
+   "fetched_at": "2026-10-20T02:22:09+00:00",
+   "rate_headers": {},
+   "text_bytes": 437
+  }
+ }
+}

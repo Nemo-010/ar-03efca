@@ -1,0 +1,314 @@
+Perma.cc | Developer Docs 
+ Skip to main content 
+ Skip to footer 
+ Toggle navigation 
+ Perma.cc Home 
+ Main Menu 
+ About Perma.cc 
+ Guide 
+ Sign up 
+ Log in 
+ Main Content 
+ Perma.cc API for developers 
+ Overview Section Table of Contents 
+ Overview 
+ Authentication 
+ Pagination 
+ Examples in cURL 
+ Public Archives 
+ User 
+ Organizations 
+ Archives 
+ Folders 
+ Capture Jobs 
+ API Overview 
+ The Perma.cc API helps you create and manage archives without using your web browser. 
+ There are a number of endpoints, but you really only manipulate two "things": archives and folders. 
+ The API is RESTful and leverages the HTTP GET, POST, PUT, PATCH, and DELETE verbs. 
+ Please let us know if you have suggestions or run into bugs. 
+ Authentication 
+ Many of the endpoints require you to authenticate with an API key. 
+ Find your API key in Settings > Tools . Click the Generate an API key button to create a new key.
+ Tools page. A button labeled 'Generate an API key' appears near the bottom of the page."/>
+ To access protected endpoints, include your API key in the Authorization header: 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1... 
+ Deprecated: 
+ For backwards compatibility, we continue to support authentication via URL parameter (e.g. https://api.perma.cc/v1...?api_key=your-api-key ). New integrations should use the Authorization header, and legacy integrations should plan to migrate. We plan to drop support for authentication via URL parameter in a future release. 
+ Pagination 
+ By default, the API will return results in "pages" of up to 300 items. If the response comprises more than 300 results, you can page through the items using the offset parameter. For example, if you want to start at the 301st result, set the offset value to 1 (we start counting at 0, of course). 
+ curl https://api.perma.cc/v1/public/archives/?offset=1 
+ If you'd prefer a smaller or larger result set, specify the desired size of the pages using the limit parameter. In this example, we request results returned one at a time. 
+ curl https://api.perma.cc/v1/public/archives/?limit=1 
+ You can use the value of next in the meta section of the response to move to the next page of results, but note that next will be populated even if there are no more results at that offset; stop getting more results when objects is an empty list. 
+ Examples in cURL 
+ Our API documentation is example based, and our examples show you how to interact with the API using the cURL command line utility . A friendly tip - you can add the -v option to help debug your HTTP interactions. 
+ curl https://api.perma.cc/v1/public/archives/?limit=1 -v 
+ Public-Archives Section Table of Contents 
+ Overview 
+ Public Archives 
+ Get all public archives 
+ User 
+ Organizations 
+ Archives 
+ Folders 
+ Capture Jobs 
+ Public Archives 
+ The Public Archives API endpoint helps you find publicly available Perma.cc archives. You do not need an API Key to use this portion of the API. 
+ The base endpoint for this API is https://api.perma.cc/v1/public/archives/ 
+ This API provides access to the most recently created Perma Links. To inquire about access to data beyond this limit, please drop us a note . 
+ Get all public archives 
+ Use HTTP GET to retrieve every public archive in Perma.cc. (In order to keep this example short, we limit the number of returned items to one.) 
+ curl https://api.perma.cc/v1/public/archives/?limit=1 
+ Response: 
+ {"meta":{"limit":1,"next":"https://api.perma.cc/v1/public/archives/?limit=1&offset=1","offset":0,"previous":null},"objects":[{"guid":"W6PY-UZ99","creation_timestamp":"2018-05-15T18:13:52Z","url":"http://example.com","title":"Example Domain","description":null,"warc_size":20932,"wacz_size":21844,"captures":[{"role":"primary","status":"success","url":"http://example.com","record_type":"response","content_type":"text/html","user_upload":false},{"role":"screenshot","status":"success","url":"file:///W6PY-UZ99/cap.png","record_type":"resource","content_type":"image/png","user_upload":false}],"queue_time":0,"capture_time":4}]} 
+ Users Section Table of Contents 
+ Overview 
+ Public Archives 
+ User 
+ Get your account details 
+ Organizations 
+ Archives 
+ Folders 
+ Capture Jobs 
+ User 
+ The User API endpoint returns basic information about your account. 
+ The base endpoint for this API is https://api.perma.cc/v1/user/ 
+ Get your account details 
+ Use GET to retrieve your account details. (You only have access to your own account.) 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/user/ 
+ The response includes your user ID and a list of all the top-level folders you have access to. For more information about these folders, their subfolders, and their associated organizations, use the Folders and Organizations API endpoints. 
+ {
+ "id": 4,
+ "first_name": "Jane",
+ "last_name": "Doe",
+ "full_name": "Jane Doe",
+ "short_name": "Jane",
+ "top_level_folders": [
+ {
+ "id": 25,
+ "name": "Personal Links",
+ "parent": null,
+ "organization": null,
+ "sponsored_by": null,
+ "is_sponsored_root_folder": false,
+ "read_only": false,
+ "has_children": false,
+ "path": "25",
+ "registrar": null,
+ "registrar_name": null,
+ "default_to_private": false
+ }
+ ]
+ }
+ In addition to the keys returned by the folder endpoing, top_level_folders also includes some extra fields that are useful for displaying a user's affiliations:
+ registrar , registrar_name , and default_to_private .
+ Organizations Section Table of Contents 
+ Overview 
+ Public Archives 
+ User 
+ Organizations 
+ Get your organizations 
+ Get an organization's details 
+ Archives 
+ Folders 
+ Capture Jobs 
+ Organizations 
+ The Organizations API returns basic information about the organizations you belong to or manage. 
+ The base resource for this API is https://api.perma.cc/v1/organizations/ 
+ Get your organizations 
+ Use GET to retrieve a list of all of the organizations you belong to or manage. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/organizations/ 
+ Response: 
+ {"meta":{"limit":300,"next":"https://api.perma.cc/v1/organizations/?limit=300&offset=300","offset":0,"previous":null},"objects":[{"id":4,"name":"Another Library's Journal","registrar":"Another Library","default_to_private":false,"shared_folder":{"id":40,"name":"Another Library's Journal","parent":null,"has_children":true,"path":"40","organization":4}},{"id":9,"name":"Some Org","registrar":"Test Library","default_to_private":false,"shared_folder":{"id":57,"name":"Some Org","parent":null,"has_children":false,"path":"57","organization":9}}]} 
+ Get an organization's details 
+ Use GET to retrieve details about an organization. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/organization/3 
+ The response includes the ID of the organization's "shared folder", the folder in which all archives belonging to the organization are stored. For more information about this folder and its subfolders, as well as more information about the archives stored in those folders, use the Folders API endpoint. 
+ {"id":9,"name":"Some Org","registrar":"Test Library","default_to_private":false,"shared_folder":{"id":57,"name":"Some Org","parent":null,"has_children":false,"path":"57","organization":9}} 
+ Archives Section Table of Contents 
+ Overview 
+ Public Archives 
+ User 
+ Organizations 
+ Archives 
+ Create an archive 
+ View the details of one archive 
+ Download a single archive 
+ Make an archive private 
+ Edit the title and notes fields of an archive 
+ Move an archive 
+ Delete an archive 
+ View all archives 
+ Work with batches of archives 
+ Folders 
+ Capture Jobs 
+ Archives 
+ The Archives API helps you create and manage archives. 
+ The base resource for this API is https://api.perma.cc/v1/archives/ 
+ Create an archive 
+ Use POST to create a new archive. 
+ Include the URL as JSON-encoded data. 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X POST -d '{"url": "http://example.com"}' https://api.perma.cc/v1/archives/ 
+ Optional: to create an archive in a specific folder, include the folder's ID number in the JSON-encoded data. This should be a single integer, even for nested folders. The example below creates an archive in folder 1, and then another in folder 27 (a subfolder of folder 1). If you don't specify a folder ID, your archive will be created in your "Personal Links" folder. 
+ Optional: you may provide a short "title" for the archive in the JSON-encoded data. If you do not specify a title, Perma will attempt to retrieve a title from the contents of the archived URL. 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X POST -d '{"url": "http://example.com", "title": "This is an example site", "folder": 1}' https://api.perma.cc/v1/archives/
+curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X POST -d '{"url": "http://example.com", "title": "This is another example site", "folder": 27}' https://api.perma.cc/v1/archives/ 
+ The response includes detailed information about the newly created archive, including the globally unique ID (GUID) of the archive: 
+ {"guid":"85LS-BXV7","creation_timestamp":"2018-05-16T16:11:19.516152Z","url":"http://example.com","title":"This is an example site","description":null,"warc_size":null,"warc_download_url":null,"wacz_size":null,"wacz_download_url":null,"captures":[{"role":"primary","status":"pending","url":"http://example.com","record_type":"response","content_type":"text/html","user_upload":false}],"queue_time":null,"capture_time":null,"notes":"","created_by":{"id":3,"first_name":"Jane","last_name":"Doe","full_name":"Jane Doe","short_name":"Jane"},"is_private":false,"private_reason":null,"user_deleted":false,"archive_timestamp":"2018-05-17T16:11:19.516152Z","organization":null} 
+ Note that finalized details about an archive may not be available immediately: fields will update until the archiving process is complete. Use the Capture Job API and additional Archives API endpoints to get up-to-date details about a GUID. 
+ To create many archives at once, use the Archives API endpoints for Batches 
+ View the details of one archive 
+ Use GET to retrieve details about an archive owned by you or by one of your organizations. More details are available via this authenticated Archives endpoint than are available from the non-authenticated Public Archives endpoint. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/archives/85LS-BXV7/ 
+ Response: 
+ {"guid":"85LS-BXV7","creation_timestamp":"2018-05-16T16:11:19Z","url":"http://example.com","title":"This is an example site","description":null,"warc_size":20924,"warc_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download","wacz_size":20183,"wacz_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download?file_format=wacz","captures":[{"role":"primary","status":"success","url":"http://example.com","record_type":"response","content_type":"text/html","user_upload":false},{"role":"screenshot","status":"success","url":"file:///85LS-BXV7/cap.png","record_type":"resource","content_type":"image/png","user_upload":false}],"queue_time":0,"capture_time":3,"notes":"","created_by":{"id":3,"first_name":"Jane","last_name":"Doe","full_name":"Jane Doe","short_name":"Jane"},"is_private":false,"private_reason":null,"user_deleted":false,"archive_timestamp":"2018-05-17T16:11:19Z","organization":null} 
+ Download a single archive 
+ Perma archives are downloadable and can be viewed using tools that can replay WARC or WACZ files, like ReplayWeb.page . 
+ WARC 
+ wget --header "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/archives/Y6JJ-TDUJ/download 
+ or 
+ curl -H "Authorization: ApiKey your-api-key" -o your_favorite_filename.warc.gz https://api.perma.cc/v1/archives/Y6JJ-TDUJ/download 
+ WACZ 
+ wget --header "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/archives/Y6JJ-TDUJ/download?file_format=wacz 
+ or 
+ curl -H "Authorization: ApiKey your-api-key" -o your_favorite_filename.wacz https://api.perma.cc/v1/archives/Y6JJ-TDUJ/download?file_format=wacz 
+ Make an archive private 
+ Use PATCH to make an archive private. 
+ Include the GUID of the archive in the URL, and set the archive's "is_private" field to true using JSON-encoded data: 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X PATCH -d '{"is_private": true}' https://api.perma.cc/v1/archives/85LS-BXV7/ 
+ Response: 
+ {"guid":"85LS-BXV7","creation_timestamp":"2018-05-16T16:11:19Z","url":"http://example.com","title":"This is an example site","description":null,"warc_size":20924,"warc_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download","wacz_size":21837,"wacz_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download?file_format=wacz","captures":[{"role":"primary","status":"success","url":"http://example.com","record_type":"response","content_type":"text/html","user_upload":false},{"role":"screenshot","status":"success","url":"file:///85LS-BXV7/cap.png","record_type":"resource","content_type":"image/png","user_upload":false}],"queue_time":0,"capture_time":3,"notes":"","created_by":{"id":3,"first_name":"Jane","last_name":"Doe","full_name":"Jane Doe","short_name":"Jane"},"is_private":true,"private_reason":"user","user_deleted":false,"archive_timestamp":"2018-05-17T16:11:19Z","organization":null} 
+ Edit the title and notes fields of an archive 
+ Use PATCH to change an archive's notes or title field. 
+ Include the GUID of the archive in the URL, and specify your desired changes using JSON-encoded data: 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X PATCH -d '{"title": "My updated title"}' https://api.perma.cc/v1/archives/85LS-BXV7/ 
+ Response: 
+ {"guid":"85LS-BXV7","creation_timestamp":"2018-05-16T16:11:19Z","url":"http://example.com","title":"My updated title","description":null,"warc_size":20924,"warc_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download","wacz_size":21837,"wacz_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download?file_format=wacz","captures":[{"role":"primary","status":"success","url":"http://example.com","record_type":"response","content_type":"text/html","user_upload":false},{"role":"screenshot","status":"success","url":"file:///85LS-BXV7/cap.png","record_type":"resource","content_type":"image/png","user_upload":false}],"queue_time":0,"capture_time":3,"notes":"","created_by":{"id":3,"first_name":"Jane","last_name":"Doe","full_name":"Jane Doe","short_name":"Jane"},"is_private":true,"private_reason":"user","user_deleted":false,"archive_timestamp":"2018-05-17T16:11:19Z","organization":null} 
+ Move an archive 
+ Use PUT to move an archive into a different folder. 
+ Include the ID of the destination folder as the first variable in the URL and the GUID of the archive as the second. The below example moves 85LS-BXV7 into folder 31. 
+ curl -H "Authorization: ApiKey your-api-key" -X PUT https://api.perma.cc/v1/folders/31/archives/85LS-BXV7/ 
+ Response: 
+ {"guid":"85LS-BXV7","creation_timestamp":"2018-05-16T16:11:19Z","url":"http://example.com","title":"My updated title","description":null,"warc_size":20924,"warc_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download","wacz_size":21837,"wacz_download_url":"https://api.perma.cc/v1/archives/85LS-BXV7/download?file_format=wacz","captures":[{"role":"primary","status":"success","url":"http://example.com","record_type":"response","content_type":"text/html","user_upload":false},{"role":"screenshot","status":"success","url":"file:///85LS-BXV7/cap.png","record_type":"resource","content_type":"image/png","user_upload":false}],"queue_time":0,"capture_time":3,"notes":"","created_by":{"id":3,"first_name":"Jane","last_name":"Doe","full_name":"Jane Doe","short_name":"Jane"},"is_private":true,"private_reason":"user","user_deleted":false,"archive_timestamp":"2018-05-17T16:11:19Z","organization":{"id":3,"name":"A Third Journal","registrar":"Test Library","default_to_private":true,"shared_folder":{"id":31,"name":"A Third Journal","parent":null,"has_children":true,"path":"31","organization":3}}} 
+ Delete an archive 
+ Use DELETE to delete an archive. 
+ curl -H "Authorization: ApiKey your-api-key" -X DELETE https://api.perma.cc/v1/archives/7J9R-2QM5/ 
+ This request deleted the archive. There will be no content in the HTTP response. You will see the a 204 HTTP status code returned. 
+ No response data. HTTP status will be 204. 
+ View all archives 
+ Use GET to list all the archives you have access to. 
+ This includes both public and private archives and includes all folders. (We're limiting ourselves to just 1 result to keep this example short.) 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/archives/?limit=1 
+ Response: 
+ {"meta":{"limit":1,"next":"https://api.perma.cc/v1/archives/?limit=1&offset=1","offset":0,"previous":null},"objects":[{"guid":"F9BV-XLHU","creation_timestamp":"2018-05-05T23:03:41Z","url":"http://example.com","title":"example.com","description":"","warc_size":null,"warc_download_url":null,"wacz_size":null,"wacz_download_url":null,"captures":[{"role":"primary","status":"pending","url":"file:///F9BV-XLHU/upload.png","record_type":"resource","content_type":"image/png","user_upload":true}],"queue_time":null,"capture_time":null,"notes":"","created_by":{"id":1,"first_name":"Jane","last_name":"Doe","full_name":"Jane Doe","short_name":"Jane"},"is_private":true,"private_reason":"user","user_deleted":false,"archive_timestamp":"2018-05-06T23:03:41Z","organization":{"id":3,"name":"A Third Journal","registrar":"Test Library","default_to_private":true,"shared_folder":{"id":31,"name":"A Third Journal","parent":null,"has_children":true,"path":"31","organization":3}}}]} 
+ To restrict the results to a single folder, use the Folders API endpoint. 
+ Work with batches of archives 
+ You can request the creation of multiple archives at once by creating a batch. 
+ Use HTTP POST, and include a list of URLs and a target folder ID (mandatory) as JSON-encoded data. 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X POST -d '{"urls": ["http://example.com", "http://example.com/page", "http://example.com/another-page"], "target_folder": 24}' https://api.perma.cc/v1/archives/batches 
+ The response includes an ID number for the batch (268 in the example below) and a list of "Capture Jobs", one per submitted URL. 
+ {"id":268,"started_on":"2018-05-16T17:46:14Z","created_by":3,"capture_jobs":[{"guid":"F42B-NZ6G","status":"pending","message":null,"submitted_url":"http://example.com","attempt":1,"step_count":0.0,"step_description":"","capture_start_time":"2018-05-16T17:46:14Z","capture_end_time":"2018-05-16T17:46:18Z","queue_position":0,"title":"Example Domain","user_deleted":false},{"guid":"48YX-LMW5","status":"completed","message":null,"submitted_url":"http://example.com/page","attempt":1,"step_count":6.0,"step_description":"Saving web archive file","capture_start_time":"2018-05-16T17:46:18Z","capture_end_time":"2018-05-16T17:46:21Z","queue_position":0,"title":"Example Domain","user_deleted":false},{"guid":"CH84-WDL3","status":"completed","message":null,"submitted_url":"http://example.com/another-page","attempt":1,"step_count":6.0,"step_description":"Saving web archive file","capture_start_time":"2018-05-16T17:46:21Z","capture_end_time":"2018-05-16T17:46:24Z","queue_position":0,"title":"Example Domain","user_deleted":false}],"target_folder": {"id": 24, "name": "A Third Journal", "parent": null, "has_children": true, "path": "24", "organization": 3},"links_remaining":45} 
+ Capture Jobs report details about attempts to create archives. Review the list of Capture Jobs to find the GUIDS of successfully created archives and find validation error messages for any URLs that failed. 
+ Note that finalized details about a batch are not available immediately: fields will update until the archiving process is complete. 
+ Use GET to retrieve up-to-date details about a batch. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/archives/batches/268 
+ Use GET to retrieve a list of all your batches. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/archives/batches 
+ Folders Section Table of Contents 
+ Overview 
+ Public Archives 
+ User 
+ Organizations 
+ Archives 
+ Folders 
+ Create a folder 
+ View a folder's details 
+ View a folder's subfolders 
+ View a folder's archives 
+ Rename a folder 
+ Move a folder 
+ Delete a folder 
+ View top-level folders 
+ Capture Jobs 
+ Folders 
+ The Folders API helps you create and manage folders. 
+ The base resource for this API is https://api.perma.cc/v1/folders/ 
+ Create a folder 
+ Use POST to create a new folder. 
+ New folders can only be created as "children" (subfolders) of existing folders. Include the ID of the "parent" folder in the URL. The below example creates a new folder inside folder 25. 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X POST -d '{"name": "a new folder"}' https://api.perma.cc/v1/folders/25/folders/ 
+ The response will include the ID of the new folder. 
+ {"id": 35, "name": "a new folder", "parent": "/v1/folders/25/","has_children": false, "path":"25-35","organization": null} 
+ View a folder's details 
+ Use GET to retrieve details about an existing folder. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/folders/35/ 
+ {"id": 35, "name": "a new folder", "parent": "/v1/folders/25/","has_children": false, "path":"25-35", "organization": null} 
+ "Path" describes the full ancestry of the folder. If folder 36 is nested inside folder 35 and folder 35 is nested in folder 25, the "path" for folder 36 is "25-35-36" 
+ View a folder's subfolders 
+ Use GET to list a "parent" folder's "children" (subfolders). Include the ID of the parent folder in the URL. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/folders/24/folders 
+ {"meta":{"limit":300,"next":"https://api.perma.cc/v1/folders/24/folders?limit=300&offset=300","offset":0,"previous":null},"objects":[{"id":106,"name":"a new folder","parent":24,"has_children":false,"path":"24-106","organization":null},{"id":74,"name":"Another Folder","parent":24,"has_children":false,"path":"24-74","organization":null}]} 
+ "Path" describes the full ancestry of the folder. If folder 36 is nested inside folder 35 and folder 35 is nested in folder 25, the "path" for folder 36 is "25-35-36" 
+ View a folder's archives 
+ Use GET to list the archives stored in a folder. (We're limiting ourselves to just 1 result to keep this example short.) 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/folders/25/archives?limit=1 
+ {"meta":{"limit":1,"next":"https://api.perma.cc/v1/folders/24/archives?limit=1&offset=1","offset":0,"previous":null},"objects":[{"guid":"X5BR-VEZT","creation_timestamp":"2018-01-31T14:46:49Z","url":"http://perma.cc","title":"Perma.cc","description":" Broken links are everywhere. Perma helps authors and journals create permanent links for citations in their published work.","warc_size":2700433,"warc_download_url":"https://api.perma.cc/v1/v1/archives/X5BR-VEZT/download","wacz_size":2701999,"wacz_download_url":"https://api.perma.cc/v1/v1/archives/X5BR-VEZT/download?file_format=wacz","captures":[{"role":"primary","status":"success","url":"http://perma.cc","record_type":"response","content_type":"text/html; charset=utf-8","user_upload":false},{"role":"screenshot","status":"success","url":"file:///X5BR-VEZT/cap.png","record_type":"resource","content_type":"image/png","user_upload":false},{"role":"favicon","status":"success","url":"https://perma.cc/static/img/favicon.ico","record_type":"response","content_type":"image/x-icon","user_upload":false}],"queue_time":0,"capture_time":10,"notes":"","created_by":{"id":3,"first_name":"Jane","last_name":"Doe","full_name":"Jane Doe","short_name":"Jane"},"is_private":false,"private_reason":null,"user_deleted":false,"archive_timestamp":"2018-02-01T14:46:49Z","organization":null}]} 
+ Note that archives stored in the folder's subfolders are not included. 
+ Rename a folder 
+ Use PATCH to change a folder's name. 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X PATCH -d '{"name": "a new folder name"}' https://api.perma.cc/v1/folders/35/ 
+ Response: 
+ {"id": 35, "name": "a new folder name", "parent": "/v1/folders/25/","has_children": false, "path":"25-35","organization": null} 
+ Move a folder 
+ Use PUT to move a folder into another folder. 
+ Include the ID of the destination folder as the first variable in the URL, and include the ID of the folder you want to move as the second variable. For example, the below moves folder 36 into folder 35. 
+ curl -H "Authorization: ApiKey your-api-key" -H 'Content-Type: application/json' -X PUT https://api.perma.cc/v1/folders/35/folders/36/ 
+ Response: 
+ {"id": 36, "name": "just another folder", "parent": "/v1/folders/35/", "has_children": false, "path":"25-35-36","organization": null} 
+ Delete a folder 
+ Use DELETE to delete a folder. 
+ The below example deletes folder 36. 
+ curl -H "Authorization: ApiKey your-api-key" -X DELETE https://api.perma.cc/v1/folders/36/ 
+ There will be no content in the HTTP response. You will see the a 204 HTTP status code returned. 
+ No response data. HTTP status will be 204. 
+ View top-level folders 
+ Use GET to retrieve a list of all the top-level folders you have access to. This information is also available at the User API endpoint. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/folders 
+ Response: 
+ {"meta":{"limit":300,"next":"https://api.perma.cc/v1/folders?limit=300&offset=300","offset":0,"previous":null},"objects":[{"id":24,"name":"Personal Links","parent":null,"has_children":true,"path":"24","organization":null},{"id":31,"name":"A Third Journal","parent":null,"has_children":true,"path":"31","organization":3}]} 
+ Use additional Folders API endpoints to retrieve details about these folders, including listing their subfolders and the archives they contain. 
+ Capturejobs Section Table of Contents 
+ Overview 
+ Public Archives 
+ User 
+ Organizations 
+ Archives 
+ Folders 
+ Capture Jobs 
+ Get your ongoing capture jobs 
+ Get a single archive's capture status 
+ Get the capture status of all archives in a batch 
+ Capture Jobs 
+ The Capture Jobs API exposes details about the process of creating an archive, internally referred to as a "Capture Job". 
+ The base resource for this API is https://api.perma.cc/v1/capture_jobs/ 
+ Get your ongoing capture jobs 
+ List all your pending or in_progress capture jobs. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/capture_jobs/ 
+ Get a single archive's capture status 
+ View capture status for a particular archive by GUID. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/capture_jobs/ABCD-1234/ 
+ Get the capture status of all archives in a batch 
+ Use GET to retrieve up-to-date details about a batch. 
+ curl -H "Authorization: ApiKey your-api-key" https://api.perma.cc/v1/archives/batches/268 
+ Footer 
+ About 
+ Guide 
+ Developers 
+ Contact 
+ GitHub 
+ Status 
+ Terms of Service 
+ Privacy Policy 
+ Return Policy 
+ Copyright Policy 
+ Accessibility

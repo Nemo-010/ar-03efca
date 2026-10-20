@@ -1,0 +1,114 @@
+{
+ "slug": "cds-cern",
+ "name": "CERN Document Server",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:48:01+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://cds.cern.ch/help/hacking",
+   "status": 200,
+   "final_url": "https://cds.cern.ch/help/hacking",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7574,
+   "truncated": false,
+   "sha256": "ff89892fa75cfcd3cd4a7441d1de77d1e5aab3ba257b1326ea96f74c1fc31e09",
+   "fetched_at": "2026-10-20T01:48:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "home": {
+   "url": "https://cds.cern.ch/",
+   "status": 200,
+   "final_url": "https://cds.cern.ch/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 41946,
+   "truncated": false,
+   "sha256": "f08a8595f48ab7219f3148f5a84048fb3ad21fac71c18a9423a9f805ba2c8913",
+   "fetched_at": "2026-10-20T01:48:04+00:00",
+   "rate_headers": {},
+   "text_bytes": 4452
+  },
+  "llms": {
+   "url": "https://cds.cern.ch/help/hacking/llms.txt",
+   "status": 200,
+   "final_url": "https://cds.cern.ch/help/hacking/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7574,
+   "truncated": false,
+   "sha256": "5882e7cb8c40d2802a6e08a136ff0d38a874b9f9c271b7e3645f7d98bba5fe24",
+   "fetched_at": "2026-10-20T01:48:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "llms-9dc329-err": {
+   "url": "https://cds.cern.ch/llms.txt",
+   "status": 500,
+   "final_url": "https://cds.cern.ch/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2303,
+   "truncated": false,
+   "sha256": "21afeaecf4999d125058f210216436bfad728411d5e84873451c6da85ce3c62d",
+   "fetched_at": "2026-10-20T01:48:30+00:00",
+   "rate_headers": {}
+  },
+  "llms-f37d72-err": {
+   "url": "https://docs.cds.cern.ch/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.cds.cern.ch/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:35+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://cds.cern.ch/help/hacking",
+   "status": 200,
+   "final_url": "https://cds.cern.ch/help/hacking",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7574,
+   "truncated": false,
+   "sha256": "077b97867a208e95fb2e0fcff631c293ae9a0441a7a8dfe5fec709464f560f1e",
+   "fetched_at": "2026-10-20T01:49:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "policy2": {
+   "url": "https://cds.cern.ch/help/hacking",
+   "status": 200,
+   "final_url": "https://cds.cern.ch/help/hacking",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7574,
+   "truncated": false,
+   "sha256": "2ccebb1c98b9dd4202bd6015b1965213bf77c6c2beb493828df63d7d578c5bb4",
+   "fetched_at": "2026-10-20T01:51:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "limits": {
+   "url": "https://cds.cern.ch/help/hacking",
+   "status": 200,
+   "final_url": "https://cds.cern.ch/help/hacking",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7574,
+   "truncated": false,
+   "sha256": "b549ccf83fe9bf538acce84f8ea8f7602bbeed216f7a991f97b66b528682fe1d",
+   "fetched_at": "2026-10-20T01:53:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "r1": {
+   "url": "https://cds.cern.ch/help/hacking",
+   "status": 200,
+   "final_url": "https://cds.cern.ch/help/hacking",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7574,
+   "truncated": false,
+   "sha256": "1f201ec957db8f646b50cd341023d26a1c8b2057b102dfd99c7868c837d09dec",
+   "fetched_at": "2026-10-20T01:58:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  }
+ }
+}

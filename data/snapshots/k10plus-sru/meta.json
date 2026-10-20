@@ -1,0 +1,100 @@
+{
+ "slug": "k10plus-sru",
+ "name": "K10plus SRU",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:56+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://projekt.mvb10plus.de/",
+   "status": 0,
+   "final_url": "https://projekt.mvb10plus.de/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://k10plus.de/",
+   "status": 0,
+   "final_url": "https://k10plus.de/",
+   "content_type": "",
+   "bytes": 151,
+   "truncated": false,
+   "sha256": "809008b9965885a6df551ebe975a78769fdeff81e5fc437a3784c158c3b85762",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.projekt.mvb10plus.de/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.projekt.mvb10plus.de/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:58+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://projekt.mvb10plus.de/",
+   "status": 0,
+   "final_url": "https://projekt.mvb10plus.de/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://sru.k10plus.de/",
+   "status": 200,
+   "final_url": "https://sru.k10plus.de/",
+   "content_type": "text/xml",
+   "bytes": 407,
+   "truncated": false,
+   "sha256": "bd4d1d90bd83ef82d538c61ae8c129df8da5003772e5580cc79861aba79cdb09",
+   "fetched_at": "2026-10-20T01:50:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 407
+  },
+  "limits": {
+   "url": "https://sru.k10plus.de/",
+   "status": 200,
+   "final_url": "https://sru.k10plus.de/",
+   "content_type": "text/xml",
+   "bytes": 407,
+   "truncated": false,
+   "sha256": "bd4d1d90bd83ef82d538c61ae8c129df8da5003772e5580cc79861aba79cdb09",
+   "fetched_at": "2026-10-20T01:54:16+00:00",
+   "rate_headers": {},
+   "text_bytes": 407
+  },
+  "r1": {
+   "url": "https://sru.k10plus.de/",
+   "status": 200,
+   "final_url": "https://sru.k10plus.de/",
+   "content_type": "text/xml",
+   "bytes": 407,
+   "truncated": false,
+   "sha256": "bd4d1d90bd83ef82d538c61ae8c129df8da5003772e5580cc79861aba79cdb09",
+   "fetched_at": "2026-10-20T01:58:53+00:00",
+   "rate_headers": {},
+   "text_bytes": 407
+  },
+  "r2": {
+   "url": "https://sru.k10plus.de/",
+   "status": 200,
+   "final_url": "https://sru.k10plus.de/",
+   "content_type": "text/xml",
+   "bytes": 407,
+   "truncated": false,
+   "sha256": "bd4d1d90bd83ef82d538c61ae8c129df8da5003772e5580cc79861aba79cdb09",
+   "fetched_at": "2026-10-20T02:22:19+00:00",
+   "rate_headers": {},
+   "text_bytes": 407
+  }
+ }
+}

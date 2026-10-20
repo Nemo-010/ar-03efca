@@ -1,0 +1,120 @@
+{
+ "slug": "dblp",
+ "name": "dblp computer science bibliography",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:39+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://dblp.org/faq/How+to+use+the+dblp+search+API.html",
+   "status": 202,
+   "final_url": "https://dblp.org/faq/How+to+use+the+dblp+search+API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3348,
+   "truncated": false,
+   "sha256": "3e7de737183c1eff72528d0031e1bdabc715f7e969e9da1627825fbbb405e56e",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://dblp.org/",
+   "status": 202,
+   "final_url": "https://dblp.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3006,
+   "truncated": false,
+   "sha256": "c1def0876b0826120eea5441e2ef5816ea95198a72c54f81d15a083af1cf78df",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.dblp.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.dblp.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://dblp.org/faq/How+to+use+the+dblp+search+API.html",
+   "status": 202,
+   "final_url": "https://dblp.org/faq/How+to+use+the+dblp+search+API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3006,
+   "truncated": false,
+   "sha256": "851ecfb42d109520d179c6c0d9f5ab2b60a88c1078a0fee912ba24299847e7fa",
+   "fetched_at": "2026-10-20T01:49:39+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://dblp.org/faq/",
+   "status": 202,
+   "final_url": "https://dblp.org/faq/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3006,
+   "truncated": false,
+   "sha256": "de3abbaf2c4ed045abad8fa3d8034e756aa2e8e57dabee491eee6c8cb9d7ea36",
+   "fetched_at": "2026-10-20T01:51:18+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://dblp.org/faq/",
+   "status": 202,
+   "final_url": "https://dblp.org/faq/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3005,
+   "truncated": false,
+   "sha256": "125d0f1704a923d8d9e09ecdd83c17c3d3ed841b03b664afb9ed10bc3ff94a7c",
+   "fetched_at": "2026-10-20T01:52:57+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://dblp.org/faq/",
+   "status": 500,
+   "final_url": "https://dblp.org/faq/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2303,
+   "truncated": false,
+   "sha256": "b279a499e3a12023b322d8c40b5941fe98e6e6ef853a5207df002efac7f7ae76",
+   "fetched_at": "2026-10-20T01:58:16+00:00",
+   "rate_headers": {}
+  },
+  "docs": {
+   "url": "https://web.archive.org/web/20260723200605/https://dblp.org/faq/How+to+use+the+dblp+search+API.html",
+   "status": 200,
+   "final_url": "https://web.archive.org/web/20260723200605/https://dblp.org/faq/How+to+use+the+dblp+search+API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 48225,
+   "truncated": false,
+   "sha256": "5f1db81e0261223b00f1a4e5f8221b2da1939adf7290d0f280694f6e70a64db2",
+   "fetched_at": "2026-10-20T02:31:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 7082,
+   "via": "wayback"
+  },
+  "home": {
+   "url": "https://dblp.org/",
+   "status": 202,
+   "final_url": "https://dblp.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3005,
+   "truncated": false,
+   "sha256": "f6f8e879caec2af2cd3c2c96caef794aa78cc0650d8c158d0c9d14f733cb4220",
+   "fetched_at": "2026-10-20T02:19:07+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://dblp.org/faq/",
+   "status": 202,
+   "final_url": "https://dblp.org/faq/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3302,
+   "truncated": false,
+   "sha256": "508d69d14d03d02d9e17528a7b7ffa0440701a0ba17fc924ccaea876f9825977",
+   "fetched_at": "2026-10-20T02:22:00+00:00",
+   "rate_headers": {}
+  }
+ }
+}

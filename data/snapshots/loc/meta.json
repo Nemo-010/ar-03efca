@@ -1,0 +1,115 @@
+{
+ "slug": "loc",
+ "name": "Library of Congress JSON API",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:32+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.loc.gov/apis/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/",
+   "content_type": "text/html",
+   "bytes": 46595,
+   "truncated": false,
+   "sha256": "9b900daf2ed6feb434d29262168383598220f0b350615cbd009df5fd9a8d9a68",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {},
+   "text_bytes": 5662
+  },
+  "home": {
+   "url": "https://www.loc.gov/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/",
+   "content_type": "text/html",
+   "bytes": 77105,
+   "truncated": false,
+   "sha256": "422671df50217b234c5298db1a2c19c1f709ec6c7b1f1b366cba45cc9aa7e9de",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {},
+   "text_bytes": 7259
+  },
+  "llms-err": {
+   "url": "https://docs.loc.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.loc.gov/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:35+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.loc.gov/apis/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/",
+   "content_type": "text/html",
+   "bytes": 46595,
+   "truncated": false,
+   "sha256": "9b900daf2ed6feb434d29262168383598220f0b350615cbd009df5fd9a8d9a68",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 5662
+  },
+  "policy2": {
+   "url": "https://www.loc.gov/apis/json-and-yaml/requests/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/json-and-yaml/requests/",
+   "content_type": "text/html",
+   "bytes": 44126,
+   "truncated": false,
+   "sha256": "1754c9d1586a74e7c64b7892b9a4fb7a0016bc569c74afb27e14e8dc66eaa7b8",
+   "fetched_at": "2026-10-20T01:50:34+00:00",
+   "rate_headers": {},
+   "text_bytes": 3844
+  },
+  "limits": {
+   "url": "https://www.loc.gov/apis/json-and-yaml/requests/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/json-and-yaml/requests/",
+   "content_type": "text/html",
+   "bytes": 44126,
+   "truncated": false,
+   "sha256": "1754c9d1586a74e7c64b7892b9a4fb7a0016bc569c74afb27e14e8dc66eaa7b8",
+   "fetched_at": "2026-10-20T01:54:09+00:00",
+   "rate_headers": {},
+   "text_bytes": 3844
+  },
+  "r1": {
+   "url": "https://www.loc.gov/apis/json-and-yaml/requests/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/json-and-yaml/requests/",
+   "content_type": "text/html",
+   "bytes": 44126,
+   "truncated": false,
+   "sha256": "1754c9d1586a74e7c64b7892b9a4fb7a0016bc569c74afb27e14e8dc66eaa7b8",
+   "fetched_at": "2026-10-20T01:58:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 3844
+  },
+  "r2": {
+   "url": "https://www.loc.gov/apis/json-and-yaml/requests/parameters/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/json-and-yaml/requests/parameters/",
+   "content_type": "text/html",
+   "bytes": 46210,
+   "truncated": false,
+   "sha256": "7015d2f73d580038cd5b5243c8ab5db076fa7461a8ead8e569061ecb63146340",
+   "fetched_at": "2026-10-20T02:21:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 4963
+  },
+  "loclimits": {
+   "url": "https://www.loc.gov/apis/json-and-yaml/working-within-limits/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/json-and-yaml/working-within-limits/",
+   "content_type": "text/html",
+   "bytes": 57837,
+   "truncated": false,
+   "sha256": "1824897f2a94922f512eaa34812bd819e0f44edd99711fec410a3a64cf4f0b95",
+   "fetched_at": "2026-10-20T02:26:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 11647
+  }
+ }
+}

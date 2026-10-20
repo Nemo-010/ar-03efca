@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zs:explainResponse xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse"><zs:version>2.0</zs:version><zs:record><zs:recordSchema/><zs:recordXMLEscaping>string</zs:recordXMLEscaping><zs:recordData/></zs:record><zs:echoedExplainRequest><zs:version>2.0</zs:version><zs:recordXMLEscaping>xml</zs:recordXMLEscaping></zs:echoedExplainRequest></zs:explainResponse>

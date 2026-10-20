@@ -1,0 +1,90 @@
+{
+ "slug": "met-museum",
+ "name": "The Met Collection API",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:54+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://metmuseum.github.io/",
+   "status": 200,
+   "final_url": "https://metmuseum.github.io/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 84532,
+   "truncated": false,
+   "sha256": "6fbfe3a7620d9b79bbc49e68313d33ce10410aabbacf38e5e5f1f6349b942ff2",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 29750
+  },
+  "home-err": {
+   "url": "https://www.metmuseum.org/",
+   "status": 429,
+   "final_url": "https://www.metmuseum.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 34218,
+   "truncated": false,
+   "sha256": "3296d53b2010bc215080ef2d97be987f185f4af0dd33e0c1f6019c513371bff5",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.metmuseum.github.io/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.metmuseum.github.io/llms.txt",
+   "content_type": "",
+   "bytes": 165,
+   "truncated": false,
+   "sha256": "98682a677168d724b2d073e4163e63ce361eaed0f28e12dc985e6242c73e4cf1",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://metmuseum.github.io/",
+   "status": 200,
+   "final_url": "https://metmuseum.github.io/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 84532,
+   "truncated": false,
+   "sha256": "6fbfe3a7620d9b79bbc49e68313d33ce10410aabbacf38e5e5f1f6349b942ff2",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 29750
+  },
+  "policy2": {
+   "url": "https://metmuseum.github.io/",
+   "status": 200,
+   "final_url": "https://metmuseum.github.io/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 84532,
+   "truncated": false,
+   "sha256": "6fbfe3a7620d9b79bbc49e68313d33ce10410aabbacf38e5e5f1f6349b942ff2",
+   "fetched_at": "2026-10-20T01:51:20+00:00",
+   "rate_headers": {},
+   "text_bytes": 29750
+  },
+  "limits": {
+   "url": "https://metmuseum.github.io/",
+   "status": 200,
+   "final_url": "https://metmuseum.github.io/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 84532,
+   "truncated": false,
+   "sha256": "6fbfe3a7620d9b79bbc49e68313d33ce10410aabbacf38e5e5f1f6349b942ff2",
+   "fetched_at": "2026-10-20T01:54:26+00:00",
+   "rate_headers": {},
+   "text_bytes": 29750
+  },
+  "r1": {
+   "url": "https://metmuseum.github.io/",
+   "status": 200,
+   "final_url": "https://metmuseum.github.io/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 84532,
+   "truncated": false,
+   "sha256": "6fbfe3a7620d9b79bbc49e68313d33ce10410aabbacf38e5e5f1f6349b942ff2",
+   "fetched_at": "2026-10-20T01:58:55+00:00",
+   "rate_headers": {},
+   "text_bytes": 29750
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "slug": "openreview",
+ "name": "OpenReview",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:50+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://docs.openreview.net/reference/api-v2",
+   "status": 200,
+   "final_url": "https://docs.openreview.net/reference/api-v2",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 521066,
+   "truncated": false,
+   "sha256": "4fba6d6e22cc09d5054a0fc3c76cf903ee7a57b1e9eebbadb854dedc21209256",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {},
+   "text_bytes": 1244
+  },
+  "home": {
+   "url": "https://openreview.net/",
+   "status": 200,
+   "final_url": "https://openreview.net/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 948903,
+   "truncated": false,
+   "sha256": "ef0f1d5abe2288f038fbc47309c1fadb01d2f17dcca1efbbc678c9fa6eb6e72a",
+   "fetched_at": "2026-10-20T01:47:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 52097
+  },
+  "llms-err": {
+   "url": "https://openreview.net/llms.txt",
+   "status": 404,
+   "final_url": "https://openreview.net/llms.txt",
+   "content_type": "text/html",
+   "bytes": 11910,
+   "truncated": false,
+   "sha256": "a73f7ab72b25a99369edc718ee28902bef6a38b582bc59940edd5060bf1e5ec7",
+   "fetched_at": "2026-10-20T01:47:53+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://docs.openreview.net/llms.txt",
+   "status": 200,
+   "final_url": "https://docs.openreview.net/llms.txt",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 69137,
+   "truncated": false,
+   "sha256": "33ad0401ab0a131ddba932e647ae07f1a07ace706f0eba436b42a31022a18f35",
+   "fetched_at": "2026-10-20T02:14:17+00:00",
+   "rate_headers": {},
+   "text_bytes": 69137
+  },
+  "policy": {
+   "url": "https://docs.openreview.net/reference/api-v2",
+   "status": 200,
+   "final_url": "https://docs.openreview.net/reference/api-v2",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 521066,
+   "truncated": false,
+   "sha256": "4fba6d6e22cc09d5054a0fc3c76cf903ee7a57b1e9eebbadb854dedc21209256",
+   "fetched_at": "2026-10-20T01:49:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 1244
+  },
+  "policy2": {
+   "url": "https://docs.openreview.net/reference/api-v2",
+   "status": 200,
+   "final_url": "https://docs.openreview.net/reference/api-v2",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 521066,
+   "truncated": false,
+   "sha256": "4fba6d6e22cc09d5054a0fc3c76cf903ee7a57b1e9eebbadb854dedc21209256",
+   "fetched_at": "2026-10-20T01:51:03+00:00",
+   "rate_headers": {},
+   "text_bytes": 1244
+  },
+  "limits": {
+   "url": "https://docs.openreview.net/reference/api-v2",
+   "status": 200,
+   "final_url": "https://docs.openreview.net/reference/api-v2",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 521066,
+   "truncated": false,
+   "sha256": "4fba6d6e22cc09d5054a0fc3c76cf903ee7a57b1e9eebbadb854dedc21209256",
+   "fetched_at": "2026-10-20T01:53:09+00:00",
+   "rate_headers": {},
+   "text_bytes": 1244
+  },
+  "r1": {
+   "url": "https://docs.openreview.net/reference/api-v2",
+   "status": 200,
+   "final_url": "https://docs.openreview.net/reference/api-v2",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 521066,
+   "truncated": false,
+   "sha256": "4fba6d6e22cc09d5054a0fc3c76cf903ee7a57b1e9eebbadb854dedc21209256",
+   "fetched_at": "2026-10-20T01:58:31+00:00",
+   "rate_headers": {},
+   "text_bytes": 1244
+  },
+  "r2": {
+   "url": "https://docs.openreview.net/reference/api-v2",
+   "status": 200,
+   "final_url": "https://docs.openreview.net/reference/api-v2",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 521066,
+   "truncated": false,
+   "sha256": "4fba6d6e22cc09d5054a0fc3c76cf903ee7a57b1e9eebbadb854dedc21209256",
+   "fetched_at": "2026-10-20T02:22:14+00:00",
+   "rate_headers": {},
+   "text_bytes": 1244
+  }
+ }
+}

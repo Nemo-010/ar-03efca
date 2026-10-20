@@ -1,0 +1,103 @@
+{
+ "slug": "unpaywall",
+ "name": "Unpaywall",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:43+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://help.openalex.org/access/unpaywall.md",
+   "status": 200,
+   "final_url": "https://help.openalex.org/access/unpaywall.md",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 6664,
+   "truncated": false,
+   "sha256": "9ded01e7fa47ec016be06de225e3f72a87ab96d2cb102d847efdebb57c627f14",
+   "fetched_at": "2026-10-20T01:56:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 6629
+  },
+  "home": {
+   "url": "https://unpaywall.org/",
+   "status": 200,
+   "final_url": "https://unpaywall.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1421,
+   "truncated": false,
+   "sha256": "0445953f2b1255c157c7fb0aa91d60f75298895086bded982c89e46d6c5d5b01",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 9
+  },
+  "llms": {
+   "url": "https://unpaywall.org/products/api/llms.txt",
+   "status": 200,
+   "final_url": "https://unpaywall.org/products/api/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1421,
+   "truncated": false,
+   "sha256": "0445953f2b1255c157c7fb0aa91d60f75298895086bded982c89e46d6c5d5b01",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 9
+  },
+  "llms-4a6545": {
+   "url": "https://unpaywall.org/llms.txt",
+   "status": 200,
+   "final_url": "https://unpaywall.org/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1421,
+   "truncated": false,
+   "sha256": "0445953f2b1255c157c7fb0aa91d60f75298895086bded982c89e46d6c5d5b01",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 9
+  },
+  "llms-85b9c8-err": {
+   "url": "https://docs.unpaywall.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.unpaywall.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://unpaywall.org/products/api",
+   "status": 200,
+   "final_url": "https://unpaywall.org/products/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1421,
+   "truncated": false,
+   "sha256": "0445953f2b1255c157c7fb0aa91d60f75298895086bded982c89e46d6c5d5b01",
+   "fetched_at": "2026-10-20T01:49:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 9
+  },
+  "limits": {
+   "url": "https://help.openalex.org/access/example-costs.md",
+   "status": 200,
+   "final_url": "https://help.openalex.org/access/example-costs.md",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 6078,
+   "truncated": false,
+   "sha256": "ed13993d4c47fb8437e6b78523f52b287a535ffced7d62591be6ce9baa01c9b4",
+   "fetched_at": "2026-10-20T01:56:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 6068
+  },
+  "limits2": {
+   "url": "https://unpaywall.org/faq",
+   "status": 200,
+   "final_url": "https://unpaywall.org/faq",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1421,
+   "truncated": false,
+   "sha256": "0445953f2b1255c157c7fb0aa91d60f75298895086bded982c89e46d6c5d5b01",
+   "fetched_at": "2026-10-20T01:52:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 9
+  }
+ }
+}

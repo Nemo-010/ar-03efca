@@ -1,0 +1,67 @@
+{
+ "slug": "semanticscholar",
+ "name": "Semantic Scholar Graph API",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:36+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.semanticscholar.org/product/api",
+   "status": 200,
+   "final_url": "https://www.semanticscholar.org/product/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 38434,
+   "truncated": false,
+   "sha256": "e44e94c49f3dee8af281fddfb7ee132609f55ebed7d97ef574d6ba9a3307fb33",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 5464
+  },
+  "home": {
+   "url": "https://www.semanticscholar.org/",
+   "status": 200,
+   "final_url": "https://www.semanticscholar.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 188014,
+   "truncated": false,
+   "sha256": "62265b7bf1c7d4a4afff16e28da679518932328230e2ed032e4c7180ce9fc79b",
+   "fetched_at": "2026-10-20T01:47:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 1516
+  },
+  "llms-err": {
+   "url": "https://docs.semanticscholar.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.semanticscholar.org/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.semanticscholar.org/product/api",
+   "status": 200,
+   "final_url": "https://www.semanticscholar.org/product/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 38434,
+   "truncated": false,
+   "sha256": "e44e94c49f3dee8af281fddfb7ee132609f55ebed7d97ef574d6ba9a3307fb33",
+   "fetched_at": "2026-10-20T01:49:50+00:00",
+   "rate_headers": {},
+   "text_bytes": 5464
+  },
+  "policy2": {
+   "url": "https://www.semanticscholar.org/product/api",
+   "status": 200,
+   "final_url": "https://www.semanticscholar.org/product/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 38434,
+   "truncated": false,
+   "sha256": "e44e94c49f3dee8af281fddfb7ee132609f55ebed7d97ef574d6ba9a3307fb33",
+   "fetched_at": "2026-10-20T01:51:17+00:00",
+   "rate_headers": {},
+   "text_bytes": 5464
+  }
+ }
+}

@@ -1,0 +1,1214 @@
+{
+ "compiled": "2026-10-20",
+ "categories": {
+  "web-archive": "Web archives & national archive catalogs",
+  "aggregator": "Library / museum / newspaper aggregators",
+  "scholarly-graph": "Scholarly graphs, metadata & citation APIs",
+  "index": "Bibliographic indexes & preprint servers",
+  "repository": "Repositories & research-data archives",
+  "data-api": "Life / physical science data APIs",
+  "publisher": "Publisher & patent TDM endpoints"
+ },
+ "providers": [
+  {
+   "slug": "wayback-cdx",
+   "name": "Wayback Machine CDX",
+   "category": "web-archive",
+   "home": "https://web.archive.org/",
+   "docs": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+   "api": "https://web.archive.org/cdx/search/cdx?url=openalex.org&limit=2&output=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "wayback-availability",
+   "name": "Wayback Availability API",
+   "category": "web-archive",
+   "home": "https://archive.org/",
+   "docs": "https://archive.org/developers/wayback-cdx-server.html",
+   "api": "https://archive.org/wayback/available?url=openalex.org",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "wayback-save",
+   "name": "Wayback Save Page Now",
+   "category": "web-archive",
+   "home": "https://web.archive.org/save",
+   "docs": "https://archive.org/developers/",
+   "api": "https://web.archive.org/save/status/https://example.com",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ia-metadata",
+   "name": "Internet Archive Metadata API",
+   "category": "web-archive",
+   "home": "https://archive.org/",
+   "docs": "https://archive.org/developers/md-read.html",
+   "api": "https://archive.org/metadata/wikipedia",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ia-fulltext",
+   "name": "Internet Archive Full-Text Search",
+   "category": "web-archive",
+   "home": "https://archive.org/search",
+   "docs": "https://archive.org/developers/search_inside.html",
+   "api": "https://ia-fts.archive.org/api/v1/search/hits?q=openalex&size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "fatcat",
+   "name": "Internet Archive Scholar / fatcat",
+   "category": "web-archive",
+   "home": "https://scholar.archive.org/",
+   "docs": "https://api.fatcat.wiki/",
+   "api": "https://api.fatcat.wiki/v0/release/lookup?doi=10.1038/nature12373",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "commoncrawl",
+   "name": "Common Crawl Index",
+   "category": "web-archive",
+   "home": "https://commoncrawl.org/",
+   "docs": "https://commoncrawl.org/cc-index-table",
+   "api": "https://index.commoncrawl.org/collinfo.json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "arquivo",
+   "name": "Arquivo.pt",
+   "category": "web-archive",
+   "home": "https://arquivo.pt/",
+   "docs": "https://arquivo.pt/api",
+   "api": "https://arquivo.pt/wayback/cdx?url=openalex.org&output=json&limit=2",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ukwa",
+   "name": "UK Web Archive",
+   "category": "web-archive",
+   "home": "https://www.webarchive.org.uk/",
+   "docs": "https://www.webarchive.org.uk/en/ukwa/info/api",
+   "api": "https://www.webarchive.org.uk/wayback/archive/cdx?url=openalex.org&limit=2",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "archive-today",
+   "name": "archive.today",
+   "category": "web-archive",
+   "home": "https://archive.ph/",
+   "docs": "https://archive.ph/",
+   "api": "https://archive.ph/timemap/https://openalex.org",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "memento",
+   "name": "Memento TimeTravel aggregator",
+   "category": "web-archive",
+   "home": "http://timetravel.mementoweb.org/",
+   "docs": "http://timetravel.mementoweb.org/guide/api/",
+   "api": "http://timetravel.mementoweb.org/api/json/2020/https://openalex.org",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "perma",
+   "name": "Perma.cc",
+   "category": "web-archive",
+   "home": "https://perma.cc/",
+   "docs": "https://perma.cc/docs/developer",
+   "api": "https://api.perma.cc/v1/public/archives/?limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "conifer",
+   "name": "Conifer (Rhizome)",
+   "category": "web-archive",
+   "home": "https://conifer.rhizome.org/",
+   "docs": "https://conifer.rhizome.org/api/docs",
+   "api": "https://conifer.rhizome.org/api/v1/",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "softwareheritage",
+   "name": "Software Heritage",
+   "category": "web-archive",
+   "home": "https://www.softwareheritage.org/",
+   "docs": "https://archive.softwareheritage.org/api/",
+   "api": "https://archive.softwareheritage.org/api/1/origin/search/openalex/?limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "nara",
+   "name": "US National Archives Catalog",
+   "category": "web-archive",
+   "home": "https://www.archives.gov/research/catalog",
+   "docs": "https://www.archives.gov/research/catalog/help/api",
+   "api": "https://catalog.archives.gov/api/v2/records/search?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "tna-discovery",
+   "name": "UK National Archives Discovery",
+   "category": "web-archive",
+   "home": "https://discovery.nationalarchives.gov.uk/",
+   "docs": "https://discovery.nationalarchives.gov.uk/API/site/search",
+   "api": "https://discovery.nationalarchives.gov.uk/API/search/records?sps.searchQuery=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "archives-portal-europe",
+   "name": "Archives Portal Europe",
+   "category": "web-archive",
+   "home": "https://www.archivesportaleurope.net/",
+   "docs": "https://www.archivesportaleurope.net/information/api",
+   "api": "https://www.archivesportaleurope.net/OAI-PMH/?verb=Identify",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "snac",
+   "name": "SNAC Cooperative",
+   "category": "web-archive",
+   "home": "https://snaccooperative.org/",
+   "docs": "https://api.snaccooperative.org/",
+   "api": "https://api.snaccooperative.org/",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "europeana",
+   "name": "Europeana",
+   "category": "aggregator",
+   "home": "https://www.europeana.eu/",
+   "docs": "https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation",
+   "api": "https://api.europeana.eu/record/v2/search.json?query=openalex&wskey=api2demo&rows=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dpla",
+   "name": "Digital Public Library of America",
+   "category": "aggregator",
+   "home": "https://dp.la/",
+   "docs": "https://pro.dp.la/developers/api-codex",
+   "api": "https://api.dp.la/v2/items?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "digitalnz",
+   "name": "DigitalNZ",
+   "category": "aggregator",
+   "home": "https://digitalnz.org/",
+   "docs": "https://digitalnz.org/developers/api",
+   "api": "https://api.digitalnz.org/v3/records.json?text=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "trove",
+   "name": "Trove (National Library of Australia)",
+   "category": "aggregator",
+   "home": "https://trove.nla.gov.au/",
+   "docs": "https://trove.nla.gov.au/about/create-something/using-api",
+   "api": "https://api.trove.nla.gov.au/v3/result?q=openalex&category=book&n=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "smithsonian",
+   "name": "Smithsonian Open Access",
+   "category": "aggregator",
+   "home": "https://www.si.edu/openaccess",
+   "docs": "https://edan.si.edu/openaccess/apidocs/",
+   "api": "https://api.si.edu/openaccess/api/v1.0/search?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "loc",
+   "name": "Library of Congress JSON API",
+   "category": "aggregator",
+   "home": "https://www.loc.gov/",
+   "docs": "https://www.loc.gov/apis/",
+   "api": "https://www.loc.gov/books/?q=openalex&fo=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "chroniclingamerica",
+   "name": "Chronicling America",
+   "category": "aggregator",
+   "home": "https://chroniclingamerica.loc.gov/",
+   "docs": "https://chroniclingamerica.loc.gov/about/api/",
+   "api": "https://chroniclingamerica.loc.gov/search/pages/results/?andtext=openalex&format=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "gallica",
+   "name": "Gallica (BnF)",
+   "category": "aggregator",
+   "home": "https://gallica.bnf.fr/",
+   "docs": "https://api.bnf.fr/api-gallica-de-recherche",
+   "api": "https://gallica.bnf.fr/SRU?operation=searchRetrieve&version=1.2&query=gallica%20all%20%22openalex%22&maximumRecords=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "hathitrust",
+   "name": "HathiTrust Bibliographic API",
+   "category": "aggregator",
+   "home": "https://www.hathitrust.org/",
+   "docs": "https://www.hathitrust.org/bib_api",
+   "api": "https://catalog.hathitrust.org/api/volumes/brief/json/oclc:424023",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openlibrary",
+   "name": "Open Library",
+   "category": "aggregator",
+   "home": "https://openlibrary.org/",
+   "docs": "https://openlibrary.org/developers/api",
+   "api": "https://openlibrary.org/search.json?q=openalex&limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "gutenberg",
+   "name": "Project Gutenberg (Gutendex)",
+   "category": "aggregator",
+   "home": "https://www.gutenberg.org/",
+   "docs": "https://gutendex.com/",
+   "api": "https://gutendex.com/books/?search=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "wikidata",
+   "name": "Wikidata Query Service",
+   "category": "aggregator",
+   "home": "https://query.wikidata.org/",
+   "docs": "https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual",
+   "api": "https://query.wikidata.org/sparql?format=json&query=SELECT%20%3Fitem%20WHERE%20%7B%3Fitem%20wdt%3AP31%20wd%3AQ5%7D%20LIMIT%201",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "wikipedia-api",
+   "name": "Wikipedia / MediaWiki API",
+   "category": "aggregator",
+   "home": "https://www.mediawiki.org/wiki/API:Main_page",
+   "docs": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "api": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=openalex&format=json&srlimit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openalex",
+   "name": "OpenAlex",
+   "category": "scholarly-graph",
+   "home": "https://openalex.org/",
+   "docs": "https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication",
+   "api": "https://api.openalex.org/works?filter=doi:10.1038/nature12373",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "crossref",
+   "name": "Crossref REST API",
+   "category": "scholarly-graph",
+   "home": "https://www.crossref.org/",
+   "docs": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/",
+   "api": "https://api.crossref.org/works/10.1038/nature12373",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "datacite",
+   "name": "DataCite REST API",
+   "category": "scholarly-graph",
+   "home": "https://datacite.org/",
+   "docs": "https://support.datacite.org/docs/api",
+   "api": "https://api.datacite.org/dois?query=openalex&page%5Bsize%5D=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "semanticscholar",
+   "name": "Semantic Scholar Graph API",
+   "category": "scholarly-graph",
+   "home": "https://www.semanticscholar.org/",
+   "docs": "https://www.semanticscholar.org/product/api",
+   "api": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1038/nature12373?fields=title",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "core",
+   "name": "CORE",
+   "category": "scholarly-graph",
+   "home": "https://core.ac.uk/",
+   "docs": "https://core.ac.uk/services/api",
+   "api": "https://api.core.ac.uk/v3/search/works/?q=openalex&limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openaire-graph",
+   "name": "OpenAIRE Graph",
+   "category": "scholarly-graph",
+   "home": "https://graph.openaire.eu/",
+   "docs": "https://graph.openaire.eu/docs/",
+   "api": "https://api.openaire.eu/graph/v1/researchProducts?search=openalex&pageSize=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openaire-search",
+   "name": "OpenAIRE Search API",
+   "category": "scholarly-graph",
+   "home": "https://www.openaire.eu/",
+   "docs": "https://api.openaire.eu/",
+   "api": "https://api.openaire.eu/search/publications?title=openalex&size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "base",
+   "name": "BASE (Bielefeld)",
+   "category": "scholarly-graph",
+   "home": "https://www.base-search.net/",
+   "docs": "https://api.base-search.net/",
+   "api": "https://api.base-search.net/cgi-bin/BaseHttpSearchInterface.fcgi?func=PerformSearch&query=openalex&format=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "orcid",
+   "name": "ORCID Public API",
+   "category": "scholarly-graph",
+   "home": "https://orcid.org/",
+   "docs": "https://info.orcid.org/documentation/api-reference/",
+   "api": "https://pub.orcid.org/v3.0/expanded-search/?q=openalex&rows=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ror",
+   "name": "Research Organization Registry",
+   "category": "scholarly-graph",
+   "home": "https://ror.org/",
+   "docs": "https://ror.readme.io/docs/rest-api",
+   "api": "https://api.ror.org/v2/organizations?query=harvard",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dblp",
+   "name": "dblp computer science bibliography",
+   "category": "scholarly-graph",
+   "home": "https://dblp.org/",
+   "docs": "https://dblp.org/faq/How+to+use+the+dblp+search+API.html",
+   "api": "https://dblp.org/search/publ/api?q=openalex&format=json&h=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "opencitations",
+   "name": "OpenCitations Index",
+   "category": "scholarly-graph",
+   "home": "https://opencitations.net/",
+   "docs": "https://opencitations.net/index/api/v2",
+   "api": "https://opencitations.net/index/api/v2/citations/doi:10.1038/nature12373",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "crossref-eventdata",
+   "name": "Crossref Event Data",
+   "category": "scholarly-graph",
+   "home": "https://www.eventdata.crossref.org/",
+   "docs": "https://www.eventdata.crossref.org/guide/",
+   "api": "https://api.eventdata.crossref.org/v1/events?obj-id=10.1038/nature12373&rows=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dimensions",
+   "name": "Dimensions",
+   "category": "scholarly-graph",
+   "home": "https://www.dimensions.ai/",
+   "docs": "https://docs.dimensions.ai/dsl/api.html",
+   "api": "https://api.dimensions.ai/v2/publications?search_text=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "lens",
+   "name": "Lens.org Scholarly API",
+   "category": "scholarly-graph",
+   "home": "https://www.lens.org/",
+   "docs": "https://docs.api.lens.org/",
+   "api": "https://api.lens.org/scholarly/search",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "scite",
+   "name": "Scite",
+   "category": "scholarly-graph",
+   "home": "https://scite.ai/",
+   "docs": "https://api.scite.ai/",
+   "api": "https://api.scite.ai/tallies/10.1038/nature12373",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "altmetric",
+   "name": "Altmetric",
+   "category": "scholarly-graph",
+   "home": "https://www.altmetric.com/",
+   "docs": "https://api.altmetric.com/",
+   "api": "https://api.altmetric.com/v1/doi/10.1038/nature12373",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "sherpa-romeo",
+   "name": "Sherpa Romeo",
+   "category": "scholarly-graph",
+   "home": "https://v2.sherpa.ac.uk/",
+   "docs": "https://v2.sherpa.ac.uk/api/",
+   "api": "https://v2.sherpa.ac.uk/cgi/retrieve?item-type=publication",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "pubmed",
+   "name": "PubMed E-utilities",
+   "category": "index",
+   "home": "https://pubmed.ncbi.nlm.nih.gov/",
+   "docs": "https://www.ncbi.nlm.nih.gov/books/NBK25497/",
+   "api": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=openalex&retmode=json&retmax=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "europepmc",
+   "name": "Europe PMC",
+   "category": "index",
+   "home": "https://europepmc.org/",
+   "docs": "https://europepmc.org/RestfulWebService",
+   "api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=openalex&format=json&pageSize=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "pmc-oa",
+   "name": "PMC Open Access Subset",
+   "category": "index",
+   "home": "https://www.ncbi.nlm.nih.gov/pmc/",
+   "docs": "https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/",
+   "api": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC13900/unicode",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "doaj",
+   "name": "DOAJ",
+   "category": "index",
+   "home": "https://doaj.org/",
+   "docs": "https://doaj.org/api/v4/docs",
+   "api": "https://doaj.org/api/search/articles/openalex?pageSize=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "unpaywall",
+   "name": "Unpaywall",
+   "category": "index",
+   "home": "https://unpaywall.org/",
+   "docs": "https://unpaywall.org/products/api",
+   "api": "https://api.unpaywall.org/v2/10.1038/nature12373?email=research@example.org",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "arxiv",
+   "name": "arXiv API",
+   "category": "index",
+   "home": "https://arxiv.org/",
+   "docs": "https://info.arxiv.org/help/api/tou.html",
+   "api": "https://export.arxiv.org/api/query?search_query=all:openalex&max_results=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "biorxiv",
+   "name": "bioRxiv API",
+   "category": "index",
+   "home": "https://www.biorxiv.org/",
+   "docs": "https://api.biorxiv.org/",
+   "api": "https://api.biorxiv.org/details/biorxiv/10.1101/2020.09.09.20191205",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "medrxiv",
+   "name": "medRxiv API",
+   "category": "index",
+   "home": "https://www.medrxiv.org/",
+   "docs": "https://api.biorxiv.org/",
+   "api": "https://api.biorxiv.org/details/medrxiv/10.1101/2020.09.09.20191205",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "hal",
+   "name": "HAL Open Archive",
+   "category": "index",
+   "home": "https://hal.science/",
+   "docs": "https://api.archives-ouvertes.fr/docs",
+   "api": "https://api.archives-ouvertes.fr/search/?q=openalex&rows=1&wt=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ads",
+   "name": "NASA ADS",
+   "category": "index",
+   "home": "https://ui.adsabs.harvard.edu/",
+   "docs": "https://ui.adsabs.harvard.edu/help/api/",
+   "api": "https://api.adsabs.harvard.edu/v1/search/query?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "inspirehep",
+   "name": "INSPIRE-HEP",
+   "category": "index",
+   "home": "https://inspirehep.net/",
+   "docs": "https://github.com/inspirehep/rest-api-doc",
+   "api": "https://inspirehep.net/api/literature?q=openalex&size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "zbmath",
+   "name": "zbMATH Open",
+   "category": "index",
+   "home": "https://zbmath.org/",
+   "docs": "https://api.zbmath.org/v1/",
+   "api": "https://api.zbmath.org/v1/document/_structured_search_query?search_string=openalex&results_per_page=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "clinicaltrials",
+   "name": "ClinicalTrials.gov",
+   "category": "index",
+   "home": "https://clinicaltrials.gov/",
+   "docs": "https://clinicaltrials.gov/data-api/api",
+   "api": "https://clinicaltrials.gov/api/v2/studies?pageSize=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "scielo",
+   "name": "SciELO ArticleMeta",
+   "category": "index",
+   "home": "https://scielo.org/",
+   "docs": "https://articlemeta.scielo.org/api/v1/",
+   "api": "https://articlemeta.scielo.org/api/v1/article/identifiers/?limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "lareferencia",
+   "name": "LA Referencia",
+   "category": "index",
+   "home": "https://www.lareferencia.info/",
+   "docs": "https://api.lareferencia.info/v1/",
+   "api": "https://api.lareferencia.info/v1/search?query=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "oapen",
+   "name": "OAPEN Library",
+   "category": "index",
+   "home": "https://www.oapen.org/",
+   "docs": "https://library.oapen.org/rest/",
+   "api": "https://library.oapen.org/rest/search?query=openalex&expand=metadata&limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "doab",
+   "name": "DOAB",
+   "category": "index",
+   "home": "https://www.doabooks.org/",
+   "docs": "https://directory.doabooks.org/rest/",
+   "api": "https://directory.doabooks.org/rest/search?query=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ndltd",
+   "name": "NDLTD Union Catalog",
+   "category": "index",
+   "home": "https://search.ndltd.org/",
+   "docs": "https://union.ndltd.org/OAI-PMH",
+   "api": "https://union.ndltd.org/OAI-PMH?verb=Identify",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openaire-explore",
+   "name": "OpenAIRE Explore",
+   "category": "index",
+   "home": "https://explore.openaire.eu/",
+   "docs": "https://graph.openaire.eu/docs/",
+   "api": "https://api.openaire.eu/search/publications?keywords=openalex&size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "zenodo",
+   "name": "Zenodo",
+   "category": "repository",
+   "home": "https://zenodo.org/",
+   "docs": "https://developers.zenodo.org/",
+   "api": "https://zenodo.org/api/records?q=openalex&size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "figshare",
+   "name": "Figshare",
+   "category": "repository",
+   "home": "https://figshare.com/",
+   "docs": "https://docs.figshare.com/",
+   "api": "https://api.figshare.com/v2/articles?page_size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dryad",
+   "name": "Dryad",
+   "category": "repository",
+   "home": "https://datadryad.org/",
+   "docs": "https://datadryad.org/api/v2/docs/",
+   "api": "https://datadryad.org/api/v2/search?q=openalex&per_page=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "osf",
+   "name": "OSF (Open Science Framework)",
+   "category": "repository",
+   "home": "https://osf.io/",
+   "docs": "https://developer.osf.io/",
+   "api": "https://api.osf.io/v2/nodes/?page%5Bsize%5D=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dataverse",
+   "name": "Harvard Dataverse",
+   "category": "repository",
+   "home": "https://dataverse.harvard.edu/",
+   "docs": "https://guides.dataverse.org/en/latest/api/",
+   "api": "https://dataverse.harvard.edu/api/search?q=openalex&per_page=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openml",
+   "name": "OpenML",
+   "category": "repository",
+   "home": "https://www.openml.org/",
+   "docs": "https://www.openml.org/apis",
+   "api": "https://www.openml.org/api/v1/json/data/list/limit/1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "huggingface",
+   "name": "Hugging Face Hub",
+   "category": "repository",
+   "home": "https://huggingface.co/",
+   "docs": "https://huggingface.co/docs/hub/api",
+   "api": "https://huggingface.co/api/datasets?limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "paperswithcode",
+   "name": "Papers with Code",
+   "category": "repository",
+   "home": "https://paperswithcode.com/",
+   "docs": "https://paperswithcode.com/api/v1/docs/",
+   "api": "https://paperswithcode.com/api/v1/papers/?items_per_page=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openreview",
+   "name": "OpenReview",
+   "category": "repository",
+   "home": "https://openreview.net/",
+   "docs": "https://docs.openreview.net/reference/api-v2",
+   "api": "https://api2.openreview.net/notes?limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dataone",
+   "name": "DataONE",
+   "category": "repository",
+   "home": "https://www.dataone.org/",
+   "docs": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "api": "https://cn.dataone.org/cn/v2/query/solr/?q=openalex&rows=1&wt=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "re3data",
+   "name": "re3data",
+   "category": "repository",
+   "home": "https://www.re3data.org/",
+   "docs": "https://www.re3data.org/api/doc",
+   "api": "https://www.re3data.org/api/v1/repositories?query=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "gbif",
+   "name": "GBIF",
+   "category": "data-api",
+   "home": "https://www.gbif.org/",
+   "docs": "https://techdocs.gbif.org/en/openapi/",
+   "api": "https://api.gbif.org/v1/occurrence/search?q=openalex&limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "uniprot",
+   "name": "UniProt",
+   "category": "data-api",
+   "home": "https://www.uniprot.org/",
+   "docs": "https://www.uniprot.org/help/api",
+   "api": "https://rest.uniprot.org/uniprotkb/search?query=openalex&size=1&format=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "pdb",
+   "name": "RCSB PDB Data API",
+   "category": "data-api",
+   "home": "https://www.rcsb.org/",
+   "docs": "https://data.rcsb.org/redoc/",
+   "api": "https://data.rcsb.org/rest/v1/core/entry/4HHB",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ensembl",
+   "name": "Ensembl REST",
+   "category": "data-api",
+   "home": "https://www.ensembl.org/",
+   "docs": "https://rest.ensembl.org/",
+   "api": "https://rest.ensembl.org/lookup/id/ENSG00000139618?content-type=application/json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "chembl",
+   "name": "ChEMBL",
+   "category": "data-api",
+   "home": "https://www.ebi.ac.uk/chembl/",
+   "docs": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "api": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "pubchem",
+   "name": "PubChem PUG REST",
+   "category": "data-api",
+   "home": "https://pubchem.ncbi.nlm.nih.gov/",
+   "docs": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+   "api": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/MolecularFormula/JSON",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "biostudies",
+   "name": "BioStudies (EBI)",
+   "category": "data-api",
+   "home": "https://www.ebi.ac.uk/biostudies/",
+   "docs": "https://www.ebi.ac.uk/biostudies/api/v1/swagger-ui.html",
+   "api": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=openalex&pageSize=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "openverse",
+   "name": "Openverse",
+   "category": "aggregator",
+   "home": "https://openverse.org/",
+   "docs": "https://api.openverse.org/v1/",
+   "api": "https://api.openverse.org/v1/images/?q=openalex&page_size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "met-museum",
+   "name": "The Met Collection API",
+   "category": "aggregator",
+   "home": "https://www.metmuseum.org/",
+   "docs": "https://metmuseum.github.io/",
+   "api": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "artic",
+   "name": "Art Institute of Chicago API",
+   "category": "aggregator",
+   "home": "https://api.artic.edu/docs/",
+   "docs": "https://api.artic.edu/docs/",
+   "api": "https://api.artic.edu/api/v1/artworks?limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "cleveland-art",
+   "name": "Cleveland Museum of Art Open Access API",
+   "category": "aggregator",
+   "home": "https://www.clevelandart.org/",
+   "docs": "https://openaccess-api.clevelandart.org/",
+   "api": "https://openaccess-api.clevelandart.org/api/artworks/?q=openalex&limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "id-loc",
+   "name": "id.loc.gov (LC Linked Data)",
+   "category": "aggregator",
+   "home": "https://id.loc.gov/",
+   "docs": "https://id.loc.gov/",
+   "api": "https://id.loc.gov/search/?q=openalex&format=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dnb-sru",
+   "name": "Deutsche Nationalbibliothek SRU",
+   "category": "aggregator",
+   "home": "https://www.dnb.de/",
+   "docs": "https://www.dnb.de/EN/Professionell/Metadatendienste/metadatendienste_node.html",
+   "api": "https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=openalex&recordSchema=oai_dc&maximumRecords=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "k10plus-sru",
+   "name": "K10plus SRU",
+   "category": "aggregator",
+   "home": "https://k10plus.de/",
+   "docs": "https://projekt.mvb10plus.de/",
+   "api": "https://sru.k10plus.de/gvk?version=1.1&operation=searchRetrieve&query=pica.all%3Dopenalex&maximumRecords=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "nb-no",
+   "name": "National Library of Norway API",
+   "category": "aggregator",
+   "home": "https://www.nb.no/",
+   "docs": "https://api.nb.no/catalog/swagger-ui.html",
+   "api": "https://api.nb.no/catalog/v1/items?q=openalex&size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "finna",
+   "name": "Finna (Finnish libraries)",
+   "category": "aggregator",
+   "home": "https://www.finna.fi/",
+   "docs": "https://api.finna.fi/",
+   "api": "https://api.finna.fi/v1/search?lookfor=openalex&limit=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "viaf",
+   "name": "VIAF",
+   "category": "aggregator",
+   "home": "https://viaf.org/",
+   "docs": "https://viaf.org/viaf/data/",
+   "api": "https://viaf.org/viaf/AutoSuggest?query=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "dataverse-nl",
+   "name": "DataverseNL",
+   "category": "repository",
+   "home": "https://dataverse.nl/",
+   "docs": "https://guides.dataverse.org/en/latest/api/",
+   "api": "https://dataverse.nl/api/search?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "obis",
+   "name": "OBIS",
+   "category": "data-api",
+   "home": "https://obis.org/",
+   "docs": "https://api.obis.org/",
+   "api": "https://api.obis.org/v3/occurrence?size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "idigbio",
+   "name": "iDigBio",
+   "category": "data-api",
+   "home": "https://www.idigbio.org/",
+   "docs": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "api": "https://search.idigbio.org/v2/search/records/?q=openalex&limit=1&fields=uuid",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "inaturalist",
+   "name": "iNaturalist",
+   "category": "data-api",
+   "home": "https://www.inaturalist.org/",
+   "docs": "https://api.inaturalist.org/v1/docs/",
+   "api": "https://api.inaturalist.org/v1/observations?per_page=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ebisearch",
+   "name": "EBI Search",
+   "category": "data-api",
+   "home": "https://www.ebi.ac.uk/ebisearch/",
+   "docs": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "api": "https://www.ebi.ac.uk/ebisearch/ws/rest?query=openalex&format=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ols",
+   "name": "EMBL-EBI Ontology Lookup Service",
+   "category": "data-api",
+   "home": "https://www.ebi.ac.uk/ols4/",
+   "docs": "https://www.ebi.ac.uk/ols4/help",
+   "api": "https://www.ebi.ac.uk/ols4/api/search?q=openalex&rows=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "biomodels",
+   "name": "BioModels",
+   "category": "data-api",
+   "home": "https://www.ebi.ac.uk/biomodels/",
+   "docs": "https://www.ebi.ac.uk/biomodels/docs/",
+   "api": "https://www.ebi.ac.uk/biomodels/search?query=openalex&format=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "osti",
+   "name": "OSTI.gov",
+   "category": "index",
+   "home": "https://www.osti.gov/",
+   "docs": "https://www.osti.gov/api/v1/docs",
+   "api": "https://www.osti.gov/api/v1/records?q=openalex&rows=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ntrs",
+   "name": "NASA NTRS",
+   "category": "index",
+   "home": "https://ntrs.nasa.gov/",
+   "docs": "https://sti.nasa.gov/ntrs-api/",
+   "api": "https://ntrs.nasa.gov/api/citations/search?q=openalex&page.size=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "cds-cern",
+   "name": "CERN Document Server",
+   "category": "index",
+   "home": "https://cds.cern.ch/",
+   "docs": "https://cds.cern.ch/help/hacking",
+   "api": "https://cds.cern.ch/search?p=openalex&of=recjson&rg=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "jstage",
+   "name": "J-STAGE",
+   "category": "index",
+   "home": "https://www.jstage.jst.go.jp/",
+   "docs": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "api": "https://api.jstage.jst.go.jp/searchapi/do?service=3&q=openalex&count=1",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "repec",
+   "name": "RePEc / IDEAS",
+   "category": "index",
+   "home": "https://ideas.repec.org/",
+   "docs": "https://ideas.repec.org/",
+   "api": "https://ideas.repec.org/cgi-bin/htsearch?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "thoth",
+   "name": "Thoth Open Metadata",
+   "category": "repository",
+   "home": "https://thoth.pub/",
+   "docs": "https://api.thoth.pub/graphql",
+   "api": "https://api.thoth.pub/",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "oapen-api",
+   "name": "OAPEN REST API",
+   "category": "repository",
+   "home": "https://www.oapen.org/",
+   "docs": "https://api.oapen.org/",
+   "api": "https://api.oapen.org/search?query=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "uspto-ibd",
+   "name": "USPTO Open Data Portal (IBD)",
+   "category": "publisher",
+   "home": "https://developer.uspto.gov/",
+   "docs": "https://developer.uspto.gov/api-catalog",
+   "api": "https://developer.uspto.gov/ibd-api/v1/application/publications?publicationTitleText=engine",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "snac-api",
+   "name": "SNAC API",
+   "category": "web-archive",
+   "home": "https://snaccooperative.org/",
+   "docs": "https://api.snaccooperative.org/",
+   "api": "https://api.snaccooperative.org/",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "pmc-idconv",
+   "name": "PMC ID Converter",
+   "category": "index",
+   "home": "https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/",
+   "docs": "https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/",
+   "api": "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids=PMC13900&format=json",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "elsevier",
+   "name": "Elsevier Scopus / ScienceDirect API",
+   "category": "publisher",
+   "home": "https://www.elsevier.com/",
+   "docs": "https://dev.elsevier.com/",
+   "api": "https://api.elsevier.com/content/search/scopus?query=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "springer",
+   "name": "Springer Nature API",
+   "category": "publisher",
+   "home": "https://www.springernature.com/",
+   "docs": "https://dev.springernature.com/",
+   "api": "https://api.springernature.com/meta/v2/json?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "wiley",
+   "name": "Wiley TDM API",
+   "category": "publisher",
+   "home": "https://www.wiley.com/",
+   "docs": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "api": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fadvs.201900001",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "ieee",
+   "name": "IEEE Xplore API",
+   "category": "publisher",
+   "home": "https://developer.ieee.org/",
+   "docs": "https://developer.ieee.org/docs",
+   "api": "https://ieeexploreapi.ieee.org/api/v1/search/articles?querytext=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "epo-ops",
+   "name": "EPO Open Patent Services",
+   "category": "publisher",
+   "home": "https://www.epo.org/",
+   "docs": "https://developers.epo.org/",
+   "api": "https://ops.epo.org/3.2/rest-services/published-data/search?q=openalex",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "patentsview",
+   "name": "PatentsView",
+   "category": "publisher",
+   "home": "https://patentsview.org/",
+   "docs": "https://patentsview.org/apis/api-endpoints",
+   "api": "https://api.patentsview.org/patents/query?q=%7B%22_gte%22%3A%7B%22patent_date%22%3A%222020-01-01%22%7D%7D",
+   "pricing": null,
+   "llms": null
+  },
+  {
+   "slug": "jstor-constellate",
+   "name": "JSTOR / Constellate",
+   "category": "publisher",
+   "home": "https://www.jstor.org/",
+   "docs": "https://constellate.org/docs/",
+   "api": "https://api.constellate.org/",
+   "pricing": null,
+   "llms": null
+  }
+ ]
+}

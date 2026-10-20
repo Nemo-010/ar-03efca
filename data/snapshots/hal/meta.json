@@ -1,0 +1,138 @@
+{
+ "slug": "hal",
+ "name": "HAL Open Archive",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:44+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.archives-ouvertes.fr/docs",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  },
+  "home": {
+   "url": "https://hal.science/",
+   "status": 200,
+   "final_url": "https://hal.science/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 32505,
+   "truncated": false,
+   "sha256": "339e20ebafc40c9f3ae855c771c14beaac72656cc033ba24fb7259e79d0d6e55",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 3399
+  },
+  "llms": {
+   "url": "https://api.archives-ouvertes.fr/docs/llms.txt",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T01:47:55+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  },
+  "llms-2417f1-err": {
+   "url": "https://hal.science/llms.txt",
+   "status": 404,
+   "final_url": "https://hal.science/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 48597,
+   "truncated": false,
+   "sha256": "5d5b8ba85fbed4590931d79bc50499244f2aea26c361cad9458d229bb1519f51",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "llms-96e6ed-err": {
+   "url": "https://docs.archives-ouvertes.fr/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.archives-ouvertes.fr/llms.txt",
+   "content_type": "",
+   "bytes": 44,
+   "truncated": false,
+   "sha256": "eb7deb0c37bb189b9c126115ecdbcdd8e81950774f8d0cad615f83f41d2201c1",
+   "fetched_at": "2026-10-20T01:48:06+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.archives-ouvertes.fr/docs",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T01:49:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  },
+  "policy2": {
+   "url": "https://api.archives-ouvertes.fr/docs/1.0/",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T01:50:38+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  },
+  "limits": {
+   "url": "https://api.archives-ouvertes.fr/docs",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T01:52:50+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  },
+  "limits2": {
+   "url": "https://api.archives-ouvertes.fr/docs/1.0/",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T01:52:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  },
+  "r1": {
+   "url": "https://api.archives-ouvertes.fr/docs",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T01:59:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  },
+  "r2": {
+   "url": "https://api.archives-ouvertes.fr/docs/1.0/",
+   "status": 200,
+   "final_url": "https://api.archives-ouvertes.fr/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 10027,
+   "truncated": false,
+   "sha256": "35e5d6977c8f4d90e13ed82ae84924ad9b3ab3b0d7dda7fe6bc0f0ba3a3067e3",
+   "fetched_at": "2026-10-20T02:22:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 857
+  }
+ }
+}

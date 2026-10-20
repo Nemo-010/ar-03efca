@@ -1,0 +1,128 @@
+DNB - Metadata Services 
+ "/>
+ " />
+ Navigation and service 
+ Go to: 
+ Content 
+ Main Menu 
+ Search 
+ Servicemeu 
+ Deutsch 
+ Sign language 
+ Barrier-free offers 
+ Simple language 
+ Help and contacts 
+ Menu 
+ Main Menu 
+ DNB for users 
+ DNB Professional 
+ My account 
+ More 
+ Search website 
+ Search. Find. Discover 
+ Enter search term 
+ Do you want to search our collections? 
+ Catalogue search
+ You are here: 
+ Home DNB Professional Metadata Services 
+ Recommend 
+ Metadata services 
+ Photo: CC-BY-SA 3.0DE (Stephan Jockel) 
+ Content 
+ EFA26@DNB 
+ Which meta­da­ta is avail­able? 
+ How can I ob­tain da­ta? 
+ Which ex­port for­mats are avail­able? 
+ Where can I find in­for­ma­tion on cat­a­logue en­rich­ment? 
+ How can I con­tribute to the In­te­grat­ed Au­thor­i­ty File (GND)? 
+ Stay in­formed! newslet­ter, for­mat changes, mail­ing lists 
+ All bibliographic data from the German National Library and the authority data from the Integrated Authority File is available free of charge for general use in according with our business modell under the terms of Creative Commons Zero (CC0 1.0) . 
+ EFA 26@ DNB 
+ Are you interested in the metadata and free collections of digital objects available at the German National Library? Do you want to use our data to catalogue your collection? Are you interested in data analysis? Do you want to know how to access and analyse our data? Or are you new to this field and keen to learn more? 
+ “Cataloguing, research, analysis” (EFA26@ DNB ), a virtual offer for information and workshops on our metadata and free collections of digital objects will take place on 10 and 11 November 2026. 
+ Get to know our metadata and free digital objects and find out in which ways they can be used, analysed and visualised. After introductory presentations in the first morning on the DNB 's services (digital holdings, access options, data types and formats), you will have the opportunity to take part in various workshops in the second morning to explore selected topics in greater depth. 
+ Programme EFA26@DNB (only available in German) 
+ Which metadata is available? 
+ The metadata provided by the German National Library includes current and retrospective bibliographic data for individual series in the German National Bibliography, authority data from the Integrated Authority file, metadata from the German Union Catalogue of Serials, and data on new releases. An overview of access options and the available export formats is available here . 
+ New Release Service 
+ Deutsche Nationalbibliografie 
+ German Union Catalogue of Serials (ZDB) 
+ The Integrated Authority File (GND) 
+ Cross-concordances 
+ Culturegraph 
+ How can I obtain data? 
+ Users can download metadata in the standard formats. The German National Library provides the option of accessing free metadata via its online interfaces as well as via WWW or SFTP server. In addition, registered users can research metadata in the catalogue and download it for further processing in their own system via the data shop . In addition to these basic services, we also provide individual, fee-based access to metadata via WWW or SFTP server. An overview of access options and the available export formats is available here . 
+ Full copies 
+ Ongoing update of metadata 
+ GND change service 
+ Data selection 
+ SRU interface 
+ OAI interface 
+ Data shop 
+ Linked Data Service with DNB SPARQL Service 
+ DNBLab: Access to data sets and digital objects 
+ Which export formats are available? 
+ Metadata is available in MARC 21 (also in XML structure) and RDF formats (various serialisations) and in some cases in BIBFRAME. The DNB Casual and CSV formats are available for bibliographic data only. All formats except CSV are offered in the normalization form UTF-8 decomposed . Since 1 October 2015, the descriptive cataloguing of bibliographic data at the German National Library follows the “Resource Description and Access” ( RDA ) rules. 
+An overview of access options and the available export formats is available here . 
+ MARC 21 
+ DNB Casual 
+ CSV (Comma-separated values) 
+ RDF vocabularies 
+ BIBFRAME 
+ Test data 
+ Where can I find information on catalogue enrichment? 
+ The German National Library uses different ways of metadata and catalogue enrichment in order to support users in their research. 
+ Digitised tables of contents 
+ Blurbs 
+ Cover images 
+ How can I contribute to the Integrated Authority File (GND)? 
+ The Integrated Authority File ( GND ) is the largest collection of cultural and research authority data in the German-speaking countries. Originally used as a work tool in libraries its importance as a central network hub is growing as the process of digital transformation progresses. 
+ Integrated Authority File (GND) 
+ GND web form 
+ Online Standard Interface 
+ Stay informed! 
+ Get current information about the latest developments and activities carried out by the metadata services: 
+newsletter, format changes, mailing lists. 
+ More 
+ Short-URL: 
+ https://www.dnb.de/metadataservice
+ Contact: 
+ metadatendienste@dnb.de 
+ Our newsletters 
+ Informative and up-to-date – sent to you by our newsletter editorial offices 
+ More 
+ Page functions and information 
+ Recommend 
+ The cat­a­logue
+ My account
+ DNB glos­sary
+ Sitemap
+ Le­gal in­for­ma­tion and ba­sic prin­ci­ples
+ Reporting channel for whistleblowers
+ Job va­can­cies
+ Press
+ DNB Sus­tain­abil­i­ty
+ DNB Annual Report
+ DNB-Blog
+ So­cial Me­dia
+ DNB online shop
+ Congress Centre
+ DNB Leipzig 
+ Deutscher Platz 1 
+04103 Leipzig 
+ + 49 341 2271-0 
+ + 49 341 2271-0 
+ DNB Frankfurt 
+ Adickesallee 1 
+60322 Frankfurt am Main 
+ + 49 69 1525-0 
+ + 49 69 1525-0 
+ Help and con­tacts
+ Open­ing hours
+ How to find us
+ Im­print
+ Pri­va­cy Pol­i­cy
+ State­ment on Ac­ces­si­bil­i­ty
+ Use of cookies 
+ Cookies help us to provide our services. By using our website you agree that we can use cookies. Read more about our Privacy Policy and visit the following link: Privacy Policy 
+ OK

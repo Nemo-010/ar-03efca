@@ -1,0 +1,96 @@
+{
+ "slug": "digitalnz",
+ "name": "DigitalNZ",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:31+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://digitalnz.org/developers/api",
+   "status": 202,
+   "final_url": "https://digitalnz.org/developers/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2450,
+   "truncated": false,
+   "sha256": "a5e23bd734c5d566033ae5539c52e8b86dc877dafb0d0d347de311de8cb440f5",
+   "fetched_at": "2026-10-20T01:47:31+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://digitalnz.org/",
+   "status": 202,
+   "final_url": "https://digitalnz.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2450,
+   "truncated": false,
+   "sha256": "426ddfe94dbf648f8dc8bb1f6cd58308688197649a5276f3799b71ee1bbb31be",
+   "fetched_at": "2026-10-20T01:47:31+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.digitalnz.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.digitalnz.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://digitalnz.org/developers/api",
+   "status": 202,
+   "final_url": "https://digitalnz.org/developers/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2450,
+   "truncated": false,
+   "sha256": "0d74fc6286279a187719dafe23d3e81135aade437d5dbb9f9e53bf8f51b8fd23",
+   "fetched_at": "2026-10-20T01:49:39+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://digitalnz.org/developers/api/getting-started",
+   "status": 202,
+   "final_url": "https://digitalnz.org/developers/api/getting-started",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2450,
+   "truncated": false,
+   "sha256": "19365ecdd8450aa08f18f2a8cf7ac24a83ea2b7e5e4ba648e3cc8a2107fe0093",
+   "fetched_at": "2026-10-20T01:50:46+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://digitalnz.org/developers/api",
+   "status": 202,
+   "final_url": "https://digitalnz.org/developers/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2450,
+   "truncated": false,
+   "sha256": "c4ebaac6e1ac62f4fe0fa56b2aa25001a21d85426fbdeadfb0c109fbfc1a226f",
+   "fetched_at": "2026-10-20T01:54:09+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://digitalnz.org/developers/api",
+   "status": 202,
+   "final_url": "https://digitalnz.org/developers/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2450,
+   "truncated": false,
+   "sha256": "28a81358102f2fe12eefd0c9bd21ef2edfdb1eab1c5f9ed5ae9987813eadff82",
+   "fetched_at": "2026-10-20T01:58:46+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://digitalnz.org/developers/api/record-formats",
+   "status": 202,
+   "final_url": "https://digitalnz.org/developers/api/record-formats",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2450,
+   "truncated": false,
+   "sha256": "42c6c372d7cbc26011de073a9d2a2ad5d09b6a92b51149de1277783e3a0b98b8",
+   "fetched_at": "2026-10-20T02:21:49+00:00",
+   "rate_headers": {}
+  }
+ }
+}

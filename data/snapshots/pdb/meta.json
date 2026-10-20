@@ -1,0 +1,98 @@
+{
+ "slug": "pdb",
+ "name": "RCSB PDB Data API",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:52+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://data.rcsb.org/redoc/",
+   "status": 404,
+   "final_url": "https://data.rcsb.org/redoc/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 275,
+   "truncated": false,
+   "sha256": "460fa1c9881fc6f90db44fee919a4dd2d0b1a4a205bd50da9de554d3fc710790",
+   "fetched_at": "2026-10-20T01:47:52+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.rcsb.org/",
+   "status": 200,
+   "final_url": "https://www.rcsb.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 84154,
+   "truncated": false,
+   "sha256": "8c822a133458ba5c4e4e8aa3e0c3e0612a179e3f67f371bada5839e055aeb749",
+   "fetched_at": "2026-10-20T01:47:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 8592
+  },
+  "llms-err": {
+   "url": "https://docs.data.rcsb.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.data.rcsb.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://data.rcsb.org/redoc/",
+   "status": 404,
+   "final_url": "https://data.rcsb.org/redoc/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 275,
+   "truncated": false,
+   "sha256": "da57581c49543b83fc34bd1355982674246e6ecb1c347e2f3f8118772faea82f",
+   "fetched_at": "2026-10-20T01:49:49+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://data.rcsb.org/redoc/",
+   "status": 404,
+   "final_url": "https://data.rcsb.org/redoc/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 275,
+   "truncated": false,
+   "sha256": "9f0071b4f117d4d73acf1cef8c69f5815e2ac2a4bc157f2fcd1bc689b1aa862e",
+   "fetched_at": "2026-10-20T01:50:44+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://data.rcsb.org/redoc/",
+   "status": 404,
+   "final_url": "https://data.rcsb.org/redoc/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 275,
+   "truncated": false,
+   "sha256": "5d3a26a065cdb11178276f71ac2689dcb4d2ba84f9d9e60ba758c602911b36cf",
+   "fetched_at": "2026-10-20T01:53:13+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://data.rcsb.org/redoc/",
+   "status": 404,
+   "final_url": "https://data.rcsb.org/redoc/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 275,
+   "truncated": false,
+   "sha256": "ce983e81797b800102fbf2451404c205122be74025032c2b9bd2163e9f075f74",
+   "fetched_at": "2026-10-20T01:58:01+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://data.rcsb.org/index.html",
+   "status": 200,
+   "final_url": "https://data.rcsb.org/index.html",
+   "content_type": "text/html",
+   "bytes": 43261,
+   "truncated": false,
+   "sha256": "9816b618ad7192f6601a953f8615efe6480754550b173d7d531d7b3c11fc399c",
+   "fetched_at": "2026-10-20T02:22:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 21027
+  }
+ }
+}

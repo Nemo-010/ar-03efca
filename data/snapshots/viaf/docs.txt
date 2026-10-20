@@ -1,0 +1,50 @@
+VIAF (Virtual International Authority File) | OCLC Developer Network
+ Skip to page content. 
+ Menu 
+ Support 
+ Search 
+ APIs 
+ Gallery 
+ Community 
+ Stay Connected 
+ Searching for items in a library? Try WorldCat.org 
+ " id="dataEnableQuerySuggestAddon">
+ VIAF (Virtual International Authority File) 
+ Access to linked names for the same entity across the world's major name authority files, including national and regional variations in language, character set, and spelling. 
+ Status: Production 
+ Sandbox access: No 
+ What you get 
+ The Virtual International Authority File links authority data from 37 agencies in 29 countries, representing a variety of formats. Each VIAF record contains a unique data number, the "see" and "see also" fields from the original record and links to the original authority records. With the VIAF API, you can: 
+ Search for authority data by keyword, local name, preferred name form, title, source, or control number of source records and retrieve authority records and relationships between authority records from different sources. 
+ Retrieve summary information from authority records as well as relationships between records from different sources. 
+ Retrieve authority records in different formats from several national libraries. 
+ VIAF records are available either as cluster records or source records. Cluster records aggregate the various authority files from the international contributors into one authority record for a given authority topic. Source records are MARC21 or Unimarc Name Authority records that have been processed for uniformity. 
+ Who can use it 
+ VIAF data is available under the Open Data Commons Attribution License (ODC-BY). Please see OCLC Data licenses & attribution for guidelines. 
+ Try the API >> 
+ View documentation and interact with this API 
+ API access to 
+ VIAF 
+ Service categories 
+ Metadata services 
+ Information for 
+ Developers 
+ Librarians 
+ Partners 
+ Visit related sites 
+ OCLC.org 
+ OCLC Community Center 
+ OCLC Research 
+ OCLC System Alerts 
+ Support & Training 
+ WebJunction 
+ Follow OCLC Developer Network 
+ Subscribe to Tech Topics 
+ Receive regular updates for developers, systems librarians, and members of Developer Network. 
+ Subscribe now 
+ © 2026 OCLC    Domestic and international trademarks and/or service marks of OCLC, Inc. and its affiliates 
+ This site uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. 
+ Feedback 
+ Privacy statement 
+ Accessibility statement 
+ ISO 27001 Certificate

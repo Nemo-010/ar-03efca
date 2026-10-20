@@ -1,0 +1,86 @@
+{
+ "slug": "wiley",
+ "name": "Wiley TDM API",
+ "category": "publisher",
+ "fetched_at": "2026-10-20T01:48:05+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "status": 403,
+   "final_url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5900,
+   "truncated": false,
+   "sha256": "7199db7e48b98c797252a5cb29e2cca123963ee72e096fbf69ea3edbeb781218",
+   "fetched_at": "2026-10-20T01:48:05+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.wiley.com/",
+   "status": 200,
+   "final_url": "https://www.wiley.com/en-us",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 515908,
+   "truncated": false,
+   "sha256": "e8c0ea8fab5a80c4a93a173c07442f1cfdeb8516c319ab597430d5f744cf3bad",
+   "fetched_at": "2026-10-20T01:48:06+00:00",
+   "rate_headers": {},
+   "text_bytes": 13796
+  },
+  "llms-err": {
+   "url": "https://docs.onlinelibrary.wiley.com/llms.txt",
+   "status": 403,
+   "final_url": "https://docs.onlinelibrary.wiley.com/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5760,
+   "truncated": false,
+   "sha256": "64c661dfe69a576671ad3d078b66b69910d08fcd92f1312cacb8b77814e6fbd3",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "status": 403,
+   "final_url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5900,
+   "truncated": false,
+   "sha256": "197e0cee323770639cd4262844e17da05ad75507711116dcb411ac94b18995ca",
+   "fetched_at": "2026-10-20T01:49:54+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "status": 403,
+   "final_url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5900,
+   "truncated": false,
+   "sha256": "56b11e2da7500be53bba9cf2acc8c0e37088f21609a62f510970312f964a0f84",
+   "fetched_at": "2026-10-20T01:53:57+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "status": 403,
+   "final_url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5900,
+   "truncated": false,
+   "sha256": "ccf5e66eb25cb1b6378a3f421a6064acec32da03b9bbc3056ad1ec6e4938146d",
+   "fetched_at": "2026-10-20T01:58:23+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "status": 403,
+   "final_url": "https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5900,
+   "truncated": false,
+   "sha256": "f3446c6d91f8da1d0b582607df86d72bcf5d94faf60fc41c09b520f74565d8bd",
+   "fetched_at": "2026-10-20T02:21:45+00:00",
+   "rate_headers": {}
+  }
+ }
+}

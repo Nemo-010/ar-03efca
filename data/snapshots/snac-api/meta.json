@@ -1,0 +1,42 @@
+{
+ "slug": "snac-api",
+ "name": "SNAC API",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:48:04+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://api.snaccooperative.org/",
+   "status": 400,
+   "final_url": "https://api.snaccooperative.org/",
+   "content_type": "application/json",
+   "bytes": 124,
+   "truncated": false,
+   "sha256": "521be2ece0a539f6244a417959c2de56e328cfa79fdb4882fa81c01d5deae90e",
+   "fetched_at": "2026-10-20T01:48:04+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://snaccooperative.org/",
+   "status": 200,
+   "final_url": "https://snaccooperative.org/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 4296,
+   "truncated": false,
+   "sha256": "d7d0d5e7e64e92bd732acec3c12de0335421c1548c83f94e8f028423c06df6b2",
+   "fetched_at": "2026-10-20T01:48:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 175
+  },
+  "llms-err": {
+   "url": "https://docs.snaccooperative.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.snaccooperative.org/llms.txt",
+   "content_type": "",
+   "bytes": 50,
+   "truncated": false,
+   "sha256": "821372e90fc015c5d30c9a39807dde9821d05b3d0533452cb8ef86fd9b4594a3",
+   "fetched_at": "2026-10-20T01:48:05+00:00",
+   "rate_headers": {}
+  }
+ }
+}

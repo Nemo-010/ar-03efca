@@ -1,0 +1,97 @@
+{
+ "slug": "tna-discovery",
+ "name": "UK National Archives Discovery",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:30+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://discovery.nationalarchives.gov.uk/API/site/search",
+   "status": 500,
+   "final_url": "https://discovery.nationalarchives.gov.uk/API/site/search",
+   "content_type": "text/html",
+   "bytes": 76208,
+   "truncated": false,
+   "sha256": "0f8a44ff62720306fee845a17997e6480fed78828f8b8ebf2d5af435c8be9b48",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://discovery.nationalarchives.gov.uk/",
+   "status": 200,
+   "final_url": "https://discovery.nationalarchives.gov.uk/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 48240,
+   "truncated": false,
+   "sha256": "0592b62376dbd492e10a19ea9089361a962d29b23960c6da7a372113d153ddde",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {},
+   "text_bytes": 3137
+  },
+  "llms-err": {
+   "url": "https://docs.discovery.nationalarchives.gov.uk/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.discovery.nationalarchives.gov.uk/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "status": 500,
+   "final_url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "content_type": "text/html",
+   "bytes": 76208,
+   "truncated": false,
+   "sha256": "0f8a44ff62720306fee845a17997e6480fed78828f8b8ebf2d5af435c8be9b48",
+   "fetched_at": "2026-10-20T01:49:51+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "status": 500,
+   "final_url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "content_type": "text/html",
+   "bytes": 76208,
+   "truncated": false,
+   "sha256": "0f8a44ff62720306fee845a17997e6480fed78828f8b8ebf2d5af435c8be9b48",
+   "fetched_at": "2026-10-20T01:51:40+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "status": 500,
+   "final_url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "content_type": "text/html",
+   "bytes": 76208,
+   "truncated": false,
+   "sha256": "0f8a44ff62720306fee845a17997e6480fed78828f8b8ebf2d5af435c8be9b48",
+   "fetched_at": "2026-10-20T01:54:07+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "status": 500,
+   "final_url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "content_type": "text/html",
+   "bytes": 76208,
+   "truncated": false,
+   "sha256": "0f8a44ff62720306fee845a17997e6480fed78828f8b8ebf2d5af435c8be9b48",
+   "fetched_at": "2026-10-20T01:58:45+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "status": 500,
+   "final_url": "https://discovery.nationalarchives.gov.uk/API/site/help",
+   "content_type": "text/html",
+   "bytes": 76208,
+   "truncated": false,
+   "sha256": "0f8a44ff62720306fee845a17997e6480fed78828f8b8ebf2d5af435c8be9b48",
+   "fetched_at": "2026-10-20T02:22:18+00:00",
+   "rate_headers": {}
+  }
+ }
+}

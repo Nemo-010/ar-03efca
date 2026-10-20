@@ -1,0 +1,102 @@
+{
+ "slug": "inspirehep",
+ "name": "INSPIRE-HEP",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:44+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://github.com/inspirehep/rest-api-doc",
+   "status": 200,
+   "final_url": "https://github.com/inspirehep/rest-api-doc",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 361628,
+   "truncated": false,
+   "sha256": "3cf7d3ed121fe10fdd132601dc54ed63ced3cf9748e3d06468e37dcc0b7c5ce9",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 19827
+  },
+  "home": {
+   "url": "https://inspirehep.net/",
+   "status": 200,
+   "final_url": "https://inspirehep.net/",
+   "content_type": "text/html",
+   "bytes": 2896,
+   "truncated": false,
+   "sha256": "73be66fa7dc76e5b28b43a8696fa77301ddea0da5af9cb383301fbdad469e803",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 7
+  },
+  "llms-err": {
+   "url": "https://github.com/inspirehep/rest-api-doc/llms.txt",
+   "status": 404,
+   "final_url": "https://github.com/inspirehep/rest-api-doc/llms.txt",
+   "content_type": "text/plain; charset=utf-8",
+   "bytes": 9,
+   "truncated": false,
+   "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://github.com/llms.txt",
+   "status": 200,
+   "final_url": "https://github.com/llms.txt",
+   "content_type": "text/plain",
+   "bytes": 28658,
+   "truncated": false,
+   "sha256": "71d217ec3186152052ca1050932c0e6e48e766d3bc5a1359b50aa140436d297f",
+   "fetched_at": "2026-10-20T02:10:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 28658
+  },
+  "llms-0cc2fa": {
+   "url": "https://docs.github.com/llms.txt",
+   "status": 200,
+   "final_url": "https://docs.github.com/llms.txt",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 28642,
+   "truncated": false,
+   "sha256": "c10af0cdb5576f81fd29373cf56ac65608d24c3e4c935c7993d2bba27d56af4e",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 28634
+  },
+  "policy": {
+   "url": "https://github.com/inspirehep/rest-api-doc",
+   "status": 200,
+   "final_url": "https://github.com/inspirehep/rest-api-doc",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 361637,
+   "truncated": false,
+   "sha256": "214c8533aec839ca370dea66dd8a6ca08c0e11b7723469f0cbea149f39ad1fe7",
+   "fetched_at": "2026-10-20T01:49:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 19827
+  },
+  "policy2": {
+   "url": "https://inspirehep.net/help/api",
+   "status": 404,
+   "final_url": "https://inspirehep.net/help/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 25662,
+   "truncated": false,
+   "sha256": "7b55b1750465aa9b4f5f4a7a813391acf2cf3ad1d684c0b0e0f8e56ce3037012",
+   "fetched_at": "2026-10-20T01:50:51+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://github.com/inspirehep/rest-api-doc",
+   "status": 200,
+   "final_url": "https://github.com/inspirehep/rest-api-doc",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 361633,
+   "truncated": false,
+   "sha256": "a65c2f0e916efe54aef85da5096570a9a4d69f1985101bcf2fa9e810cd8c0877",
+   "fetched_at": "2026-10-20T01:59:03+00:00",
+   "rate_headers": {},
+   "text_bytes": 19827
+  }
+ }
+}

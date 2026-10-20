@@ -1,0 +1,55 @@
+{
+ "slug": "repec",
+ "name": "RePEc / IDEAS",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:48:02+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://ideas.repec.org/",
+   "status": 200,
+   "final_url": "https://ideas.repec.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 29872,
+   "truncated": false,
+   "sha256": "6bd72faa7dcb80a5606f9e841a967f51972cd0b892b7a2d6cd72463770f63ebb",
+   "fetched_at": "2026-10-20T01:48:02+00:00",
+   "rate_headers": {},
+   "text_bytes": 5026
+  },
+  "llms-err": {
+   "url": "https://docs.ideas.repec.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ideas.repec.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:03+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://ideas.repec.org/",
+   "status": 200,
+   "final_url": "https://ideas.repec.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 29872,
+   "truncated": false,
+   "sha256": "6bd72faa7dcb80a5606f9e841a967f51972cd0b892b7a2d6cd72463770f63ebb",
+   "fetched_at": "2026-10-20T01:49:50+00:00",
+   "rate_headers": {},
+   "text_bytes": 5026
+  },
+  "r2": {
+   "url": "https://ideas.repec.org/",
+   "status": 200,
+   "final_url": "https://ideas.repec.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 29872,
+   "truncated": false,
+   "sha256": "6bd72faa7dcb80a5606f9e841a967f51972cd0b892b7a2d6cd72463770f63ebb",
+   "fetched_at": "2026-10-20T02:21:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 5026
+  }
+ }
+}

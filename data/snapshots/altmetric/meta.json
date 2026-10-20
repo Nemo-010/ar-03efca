@@ -1,0 +1,125 @@
+{
+ "slug": "altmetric",
+ "name": "Altmetric",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:41+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.altmetric.com/",
+   "status": 200,
+   "final_url": "https://docs.altmetric.com/details-page-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 50463,
+   "truncated": false,
+   "sha256": "6621ec9450e667e3f5b8d52e8cb2b4cf4a13f81e3fae6b011117f8ccd182d530",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 2864
+  },
+  "home": {
+   "url": "https://www.altmetric.com/",
+   "status": 200,
+   "final_url": "https://www.altmetric.com/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 196243,
+   "truncated": false,
+   "sha256": "6444573e45000bf794e243961eba5c9c3f55e87d6d159de5cc021f47c9626ef1",
+   "fetched_at": "2026-10-20T01:47:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 8768
+  },
+  "llms": {
+   "url": "https://api.altmetric.com/llms.txt",
+   "status": 200,
+   "final_url": "https://docs.altmetric.com/details-page-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 50463,
+   "truncated": false,
+   "sha256": "6621ec9450e667e3f5b8d52e8cb2b4cf4a13f81e3fae6b011117f8ccd182d530",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 2864
+  },
+  "llms-952065-err": {
+   "url": "https://www.altmetric.com/llms.txt",
+   "status": 404,
+   "final_url": "https://www.altmetric.com/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 102530,
+   "truncated": false,
+   "sha256": "5cdd4ed1867a2a3a4cf67a79a9b2e2d904df5e7b8ffb3d9c0868ae35de0dac79",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {}
+  },
+  "llms-196d5d-err": {
+   "url": "https://docs.altmetric.com/llms.txt",
+   "status": 404,
+   "final_url": "https://docs.altmetric.com/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 48385,
+   "truncated": false,
+   "sha256": "8d7c10c50a211de1dba1d817b8ef6db98cedd1fdc6a0eb724a7f693e33d3a4f4",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.altmetric.com/",
+   "status": 200,
+   "final_url": "https://docs.altmetric.com/details-page-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 50463,
+   "truncated": false,
+   "sha256": "6621ec9450e667e3f5b8d52e8cb2b4cf4a13f81e3fae6b011117f8ccd182d530",
+   "fetched_at": "2026-10-20T01:49:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 2864
+  },
+  "policy2": {
+   "url": "https://api.altmetric.com/",
+   "status": 200,
+   "final_url": "https://docs.altmetric.com/details-page-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 50463,
+   "truncated": false,
+   "sha256": "6621ec9450e667e3f5b8d52e8cb2b4cf4a13f81e3fae6b011117f8ccd182d530",
+   "fetched_at": "2026-10-20T01:51:24+00:00",
+   "rate_headers": {},
+   "text_bytes": 2864
+  },
+  "limits": {
+   "url": "https://api.altmetric.com/",
+   "status": 200,
+   "final_url": "https://docs.altmetric.com/details-page-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 50463,
+   "truncated": false,
+   "sha256": "6621ec9450e667e3f5b8d52e8cb2b4cf4a13f81e3fae6b011117f8ccd182d530",
+   "fetched_at": "2026-10-20T01:52:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 2864
+  },
+  "r1": {
+   "url": "https://api.altmetric.com/",
+   "status": 200,
+   "final_url": "https://docs.altmetric.com/details-page-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 50463,
+   "truncated": false,
+   "sha256": "6621ec9450e667e3f5b8d52e8cb2b4cf4a13f81e3fae6b011117f8ccd182d530",
+   "fetched_at": "2026-10-20T01:58:22+00:00",
+   "rate_headers": {},
+   "text_bytes": 2864
+  },
+  "reasonable": {
+   "url": "https://docs.altmetric.com/reasonable-use",
+   "status": 404,
+   "final_url": "https://docs.altmetric.com/reasonable-use",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 48385,
+   "truncated": false,
+   "sha256": "8d7c10c50a211de1dba1d817b8ef6db98cedd1fdc6a0eb724a7f693e33d3a4f4",
+   "fetched_at": "2026-10-20T02:28:07+00:00",
+   "rate_headers": {}
+  }
+ }
+}

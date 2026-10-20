@@ -1,0 +1,103 @@
+{
+ "slug": "smithsonian",
+ "name": "Smithsonian Open Access",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:32+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://edan.si.edu/openaccess/apidocs/",
+   "status": 200,
+   "final_url": "https://edan.si.edu/openaccess/apidocs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 44522,
+   "truncated": false,
+   "sha256": "ffe0fe2e2ac46f1efecee67594d013bd75336e39a40e52d7ffdfb40c3143a2d1",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {},
+   "text_bytes": 26
+  },
+  "home": {
+   "url": "https://www.si.edu/openaccess",
+   "status": 200,
+   "final_url": "https://www.si.edu/openaccess",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 121204,
+   "truncated": false,
+   "sha256": "3d4d36c9d75b0553564496be68d108fc04052f077a8b74d250fa021f2a4da0db",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {},
+   "text_bytes": 4866
+  },
+  "llms-err": {
+   "url": "https://docs.edan.si.edu/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.edan.si.edu/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:34+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://edan.si.edu/openaccess/apidocs/",
+   "status": 200,
+   "final_url": "https://edan.si.edu/openaccess/apidocs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 44522,
+   "truncated": false,
+   "sha256": "ffe0fe2e2ac46f1efecee67594d013bd75336e39a40e52d7ffdfb40c3143a2d1",
+   "fetched_at": "2026-10-20T01:49:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 26
+  },
+  "policy2": {
+   "url": "https://edan.si.edu/openaccess/apidocs/",
+   "status": 200,
+   "final_url": "https://edan.si.edu/openaccess/apidocs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 44522,
+   "truncated": false,
+   "sha256": "ffe0fe2e2ac46f1efecee67594d013bd75336e39a40e52d7ffdfb40c3143a2d1",
+   "fetched_at": "2026-10-20T01:51:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 26
+  },
+  "limits": {
+   "url": "https://edan.si.edu/openaccess/apidocs/",
+   "status": 200,
+   "final_url": "https://edan.si.edu/openaccess/apidocs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 44522,
+   "truncated": false,
+   "sha256": "ffe0fe2e2ac46f1efecee67594d013bd75336e39a40e52d7ffdfb40c3143a2d1",
+   "fetched_at": "2026-10-20T01:54:09+00:00",
+   "rate_headers": {},
+   "text_bytes": 26
+  },
+  "r1": {
+   "url": "https://edan.si.edu/openaccess/apidocs/",
+   "status": 200,
+   "final_url": "https://edan.si.edu/openaccess/apidocs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 44522,
+   "truncated": false,
+   "sha256": "ffe0fe2e2ac46f1efecee67594d013bd75336e39a40e52d7ffdfb40c3143a2d1",
+   "fetched_at": "2026-10-20T01:58:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 26
+  },
+  "r2": {
+   "url": "https://edan.si.edu/openaccess/apidocs/#api-search",
+   "status": 200,
+   "final_url": "https://edan.si.edu/openaccess/apidocs/#api-search",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 44522,
+   "truncated": false,
+   "sha256": "ffe0fe2e2ac46f1efecee67594d013bd75336e39a40e52d7ffdfb40c3143a2d1",
+   "fetched_at": "2026-10-20T02:21:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 26
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "slug": "wayback-cdx",
+ "name": "Wayback Machine CDX",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:28+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+   "status": 200,
+   "final_url": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 325242,
+   "truncated": false,
+   "sha256": "ed248226d47975db1ee928e9117f73336e37ef226fb7a73622567b8f9b81084a",
+   "fetched_at": "2026-10-20T01:47:28+00:00",
+   "rate_headers": {},
+   "text_bytes": 19988
+  },
+  "home": {
+   "url": "https://web.archive.org/",
+   "status": 200,
+   "final_url": "https://web.archive.org/",
+   "content_type": "text/html",
+   "bytes": 154569,
+   "truncated": false,
+   "sha256": "8d256cd712d66128ea9d80d6bd76869709ce886f6d97295899d254deb35dda4b",
+   "fetched_at": "2026-10-20T01:47:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 4282
+  },
+  "llms-err": {
+   "url": "https://web.archive.org/llms.txt",
+   "status": 404,
+   "final_url": "https://web.archive.org/llms.txt",
+   "content_type": "text/html",
+   "bytes": 151559,
+   "truncated": false,
+   "sha256": "b8ff1fca70adb3b20b66489cbeceb0c1bfafc19409dc96f6bc0c829ccd1b8316",
+   "fetched_at": "2026-10-20T01:47:31+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://github.com/llms.txt",
+   "status": 200,
+   "final_url": "https://github.com/llms.txt",
+   "content_type": "text/plain",
+   "bytes": 28658,
+   "truncated": false,
+   "sha256": "71d217ec3186152052ca1050932c0e6e48e766d3bc5a1359b50aa140436d297f",
+   "fetched_at": "2026-10-20T02:09:56+00:00",
+   "rate_headers": {},
+   "text_bytes": 28658
+  },
+  "policy": {
+   "url": "https://archive.org/developers/wayback-cdx-server.html",
+   "status": 404,
+   "final_url": "https://archive.org/developers/wayback-cdx-server.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:49:53+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://archive.org/about/terms.php",
+   "status": 200,
+   "final_url": "https://archive.org/about/terms",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1951,
+   "truncated": false,
+   "sha256": "7fd0001d8ff3c6122db5e3d3ef32ea3f47615ba046cebfd3a1d9d02e53b7b4ec",
+   "fetched_at": "2026-10-20T01:49:53+00:00",
+   "rate_headers": {},
+   "text_bytes": 93
+  },
+  "policy3": {
+   "url": "https://archive.org/help/wayback_api.php",
+   "status": 200,
+   "final_url": "https://archive.org/help/wayback_api.php",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 144160,
+   "truncated": false,
+   "sha256": "d14f672f285a4e26c7adea0a5b8bbd7d8014eea1d67a282bff192e15e0965e62",
+   "fetched_at": "2026-10-20T01:50:31+00:00",
+   "rate_headers": {},
+   "text_bytes": 5435
+  },
+  "policy4": {
+   "url": "https://archive.org/developers/index.html",
+   "status": 200,
+   "final_url": "https://archive.org/developers/index.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 23165,
+   "truncated": false,
+   "sha256": "cae3a135775ba181b9b3bbe334f11523da6fc33367dccc368db2bf6e2c4704b4",
+   "fetched_at": "2026-10-20T01:50:32+00:00",
+   "rate_headers": {},
+   "text_bytes": 4846
+  },
+  "limits": {
+   "url": "https://archive.org/developers/wayback-cdx-server.html",
+   "status": 404,
+   "final_url": "https://archive.org/developers/wayback-cdx-server.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:54:02+00:00",
+   "rate_headers": {}
+  },
+  "limits2": {
+   "url": "https://archive.org/about/terms.php",
+   "status": 200,
+   "final_url": "https://archive.org/about/terms",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1951,
+   "truncated": false,
+   "sha256": "7fd0001d8ff3c6122db5e3d3ef32ea3f47615ba046cebfd3a1d9d02e53b7b4ec",
+   "fetched_at": "2026-10-20T01:54:03+00:00",
+   "rate_headers": {},
+   "text_bytes": 93
+  }
+ }
+}

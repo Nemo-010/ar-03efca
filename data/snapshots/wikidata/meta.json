@@ -1,0 +1,103 @@
+{
+ "slug": "wikidata",
+ "name": "Wikidata Query Service",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:34+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 185598,
+   "truncated": false,
+   "sha256": "82fbab18a17fcaf50d964b70d4fd2b71288dbfbd175c574db7ce7450159ce331",
+   "fetched_at": "2026-10-20T01:47:34+00:00",
+   "rate_headers": {},
+   "text_bytes": 35287
+  },
+  "home": {
+   "url": "https://query.wikidata.org/",
+   "status": 200,
+   "final_url": "https://query.wikidata.org/",
+   "content_type": "text/html",
+   "bytes": 17940,
+   "truncated": false,
+   "sha256": "a2685dafac7ed08b53edba5699e23c142ead168f64a7aa7a0b1a5a6886f6a074",
+   "fetched_at": "2026-10-20T01:47:35+00:00",
+   "rate_headers": {},
+   "text_bytes": 131
+  },
+  "llms-err": {
+   "url": "https://query.wikidata.org/llms.txt",
+   "status": 404,
+   "final_url": "https://query.wikidata.org/llms.txt",
+   "content_type": "text/html; charset=iso-8859-1",
+   "bytes": 236,
+   "truncated": false,
+   "sha256": "9448f8a1159c9b14e3e1b9d8eab1a6ddf88d26e1f888a34cef430c756e4e6e1e",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://docs.mediawiki.org/llms.txt",
+   "status": 200,
+   "final_url": "https://doc.wikimedia.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 86039,
+   "truncated": false,
+   "sha256": "2cd3a42a459c9e499644c523d811a51bfd88e19eb3a946a4e7e77032f33e1271",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 18290
+  },
+  "policy": {
+   "url": "https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 185598,
+   "truncated": false,
+   "sha256": "82fbab18a17fcaf50d964b70d4fd2b71288dbfbd175c574db7ce7450159ce331",
+   "fetched_at": "2026-10-20T01:49:53+00:00",
+   "rate_headers": {},
+   "text_bytes": 35287
+  },
+  "policy2": {
+   "url": "https://query.wikidata.org/",
+   "status": 200,
+   "final_url": "https://query.wikidata.org/",
+   "content_type": "text/html",
+   "bytes": 17940,
+   "truncated": false,
+   "sha256": "a2685dafac7ed08b53edba5699e23c142ead168f64a7aa7a0b1a5a6886f6a074",
+   "fetched_at": "2026-10-20T01:50:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 131
+  },
+  "limits": {
+   "url": "https://query.wikidata.org/",
+   "status": 200,
+   "final_url": "https://query.wikidata.org/",
+   "content_type": "text/html",
+   "bytes": 17940,
+   "truncated": false,
+   "sha256": "a2685dafac7ed08b53edba5699e23c142ead168f64a7aa7a0b1a5a6886f6a074",
+   "fetched_at": "2026-10-20T01:54:14+00:00",
+   "rate_headers": {},
+   "text_bytes": 131
+  },
+  "r1": {
+   "url": "https://query.wikidata.org/",
+   "status": 200,
+   "final_url": "https://query.wikidata.org/",
+   "content_type": "text/html",
+   "bytes": 17940,
+   "truncated": false,
+   "sha256": "a2685dafac7ed08b53edba5699e23c142ead168f64a7aa7a0b1a5a6886f6a074",
+   "fetched_at": "2026-10-20T01:58:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 131
+  }
+ }
+}

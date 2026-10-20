@@ -1,0 +1,103 @@
+{
+ "slug": "osti",
+ "name": "OSTI.gov",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:48:00+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.osti.gov/api/v1/docs",
+   "status": 200,
+   "final_url": "https://www.osti.gov/api/v1/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 43998,
+   "truncated": false,
+   "sha256": "38e5a82b0184787a4daf56945286cafa6c238166b9a3759014327b75127d8058",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 16500
+  },
+  "home": {
+   "url": "https://www.osti.gov/",
+   "status": 200,
+   "final_url": "https://www.osti.gov/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 265223,
+   "truncated": false,
+   "sha256": "54d72362b1987521bd67808935ef5bad081d6a4c6e9b176858aea682b96f551f",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 1529
+  },
+  "llms-err": {
+   "url": "https://docs.osti.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.osti.gov/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:03+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.osti.gov/api/v1/docs",
+   "status": 200,
+   "final_url": "https://www.osti.gov/api/v1/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 43998,
+   "truncated": false,
+   "sha256": "4b40b6e25c893e57e4c0fb10725933a133084c653307980014d9a8625dbef17d",
+   "fetched_at": "2026-10-20T01:49:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 16500
+  },
+  "policy2": {
+   "url": "https://www.osti.gov/api/v1/docs",
+   "status": 200,
+   "final_url": "https://www.osti.gov/api/v1/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 43998,
+   "truncated": false,
+   "sha256": "2f171f9f331026ac76af465d1caa4e1e858095d271b622fac088ed120a8cca1a",
+   "fetched_at": "2026-10-20T01:51:06+00:00",
+   "rate_headers": {},
+   "text_bytes": 16500
+  },
+  "limits": {
+   "url": "https://www.osti.gov/api/v1/docs",
+   "status": 200,
+   "final_url": "https://www.osti.gov/api/v1/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 42439,
+   "truncated": false,
+   "sha256": "f6ebb86cc26a66c6f60473cff5e448199f0ed8f90d2cd27efe67715fd3d54ccc",
+   "fetched_at": "2026-10-20T01:53:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 16500
+  },
+  "r1": {
+   "url": "https://www.osti.gov/api/v1/docs",
+   "status": 200,
+   "final_url": "https://www.osti.gov/api/v1/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 43998,
+   "truncated": false,
+   "sha256": "6dfc01cbbdd7260347365e4e9589d229be5c874f910b1c774b2be83832f99672",
+   "fetched_at": "2026-10-20T01:58:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 16500
+  },
+  "r2": {
+   "url": "https://www.osti.gov/api/v1/docs",
+   "status": 200,
+   "final_url": "https://www.osti.gov/api/v1/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 43998,
+   "truncated": false,
+   "sha256": "25878e7ead684c490e41764a2db930c7b0b43f93018349d3a6a56f9074ee996a",
+   "fetched_at": "2026-10-20T02:21:55+00:00",
+   "rate_headers": {},
+   "text_bytes": 16500
+  }
+ }
+}

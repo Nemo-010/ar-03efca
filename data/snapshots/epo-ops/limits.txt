@@ -1,0 +1,35 @@
+Home Page | EPO Developer Portal 
+ Skip to main content 
+ Developer's Area 
+ Contact 
+ Menu 
+ About Open Patent Services 
+ register 
+ login 
+ Open Patent Services (OPS) 
+ Open Patent Services (OPS) is a web service which provides access to the EPO's raw data via a standardised XML interface. It does this using RESTful architecture. 
+ OPS data is extracted from the EPO's bibliographic, worldwide legal status, full-text and image databases. It is therefore from the same sources as the Espacenet and European Patent Register data. 
+ With OPS you can: 
+ add EPO data to your own software applications or in-house databases 
+ develop tailor-made clients  
+ download large volumes of data 
+ Getting started: 
+ Get your own credentials to test the developers’ area. Simply follow these five steps: 
+ Register to get access credentials 
+ Log in and define a test app for testing 
+ Test the system by clicking  APIs  in the menu 
+ Define your apps and handle authentication (using "OAuth") 
+ Add them to your script 
+ How to test OPS web services (GET and POST): 
+ Testing available for registered users only. Get your own credentials to test the developers’ area. Simply follow these steps: 
+ Login with your active user credentials 
+ Create test App file or add your own App(s) to My Apps area in Developer’s Console 
+ Choose which service you want to test 
+ Change/insert your query parameters 
+ Request the token by clicking on “Set OAut 2.0” 
+ Click on “Send this Request” button to get the test response 
+ Documentation: 
+ Please refer to the appropriate documentation for further information: 
+ OPS User reference guide and other reference documentation 
+ How to test OPS using Developer portal tools  Quick help 
+ Terms and Conditions

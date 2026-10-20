@@ -1,0 +1,43 @@
+Proteins API EMBL-EBI 
+ Skip to main content 
+ Skip to local navigation 
+ Skip to EBI global navigation menu 
+ Skip to expanded EBI global navigation menu (includes all sub-sections) 
+ EMBL-EBI 
+ Services 
+ Research 
+ Training 
+ About us 
+ Search 
+ Hinxton 
+ Proteins API 
+ Home 
+ Examples 
+ Release notes 
+ Contact 
+ Proteins 
+ Proteins inc. isoforms 
+ Features 
+ Variation 
+ Antigen 
+ Epitope 
+ Mutagenesis 
+ RNA Editing 
+ Proteomics 
+ Metadata 
+ Non-Ptm 
+ Ptm 
+ Human proteome project 
+ Proteomes 
+ Proteomes 
+ Gene centric 
+ Taxonomy 
+ Coordinates 
+ UniParc 
+ The Proteins REST API provides access to key biological data from UniProt and data from Large Scale Studies (LSS) mapped to UniProt. The services provide sequence feature annotations from UniProtKB, variation data from UniProtKB and mapped from LSS (1000 Genomes, ExAC, ClinVar, TCGA, COSMIC, TOPMed and gnomAD), proteomics & hpp data mapped from MS-proteomics repositories (PeptideAtlas, MaxQB, EPD and ProteomicsDB), antigen sequences mapped from Human Protein Atlas (HPA), epitope sequences, proteomes and taxonomy search and retrieval, reference genome coordinate mappings and data from UniParc. 
+ The base URL for the API is www.ebi.ac.uk/proteins/api .
+ To provide you with our REST API, we perform limited processing on your personal data. By using our API you are agreeing to this as outlined in our Privacy Notice and our Terms of use . 
+ How to cite us: The proteins API: accessing key integrated protein and genome information 
+ (doi: 10.1093/nar/gkx237 ) 
+ We limit your requests to 200 requests/second/user. If you plan to retrieve large amount of data, please see example 3 to use pagination or use -1 to stream your data:
+ examples .

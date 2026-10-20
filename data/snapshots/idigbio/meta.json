@@ -1,0 +1,127 @@
+{
+ "slug": "idigbio",
+ "name": "iDigBio",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:58+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "status": 200,
+   "final_url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 268641,
+   "truncated": false,
+   "sha256": "2df71a8b1cc9e12f72c385d3362511d3be15711d73676f3646bcec64625350ef",
+   "fetched_at": "2026-10-20T01:47:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 14869
+  },
+  "home": {
+   "url": "https://www.idigbio.org/",
+   "status": 200,
+   "final_url": "https://www.idigbio.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 372,
+   "truncated": false,
+   "sha256": "31d6f144b150b6f47c8c75c83c5cc41855b8036f542bb77eb9ec595cac5e02df",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 130
+  },
+  "llms": {
+   "url": "https://github.com/llms.txt",
+   "status": 200,
+   "final_url": "https://github.com/llms.txt",
+   "content_type": "text/plain",
+   "bytes": 28658,
+   "truncated": false,
+   "sha256": "71d217ec3186152052ca1050932c0e6e48e766d3bc5a1359b50aa140436d297f",
+   "fetched_at": "2026-10-20T02:11:24+00:00",
+   "rate_headers": {},
+   "text_bytes": 28658
+  },
+  "llms-029baf-err": {
+   "url": "https://www.idigbio.org/llms.txt",
+   "status": 404,
+   "final_url": "https://www.idigbio.org/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1157,
+   "truncated": false,
+   "sha256": "aac75e16f7c7aa92e5c3386a02b94284af585dca061411f940de5741f3405885",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {}
+  },
+  "llms-0cc2fa": {
+   "url": "https://docs.github.com/llms.txt",
+   "status": 200,
+   "final_url": "https://docs.github.com/llms.txt",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 28642,
+   "truncated": false,
+   "sha256": "c10af0cdb5576f81fd29373cf56ac65608d24c3e4c935c7993d2bba27d56af4e",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 28634
+  },
+  "policy": {
+   "url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "status": 200,
+   "final_url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 268641,
+   "truncated": false,
+   "sha256": "18bcbe3dc54235b5314316acd8a4ef2fb5067a54dd8a84508c46cd4a3c3234a3",
+   "fetched_at": "2026-10-20T01:49:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 14869
+  },
+  "policy2": {
+   "url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "status": 200,
+   "final_url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 268641,
+   "truncated": false,
+   "sha256": "05570fd80ae9775d32f51f56927724bc1cd29c043b83a3dc98ae0593f0931ff0",
+   "fetched_at": "2026-10-20T01:51:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 14869
+  },
+  "limits": {
+   "url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "status": 200,
+   "final_url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 268637,
+   "truncated": false,
+   "sha256": "20c225d338a5b45ad45be99542bc1c5917dc50d185a4c95ff26d62129142e059",
+   "fetched_at": "2026-10-20T01:53:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 14869
+  },
+  "r1": {
+   "url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "status": 200,
+   "final_url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 268635,
+   "truncated": false,
+   "sha256": "0ccde8c104204ffa92ee0e284b4d75a79d8b6ee42d6d3d4db6966901310f8781",
+   "fetched_at": "2026-10-20T01:58:38+00:00",
+   "rate_headers": {},
+   "text_bytes": 14869
+  },
+  "r2": {
+   "url": "https://github.com/iDigBio/idigbio-search-api/wiki/Loading-Performance-and-Limits",
+   "status": 200,
+   "final_url": "https://github.com/iDigBio/idigbio-search-api/wiki/Loading-Performance-and-Limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 195209,
+   "truncated": false,
+   "sha256": "a0ca62732ea5f799d446705af1efe84ee9e620f428b23cced250fac9ffcf3a90",
+   "fetched_at": "2026-10-20T02:21:53+00:00",
+   "rate_headers": {},
+   "text_bytes": 3573
+  }
+ }
+}

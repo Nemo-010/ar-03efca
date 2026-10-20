@@ -1,0 +1,643 @@
+API Document de Gallica | BnF API et jeux de données 
+ Contenu principal
+ Menu de navigation
+ Recherche
+ Pied de page
+ API et jeux de données 
+ Accéder aux données
+ API 
+ Jeux de données brutes 
+ Jeux de données transformées 
+ Par source 
+ Apprendre & utiliser
+ Découvrir api.bnf.fr 
+ Documentation 
+ Exemples d'utilisations 
+ Services 
+ Professionnels
+ Chercheurs 
+ Métiers du livre 
+ Blog 
+ XML 
+ API Document de Gallica 
+ Présentation 
+ À partir d'un document trouvé via l’API de recherche ou de l'interface Gallica, l’API Document permet de récupérer les d'informations (métadonnées) nécessaires à l'exploitation des ressources numériques du document. 
+ Console
+ Identifiant commun aux services
+ Le dénominateur commun de ces services est l’ark du document numérique Gallica. Cette information est portée par la balise dc:identifier fournie par le service SRU de Gallica dont le contenu débute par https://gallica.bnf.fr/ark:/12148/ 
+ <oai_dc:dc>
+ <dc:contributor>Kauffmann, P.. Illustrateur</dc:contributor>
+ <dc:creator>Haurigot, Georges. Auteur du texte</dc:creator>
+ <dc:format>1 vol. (227 p.) : ill. ; 26 cm</dc:format>
+ <dc:format>application/pdf</dc:format>
+ <dc:format>Nombre total de vues : 240</dc:format>
+ <!-- LA BALISE DC:IDENTIFIER -->
+ <dc:identifier>https://gallica.bnf.fr/ark:/12148/bpt6k9633077k</dc:identifier>
+ <!-- LA BALISE DC:IDENTIFIER -->
+ <dc:language>fre</dc:language>
+ <dc:language>français</dc:language>
+ <dc:publisher>Paris ()</dc:publisher>
+ <dc:publisher>
+ Charavay, Mantoux, Martin, Librairie d'éducation de la jeunesse ()
+ </dc:publisher>
+ <dc:relation>
+ Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb444319122
+ </dc:relation>
+ <dc:rights>domaine public</dc:rights>
+ <dc:rights>public domain</dc:rights>
+ <dc:source>
+ Bibliothèque nationale et universitaire de Strasbourg, 2015-256233
+ </dc:source>
+ <dc:title>
+ Les malices de Gaspard (10e série) / Par Georges Haurigot ; Illustrations de P. Kauffmann
+ </dc:title>
+ <dc:type>text</dc:type>
+ <dc:type>monographie imprimée</dc:type>
+ <dc:type>printed monograph</dc:type>
+</oai_dc:dc> 
+ Service de récupération des années et fascicule paru pour un périodique
+ Ce service permet de récupérer les années de parution et la liste des fascicules pour une année d’un périodique transmis en paramètre. 
+ Utilisation : 
+ Verbe Issues : https://gallica.bnf.fr/services/Issues 
+ Paramètres : 
+ ark : identifiant ARK du périodique, de la forme « ark:/12148/cb32798952c/date ». 
+ date (optionnel) : année pour laquelle on souhaite récupérer les fascicules. 
+ Sans paramètre date , le service renvoie la liste complète des années pour lesquelles il existe au moins un fascicule consultable, triée par année. 
+Avec le paramètre date , le service renvoie tous les fascicules consultables, triés par jour de parution. 
+ Exemple 1 : 
+ Récupération de toutes les dates de parution pour le périodique "Le Journal de Toto" (ark : ark:/12148/cb32798952c/date) :   https://gallica.bnf.fr/services/Issues?ark=ark:/12148/cb32798952c/date 
+ <issues compile_time="0:00:00.327" list_type="years" parent_ark="ark:/12148/cb32798952c/date" total_issues="62" uc3="no">
+ <year>1937</year>
+ <year>1938</year>
+</issues> 
+ Parmi les attributs de la balise issues : 
+ total_issues : nombre total de fascicules pour le titre de périodique. 
+ uc3 : signale si ce périodique est de type UC3 ou NUM (valeurs possibles : yes / no). Un calendrier ne peut être construit pour les périodiques NUM mais la grande majorité des périodiques sont de type UC3. 
+ Chaque balise year contient une année d'édition. 
+ La liste est triée par ordre croissant portant sur les années de parution. 
+ Exemple 2 : 
+ Récupération des identifiants ark des documents numériques de tous les fascicules parus pour le périodique "Le Journal de Toto" (ark : ark:/12148/cb32798952c/date) pour une année donnée (1937) :   https://gallica.bnf.fr/services/Issues?ark=ark:/12148/cb32798952c/date&date=1937 
+ <?xml version="1.0" encoding="UTF-8"?><issues compile_time="0:00:01.483" date="1937" list_type="issue" parent_ark="cb32798952c/date">
+ <issue ark="bpt6k5505325m" dayOfYear="77">1937/03/18 (A1,N2).</issue>
+ <issue ark="bpt6k5509212w" dayOfYear="84">1937/03/25 (A1,N3).</issue>
+ <issue ark="bpt6k5509226x" dayOfYear="91">1937/04/01 (A1,N4).</issue>
+ <issue ark="bpt6k5509221v" dayOfYear="98">1937/04/08 (A1,N5).</issue>
+ <issue ark="bpt6k5509234g" dayOfYear="105">1937/04/15 (A1,N6).</issue>
+ <issue ark="bpt6k55092406" dayOfYear="112">1937/04/22 (A1,N7).</issue>
+ <issue ark="bpt6k5509246p" dayOfYear="119">1937/04/29 (A1,N8).</issue>
+ <issue ark="bpt6k5509250k" dayOfYear="126">1937/05/06 (A1,N9).</issue>
+ <issue ark="bpt6k55092562" dayOfYear="133">1937/05/13 (A1,N10).</issue>
+ <issue ark="bpt6k5509264m" dayOfYear="140">1937/05/20 (A1,N11).</issue>
+ <issue ark="bpt6k5509271r" dayOfYear="147">1937/05/27 (A1,N12).</issue>
+ <issue ark="bpt6k55092740" dayOfYear="154">1937/06/03 (A1,N13).</issue>
+ <issue ark="bpt6k55092792" dayOfYear="161">1937/06/10 (A1,N14).</issue>
+ <issue ark="bpt6k5509284c" dayOfYear="168">1937/06/17 (A1,N15).</issue>
+ <issue ark="bpt6k5509289f" dayOfYear="175">1937/06/24 (A1,N16).</issue>
+ <issue ark="bpt6k5509294r" dayOfYear="182">1937/07/01 (A1,N17).</issue>
+ <issue ark="bpt6k5509299t" dayOfYear="189">1937/07/08 (A1,N18).</issue>
+ <issue ark="bpt6k55093038" dayOfYear="196">1937/07/15 (A1,N19).</issue>
+ <issue ark="bpt6k5509308b" dayOfYear="203">1937/07/22 (A1,N20).</issue>
+ <issue ark="bpt6k55093142" dayOfYear="210">1937/07/29 (A1,N21).</issue>
+ <issue ark="bpt6k55093194" dayOfYear="217">1937/08/05 (A1,N22).</issue>
+ <issue ark="bpt6k55093231" dayOfYear="224">1937/08/12 (A1,N23).</issue>
+ <issue ark="bpt6k55093268" dayOfYear="231">1937/08/19 (A1,N24).</issue>
+ <issue ark="bpt6k55093305" dayOfYear="238">1937/08/26 (A1,N25).</issue>
+ <issue ark="bpt6k55093357" dayOfYear="245">1937/09/02 (A1,N26).</issue>
+ <issue ark="bpt6k5509338g" dayOfYear="252">1937/09/09 (A1,N27).</issue>
+ <issue ark="bpt6k5509340j" dayOfYear="259">1937/09/16 (A1,N28).</issue>
+ <issue ark="bpt6k5509342c" dayOfYear="266">1937/09/23 (A1,N29).</issue>
+ <issue ark="bpt6k55093446" dayOfYear="273">1937/09/30 (A1,N30).</issue>
+ <issue ark="bpt6k55093461" dayOfYear="280">1937/10/07 (A1,N31).</issue>
+ <issue ark="bpt6k5509348v" dayOfYear="287">1937/10/14 (A1,N32).</issue>
+ <issue ark="bpt6k5509350x" dayOfYear="294">1937/10/21 (A1,N33).</issue>
+ <issue ark="bpt6k55093535" dayOfYear="301">1937/10/28 (A1,N34).</issue>
+ <issue ark="bpt6k55093550" dayOfYear="308">1937/11/04 (A1,N35).</issue>
+ <issue ark="bpt6k55093587" dayOfYear="315">1937/11/11 (A1,N36).</issue>
+ <issue ark="bpt6k55093609" dayOfYear="322">1937/11/18 (A1,N37).</issue>
+ <issue ark="bpt6k5509363j" dayOfYear="329">1937/11/25 (A1,N38).</issue>
+ <issue ark="bpt6k5509365c" dayOfYear="336">1937/12/02 (A1,N39).</issue>
+ <issue ark="bpt6k5509370p" dayOfYear="343">1937/12/09 (A1,N40).</issue>
+ <issue ark="bpt6k55093713" dayOfYear="350">1937/12/16 (A1,N41).</issue>
+ <issue ark="bpt6k5509373x" dayOfYear="357">1937/12/23 (A1,N42).</issue>
+ <issue ark="bpt6k5509375r" dayOfYear="364">1937/12/30 (A1,N43).</issue>
+</issues> 
+ La liste est triée par ordre croissant sur les jours de parution des fascicules. 
+ Chaque fascicule de périodique est identifié par une balise issue . Parmi les attributs : 
+ ark : identifiant ARK du fascicule numérique. 
+ dayOfYear : date de parution du fascicule. Il s’agit du jour de l’année de parution. 
+ Le contenu texte de la balise est ce que l’on appelle la "précision" du fascicule. Il s’agit de contenu textuel contenant en général le jour de parution (sous la forme année/mois/jour), mais il peut contenir d’autres informations textuelles complémentaires. Note : il ne faut pas se baser sur ce texte pour en déduire année/mois/jour, car son format n'est pas structuré (texte libre). 
+ Service de récupération des informations bibliographiques d'un document
+ Connaissant un document numérique (son ark), ce service permet d'obtenir des informations bibliographiques et techniques pour ensuite en déduire des actions possible (notamment l'utilisation d'autre services de l'API Document). 
+ Utilisation : 
+ Verbe OAIRecord : https://gallica.bnf.fr/services/OAIRecord 
+ Ce service renvoie la notice OAI-PMH du document ainsi que d’autres informations techniques, telles que le type de document, ou si la recherche plein texte est disponible ou pas. 
+ Un seul paramètre est obligatoire, il s’agit de l’ark de l’identifiant numérique du document. 
+ Le service retourne donc : 
+ 400 s’il manque le paramètre ark 
+ 404 si la notice n’est pas trouvée (document non indexé). 
+ 500 en cas d'erreur du serveur 
+ Le flux XML contenant la notice au format Dublin Core, accompagnée de certains paramètres récupérés de l’index. 
+ Exemple : https://gallica.bnf.fr/services/OAIRecord?ark=bpt6k5738219s 
+ <?xml version="1.0" encoding="UTF-8" ?> 
+<results countResults="1" resultType="LuceneOAIRecordSearch" searchTime="0:00:00.001">
+ <notice>
+ <record xmlns="http://www.openarchives.org/OAI/2.0/">
+ <header>
+ <identifier>oai:bnf.fr:gallica/ark:/12148/bpt6k5738219s</identifier> 
+ <datestamp>2012-01-27</datestamp> 
+ <setSpec>gallica:theme:8:84</setSpec> 
+ <setSpec>gallica:typedoc:monographies</setSpec> 
+ </header>
+ <metadata>
+ <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <dc:identifier>https://gallica.bnf.fr/ark:/12148/bpt6k5738219s</dc:identifier> 
+ <dc:title>La plage d'Etretat par l'auteur de "Monsieur X et Mme ***"</dc:title> 
+ <dc:publisher>Michel Levy (Paris)</dc:publisher> 
+ <dc:date>1868</dc:date> 
+ <dc:format>In-18</dc:format> 
+ <dc:language>fre</dc:language> 
+ <dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb33539190h</dc:relation> 
+ <dc:type xml:lang="eng">text</dc:type> 
+ <dc:type xml:lang="fre">monographie imprimée</dc:type> 
+ <dc:type xml:lang="eng">printed monograph</dc:type> 
+ <dc:format>application/pdf</dc:format> 
+ <dc:source>Bibliothèque nationale de France, département Littérature et art, Y2-59413</dc:source> 
+ <dc:rights xml:lang="fre">domaine public</dc:rights> 
+ <dc:rights xml:lang="eng">public domain</dc:rights> 
+ </oai_dc:dc>
+ </metadata>
+ </record>
+ </notice>
+ <mode_indexation>text</mode_indexation> 
+ <nqamoyen>092.57</nqamoyen> 
+ <provenance>bnf.fr</provenance> 
+ <source>Bibliothèque nationale de France, département Littérature et art, Y2-59413</source> 
+ <typedoc>monographies</typedoc> 
+ <date>1868</date> 
+ <title>La plage d'Etretat par l'auteur de "Monsieur X et Mme ***"</title> 
+ <sdewey>84</sdewey> 
+</results> 
+ Dans cet exemple, on voit la valeur 092.57 dans le balise <nqamoyen>, ce qui indique la présence d'un OCR et permet d'utiliser le service d'occurrence de recherche (voir ci-après). En effet, si cette valeur est égale ou supérieure à 050.00, le texte océrisé est indexé par le moteur de Gallica. 
+ Des balises ont été ajoutées pour les documents audio ou vidéo. 
+ Document audio: 
+ https://gallica.bnf.fr/services/OAIRecord?ark=bpt6k1279113 ​ 
+ <?xml version="1.0" encoding="UTF-8"?><results ResultsGenerationSearchTime="0:00:00.037" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+<visibility_rights>all</visibility_rights>
+<notice>
+<record>
+<header>
+<identifier>oai:bnf.fr:gallica/ark:/12148/bpt6k1279113</identifier>
+<datestamp>2016-09-30</datestamp>
+<setSpec>gallica:typedoc:audio</setSpec>
+</header>
+<metadata>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/bpt6k1279113</dc:identifier>
+<dc:title>[Archives de la parole]. , Discours d'inauguration des Archives de la parole / M. Brunot, aut., participant</dc:title>
+<dc:relation>Notice d'ensemble : http://catalogue.bnf.fr/ark:/12148/cb412948151</dc:relation>
+<dc:relation>Titre d'ensemble : [Archives de la parole]. [Enregistrements à la Sorbonne] : [1911-1914]</dc:relation>
+<dc:creator>Brunot, Ferdinand (1860-1938). Auteur du texte</dc:creator>
+<dc:contributor>Brunot, Ferdinand (1860-1938). Participant</dc:contributor>
+<dc:publisher>Université de Paris, Archives de la parole (Paris)</dc:publisher>
+<dc:description>[Discours. 1911-06-03]</dc:description>
+<dc:date>1911</dc:date>
+<dc:identifier>94874-RA, 94876-RAUniversité de Paris-Archives de la parole</dc:identifier>
+<dc:identifier>Numéro commercial : Université de Paris-Archives de la parole O.3 (n ° de face). O.3bis (n ° de face)</dc:identifier>
+<dc:description>Enregistrement : (France) Paris, Université de Paris, La Sorbonne, 03-06-1911</dc:description>
+<dc:subject>enregistrement parlé</dc:subject>
+<dc:format>1 disque : 90 t ; 35 cm</dc:format>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb385163820</dc:relation>
+<dc:type xml:lang="eng">sound</dc:type>
+<dc:type xml:lang="fre">document sonore</dc:type>
+<dc:format xml:lang="eng">disc</dc:format>
+<dc:format xml:lang="fre">disque pré-lp</dc:format>
+<dc:source>Bibliothèque nationale de France, département Audiovisuel, AP-3</dc:source>
+<dc:rights xml:lang="fre">domaine public</dc:rights>
+<dc:rights xml:lang="eng">public domain</dc:rights>
+<dc:format>multipart/mixed</dc:format>
+</oai_dc:dc>
+</metadata>
+</record>
+</notice>
+<provenance>bnf.fr</provenance>
+<source>Bibliothèque nationale de France, département Audiovisuel, AP-3</source>
+<typedoc>sonore</typedoc>
+<nqamoyen>0.0</nqamoyen>
+<title>[Archives de la parole]. , Discours d'inauguration des Archives de la parole / M. Brunot, aut., participant</title>
+<date nbIssue="1">1911</date>
+<sounds>
+<page num="0">
+<media>
+<title>Plage 1</title>
+<file>https://gallica.bnf.fr/ark:/12148bpt6k1279113/f1.audio</file>
+</media>
+</page>
+<page num="1">
+<media>
+<title>Plage 1</title>
+<file>https://gallica.bnf.fr/ark:/12148/bpt6k1279113/f2.audio</file>
+</media>
+</page>
+</sounds>
+<first_indexation_date>10/03/2009</first_indexation_date>
+</results> 
+ ​ et notamment cette partie 
+ <sounds>
+<page num="0">
+<media>
+<title>Plage 1</title>
+<file>https://gallica.bnf.fr/ark:/12148/bpt6k1279113/f1.audio</file>
+</media>
+</page>
+<page num="1">
+<media>
+<title>Plage 1</title>
+<file>https://gallica.bnf.fr/ark:/12148/bpt6k1279113/f2.audio</file>
+</media>
+</page>
+</sounds> 
+ Les balises sont les suivantes : 
+ sounds : balise englobante indiquant la présence de contenu sonore 
+ page : balise répétable indiquant à quelle page du document se rattache le contenu sonore. Le numéro de la page est contenu dans l'attribut num de cette balise 
+ media : cette balise est répétable dans page. Il peut y avoir plusieurs média rattachés à une page 
+ title : contient le titre de la plage à lire 
+ file : contient un lien vers la ressource à lire, un fichier mp3 ici.  
+ Document vidéo : 
+ https://gallica.bnf.fr/services/OAIRecord?ark=bpt6k1320053k 
+ <?xml version="1.0" encoding="UTF-8"?><results ResultsGenerationSearchTime="0:00:00.017" countResults="1" resultType="CVOAIRecordSearchService" searchTime="">
+<visibility_rights>all</visibility_rights>
+<notice>
+<record>
+<header>
+<identifier>oai:bnf.fr:gallica/ark:/12148/bpt6k1320053k</identifier>
+<datestamp>2017-09-26</datestamp>
+<setSpec>gallica:typedoc:videos</setSpec>
+</header>
+<metadata>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+<dc:identifier>https://gallica.bnf.fr/ark:/12148/bpt6k1320053k</dc:identifier>
+<dc:title>Le café / Raymond Enokou, réal. ; Louis Effi, voix</dc:title>
+<dc:creator>Enokou, Raymond. Réalisateur</dc:creator>
+<dc:contributor>Effi, Louis. Voix parlée</dc:contributor>
+<dc:publisher>CNDP [prod., distrib.] (Montrouge)</dc:publisher>
+<dc:date>1982</dc:date>
+<dc:subject xml:lang="fre">Caféiculture -- Côte d'Ivoire</dc:subject>
+<dc:description>Collection : Une production agricole</dc:description>
+<dc:format>1 fichier vidéo numérique (24 min) : 4/3, coul. (PAL), son.</dc:format>
+<dc:language>fre</dc:language>
+<dc:language>français</dc:language>
+<dc:relation>Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb43539572s</dc:relation>
+<dc:type xml:lang="fre">image animée</dc:type>
+<dc:type xml:lang="eng">moving image</dc:type>
+<dc:source>Réseau Canopé, VNUM-9802</dc:source>
+<dc:rights xml:lang="fre">conditions spécifiques d'utilisation (sous convention BnF-ADM-2011-061589-01)</dc:rights>
+<dc:rights xml:lang="eng">restricted use (convention BnF-ADM-2011-061589-01)</dc:rights>
+<dc:description>Résumé : Ce film ivoirien présente avec une grande précision les différentes étapes culturales de la production du café, production économique principale du pays (source : Média-Scérén)</dc:description>
+<dc:description>Durée : 00:24:26</dc:description>
+<dc:format>Nombre total de vues : 2</dc:format>
+<dc:description>Thème : Agriculture, pêche</dc:description>
+</oai_dc:dc>
+</metadata>
+</record>
+</notice>
+<provenance>bnf.fr</provenance>
+<source>Réseau Canopé, VNUM-9802</source>
+<typedoc>video</typedoc>
+<nqamoyen>0.0</nqamoyen>
+<title>Le café / Raymond Enokou, réal. ; Louis Effi, voix</title>
+<date nbIssue="1">1982</date>
+<video>
+<file>http://gallica.bnf.fr/videolabs/bpt6k1320053k.mp4</file>
+</video>
+<first_indexation_date>01/10/2017</first_indexation_date>
+</results>
+ et notamment cette partie : 
+ <video>
+<file>https://gallica.bnf.fr/videolabs/bpt6k1320053k.mp4</file>
+</video> 
+ Une seule vidéo par document numérique (pour le moment). 
+ Les balises sont les suivantes : 
+ video : balise englobante pour l'accès au média 
+ file : lien d'accès direct au média 
+ Service de récupération de la pagination d'un document
+ Connaissant un document numérique, les informations nécessaires pour le parcourir sont fournies par le service Pagination. 
+ Utilisation : 
+ Verbe Pagination : https://gallica.bnf.fr/services/Pagination 
+ Ce service renvoie la pagination et la foliotation d'un document. 
+ Un seul paramètre est obligatoire, il s’agit de l’ark de l’identifiant numérique du document. 
+ Le service retourne donc : 
+ 500 en cas d'erreur serveur 
+ le flux XML contenant la structure de la pagination du document 
+ Exemple : https://gallica.bnf.fr/services/Pagination?ark=bpt6k5738219s 
+ <?xml version="1.0" encoding="UTF-8"?>
+<livre>
+ <structure>
+ <firstDisplayedPage>12</firstDisplayedPage>
+ <hasToc>true</hasToc>
+ <TocLocation>328</TocLocation>
+ <hasContent>true</hasContent>
+ <idUPN>NUMM-5738219</idUPN>
+ <nbVueImages>374</nbVueImages>
+ </structure>
+ <pages>
+ <page>
+ <numero>NP</numero>
+ <ordre>1</ordre>
+ <pagination_type>N</pagination_type>
+ </page>
+ <page>
+ <numero>NP</numero>
+ <ordre>2</ordre>
+ <pagination_type>N</pagination_type>
+ </page>
+ … 
+ Description des éléments : 
+ firstDisplayedPage  donne la page d'ouverture préférentielle du document (page de titre, couverture). Dans Gallica, si le qualifier f n'est pas spécifié dans l'URL, cette information sera utilisée. Si la valeur est < 1, la première page du document est affichée 
+ hasToc : true ou false, indique si le document contient une table des matières ou un index. Cette information indique également s'il est possible de faire appel au service restituant les tables (voir ci-après). 
+ hasContent : true ou false, si le document contient un texte indexé. Préférer la balise <mode_indexation> d'OAIRecord. 
+ idUPN :  cote du document numérique. 
+ nbVueAudio : indique le nombre d'objets audio présents dans le document (cette balise est affichée uniquement pour les documents audio) 
+ Chaque information de page est contenue dans une balise <page> , elles-mêmes contenues dans une balise <pages> . 
+ On y retrouve les informations suivantes : 
+ numero : information de foliotation (affichée dans le module de pagination de Gallica). 
+ ordre : numéro d'ordre séquentiel de l'image correspondante. Il s'agit de la valeur à ajouter dans le qualifier   f   lorsque l’on souhaite afficher la page correspondante (cf . service d'affichage des images) 
+ pagination_type : type de pagination logique (N comme "non paginé",  A comme "arabe", R comme  "romain"). 
+ Note : dans le cas des documents contenant des légendes (cartes, lot d'images ou manuscrits), une balise supplémentaire est ajoutée pour chaque balise page : 
+ <page>
+ <numero>1</numero>
+ <ordre>1</ordre>
+ <pagination_type>A</pagination_type>
+ <legend>Le Louvre. N ° Atget : 5169. 1905-1906. Photographie positive sur papier aristotype d'après négatif sur verre au gélatinobromure ; 21,6 x 17 cm (épr.). [Cote : BNF - Est. Eo 109b bte 1 ; n ° micr. T039204] \ Opaline 047313
+ </legend>
+</page> 
+ legend : légende associée à la page 
+ Service d'affichage d'image précalculée
+ Connaissant un document numérique et ses informations de pagination (cf. service de pagination), si l'on souhaite visualiser l'image numérique d'une page sur une page physique spécifique du document, on utilisera un qualificatif dit de granularité  f  suivi du numéro de page physique spécifique (i.e. le numéro d'ordre du service pagination). 
+ Utilisation : 
+ Pour afficher des images selon différents formats de diffusion, on utilise des qualificatifs. Ces qualificatifs sont les suivants : 
+ le qualificatif thumbnail fournit une image dont un coté correspond aux dimensions 128*192 px 
+ le qualificatif lowres fournit  une image dont un coté correspond aux dimensions 256*384 px 
+ le qualificatif medres fournit  une image dont un coté correspond aux dimensions 512*768 px 
+ le qualificatif highres fournit  une image dont un coté correspond aux dimensions 1024*1536 px 
+ Pour obtenir la page affichée par défaut du document, il suffit de ne pas utiliser le qualificatif f . La page correspondant à la balise  firstDisplayedPage ( décrite par le service  Pagination ) est alors affichée. 
+ Exemples: 
+ https://gallica.bnf.fr/ark:/12148/bpt6k146589h/lowres 
+ https://gallica.bnf.fr/ark:/12148/bpt6k146589h/f5.lowres 
+ https://gallica.bnf.fr/ark:/12148/btv1b6930733g/lowres 
+ https://gallica.bnf.fr/ark:/12148/btv1b6930733g/medres 
+ https://gallica.bnf.fr/ark:/12148/btv1b6930733g/highres 
+ Service d'occurrences de recherche
+ J'ai un document pour lequel la recherche plein texte est possible (i.e., nqamoyen > 060.00, cf exemple dans le verbe OAIRecord) 
+ Ce service renvoie une liste d’occurrences d’un mot donné au sein d’un document. 
+ Utilisation : 
+ Verbe ContentSearch : https://gallica.bnf.fr/services/ContentSearch 
+ Les paramètres sont les suivants : 
+ ark : (paramètre obligatoire) identifiant ARK du document numérique, de la forme bpt6kxxxxx ou btv1bxxxxx. 
+ query : (paramètre obligatoire) termes de la recherche à trouver dans ce document 
+ page : (paramètre optionnel) numéro d'ordre de page sur laquelle effectuer la recherche. Il s'agit du numéro de la balise <ordre> du verbe Pagination. à n'utiliser que pour récupérer la position sur l'image où se situe le mot 
+ startResult : (paramètre optionnel) il est utiliser pour paginer l'intégralité des résultat sachant que nous bloquons à 10 le nombre d'éléments retourné par le service. 
+ Pour obtenir les pages avec un extrait, on n'utilise pas le paramètre page 
+ Exemple : https://gallica.bnf.fr/services/ContentSearch?ark=bpt6k5460422k&query=hugo 
+ <?xml version="1.0" encoding="UTF-8"?>
+<results ResultsGenerationSearchTime="0:00:00.050" countResults="4" searchTime="50">
+ <query>hugo</query>
+ <items>
+ <item>
+ <altoid/>
+ <p_id>PAG_357</p_id>
+ <p_width/>
+ <p_height/>
+ <content>e V. &lt;span class='highlight'&gt;HUGO&lt;/span&gt;</content>
+ <events/>
+ </item>
+ <item>
+ <altoid/>
+ <p_id>PAG_173</p_id>
+ <p_width/>
+ <p_height/>
+ <content>quelque chose comme si on envoyait à &lt;span class='highlight'&gt;Hugo&lt;/span&gt; une petite grammaire de Lhomond : « la grammaire est l'art d'écrire et de parler correctement</content>
+ <events/>
+ </item>
+ <item>
+ <altoid/>
+ <p_id>PAG_355</p_id>
+ <p_width/>
+ <p_height/>
+ <content>Et rappelons le jugement éloquent, porté par Victor &lt;span class='highlight'&gt;Hugo&lt;/span&gt; en 1848 : ee Deux républiques sont possibles</content>
+ <events/>
+ </item>
+ <item>
+ <altoid/>
+ <p_id>PAG_10</p_id>
+ <p_width/>
+ <p_height/>
+ <content>et tua aussi don &lt;span class='highlight'&gt;Hugo&lt;/span&gt; de Car</content>
+ <events/>
+ </item>
+ </items>
+</results> Ici 4 pages ont répondu pour le document 
+ Description des éléments du flux 
+ La réponse est contenue dans la balise <results> . L'attribut countResults permet de connaître le nombre de pages ayant au moins une occurrence. 
+ Chaque occurrence trouvée est placée dans une balise <item> , elles mêmes contenues dans une balise <items> . 
+ L'attribut score est le score donné par le moteur de recherche, et n'est pas exploité dans l'interface. 
+ p_id : numéro de page du document numérique contenant un extrait 
+ content : flux HTML contenant un extrait pour cette page avec un taggage de la partie qui correspond à la recherche (contenu de la balise <span class="highlight">). Le visualiseur image/mosaïque pour les documents de type image, cartes, manuscrits exploite cette donnée pour afficher la légende surlignée. 
+ les autres balises sont vides mais présentes pour des raisons de compatibilité historique 
+ Si je veux savoir où se situe le mot dans l'image je vais utiliser le paramètre page . Ci-dessus j'avais par exemple 
+ <p_id>PAG_173</p_id> Je récupère la partie numérique du contenu et j'interroge comme suit : https://gallica.bnf.fr/services/ContentSearch?ark=bpt6k5460422k&query=hugo&page=173 ​ 
+ <?xml version="1.0" encoding="UTF-8"?><results ResultsGenerationSearchTime="0:00:00.044" countResults="1" searchTime="44">
+<query>hugo</query>
+<items>
+<item>
+<altoid countResults="1">
+<altoidstring height="47" hpos="514" vpos="915" width="101">PAG_00000173_ST000061</altoidstring>
+</altoid>
+<p_id>PAG_173</p_id>
+<p_width>1153</p_width>
+<p_height>2138</p_height>
+<content/>
+<events/>
+</item>
+</items>
+</results> ​ 
+ altoid : contient des informations détaillées de chaque mot extrait par l'OCR dans l'image. L'attribut countResults renseigne sur le nombre de mots trouvés : 
+ altoidstring : il s'agit d'un rectangle représentant le mot. Les attributs : 
+ height : détermine la hauteur du rectangle en pixels. 
+ width : détermine la largeur du rectangle en pixels. 
+ hpos : détermine la position X du rectangle sur la page en pixels 
+ vpos : détermine la position Y du rectangle sur la page en pixels. Ces informations ont été générées par le logiciel de reconnaissance de caractères, et se basent sur la taille physique du fichier master numérisé: 
+ p_id : numéro de page du document numérique contenant un extrait 
+ p_width : largeur en pixels du fichier master. 
+ p_height : hauteur en pixels du fichier master 
+ Ainsi on sait que le mot "hugo" de la page 173 (dont l'image mesure 1153 pixel de large et 2138 de haut) est contenu dans une boîte dont le coin haut/gauche se situe a 514 pixel du bord gauche et 915 pixel du haut. Cette boîte mesure 47 pixels de haut et 101 pixels de large. Je rappelle ces dimension sont donnée par rapport à la taille donnée dans p_width et p_height. 
+ On renvoie systématiquement une version réduite de l’image (png ou jpeg) par rapport au master original (généralement tif), les valeurs de positions affichées doivent donc être calculées par rapport à des coordonnées correspondant aux dimensions du fichier original. 
+ Service de récupération de la table des matières
+ J'ai un document pour lequel je souhaite exploiter la table des matières (le service de pagination a renvoyé la balise suivante : hasToc=true ) pour faire des liens directement vers la page du document associée à une entrée dans la table des matières. 
+ Utilisation : 
+ Verbe Toc : https://gallica.bnf.fr/services/Toc 
+ Un seul paramètre est obligatoire, il s’agit de l’ark de l’identifiant numérique du document. Ce service renvoie la tables des matières. 
+ Deux cas peuvent alors se présenter. 
+ Soit la numérisation est ancienne : dans ce cas un flux HTML est renvoyé 
+ Exemple : https://gallica.bnf.fr/services/Toc?ark=ark:/12148/bpt6k83037p ​ 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1- transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<link href="https://api.bnf.fr/../styles/styleTdmImage.css" rel="stylesheet" type="text/css" title="styleTdm" /> 
+<meta http-equiv="Content-Type" content="text/html" /> <title>0083037.htm</title> 
+<script language="JavaScript" src="https://api.bnf.fr/../javascript/scriptTdmImage.js" > </script> 
+</head> 
+<body> 
+<div class="Titre2" style="text-align: center"> TABLE ALPHAB&Eacute;TIQUE </div> 
+<div class="Titre4" style="text-align: center"> DES MATI&Egrave;RES </div> 
+<div class="Texte" style="font-size: 80%"> ABBEVILLE. Naud&eacute; y meurt, <a href="javascript:allerA('0083037', '140')">108</a>. = <a href="javascript:allerA('0083037', '143')">111</a>. </div>
+ <div class="Texte" style="font-size: 80%"> ACAD&Eacute;MIE fond&eacute;e par Mazarin. Comment devait &ecirc;tre organis&eacute;e, ... 
+ ​ Dans un tel cas il faut parser le code source du flux et récupérer les informations contenus dans les balises <a>. 
+ Exemple : 111 Le texte à afficher pour l'entrée est compris entre les balises div et a , dans notre exemple " ABBEVILLE. Naudé y meurt, " 
+ Ici on peut retrouver la page en utilisant la qualifier f de l'api image associé au deuxième paramètre de la fonction javascript "allerA" 
+ Exemple : https://gallica.bnf.fr/ark:/12148/bpt6k83037p/f143 , 143 étant le numéro d'ordre et 111 la pagination dans le document original. 
+ Soit le document a été numérisé plus récemment, et dans ce cas un flux XML au format TEI (pour une description détaillée, voir http://bibnum.bnf.fr/tdmNum/ ) est renvoyé. 
+ Exemple : https://gallica.bnf.fr/services/Toc?ark=ark:/12148/bpt6k97540464 ​ 
+ <TEI.2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/TR/xlink" xsi:noNamespaceSchemaLocation="http://bibnum.bnf.fr/ns/tdmNum.xsd">
+ <text id="tdm.9754046">
+ <body>
+ <div0 type="TdM">
+ <head>TABLE</head>
+ <div1>
+ <table>
+ <row>
+ <cell/>
+ <cell>Pages</cell>
+ </row>
+ <row>
+ <cell>
+ <seg n="int.000001">AVANT-PROPOS</seg>
+ </cell>
+ <cell>
+ <xref n="lie.000001" type="image" from="FOREIGN(9754046/000011.jp2)">V</xref>
+ </cell>
+ </row>
+ <row>
+ <cell>
+ <seg n="int.000002">NOTICE SUR J.-J. ROUSSEAU, par M. Rodolphe Rey</seg>
+ </cell>
+ <cell>
+ <xref n="lie.000002" type="image" from="FOREIGN(9754046/000013.jp2)">VII</xref>
+ </cell>
+ </row>
+ <row>
+ <cell>
+ <seg n="int.000003">
+ J.-J. ROUSSEAU PATRIOTE GENEVOIS, par M. AmÃ©dÃ©e Roget
+ </seg>
+ </cell>
+ <cell>
+ <xref n="lie.000003" type="image" from="FOREIGN(9754046/000059.jp2)">LIII</xref>
+ </cell>
+ </row>
+ ... 
+ ​ Chaque entrée est contenue dans une balise row . Pour faire le lien entre le texte de l'entrée de la table des matières, contenu dans la balise seg , et la page du document numérique, il faut exploiter les attributs de la balise xref et notamment l'attribut from . 
+ Exemple : from="FOREIGN(9754046/000059.jp2) 
+ Ici, ce qui nous intéresse est 000059. Et ainsi on peut créer le lien vers la page : https://gallica.bnf.fr/ark:/12148/bpt6k97540464/f59 
+ Service de récupération du texte
+ Texte brut 
+ Lorsqu'un document est indexé en texte intégral (voir la section "Service de récupération de la pagination d'un document"), il est possible d'obtenir ce texte.Pour ce faire, on utilisera le qualifier texteBrut . Soit le document Gallica suivant : https://gallica.bnf.fr/ark:/12148/bpt6k5619759j 
+ En ajoutant à la fin de l'url ".textBrut", on obtient alors tout le texte du document (avec en entête les informations bibliographiques) : 
+ Exemple : https://gallica.bnf.fr/ark:/12148/bpt6k5619759j.texteBrut 
+ Si l'on souhaite une partie du document, on ajoutera le qualifier f[X]n[y] à la fin du qualifier texteBrut , où X est le numéro de la page à partir de laquelle on souhaite obtenir le texte, et n le nombre des pages suivantes. 
+ Exemple : https://gallica.bnf.fr/ark:/12148/bpt6k5619759j/f5n2.texteBrut 
+ Astuce : pour faire afficher un document Gallica en mode texte+image, on utilisera le qualifier texteImage : https://gallica.bnf.fr/ark:/12148/bpt6k5619759j.texteImage 
+ OCR 
+ Le texte des documents imprimés numérisés dans Gallica est extrait grâce à un processus d’océrisation (voir note plus bas). 
+ L'API Gallica suivante permet d'extraire une page OCR de la bibliothèque numérique : 
+ https://gallica.bnf.fr/RequestDigitalElement?O=id&E=ALTO&Deb=x 
+ où : 
+ id est l'identifiant ark du document numérique, 
+ x est le numéro de la page à extraire 
+ Exemple : https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k5619759j&E=ALTO&Deb=3 
+ L’OCR produit est au format XML ALTO ( https://www.loc.gov/standards/alto/ ). Le format ALTO utilisé par la BnF diffère légèrement du standard, mais le cœur du format est identique. Le format ALTO de la BnF existe en deux versions : 
+ http://bibnum.bnf.fr/alto_prod/ 
+ http://bibnum.bnf.fr/alto_bnf-v2_0/ (à partir de 2014) 
+ Pour extraire le texte contenu dans un fichier OCR : 
+ Le contenu textuel principal est dans l’élément <PrintSpace> . Le contenu éventuellement présent dans les marges étant décrit dans les éléments <xxxMargin> 
+ Le texte est décrit par des éléments <TextBlock> et <TextLine> . Le texte lui-même est porté par l’attribut CONTENT , au niveau de chaque mot <String> . 
+ Les césures sont décrites par les attributs SUBS_TYPE et SUBS_CONTENT : 
+ <String CONTENT="va" HEIGHT="26" WIDTH="51" VPOS="2701" HPOS="1240" SUBS_TYPE="HypPart1" SUBS_CONTENT="variées" ID="PAG_0_ST000150"/>
+<HYP CONTENT="-­"/>
+<String CONTENT="riées" HEIGHT="37" WIDTH="100" VPOS="2746" HPOS="324" SUBS_TYPE="HypPart2" SUBS_CONTENT="variées" ID="PAG_0_ST000151"/> 
+ Note : le processus OCR et ses résultats sont décrits ici : 
+ introduction :  http://www.bnf.fr/fr/professionnels/numerisation_boite_outils/a.num_conversion_mode_texte.html 
+ charte technique BnF pour la production OCR : http://www.bnf.fr/documents/ref_num_ocr_v2.pdf 
+ Pour chercher des illustrations décrites dans l’OCR : 
+ Les illustrations sont décrites dans l’élément <Illustration> . L’attribut TYPE (optionnel) décrit le type de l’illustration. On trouvera notamment comme valeurs : musicScore, musicalScore (partition musicale), map (carte et plan). 
+ Les légendes d’illustration sont parfois groupées avec l’illustration à l’aide d’un élément <ComposedBlock>. Sinon, le texte présent avant ou après une illustration contient potentiellement du texte décrivant l’illustration. 
+ Pour extraire une illustration décrite dans l’OCR : 
+ Les éléments Illustration décrivent les dimensions de l’illustration grâce aux attributs VPOS, HPOS, WIDTH, HEIGHT . 
+ Exemple : document ark:/12148/bpt6k62530371, page 12, illustration n° 1 : 
+ <Illustration ID="PAG_00000012_IL000001" HPOS="349" VPOS="272" HEIGHT="1346" WIDTH="923"> 
+ L’URL du protocole IIIF s’en déduit immédiatement : https://gallica.bnf.fr/iiif/ark:/12148/bpt6k62530371/f12/349,272,923,1346/full/0/native.jpg 
+ Accès 
+ Service de récupération des années et fascicules parus pour un périodique 
+ accès : https://gallica.bnf.fr/services/Issues 
+ exemple : https://gallica.bnf.fr/services/Issues?ark=ark:/12148/cb32798952c/date 
+ Service de récupération des informations bibliographique d'un document 
+ accès : https://gallica.bnf.fr/services/OAIRecord 
+ exemple : https://gallica.bnf.fr/services/OAIRecord?ark=bpt6k5738219s 
+ Service de récupération de la pagination d'un document 
+ accès : https://gallica.bnf.fr/services/Pagination 
+ exemple : https://gallica.bnf.fr/services/Pagination?ark=bpt6k5738219s 
+ Service d'affichage d'image précalculée 
+ accès : https://gallica.bnf.fr/ark:/12148/btv1b6930733g/[Qualificatif_Image] 
+ exemple : https://gallica.bnf.fr/ark:/12148/btv1b6930733g/thumbnail 
+ Service d'occurrences de recherche 
+ accès : https://gallica.bnf.fr/services/ContentSearch 
+ exemple : https://gallica.bnf.fr/services/ContentSearch?ark=bpt6k5460422k&query=hugo 
+ Service de récupération de la table des matières 
+ accès : https://gallica.bnf.fr/services/Toc 
+ exemple : https://gallica.bnf.fr/services/Toc?ark=ark:/12148/bpt6k97540464 
+ Service de récupération du texte 
+ texte brut : https://gallica.bnf.fr/[ark].texteBrut 
+ exemple : https://gallica.bnf.fr/ark:/12148/bpt6k5619759j.texteBrut 
+ OCR : https://gallica.bnf.fr/RequestDigitalElement?O=id&E=ALTO&Deb=x 
+ exemple : https://gallica.bnf.fr/RequestDigitalElement?O=bpt6k5619759j&E=ALTO&Deb=3 
+ Fiche Technique 
+ Source des données 
+ Gallica 
+ Date de dernière mise à jour 
+ 2025 
+ Formats techniques 
+ XML 
+ Licence 
+ Conditions d'utilisation des contenus de Gallica
+ Contact 
+ gallica@bnf.fr
+ Partage 
+ X
+ Facebook
+ Linkedin
+ Ressources en lien 
+ API IIIF de récupération des images de Gallica 
+ L'API IIIF (International Image Interoperability Framework) est une API standardisée par le consortium IIIF permettant la manipulation homogène d'images indépendamment de leurs localisations…
+ JPEG / JPG 
+ TIFF 
+ IIIF 
+ Images 
+ API de recherche de Gallica 
+ Cette API permet de rechercher dans le fonds numérique et de fournir également un ensemble d'éléments d'affinage des requêtes. Cette API a été créée afin de rester pérenne quelle que soit…
+ XML 
+ SRU 
+ © 2020 BnF 
+ À propos 
+ Conditions d'utilisation 
+ Mentions légales 
+ Politique de confidentialité 
+ RSS 
+ Écrire à la BnF 
+ Accessibilité (non conforme) 
+ DCAT 
+ X 
+ facebook 
+ instagram 
+ youtube 
+ Image agrandie dans une fenêtre modale

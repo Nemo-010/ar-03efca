@@ -1,0 +1,85 @@
+{
+ "slug": "sherpa-romeo",
+ "name": "Sherpa Romeo",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:41+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://v2.sherpa.ac.uk/api/",
+   "status": 403,
+   "final_url": "https://v2.sherpa.ac.uk/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 651920,
+   "truncated": false,
+   "sha256": "6b3b366499d98189c05d3b48d980ee928e17edbeb850eab77a650300b07d61f4",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://v2.sherpa.ac.uk/",
+   "status": 403,
+   "final_url": "https://v2.sherpa.ac.uk/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 651920,
+   "truncated": false,
+   "sha256": "e806b2134a13333fa4e9facf2b358d39736c5235480c272b5008afbf8264f5ff",
+   "fetched_at": "2026-10-20T01:47:42+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.v2.sherpa.ac.uk/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.v2.sherpa.ac.uk/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://v2.sherpa.ac.uk/api/",
+   "status": 403,
+   "final_url": "https://v2.sherpa.ac.uk/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 651920,
+   "truncated": false,
+   "sha256": "fba0ef5ec29ffdcb1d175d22aa7e20213b2001a039f75707fabd1f5775fae404",
+   "fetched_at": "2026-10-20T01:49:51+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://v2.sherpa.ac.uk/api/",
+   "status": 403,
+   "final_url": "https://v2.sherpa.ac.uk/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 651920,
+   "truncated": false,
+   "sha256": "2ed8a3fda5db9b1a134906cfeda4d13a31eb8e2add11848bf1e6b4076017f147",
+   "fetched_at": "2026-10-20T01:51:24+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://v2.sherpa.ac.uk/api/",
+   "status": 403,
+   "final_url": "https://v2.sherpa.ac.uk/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 651920,
+   "truncated": false,
+   "sha256": "2eee45087f4a19286c5dd0ca753782c43935bb7cec7f88ba088b95d930099302",
+   "fetched_at": "2026-10-20T01:52:59+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://v2.sherpa.ac.uk/api/",
+   "status": 403,
+   "final_url": "https://v2.sherpa.ac.uk/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 651920,
+   "truncated": false,
+   "sha256": "cb1257f22a88ac9596e5a222a481464aeff43e9b0265f0322c8d5ce0124639fe",
+   "fetched_at": "2026-10-20T01:58:23+00:00",
+   "rate_headers": {}
+  }
+ }
+}

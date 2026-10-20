@@ -1,0 +1,96 @@
+{
+ "slug": "finna",
+ "name": "Finna (Finnish libraries)",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:56+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://api.finna.fi/",
+   "status": 403,
+   "final_url": "https://api.finna.fi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5583,
+   "truncated": false,
+   "sha256": "b50b7c4b44a30218455840577cdca8858fd95c5474498e1d1f9b2eeb4b29d0fe",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://www.finna.fi/",
+   "status": 403,
+   "final_url": "https://www.finna.fi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5605,
+   "truncated": false,
+   "sha256": "59eed8b8d96dc8224848978945196def00e87e291a58f07ce0b2fa73d1988620",
+   "fetched_at": "2026-10-20T01:47:57+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.finna.fi/llms.txt",
+   "status": 403,
+   "final_url": "https://docs.finna.fi/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5608,
+   "truncated": false,
+   "sha256": "dd78f9763feebaf4fe8d61cfa915a3afe48d62a33771c7dd0d7381e07edf1228",
+   "fetched_at": "2026-10-20T01:47:57+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.finna.fi/",
+   "status": 403,
+   "final_url": "https://api.finna.fi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5583,
+   "truncated": false,
+   "sha256": "6394e9b23357f42923fb9d8f880604edb301eec7bdc7f5592d677bb773d28810",
+   "fetched_at": "2026-10-20T01:49:41+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://api.finna.fi/",
+   "status": 403,
+   "final_url": "https://api.finna.fi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5583,
+   "truncated": false,
+   "sha256": "df4b790ef1578a8b30160cd0d17ca2882427e81d7bced98d5d6b5ffed054f351",
+   "fetched_at": "2026-10-20T01:51:23+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://api.finna.fi/",
+   "status": 403,
+   "final_url": "https://api.finna.fi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5583,
+   "truncated": false,
+   "sha256": "d1187266c2e9200cae84075b8bda3949a8160a087a5dc89456c4bf9a14cc24f3",
+   "fetched_at": "2026-10-20T01:54:18+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://api.finna.fi/",
+   "status": 403,
+   "final_url": "https://api.finna.fi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5583,
+   "truncated": false,
+   "sha256": "3ce5eaac5a2ea3343ee53a80ea8b959211944ef5c771ecaa0cb2008de1afd69f",
+   "fetched_at": "2026-10-20T01:58:55+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://api.finna.fi/",
+   "status": 403,
+   "final_url": "https://api.finna.fi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5605,
+   "truncated": false,
+   "sha256": "cd50db795dad75fa7116605f28111cbe13aefec36fa35f07402ce967107c63c4",
+   "fetched_at": "2026-10-20T02:22:21+00:00",
+   "rate_headers": {}
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "slug": "zbmath",
+ "name": "zbMATH Open",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:45+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.zbmath.org/v1/",
+   "status": 200,
+   "final_url": "https://api.zbmath.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1027,
+   "truncated": false,
+   "sha256": "6946b6702b9e10912708b10cdebc3ed62ce378bc7a5da14f973868acdeb44623",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 122
+  },
+  "home-err": {
+   "url": "https://zbmath.org/",
+   "status": 403,
+   "final_url": "https://zbmath.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5624,
+   "truncated": false,
+   "sha256": "16afd92a58aee6b895c7e56f6b7fde6e31593ed1824451d9089afda9e72307b5",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.zbmath.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.zbmath.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.zbmath.org/v1/",
+   "status": 200,
+   "final_url": "https://api.zbmath.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1027,
+   "truncated": false,
+   "sha256": "6946b6702b9e10912708b10cdebc3ed62ce378bc7a5da14f973868acdeb44623",
+   "fetched_at": "2026-10-20T01:49:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 122
+  },
+  "limits": {
+   "url": "https://api.zbmath.org/v1/",
+   "status": 200,
+   "final_url": "https://api.zbmath.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1027,
+   "truncated": false,
+   "sha256": "6946b6702b9e10912708b10cdebc3ed62ce378bc7a5da14f973868acdeb44623",
+   "fetched_at": "2026-10-20T01:53:02+00:00",
+   "rate_headers": {},
+   "text_bytes": 122
+  },
+  "r1": {
+   "url": "https://api.zbmath.org/v1/",
+   "status": 200,
+   "final_url": "https://api.zbmath.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1027,
+   "truncated": false,
+   "sha256": "6946b6702b9e10912708b10cdebc3ed62ce378bc7a5da14f973868acdeb44623",
+   "fetched_at": "2026-10-20T01:58:18+00:00",
+   "rate_headers": {},
+   "text_bytes": 122
+  }
+ }
+}

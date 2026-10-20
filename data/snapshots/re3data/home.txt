@@ -1,0 +1,53 @@
+Home | re3data.org 
+ Toggle navigation 
+ Search 
+ Browse 
+ Browse by subject 
+ Browse by country 
+ Suggest 
+ Resources 
+ Schema 4.0 
+ Schema 3.1 
+ Schema 3.0 
+ Schema 2.2 
+ API 
+ Data 
+ Analytics 
+ FAQ 
+ Editorial Board 
+ Working Group 
+ Publications 
+ About 
+ Contact 
+ Search 
+ RRID and re3data partner to link research data repository records 
+ Research Resource Identification (RRID) and re3data have mapped their data to advance interoperability, improve metadata quality and completeness across science infrastructure. 
+What was done? 
+A joint group worked together to determine which RRIDs are...
+ Read more 
+ re3data in Central America 
+ Dr. Sandra Gisela Martín from the re3data Editorial Board delivered a featured lecture, “re3data: Global Registry of Research Data Repositories”, at the Second Meeting of Colombian Institutional Repository Managers and Open Science (II Encuentro de...
+ Read more 
+ Summer Meeting of the Editorial Board 
+ Summer Meeting of the Editorial Board 
+The re3data.org editorial board was able to get together in person over the summer, meeting for two days in June at the library of the Karlsruhe Institute of Technology (KIT). It was a great opportunity to on-board our...
+ Read more 
+ 3536 Repositories 
+ Growth of the index repositories over time.
+ Latest Repositories 
+ UIST Digital Repository
+ Research Data Repository of the Getulio Vargas Foundation
+ Deep Geothermal Data Centre
+ ESTIA
+ Hellanicus Repository
+ Legal notice / Impressum 
+ Terms of Use & Privacy Policy 
+ About 
+ To the extent possible under law,
+ re3data.org
+ has waived all copyright and related or neighboring rights to
+ the database entries of re3data.org.
+ Except where otherwise noted, content on this site is licensed under a
+ Creative Commons Attribution 4.0 International License
+ .
+ Cite this service: re3data.org - Registry of Research Data Repositories. https://doi.org/10.17616/R3D last accessed: 2026-10-20

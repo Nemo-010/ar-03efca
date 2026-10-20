@@ -1,0 +1,127 @@
+{
+ "slug": "openml",
+ "name": "OpenML",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:50+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://docs.openml.org/",
+   "status": 200,
+   "final_url": "https://docs.openml.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 111679,
+   "truncated": false,
+   "sha256": "8c3e015f64025c4d257336219cf9750a183362b2ce8abd7ffc8a7f71fce3ec2b",
+   "fetched_at": "2026-10-20T02:44:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 5394
+  },
+  "home": {
+   "url": "https://www.openml.org/",
+   "status": 200,
+   "final_url": "https://www.openml.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  },
+  "llms": {
+   "url": "https://www.openml.org/apis/llms.txt",
+   "status": 200,
+   "final_url": "https://www.openml.org/apis/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T01:47:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  },
+  "llms-6806b4": {
+   "url": "https://www.openml.org/llms.txt",
+   "status": 200,
+   "final_url": "https://www.openml.org/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T01:47:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  },
+  "llms-e7daf1-err": {
+   "url": "https://docs.openml.org/llms.txt",
+   "status": 404,
+   "final_url": "https://docs.openml.org/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 101375,
+   "truncated": false,
+   "sha256": "b4fcf8525487bbf46d836d431cbda0d6984a3940b915ae0fcda7711b09b60e4a",
+   "fetched_at": "2026-10-20T01:47:52+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.openml.org/apis",
+   "status": 200,
+   "final_url": "https://www.openml.org/apis",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T01:49:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  },
+  "policy2": {
+   "url": "https://www.openml.org/apis",
+   "status": 200,
+   "final_url": "https://www.openml.org/apis",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T01:50:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  },
+  "limits": {
+   "url": "https://www.openml.org/apis",
+   "status": 200,
+   "final_url": "https://www.openml.org/apis",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T01:53:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  },
+  "r1": {
+   "url": "https://www.openml.org/apis",
+   "status": 200,
+   "final_url": "https://www.openml.org/apis",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T01:58:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  },
+  "r2": {
+   "url": "https://www.openml.org/apis",
+   "status": 200,
+   "final_url": "https://www.openml.org/apis",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 682,
+   "truncated": false,
+   "sha256": "ca4ea0e1ef080b82b04c2833a33832c5f5430ee50d3b4a112fecc50797c33b6d",
+   "fetched_at": "2026-10-20T02:22:12+00:00",
+   "rate_headers": {},
+   "text_bytes": 6
+  }
+ }
+}

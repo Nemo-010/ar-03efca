@@ -1,0 +1,108 @@
+{
+ "slug": "viaf",
+ "name": "VIAF",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:57+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://viaf.org/viaf/data/",
+   "status": 404,
+   "final_url": "https://viaf.org/viaf/data/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 716,
+   "truncated": false,
+   "sha256": "9cbeaff9d8759099613b53351c87e760f74ceba45de2822c0e40f2ec8de84598",
+   "fetched_at": "2026-10-20T01:47:57+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://viaf.org/",
+   "status": 404,
+   "final_url": "https://viaf.org/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 716,
+   "truncated": false,
+   "sha256": "4ae9bcad2606455d69ce834b61bd2c5cd7b96af01f1ca0e0c8cd86dc1488e955",
+   "fetched_at": "2026-10-20T01:47:58+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.viaf.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.viaf.org/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://viaf.org/viaf/data/",
+   "status": 404,
+   "final_url": "https://viaf.org/viaf/data/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 716,
+   "truncated": false,
+   "sha256": "281953c1ebc5c1f4d9001b1a570ec5cc239ad462022fe06198d48b0982707999",
+   "fetched_at": "2026-10-20T01:49:52+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://viaf.org/viaf/data/",
+   "status": 404,
+   "final_url": "https://viaf.org/viaf/data/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 716,
+   "truncated": false,
+   "sha256": "1037f8e25e08360fce2e6d3754fbbf4c225a09514a6cdc8f3299b7e2412358b2",
+   "fetched_at": "2026-10-20T01:51:23+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://viaf.org/viaf/data/",
+   "status": 404,
+   "final_url": "https://viaf.org/viaf/data/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 716,
+   "truncated": false,
+   "sha256": "c90a94d8ec6fd1a6a50ea8502b0e33dc0608d2660e73562c95abdf066aab3ec8",
+   "fetched_at": "2026-10-20T01:54:18+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://viaf.org/viaf/data/",
+   "status": 404,
+   "final_url": "https://viaf.org/viaf/data/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 716,
+   "truncated": false,
+   "sha256": "be681550ffcbc76c4b144862f41a23ab0d6954bf40016286363170eb0c1a6d24",
+   "fetched_at": "2026-10-20T01:58:55+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://viaf.org/viaf/data/",
+   "status": 404,
+   "final_url": "https://viaf.org/viaf/data/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 716,
+   "truncated": false,
+   "sha256": "7bed9d5f130bf042cdb43c0f1a051698301538ad1217ea35a070792649986e3c",
+   "fetched_at": "2026-10-20T02:22:21+00:00",
+   "rate_headers": {}
+  },
+  "docs": {
+   "url": "https://www.oclc.org/developer/api/oclc-apis/viaf.en.html",
+   "status": 200,
+   "final_url": "https://www.oclc.org/developer/api/oclc-apis/viaf.en.html",
+   "content_type": "text/html",
+   "bytes": 48428,
+   "truncated": false,
+   "sha256": "7677240fe668d91a7e06c74194ea479140dff7507339dd5463043951413a189f",
+   "fetched_at": "2026-10-20T02:45:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 2523
+  }
+ }
+}

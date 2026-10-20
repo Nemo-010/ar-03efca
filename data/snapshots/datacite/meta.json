@@ -1,0 +1,171 @@
+{
+ "slug": "datacite",
+ "name": "DataCite REST API",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:36+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://support.datacite.org/docs/api",
+   "status": 200,
+   "final_url": "https://support.datacite.org/docs/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 347658,
+   "truncated": false,
+   "sha256": "fe751ad0c946008022ef69a87fbccc13c8d6f722732f41f73de6739992f3fefa",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792459243"
+   },
+   "text_bytes": 14551
+  },
+  "home-err": {
+   "url": "https://datacite.org/",
+   "status": 403,
+   "final_url": "https://datacite.org/",
+   "content_type": "text/html",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3",
+   "fetched_at": "2026-10-20T01:47:37+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.support.datacite.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.support.datacite.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://support.datacite.org/docs/api",
+   "status": 200,
+   "final_url": "https://support.datacite.org/docs/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 347658,
+   "truncated": false,
+   "sha256": "c4dc894f33383c249525ab8186e4ef3f83bf0dd33d7cdda2fcf99453c151c01a",
+   "fetched_at": "2026-10-20T01:49:38+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792459243"
+   },
+   "text_bytes": 14551
+  },
+  "policy2": {
+   "url": "https://support.datacite.org/docs/rate-limits",
+   "status": 404,
+   "final_url": "https://support.datacite.org/docs/rate-limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 83661,
+   "truncated": false,
+   "sha256": "ee3bd7aa64c7a12b3afbdbbb0d1eb2901477d6cb313de82031fb05bb00d49fa8",
+   "fetched_at": "2026-10-20T01:50:36+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792461003"
+   }
+  },
+  "limits": {
+   "url": "https://support.datacite.org/docs/api",
+   "status": 200,
+   "final_url": "https://support.datacite.org/docs/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 347658,
+   "truncated": false,
+   "sha256": "22cdea27e102b3fe52fa7e26c42c0f8d0fbd4ff7e51198e14efc2280b0b12577",
+   "fetched_at": "2026-10-20T01:52:48+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792461135"
+   },
+   "text_bytes": 14551
+  },
+  "limits2": {
+   "url": "https://support.datacite.org/docs/rate-limits",
+   "status": 404,
+   "final_url": "https://support.datacite.org/docs/rate-limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 83661,
+   "truncated": false,
+   "sha256": "137aca3cb029c86588c2b09667e6f5ef46819331fa585688b2c41f9f3653fa17",
+   "fetched_at": "2026-10-20T01:52:49+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792461003"
+   }
+  },
+  "r1": {
+   "url": "https://support.datacite.org/docs/rate-limits",
+   "status": 404,
+   "final_url": "https://support.datacite.org/docs/rate-limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 83661,
+   "truncated": false,
+   "sha256": "f5543f4f18f66f05c110c40469b68497ba9c127dbf1307ef7ec37eb4bf7cf656",
+   "fetched_at": "2026-10-20T01:57:58+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792461003"
+   }
+  },
+  "r2": {
+   "url": "https://support.datacite.org/docs/api",
+   "status": 200,
+   "final_url": "https://support.datacite.org/docs/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 347658,
+   "truncated": false,
+   "sha256": "16fe1f56535004f4d9a666d7bb0c7a922d1d1e7d405745dd7754e0f368668dba",
+   "fetched_at": "2026-10-20T01:57:58+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792461135"
+   },
+   "text_bytes": 14551
+  },
+  "llms": {
+   "url": "https://support.datacite.org/llms.txt",
+   "status": 200,
+   "final_url": "https://support.datacite.org/llms.txt",
+   "content_type": "text/plain; charset=utf-8",
+   "bytes": 37922,
+   "truncated": false,
+   "sha256": "de8a93495619fdb72f375c26ef9d12af8a0c7d4b566f1dd1a4e6a419b68d5ae2",
+   "fetched_at": "2026-10-20T02:13:46+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792441104"
+   },
+   "text_bytes": 37922
+  },
+  "ratelimits": {
+   "url": "https://support.datacite.org/docs/rate-limit.md",
+   "status": 200,
+   "final_url": "https://support.datacite.org/docs/rate-limit.md",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 2794,
+   "truncated": false,
+   "sha256": "d789840104182b839ba978fc65030876d12240dc2e11b79297c63299fc3b9425",
+   "fetched_at": "2026-10-20T02:18:45+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792460177"
+   },
+   "text_bytes": 2791
+  }
+ }
+}

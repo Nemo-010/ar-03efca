@@ -1,0 +1,223 @@
+Zenodo 
+ Skip to main 
+ Communities 
+ My dashboard 
+ Log in
+ Sign up
+ Featured communities 
+ EU Open Research Repository
+ Browse
+ Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.
+ AAS Journals
+ Browse
+ Collection of data and software for AAS Journal (ApJ, AJ, ApJL, ApJS, BAAS, PSJ, RNAAS) articles. Draft review & community submissions are welcome and will be curated by the AAS Data Editors.
+More information at https://journals.aas.org/data-guide/
+ The Generic Mapping Tools
+ Browse
+ Collection of items related to the Generic Mapping Tools software [www.generic-mapping-tools.org].
+ Biodiversity Literature Repository
+ Browse
+ A community to share publications related to bio-systematics.
+ Machine Learning for Particle Physics
+ Browse
+ Generalist Repository Ecosystem Initiative (GREI)
+ Browse
+ Generalist Repository Ecosystem Initiative (GREI) aims to develop collaborative approaches for data management and sharing through inclusion of the generalist repositories in the NIH data ecosystem.
+ Aurora Universities Network
+ Browse
+ Aurora is a University network platform for European university leaders, administrators, academics, and students to learn from and with each other.
+The projects we do and the results that can be shared publically will be put in this community page.
+ European Climate and Energy Modelling Forum
+ Browse
+ ECEMF is a Horizon 2020-funded project aiming to establish a European forum for energy and climate researchers and policy makers to achieve climate neutrality.
+ Recent uploads 
+ June 30, 2013 (v1)
+ Dataset
+ Open
+ Mapped Sago Palms in the Philippines, 2012-2013
+ Santillan, Jojene 
+ GIS Shapefile of mapped sago palm stands in the Philippines from high-resolution satellite imagery (0.5-meter) and field surveys, covering the years 2012-2013.
+ Uploaded on October 20, 2026
+ Part of 
+ Sago Palm Mapping in the Philippines
+ 0
+ Views
+ 0
+ Downloads
+ October 20, 2026 (v1)
+ Presentation
+ Open
+ Taller: Revisión por pares abierta y constructiva de manuscritos científicos
+ PREreview 
+ Tavella, María Pía 
+ Taller dictado en el marco de la XXVII Jornada de Investigación Científica (FCM, UNC) el 20 de octubre de 2026 por María Pía Tavella.
+ Uploaded on October 19, 2026
+ Part of 
+ PREreview Community Resources
+ 0
+ Views
+ 0
+ Downloads
+ October 19, 2026 (v2)
+ Presentation
+ Open
+ Los actores del Sistema Educativo
+ Marín-Marín, José-Antonio 
+ Material didáctico del tema 2 de la asignatura Sociedad, Familia y Educación del Máster Universitario de Enseñanza Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanza de Idiomas. El documento explora la importancia de la interacción entre la sociedad, la familia y la educación en el contexto de la formación de docentes de...
+ Uploaded on October 19, 2026
+ Part of 
+ EducaTech-XXI Educación y Tecnología para el siglo XXI (SEJ-666)
+ 1 more version exist for this record 
+ 105
+ Views
+ 66
+ Downloads
+ October 20, 2026 (2026.10.19.3)
+ Software
+ Open
+ SEAMM: Simulation Environment for Atomistic and Molecular Modeling
+ Nash, Jessica 
+ Marin-Rimoldi, Eliseo 
+ Saxe, Paul 
+ A flowchart made with a newer version of a plug-in can have parameters that an
+older version does not know. Reading it stopped with only a KeyError naming the
+parameter, e.g. KeyError: 'scale ion charges'. The error now names the step,
+the parameter, the installed version of the plug-in and the version the
+flowchart was made with, and says to...
+ Uploaded on October 19, 2026
+ Part of 
+ Molecular Sciences Software Institute
+ Core modules of SEAMM
+ SEAMM environment
+ 107 more versions exist for this record 
+ 8828
+ Views
+ 1868
+ Downloads
+ October 19, 2026 (v2)
+ Dataset
+ Open
+ Natural history specimens collected and/or identified and deposited.
+ Johannes Petrus Rosier 
+ Natural history specimen data collected and/or identified by Johannes Petrus Rosier, http://www.wikidata.org/entity/Q141728311. Claims or attributions were made on Bionomia, https://bionomia.net using specimen data from the Global Biodiversity Information Facility, https://gbif.org.
+ Uploaded on October 19, 2026
+ Part of 
+ Bionomia
+ 1 more version exist for this record 
+ 2
+ Views
+ 2
+ Downloads
+ October 19, 2026 (v2)
+ Dataset
+ Open
+ Natural history specimens collected and/or identified and deposited.
+ Calixto Mabesa 
+ Natural history specimen data collected and/or identified by Calixto Mabesa, http://www.wikidata.org/entity/Q141727719. Claims or attributions were made on Bionomia, https://bionomia.net using specimen data from the Global Biodiversity Information Facility, https://gbif.org.
+ Uploaded on October 19, 2026
+ Part of 
+ Bionomia
+ 1 more version exist for this record 
+ 3
+ Views
+ 2
+ Downloads
+ October 19, 2026 (v4)
+ Dataset
+ Open
+ Natural history specimens collected and/or identified and deposited.
+ Minter Jackson Westfall Jr 
+ Natural history specimen data collected and/or identified by Minter Jackson Westfall Jr, http://www.wikidata.org/entity/Q125706287. Claims or attributions were made on Bionomia, https://bionomia.net using specimen data from the Global Biodiversity Information Facility, https://gbif.org.
+ Uploaded on October 19, 2026
+ Part of 
+ Bionomia
+ 3 more versions exist for this record 
+ 248
+ Views
+ 186
+ Downloads
+ October 19, 2026 (v2)
+ Dataset
+ Open
+ Natural history specimens collected and/or identified and deposited.
+ Gordon Arthur Ranger 
+ Natural history specimen data collected and/or identified by Gordon Arthur Ranger, http://www.wikidata.org/entity/Q141727618. Claims or attributions were made on Bionomia, https://bionomia.net using specimen data from the Global Biodiversity Information Facility, https://gbif.org.
+ Uploaded on October 19, 2026
+ Part of 
+ Bionomia
+ 1 more version exist for this record 
+ 2
+ Views
+ 2
+ Downloads
+ October 19, 2026 (v6)
+ Dataset
+ Open
+ Natural history specimens collected and/or identified and deposited.
+ Klaus Kubitzki 
+ Natural history specimen data collected and/or identified by Klaus Kubitzki, http://www.wikidata.org/entity/Q5960148. Claims or attributions were made on Bionomia, https://bionomia.net using specimen data from the Global Biodiversity Information Facility, https://gbif.org.
+ Uploaded on October 19, 2026
+ Part of 
+ Bionomia
+ 5 more versions exist for this record 
+ 460
+ Views
+ 336
+ Downloads
+ October 19, 2026 (v8)
+ Dataset
+ Open
+ Natural history specimens collected and/or identified and deposited.
+ Samantha Matlick 
+ Natural history specimen data collected and/or identified by Samantha Matlick, https://orcid.org/0000-0003-1476-1962. Claims or attributions were made on Bionomia, https://bionomia.net using specimen data from the Global Biodiversity Information Facility, https://gbif.org.
+ Uploaded on October 19, 2026
+ Part of 
+ Bionomia
+ 7 more versions exist for this record 
+ 509
+ Views
+ 507
+ Downloads
+ More
+ Why use Zenodo? 
+ Safe — Your research is stored safely for the future in CERN’s Data Centre for as long as CERN exists
+ Trusted — Built and operated by CERN and OpenAIRE to ensure that everyone can join in Open Science
+ Citeable — Every upload is assigned a Digital Object Identifier (DOI), to make them citable and trackable
+ No waiting time — Uploads are made available online as soon as you hit publish, and your DOI is registered within seconds
+ Open or closed — Share e.g. anonymized clinical trial data with only medical professionals via our restricted access mode
+ Versioning — Easily update your dataset with our versioning feature
+ GitHub integration — Easily preserve your GitHub repository in Zenodo
+ Usage statistics — All uploads display standards compliant usage statistics
+ Newsletter 
+ Receive updates on our latest developments, projects and upcoming webinars sent quarterly. 
+ E-mail * 
+ Name 
+ About 
+ About 
+ Policies 
+ Infrastructure 
+ Principles 
+ Projects 
+ Roadmap 
+ Contact 
+ Blog 
+ Blog 
+ Support 
+ Help 
+ FAQ 
+ Developers 
+ REST API 
+ OAI-PMH 
+ Contribute 
+ GitHub
+ Donate
+ Funded by 
+ Powered by
+ CERN Data Centre & InvenioRDM 
+ Status 
+ Privacy policy 
+ Cookie policy 
+ Terms of Use 
+ This site uses cookies. Find out more on how we use cookies 
+ Accept all cookies 
+ Accept only essential cookies

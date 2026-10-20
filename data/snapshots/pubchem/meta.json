@@ -1,0 +1,126 @@
+{
+ "slug": "pubchem",
+ "name": "PubChem PUG REST",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:54+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 21272,
+   "truncated": false,
+   "sha256": "23caa7df6aa22ab0e09885085e03a23fde5d4ad7ae462e6226ed878db2d1b4cc",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 169
+  },
+  "home": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/",
+   "content_type": "text/html",
+   "bytes": 7412,
+   "truncated": false,
+   "sha256": "feda9bbe26c35946240295eac4997268db46f5d06754456524bcef4ef5fc9641",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 7
+  },
+  "llms": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest/llms.txt",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 21296,
+   "truncated": false,
+   "sha256": "edd4954168cb7d9af0226d979cfd97245f8e012693b4b01674466ed147194252",
+   "fetched_at": "2026-10-20T01:47:55+00:00",
+   "rate_headers": {},
+   "text_bytes": 169
+  },
+  "llms-d35e19-err": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/llms.txt",
+   "status": 404,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/llms.txt",
+   "content_type": "text/html",
+   "bytes": 357757,
+   "truncated": false,
+   "sha256": "40656b55ef6ee88e469e88a690f80809e783c2a24e1c0b645bfeb0c188f211f0",
+   "fetched_at": "2026-10-20T01:47:55+00:00",
+   "rate_headers": {}
+  },
+  "llms-e77883-err": {
+   "url": "https://docs.pubchem.ncbi.nlm.nih.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.pubchem.ncbi.nlm.nih.gov/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 21273,
+   "truncated": false,
+   "sha256": "e23d033ba54186bac017f28a2734cfead41df0d8682c55cc5346f9acf26854a1",
+   "fetched_at": "2026-10-20T01:49:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 169
+  },
+  "policy2": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 21301,
+   "truncated": false,
+   "sha256": "583b700c747a3e2dbae2b85a7e5ef225f62efe5ed214b1f37592e4c76b6398d6",
+   "fetched_at": "2026-10-20T01:50:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 169
+  },
+  "limits": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 21301,
+   "truncated": false,
+   "sha256": "ec3a6557be48fdba051eb5d5b05513d02100f1ce6756ad9cfbac1ef7eb82923c",
+   "fetched_at": "2026-10-20T01:53:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 169
+  },
+  "r1": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 21301,
+   "truncated": false,
+   "sha256": "38a5000fc58e05fe2f8c880afcb486f8eb74e6443a53afabd032fd7f8796a7c4",
+   "fetched_at": "2026-10-20T01:58:13+00:00",
+   "rate_headers": {},
+   "text_bytes": 169
+  },
+  "r2": {
+   "url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access.md",
+   "status": 200,
+   "final_url": "https://pubchem.ncbi.nlm.nih.gov/docs/programmatic-access.md",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 21308,
+   "truncated": false,
+   "sha256": "dcca16981c7e5687d2c9094f6847184a76565080455fe9e86b879a5aff85d224",
+   "fetched_at": "2026-10-20T02:22:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 169
+  }
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "slug": "patentsview",
+ "name": "PatentsView",
+ "category": "publisher",
+ "fetched_at": "2026-10-20T01:48:07+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://patentsview.org/apis/api-endpoints",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "home": {
+   "url": "https://patentsview.org/",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "llms": {
+   "url": "https://patentsview.org/apis/api-endpoints/llms.txt",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:48:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "llms-318427": {
+   "url": "https://patentsview.org/llms.txt",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:48:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "llms-5a1a8d-err": {
+   "url": "https://docs.patentsview.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.patentsview.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:09+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://patentsview.org/apis/api-endpoints",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:49:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "policy2": {
+   "url": "https://patentsview.org/apis/api-endpoints",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:51:27+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "limits": {
+   "url": "https://patentsview.org/apis/api-endpoints",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:53:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "r1": {
+   "url": "https://patentsview.org/apis/api-endpoints",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T01:58:27+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "r2": {
+   "url": "https://patentsview.org/apis/api-endpoints",
+   "status": 200,
+   "final_url": "https://data.uspto.gov/support/transition-guide/patentsview",
+   "content_type": "text/html",
+   "bytes": 20666,
+   "truncated": false,
+   "sha256": "4ccc927a003f3944c18c0c3394af2d6f2504b194a72ab480ef77fff21b997b85",
+   "fetched_at": "2026-10-20T02:21:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  }
+ }
+}

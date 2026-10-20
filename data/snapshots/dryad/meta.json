@@ -1,0 +1,103 @@
+{
+ "slug": "dryad",
+ "name": "Dryad",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:48+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://datadryad.org/api/v2/docs/",
+   "status": 200,
+   "final_url": "https://datadryad.org/api/v2/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147,
+   "truncated": false,
+   "sha256": "8f1ae73a475c4cd413894cfe011a042e9cd5fd3070968652a6b2d0e5c1a7897f",
+   "fetched_at": "2026-10-20T01:47:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "home": {
+   "url": "https://datadryad.org/",
+   "status": 200,
+   "final_url": "https://datadryad.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 15621,
+   "truncated": false,
+   "sha256": "0ef4dc28a52f03ab5622373c20dd8315cc3e10419b5f925edc4e8e5dd3ef47db",
+   "fetched_at": "2026-10-20T01:47:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 1941
+  },
+  "llms-err": {
+   "url": "https://docs.datadryad.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.datadryad.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:51+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://datadryad.org/api/v2/docs/",
+   "status": 200,
+   "final_url": "https://datadryad.org/api/v2/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147,
+   "truncated": false,
+   "sha256": "8f1ae73a475c4cd413894cfe011a042e9cd5fd3070968652a6b2d0e5c1a7897f",
+   "fetched_at": "2026-10-20T01:49:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "policy2": {
+   "url": "https://datadryad.org/api/v2/docs/",
+   "status": 200,
+   "final_url": "https://datadryad.org/api/v2/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147,
+   "truncated": false,
+   "sha256": "8f1ae73a475c4cd413894cfe011a042e9cd5fd3070968652a6b2d0e5c1a7897f",
+   "fetched_at": "2026-10-20T01:51:02+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "limits": {
+   "url": "https://datadryad.org/api/v2/docs/",
+   "status": 200,
+   "final_url": "https://datadryad.org/api/v2/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147,
+   "truncated": false,
+   "sha256": "8f1ae73a475c4cd413894cfe011a042e9cd5fd3070968652a6b2d0e5c1a7897f",
+   "fetched_at": "2026-10-20T01:53:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "r1": {
+   "url": "https://datadryad.org/api/v2/docs/",
+   "status": 200,
+   "final_url": "https://datadryad.org/api/v2/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147,
+   "truncated": false,
+   "sha256": "8f1ae73a475c4cd413894cfe011a042e9cd5fd3070968652a6b2d0e5c1a7897f",
+   "fetched_at": "2026-10-20T01:58:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "r2": {
+   "url": "https://datadryad.org/api/v2/docs/",
+   "status": 200,
+   "final_url": "https://datadryad.org/api/v2/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147,
+   "truncated": false,
+   "sha256": "8f1ae73a475c4cd413894cfe011a042e9cd5fd3070968652a6b2d0e5c1a7897f",
+   "fetched_at": "2026-10-20T02:22:11+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  }
+ }
+}

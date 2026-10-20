@@ -1,0 +1,65 @@
+{
+ "slug": "chroniclingamerica",
+ "name": "Chronicling America",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:32+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://chroniclingamerica.loc.gov/about/api/",
+   "status": 403,
+   "final_url": "https://chroniclingamerica.loc.gov/about/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5986,
+   "truncated": false,
+   "sha256": "ed3951c2250c622b0f02f0f69ff0249cff4601667b25cf7b64ceb520dc916b84",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://chroniclingamerica.loc.gov/",
+   "status": 403,
+   "final_url": "https://chroniclingamerica.loc.gov/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5768,
+   "truncated": false,
+   "sha256": "700c81c964f14e59fe9c3db3053b18e3386d8680f3c843daa4b18105b3bee578",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.chroniclingamerica.loc.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.chroniclingamerica.loc.gov/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:34+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.loc.gov/apis/additional-apis/chronicling-america-api/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/additional-apis/chronicling-america-api/",
+   "content_type": "text/html",
+   "bytes": 41995,
+   "truncated": false,
+   "sha256": "a5ab92f7240a7e7e9820d859099eec764cc56b5bd5d8cdbd61ed0cb7c56b60c8",
+   "fetched_at": "2026-10-20T01:49:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 2272
+  },
+  "policy2": {
+   "url": "https://www.loc.gov/apis/additional-apis/chronicling-america-api/",
+   "status": 200,
+   "final_url": "https://www.loc.gov/apis/additional-apis/chronicling-america-api/",
+   "content_type": "text/html",
+   "bytes": 41995,
+   "truncated": false,
+   "sha256": "a5ab92f7240a7e7e9820d859099eec764cc56b5bd5d8cdbd61ed0cb7c56b60c8",
+   "fetched_at": "2026-10-20T01:51:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 2272
+  }
+ }
+}

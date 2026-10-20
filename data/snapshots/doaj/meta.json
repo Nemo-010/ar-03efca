@@ -1,0 +1,78 @@
+{
+ "slug": "doaj",
+ "name": "DOAJ",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:43+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://doaj.org/api/v4/docs",
+   "status": 200,
+   "final_url": "https://doaj.org/api/v4/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 75258,
+   "truncated": false,
+   "sha256": "e4580b5ffa7394dca9a1cc6f6322abcfbf77122e304a4a46254d82d30e48dd47",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 14264
+  },
+  "home-err": {
+   "url": "https://doaj.org/",
+   "status": 403,
+   "final_url": "https://doaj.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5579,
+   "truncated": false,
+   "sha256": "6d9d15ffb4521dc720c711a075a73d042ca2909d64161fb6e3f906a9e745f72a",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.doaj.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.doaj.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://doaj.org/api/v4/docs",
+   "status": 200,
+   "final_url": "https://doaj.org/api/v4/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 75258,
+   "truncated": false,
+   "sha256": "e4580b5ffa7394dca9a1cc6f6322abcfbf77122e304a4a46254d82d30e48dd47",
+   "fetched_at": "2026-10-20T01:49:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 14264
+  },
+  "policy2": {
+   "url": "https://doaj.org/api/v4/docs",
+   "status": 200,
+   "final_url": "https://doaj.org/api/v4/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 75258,
+   "truncated": false,
+   "sha256": "e4580b5ffa7394dca9a1cc6f6322abcfbf77122e304a4a46254d82d30e48dd47",
+   "fetched_at": "2026-10-20T01:50:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 14264
+  },
+  "r1": {
+   "url": "https://doaj.org/api/v4/docs",
+   "status": 200,
+   "final_url": "https://doaj.org/api/v4/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 75258,
+   "truncated": false,
+   "sha256": "e4580b5ffa7394dca9a1cc6f6322abcfbf77122e304a4a46254d82d30e48dd47",
+   "fetched_at": "2026-10-20T01:59:06+00:00",
+   "rate_headers": {},
+   "text_bytes": 14264
+  }
+ }
+}

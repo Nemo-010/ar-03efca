@@ -1,0 +1,79 @@
+{
+ "slug": "dimensions",
+ "name": "Dimensions",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:39+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://docs.dimensions.ai/dsl/api.html",
+   "status": 200,
+   "final_url": "https://docs.dimensions.ai/dsl/api.html",
+   "content_type": "text/html",
+   "bytes": 44183,
+   "truncated": false,
+   "sha256": "921e728244bcf85fda61e274f22752771ac5cde227fb19082ed24da25e287a88",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 10935
+  },
+  "home": {
+   "url": "https://www.dimensions.ai/",
+   "status": 200,
+   "final_url": "https://www.dimensions.ai/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 280061,
+   "truncated": false,
+   "sha256": "c3dbffeacc9518eb8188617186e59b73e9787c86cc4adfe6bbde83531ca5f722",
+   "fetched_at": "2026-10-20T01:47:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 10542
+  },
+  "llms-err": {
+   "url": "https://docs.dimensions.ai/llms.txt",
+   "status": 404,
+   "final_url": "https://docs.dimensions.ai/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 343,
+   "truncated": false,
+   "sha256": "0b95ee81cd6728ac97ee74dee5b8eaa6658c7fb8bbf7ffba3e1b147d9e21c3ec",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://docs.dimensions.ai/dsl/api.html",
+   "status": 200,
+   "final_url": "https://docs.dimensions.ai/dsl/api.html",
+   "content_type": "text/html",
+   "bytes": 44183,
+   "truncated": false,
+   "sha256": "921e728244bcf85fda61e274f22752771ac5cde227fb19082ed24da25e287a88",
+   "fetched_at": "2026-10-20T01:49:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 10935
+  },
+  "policy2": {
+   "url": "https://docs.dimensions.ai/dsl/api.html",
+   "status": 200,
+   "final_url": "https://docs.dimensions.ai/dsl/api.html",
+   "content_type": "text/html",
+   "bytes": 44183,
+   "truncated": false,
+   "sha256": "921e728244bcf85fda61e274f22752771ac5cde227fb19082ed24da25e287a88",
+   "fetched_at": "2026-10-20T01:51:25+00:00",
+   "rate_headers": {},
+   "text_bytes": 10935
+  },
+  "r2": {
+   "url": "https://docs.dimensions.ai/dsl/api.html",
+   "status": 200,
+   "final_url": "https://docs.dimensions.ai/dsl/api.html",
+   "content_type": "text/html",
+   "bytes": 44183,
+   "truncated": false,
+   "sha256": "921e728244bcf85fda61e274f22752771ac5cde227fb19082ed24da25e287a88",
+   "fetched_at": "2026-10-20T02:21:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 10935
+  }
+ }
+}

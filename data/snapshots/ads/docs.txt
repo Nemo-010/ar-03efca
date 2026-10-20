@@ -1,0 +1,117 @@
+ADS API 
+  ads help
+ About 
+ About ADS
+ What's New
+ ADS Blog
+ ADS Help Pages
+ ADS Legacy
+ Services
+ Careers@ADS
+ astrophysics  data system
+ Getting Started 
+ Searching for a Specific Paper 
+ Building a library and calculating metrics 
+ Beginning a literature search 
+ Searching for papers by an author with a common name 
+ Making a Query 
+ Search Syntax 
+ Citation and Reference Operators 
+ Second-Order Queries 
+ Filter Your Search 
+ Positional Field Searches 
+ Comprehensive List of Solr Fields & Operators 
+ (Advanced) Search Syntax 
+ (Advanced) Author Search 
+ Search Results 
+ Sort Results 
+ Metrics 
+ Export Results 
+ Author Affiliation 
+ Visualize Results 
+ Quick Links 
+ Article View 
+ Bibcodes 
+ Journal Macros 
+ User Preferences 
+ Library Link Servers 
+ myADS 
+ ADS Libraries 
+ Creating and editing a library 
+ Making your library public and managing permissions 
+ Set Operations 
+ Visualisations, Metrics, and Exports 
+ Citation Helper 
+ Library Example 
+ ORCID 
+ Claiming papers in ORCID 
+ Searching for papers in ORCID 
+ Data & Curation 
+ Data & Curation Frequently Asked Questions (FAQs) 
+ Conference Proceedings 
+ Submissions Formatting 
+ Journal Inclusion 
+ ADS Curation Model 
+ Technical Standards for Scanning Legacy Literature 
+ Bibgroups 
+ Troubleshooting 
+ How to Generate a HAR File 
+ Videos 
+ Welcome to the New ADS 
+ Introduction to the New ADS 
+ Modernizing ADS Infrastructure: From 1992 to 2019 
+ Searchable Full Text in the new ADS 
+ Working with ADS Libraries 
+ Policies 
+ Terms of Use 
+ Privacy Policy 
+ Accessibility Policy 
+ Name Change Policy 
+ Update Policy 
+ ADS Mirror Links Policy 
+ API Rate Limit Policy 
+ AI Policy 
+ What's New 
+ Frequently Asked Questions 
+ Using the ADS API 
+ #ADSHelp 
+ Handouts 
+ Legacy Services 
+ Logos 
+ Edit help pages on GitHub 
+ toggle sidebar
+ ADS API 
+ The ADS Developer API allows you to write scripts that access many ADS
+ capabilites such as the search, metrics, and export functions.
+ API Help Resources 
+ Get your API token . 
+ Read the introductory API help documentation . 
+ Find code examples in our API Jupyter notebooks . 
+ Explore our API and run code examples in our full API documentation . 
+ View the API terms of use . 
+ © The SAO Astrophysics Data System
+ adshelp[at]cfa.harvard.edu
+ The ADS is operated by the Smithsonian Astrophysical Observatory under
+ NASA Cooperative Agreement 80NSSC21M0056 
+ *The material contained in this document is based upon work supported by
+ a National Aeronautics and Space Administration (NASA) grant or
+ cooperative agreement. Any opinions, findings, conclusions or
+ recommendations expressed in this material are those of the author and
+ do not necessarily reflect the views of NASA.
+ Resources 
+ About ADS
+ ADS Help
+ What's New
+ Careers@ADS
+ Accessibility
+ Social 
+ @adsabs
+ ADS Blog
+ Project 
+ Switch to basic HTML 
+ Privacy Policy 
+ Terms of Use 
+ Smithsonian Astrophysical Observatory 
+ Smithsonian Institution 
+ NASA 
+ 🌓

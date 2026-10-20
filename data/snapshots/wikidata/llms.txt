@@ -1,0 +1,415 @@
+Wikimedia Open Source 
+ Wikimedia Open Source 
+ Free and open-source software from Wikimedia. 
+ Home Featured Localisation User experience Apps Libraries Infrastructure Testing MediaWiki components Analytics Microsites Doc index Test coverage Code metrics 
+ Featured 
+ MediaWiki PHP, JS 
+ The collaborative editing engine that runs Wikipedia. 
+ Project homepage Source code Documentation Code documentation (PHP) Code documentation (JS) PhpMetrics report Test coverage 
+ Parsoid PHP 
+ Two-way MediaWiki wikitext↔HTML parser. 
+ Project homepage Source code Documentation 
+ VisualEditor JS 
+ Rich text visual editor for the browser with a MediaWiki integration. WYSIWYG, based on HTML5+RDFa and ContentEditable. 
+ Project homepage Demo Source code (standalone) Code documentation (standalone) Code coverage (standalone) Source code (MediaWiki integration) Code documentation (MediaWiki integration) Code coverage (MediaWiki integration) 
+ Localisation 
+ banana-i18n JS, Vue, React 
+ Internationalization library that uses "banana" format - A JSON based localization file format. 
+ Project homepage Source code JavaScript package (npm) React package (npm) Vue package (npm) 
+ Bcp47Code PHP 
+ A simple interface representing a language object which can be represented by a BCP 47 code. 
+ Project homepage Source code Package (Composer) Documentation 
+ CLDRPluralRuleParser PHP 
+ Parse CLDR plural rules from Unicode. 
+ Project homepage Source code Documentation Package (Composer) 
+ cldrpluralruleparser.js JS 
+ Parse CLDR plural rules from Unicode. 
+ Project homepage Source code 
+ CSSJanus JS 
+ Convert stylesheets from left-to-right to right-to-left. 
+ Project homepage Source code Documentation Demo 
+ IPAValidator PHP 
+ Composer package for validating and normalizing IPA 
+ Source code Package (Composer) 
+ jQuery.i18n JS 
+ Interface text localisation with support for CLDR plural rules, language fallbacks, Banana JSON files, and more. 
+ Project homepage Source code 
+ language-data JS, PHP 
+ Language related data based on CLDR and utility libraries to interact with that data 
+ Project homepage Source code Package (Composer) Package (npm) 
+ php-cssjanus PHP 
+ Convert stylesheets from left-to-right to right-to-left. (PHP port) 
+ Project homepage Source code Documentation Demo Package (Composer) Test coverage 
+ UnicodeJS JS 
+ String manipulation based on Unicode standard word breaks, graphemes, and character classes. 
+ Project homepage Source code Documentation 
+ utfnormal PHP 
+ Unicode normalization routines to produce NFC/UTF-8 strings. 
+ Project homepage Source code Documentation 
+ User experience 
+ Codex JS, Vue, CSS 
+ Design and build accessible and internationalization-ready user interfaces with the Wikimedia Design System. Features Vue 3 and CSS-only components. 
+ Source code Documentation Package (npm) 
+ Codex Design Tokens CSS, Less, Sass, JSON 
+ Stylesheets in various flavors and JSON containing Wikimedia Design style values. 
+ Project homepage Documentation Source code Package (npm) 
+ Codex Icons SVG, Less 
+ Codex icons in 'WikimediaUI' theme style as Less vars with SVG paths for Vue 3 apps. 
+ Project homepage Documentation Source code Package (npm) 
+ Codex PHP (Beta) PHP 
+ A PHP library for generating Codex CSS-only component markup using a builder-based methodology. 
+ Source code Documentation 
+ OOUI JS, PHP 
+ Rapidly create web-applications in JS or PHP. Cross-browser, i18n and a11y ready. 
+ Project homepage Source code Demo Code documentation (JS) Code documentation (PHP) Package (npm) Package (Composer) 
+ Apps 
+ Who Wrote That JS 
+ Explore authorship and revision informationon Wikipedia with this browser app. 
+ Project homepage Firefox Add-on Store Chrome Web Store Source code 
+ Wikipedia for Android Java 
+ The official Wikipedia app. 
+ Project homepage Source code Google Play Store Contributing 
+ Wikipedia for iOS Swift 
+ The official Wikipedia app. 
+ Project homepage Source code Apple App Store Contributing or Beta testing 
+ Libraries 
+ AhoCorasick PHP 
+ Efficient searching for multiple keywords in a string using the Aho-Corasick algorithm. 
+ Project homepage Source code Documentation Package (Composer) 
+ Alea PHP 
+ Pure PHP port of the JavaScript alea.js seedable pseudo-random number generator library. 
+ Project homepage Source code Documentation Package (Composer) 
+ Assert PHP 
+ Run-time assertions for parameter types, preconditions and postconditions. 
+ Project homepage Source code Documentation Package (Composer) 
+ at-ease PHP 
+ Safe alternative to PHP's error-control operator. 
+ Project homepage Source code Documentation 
+ base-convert PHP 
+ Convert arbitrarily-length strings from one numeric base to another. 
+ Project homepage Source code Documentation Package (Composer) 
+ CDB PHP 
+ Fast and highly reliable key-value database file format. 
+ Project homepage Source code Documentation Package (Composer) Test coverage 
+ clover-diff PHP 
+ A PHP tool to diff two clover.xml files 
+ Source code Documentation Package (Composer) 
+ CommonPasswords PHP 
+ A list of common passwords implemented to provide NIST best practices of preventing usage of the 100,000 most used passwords. 
+ Project homepage Source code Documentation Package (Composer) 
+ css-sanitizer PHP 
+ CSS parser in pure PHP to transform or filter stylesheets. 
+ Project homepage Source code Documentation 
+ DeadlinkChecker PHP 
+ A PHP library for checking if a given url is dead or alive 
+ Project homepage Source code Package (Composer) 
+ Dodo PHP 
+ DOm DOcument implementation in pure PHP 
+ Project homepage Source code Documentation Package (Composer) 
+ Equivset PHP 
+ Detect visually similar UTF-8 characters, partially based on Unicode Confusables. 
+ Project homepage Source code Documentation Package (Composer) 
+ HtmlFormatter PHP 
+ Transformations for MediaWiki HTML output, based on libxml2. 
+ Project homepage Source code Documentation 
+ IDLeDOM PHP 
+ DOM interfaces generated from WebIDL 
+ Project homepage Source code Documentation Package (Composer) 
+ IPSet PHP 
+ Efficient matching of IP addresses against CIDR specifications. 
+ Project homepage Source code Documentation Package (Composer) 
+ IPUtils PHP 
+ Parsing and formatting of IPv4/IPv6 addresses and CIDR ranges. 
+ Project homepage Source code Documentation Package (Composer) 
+ jQuery Client JS 
+ A minimal user-agent parser for client-side JavaScript. 
+ Project homepage Source code Documentation Test coverage 
+ JsonCodec PHP 
+ Interfaces to serialize and deserialize PHP objects to/from JSON 
+ Source code Documentation Package (Composer) 
+ LangConv PHP 
+ FST-based implementation of language and script conversion. 
+ Project homepage Source code Documentation Package (Composer) 
+ Message PHP 
+ Interfaces to define i18n messages in a MediaWiki-compatible way. 
+ Project homepage Source code Documentation Package (Composer) 
+ Minify PHP 
+ Minification of JavaScript code and CSS stylesheets. 
+ Project homepage Source code Documentation Package (Composer) 
+ mwbot-rs Rust 
+ framework for writing MediaWiki bots and tools in Rust 
+ Project homepage Source code Documentation Package (Cargo) 
+ mwseaql Rust 
+ MediaWiki table definitions for sea-ql 
+ Project homepage Source code Documentation Package (Cargo) 
+ NormalizedException PHP 
+ A minimal library to facilitate PSR-3-friendly exception handling 
+ Project homepage Source code Documentation Package (Composer) 
+ oauthclient-php 
+ OAuth client for Wikipedia and other MediaWiki sites. 
+ Project homepage Source code Documentation Package (Composer) 
+ ObjectFactory PHP 
+ Construct objects based on a static description. 
+ Project homepage Source code Documentation 
+ OOjs JS 
+ Create, extend and mixin classes with JavaScript. 
+ Project homepage Source code Documentation 
+ phan-taint-check-plugin PHP 
+ A Phan plugin meant to use static analysis to find certain types of security vulnerabilities in PHP code 
+ Project homepage Source code Live demo Package (Composer) 
+ php-session-serializer PHP 
+ Provides methods that work like PHP's session_encode and session_decode functions but don't mess with the $_SESSION superglobal. 
+ Project homepage Source code Documentation 
+ Purtle PHP 
+ Fast streaming RDF serializer for PHP. 
+ Project homepage Source code Documentation Package (Composer) 
+ RelPath PHP 
+ Compute the relative path between two file paths. 
+ Project homepage Source code Documentation Package (Composer) 
+ RemexHtml PHP 
+ Fast HTML5 parser in pure PHP. 
+ Project homepage Source code Documentation Package (Composer) 
+ RequestTimeout PHP 
+ Provides a global request timeout concept, ideally using Excimer, with a fallback to set_time_limit() 
+ Source code Documentation Package (Composer) 
+ RunningStat PHP 
+ Compute statistics for a stream of numbers using only constant space. 
+ Project homepage Source code Documentation 
+ ScopedCallback PHP 
+ Invoke a callback automatically after an object goes out of scope. 
+ Project homepage Source code Documentation 
+ Services PHP 
+ Generic service container to manage named services using lazy instantiator callbacks. 
+ Project homepage Source code Documentation 
+ Shellbox PHP 
+ Web service for containerized shell execution. 
+ Project homepage Source code Documentation 
+ TextCat PHP 
+ PHP port of the TextCat language guesser utility 
+ Project homepage Source code Live demo Package (Composer) 
+ Timestamp PHP 
+ Create, parse, and format timestamps. 
+ Project homepage Source code Documentation 
+ WaitConditionLoop PHP 
+ Poll a condition and manage code execution between checks. 
+ Project homepage Source code Documentation Package (Composer) 
+ WebIDL PHP 
+ Parser for Web IDL, a language to specify web APIs in interoperable way 
+ Source code Documentation Package (Composer) 
+ Wikimedia SlimApp PHP 
+ Source code Documentation 
+ WrappedString PHP 
+ Merge similarly formatted strings. 
+ Project homepage Source code Documentation 
+ XMPReader PHP 
+ Documentation Source code 
+ Zest PHP 
+ Port of the zest.js CSS selector library 
+ Project homepage Source code Documentation Package (Composer) 
+ Infrastructure 
+ Arc Lamp Python, PHP 
+ Gather stack traces from a PHP 7 app with Excimer and publish them as flame graphs and trace logs. 
+ Project homepage Source code Package (Composer) 
+ Blubber Go 
+ BuildKit frontend for building application container images from a minimal set of declarative constructs in YAML. 
+ Documentation Source code 
+ coal Python 
+ Process performance beacons and submit moving medians directly to Graphite. 
+ Project homepage Source code 
+ Cumin Python 
+ Framework for remote command execution. 
+ Documentation Source code 
+ Discovery Parent Pom java 
+ Maven parent pom for Wikimedia 
+ Documentation Source code 
+ DNS 
+ Wikimedia DNS zones and GeoDNS configuration. 
+ Project homepage 
+ docker-pkg Python 
+ Manage creation and updating of Docker images in a unified way. 
+ Project homepage Source code 
+ ecs 
+ WMF Common Logging Schema based on Elastic Common Schema 
+ Source code Documentation 
+ Excimer C, PHP 
+ Low-overhead interrupting timer and sampling profiler for PHP. 
+ Project homepage Documentation Source code Package (Debian) 
+ Fresh Shell 
+ Shell environment for frontend development. 
+ Project homepage Source code 
+ Gearman Java 
+ Java implementation of the Gearman protocol 
+ Documentation Source code 
+ homer Python 
+ Configuration manager for network devices. 
+ Project homepage Source code 
+ homer-public YAML, Jinja2 
+ Configuration files for Homer (configuration manager for network devices). 
+ Project homepage Source code 
+ less.php PHP 
+ Less processor for PHP. 
+ Project homepage Source code Documentation Package (Composer) Test coverage 
+ LuaSandbox C, PHP 
+ Safely execute untrusted Lua 5.1 code, natively from PHP or HHVM. 
+ Project homepage Source code Documentation Documentation (php.net) Package (Debian) Package (PECL) 
+ MediaWiki-Vagrant Puppet 
+ Portable MediaWiki development environment. 
+ Project homepage Source code Documentation 
+ navtiming Python 
+ Process web beacons with performance data and submit aggregate metrics to Statsd. 
+ Project homepage Source code 
+ PipelineLib Groovy 
+ Container-based CI workflow specification and task runner. 
+ Project homepage Source code Documentation Groovy API 
+ PoolCounter C 
+ Lock manager service which provides mutex-like functionality, with a limited wait queue length. 
+ Project homepage Documentation Source code Package (Debian) 
+ Puppet 
+ Server provisioning and configuration for Wikimedia Foundation production. 
+ Project homepage Source code Development manual Code documentation 
+ Quibble Python 
+ Test runner for MediaWiki. 
+ Project homepage Source code Documentation 
+ Release Engineering 
+ Diagrams for WMF CI and deployment systems. 
+ Project homepage 
+ RESTBase 
+ Project homepage 
+ Scap Python 
+ The deployment tool used by Wikimedia Foundation. 
+ Project homepage Source code Scap2 manual Scap3 manual 
+ search-extra Java 
+ Elasticsearch plugin, used by CirrusSearch. 
+ Source code Documentation 
+ search-highlighter Java 
+ Elasticsearch plugin, used by CirrusSearch. 
+ Source code Documentation 
+ Spicerack Python 
+ Task orchestration framework, based on Cumin. 
+ Project homepage Source code Cookbooks API 
+ SRE Cookbooks Python 
+ Collection of Spicerack cookbooks for WMF production infrastructure. 
+ Project homepage 
+ tox-jenkins-override Python 
+ Tox v4 plugin to restore [tox:jenkins] 
+ Source code Documentation 
+ transferpy Python 
+ Tool that can move large files over the network and backup mariadb servers. 
+ Source code Documentation 
+ Wikidata Query Service Java 
+ Documentation 
+ wikidiff2 C, PHP 
+ Fast diff engine for MediaWiki. 
+ Project homepage Documentation Source code Issue tracker 
+ wmerrors C, PHP 
+ Extended error handling and display. 
+ Project homepage Source code Issue tracker 
+ wmflib Python 
+ Generic Python library for common tasks in the WMF production infrastructure. 
+ Project homepage Source code 
+ Testing 
+ eslint-config-wikimedia JS 
+ JavaScript style guide for Wikimedia software. 
+ Project homepage Source code 
+ eslint-plugin-mediawiki JS 
+ ESLint rules for MediaWiki-specific JavaScript idioms. 
+ Project homepage Source code 
+ eslint-plugin-no-jquery JS 
+ Control allowance of certain jQuery functions, and suggest or autofix alternatives. 
+ Project homepage Source code 
+ Fresnel JS 
+ Measure and compare performance of web pages. 
+ Project homepage Source code Documentation Package (npm) Test coverage 
+ grunt-stylelint JS 
+ Stylelint adapter for the Grunt task runner. 
+ Project homepage Source code Package (npm) 
+ MediaWiki API testing JS 
+ A library for end-to-end integration tests of MediaWiki APIs 
+ Project homepage Documentation Source code 
+ stylelint-config-wikimedia JS 
+ CSS style guide for Wikimedia software. 
+ Project homepage Source code 
+ testing-access-wrapper PHP 
+ Convenient shortcuts for accessing protected or private properties and methods. 
+ Project homepage Source code Documentation 
+ MediaWiki components 
+ CheckUser 
+ Project homepage Code documentation (JS) 
+ CirrusSearch 
+ Elasticsearch integration for MediaWiki. 
+ Project homepage Code documentation 
+ Cite 
+ Project homepage Code documentation (JS) 
+ CodeMirror JS, PHP 
+ Syntax highlighting for MediaWiki editors 
+ Project homepage Code documentation (JS) 
+ EventLogging 
+ Project homepage Source code Code documentation 
+ GlobalWatchlist 
+ Project homepage Source code Code documentation (PHP) Code documentation (JS) 
+ GrowthExperiments 
+ Project homepage Source code Frontend code documentation (JS) 
+ GuidedTour 
+ Project homepage Source code Code documentation 
+ Kartographer 
+ Add map capabilitity to wiki pages. 
+ Project homepage Source code Code documentation (PHP) Code documentation (JS) 
+ MinervaNeue skin 
+ Project homepage Code documentation (PHP) Code documentation (JS) 
+ MobileFrontend 
+ Project homepage Source code Storybook Code documentation (JS) Code documentation (PHP) 
+ MultimediaViewer JS 
+ Project homepage Source code Code documentation 
+ PersonalDashboard 
+ Platform for building user dashboards in MediaWiki 
+ Project homepage Source code Code documentation (PHP) 
+ Popups JS 
+ Project homepage Source code Storybook Code documentation (JS) Code documentation (PHP) 
+ TemplateData 
+ Project homepage Source code Code documentation 
+ TimedMediaHandler JS 
+ Allows you to display audio and video files in wiki pages 
+ Project homepage Source code Code documentation 
+ Vector skin 
+ Project homepage Storybook Code documentation (PHP) Code documentation (JS) 
+ Wikibase 
+ The knowledge base for linked open data that runs Wikidata.org. 
+ Project homepage Source code Code documentation WikibaseLexeme documentation Storybook (Termbox) dist-size (Data-Bridge) dist-size (Tainted-Ref) 
+ WikiLambda 
+ Letting users create, manage, and evaluate functions on a wiki, wikifunctions.org. 
+ Project homepage Source code (MW extension) Code documentation (MW JS) Code documentation (MW PHP) Test coverage (MW JS) Test coverage (MW PHP) Source code (orchestrator) Test coverage (orchestrator) Source code (evaluator) Test coverage (evaluator) Source code (shared schemata) Test coverage (shared schemata) 
+ Analytics 
+ analytics.wikimedia.org HTML 
+ Dashboards and data downloads for Wikimedia projects. 
+ Live link Source code 
+ Analytics API Documentation 
+ Open access to data about Wikipedia and other Wikimedia projects. 
+ Live link Source code 
+ Microsites 
+ annual.wikimedia.org HTML 
+ Annual report. 
+ Live link Source code Documentation 
+ developer.wikimedia.org HTML 
+ Portal for Wikimedia developers. 
+ Live link Source code Documentation 
+ integration.wikimedia.org HTML 
+ Doc and Coverage reports. 
+ Live link Source code 
+ performance.wikimedia.org HTML 
+ Metrics, flame graphs, profiles. 
+ Live link Source code Documentation 
+ research.wikimedia.org HTML 
+ Research landing page. 
+ Live link Source code Documentation 
+ stats.wikimedia.org HTML, JS 
+ Wikistats 2.0. 
+ Live link Source code 
+ transparency.wikimedia.org HTML 
+ Transparency report. 
+ Live link Source code Documentation 
+ www.wikipedia.org HTML 
+ Portal for Wikipedia.org and other Wikimedia projects. 
+ Live link Source code Documentation 
+ Modified: 2026-10-20T01:47:03+00:00 
+ Continuous integration status Gerrit Code Review doc.wikimedia.org documentation 
+ A Wikimedia Foundation project

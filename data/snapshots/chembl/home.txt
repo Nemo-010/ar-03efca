@@ -1,0 +1,41 @@
+ChEMBL - ChEMBL 
+ ChEMBL Search in ChEMBL 
+ ChEMBL is a manually curated database of bioactive molecules with drug-like properties. It brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs.
+ Explore ChEMBL Description: Shows a summary of the ChEMBL entities and quantities
+ of data for each of them.
+ Instructions: Click on a bubble to explore a specific ChEMBL entity
+ in more detail.
+ See All Visualisations 
+ Current Release:
+ Provided under a
+ Creative Commons Attribution-ShareAlike 3.0 Unported license
+ |
+ Long-term data preservation Contact Us Citing ChEMBL 
+ The ChEMBL Database in 2023: a drug discovery platform spanning
+ multiple bioactivity data types and time periods.
+ Barbara Zdrazil, Eloy Felix, Fiona Hunter, Emma J Manners, James
+ Blackshaw, Sybilla Corbett, Marleen de Veij, Harris Ioannidis,
+ David Mendez Lopez, Juan F Mosquera, Maria Paula Magarinos,
+ Nicolas Bosc, Ricardo Arcila, Tevik Kizilören, Anna Gaulton, A
+ Patrícia Bento, Melissa. F Adasme, Pater Monecke, Gregory A
+ Landrum, Andrew R Leach
+ - Nucleic Acids Res. 2023: gkad1004. doi: 10.1093/nar/gkad1004 
+ ChEMBL web services: streamlining access to drug discovery data
+ and utilities.
+ Davies M, Nowotka M, Papadatos G, Dedman N, Gaulton A, Atkinson F,
+ Bellis L, Overington JP.
+ - Nucleic Acids Res. 2015; 43(W1):W612-20, doi:
+ 10.1093/nar/gkv352 Want to know more? FAQs Database Schema Funding 
+ Associated Resources
+ In addition to the database, we have developed a series of thematic
+ portals to the underlying ChEMBL data for users with a particular focus
+ to their research
+ ChEMBL-NTD 
+ A repository for Open Access primary screening and medicinal chemistry data directed at neglected tropical diseases.
+ UniChem 
+ A simple system that produces cross-references between chemical structure identifiers from different databases.
+ SureChEMBL 
+ A publicly available large-scale resource containing compounds extracted from patent documents.
+ ChEMBL is part of the ELIXIR infrastructure 
+ ChEMBL is and Elixir Core Data Resource
+ Learn More ChEMBL is a Global Core Biodata Resource

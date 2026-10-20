@@ -1,0 +1,110 @@
+{
+ "slug": "ror",
+ "name": "Research Organization Registry",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:39+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://ror.readme.io/docs/rest-api",
+   "status": 200,
+   "final_url": "https://ror.readme.io/docs/rest-api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 148028,
+   "truncated": false,
+   "sha256": "171ddefcf8fbc21cf6eab47d54598356f4f383fa3d1d34bdfb3b56b62ac5c315",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792459899"
+   },
+   "text_bytes": 5601
+  },
+  "home-err": {
+   "url": "https://ror.org/",
+   "status": 429,
+   "final_url": "https://ror.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 34219,
+   "truncated": false,
+   "sha256": "ff88e10599496e2f2099bb29fdecd7a6749db1d274b4e8e59ddc77f26538764e",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.ror.readme.io/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ror.readme.io/llms.txt",
+   "content_type": "",
+   "bytes": 98,
+   "truncated": false,
+   "sha256": "3bc85200c61d9ef9e6ef6aa67eaf019641bc3966ba241c0f14088573f1ef926b",
+   "fetched_at": "2026-10-20T01:47:40+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://ror.readme.io/docs/rest-api",
+   "status": 200,
+   "final_url": "https://ror.readme.io/docs/rest-api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 148028,
+   "truncated": false,
+   "sha256": "946b0655d1226cc8a5ac59d8533cc05841ebadf4812ef2e469954007e86c97c3",
+   "fetched_at": "2026-10-20T01:49:50+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792459899"
+   },
+   "text_bytes": 5601
+  },
+  "policy2": {
+   "url": "https://ror.readme.io/docs/rest-api",
+   "status": 200,
+   "final_url": "https://ror.readme.io/docs/rest-api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 148028,
+   "truncated": false,
+   "sha256": "c95ef4dcd20d99b7d9c19adb62121e33fe450f61a9991e757c75469be5bdf81d",
+   "fetched_at": "2026-10-20T01:51:13+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792459899"
+   },
+   "text_bytes": 5601
+  },
+  "r1": {
+   "url": "https://ror.readme.io/docs/rest-api",
+   "status": 200,
+   "final_url": "https://ror.readme.io/docs/rest-api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 148028,
+   "truncated": false,
+   "sha256": "3b67268807f6aa208b8980023cf001ef485024d5f2ba4275aff15d5650037629",
+   "fetched_at": "2026-10-20T01:59:03+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792459899"
+   },
+   "text_bytes": 5601
+  },
+  "llms": {
+   "url": "https://ror.readme.io/llms.txt",
+   "status": 200,
+   "final_url": "https://ror.readme.io/llms.txt",
+   "content_type": "text/plain; charset=utf-8",
+   "bytes": 4312,
+   "truncated": false,
+   "sha256": "c0f21ec0a169af9478e39ba70ae17d4f81004c8f803aa5b332ed45dd53dbfa98",
+   "fetched_at": "2026-10-20T02:13:50+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1792458547"
+   },
+   "text_bytes": 4312
+  }
+ }
+}

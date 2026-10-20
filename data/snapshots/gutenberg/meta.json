@@ -1,0 +1,67 @@
+{
+ "slug": "gutenberg",
+ "name": "Project Gutenberg (Gutendex)",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:33+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://gutendex.com/",
+   "status": 200,
+   "final_url": "https://gutendex.com/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10739,
+   "truncated": false,
+   "sha256": "534ea4cae7978b02180ef4562e0e340ecded0aa592108377e074e73f80313385",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {},
+   "text_bytes": 4234
+  },
+  "home": {
+   "url": "https://www.gutenberg.org/",
+   "status": 200,
+   "final_url": "https://www.gutenberg.org/",
+   "content_type": "text/html",
+   "bytes": 30090,
+   "truncated": false,
+   "sha256": "68b4ab9202f0ce67f2db4c2fd9ec2a2da98f6e91fb15cb013114fabe2a190187",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {},
+   "text_bytes": 3624
+  },
+  "llms-err": {
+   "url": "https://docs.gutendex.com/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.gutendex.com/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://gutendex.com/",
+   "status": 200,
+   "final_url": "https://gutendex.com/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10739,
+   "truncated": false,
+   "sha256": "7c84ce9ef34ac2e900aa6242669238b39c5d899ad6eae0a42173efbe1efb827c",
+   "fetched_at": "2026-10-20T01:49:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 4234
+  },
+  "policy2": {
+   "url": "https://gutendex.com/",
+   "status": 200,
+   "final_url": "https://gutendex.com/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10739,
+   "truncated": false,
+   "sha256": "a48ae76f3938cc2b7af025e3c5e0139b6a7037bea8497b98b0022bf07a64cee1",
+   "fetched_at": "2026-10-20T01:51:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 4234
+  }
+ }
+}

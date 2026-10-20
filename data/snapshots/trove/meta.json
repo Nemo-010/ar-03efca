@@ -1,0 +1,103 @@
+{
+ "slug": "trove",
+ "name": "Trove (National Library of Australia)",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:31+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://trove.nla.gov.au/about/create-something/using-api",
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/about/create-something/using-api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 72227,
+   "truncated": false,
+   "sha256": "184c10c063e5f5fbabe10c67b55a406a623db99f25388a9e38f46f606d67ecf1",
+   "fetched_at": "2026-10-20T01:47:31+00:00",
+   "rate_headers": {},
+   "text_bytes": 11202
+  },
+  "home": {
+   "url": "https://trove.nla.gov.au/",
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7738,
+   "truncated": false,
+   "sha256": "5670670b5a922a5a05f46d3136dc88859276ee77b8aaed974b57b5dc9b9f9d69",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "llms": {
+   "url": "https://trove.nla.gov.au/about/create-something/using-api/llms.txt",
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/about/create-something/using-api/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7531,
+   "truncated": false,
+   "sha256": "092c6024837158f7aad24e5cc7c824fb24b858bdd8abc0856c9290317f1e4838",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "llms-2bdba8": {
+   "url": "https://trove.nla.gov.au/llms.txt",
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7533,
+   "truncated": false,
+   "sha256": "2ef96952c42c5a9ab18e173639eb33976fe6a0dc778f81ddb07cca5cad1069d8",
+   "fetched_at": "2026-10-20T01:47:34+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "llms-ac05d7-err": {
+   "url": "https://docs.trove.nla.gov.au/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.trove.nla.gov.au/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:35+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://trove.nla.gov.au/about/create-something/using-api",
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/about/create-something/using-api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 72227,
+   "truncated": false,
+   "sha256": "184c10c063e5f5fbabe10c67b55a406a623db99f25388a9e38f46f606d67ecf1",
+   "fetched_at": "2026-10-20T01:49:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 11202
+  },
+  "policy2": {
+   "url": "https://trove.nla.gov.au/about/create-something/using-api/api-technical-guide",
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/about/create-something/using-api/api-technical-guide",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7533,
+   "truncated": false,
+   "sha256": "e4917afe07f9bec3412f31c84e00224ba98c701b5672c17a01155f87715aae49",
+   "fetched_at": "2026-10-20T01:50:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  },
+  "r2": {
+   "url": "https://trove.nla.gov.au/about/create-something/using-api/api-technical-guide",
+   "status": 200,
+   "final_url": "https://trove.nla.gov.au/about/create-something/using-api/api-technical-guide",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7533,
+   "truncated": false,
+   "sha256": "ca726c46f06694ebcdd62e6e0560a6915c1984db3c8832fd1f6699e69494c2ef",
+   "fetched_at": "2026-10-20T02:21:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 1335
+  }
+ }
+}

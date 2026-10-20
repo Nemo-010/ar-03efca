@@ -1,0 +1,103 @@
+{
+ "slug": "wikipedia-api",
+ "name": "Wikipedia / MediaWiki API",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:34+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 95074,
+   "truncated": false,
+   "sha256": "e5cdb2f85c6cf767e3d2e0179afb0b2942100b37d8b1c902b387e3ff66e99a51",
+   "fetched_at": "2026-10-20T01:47:34+00:00",
+   "rate_headers": {},
+   "text_bytes": 9604
+  },
+  "home": {
+   "url": "https://www.mediawiki.org/wiki/API:Main_page",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/API:Main_page",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 159110,
+   "truncated": false,
+   "sha256": "8241e491ac399f332b9ededa5f9ea99a45891d3dfbddfcb12cbbae00dcf3f49c",
+   "fetched_at": "2026-10-20T01:47:35+00:00",
+   "rate_headers": {},
+   "text_bytes": 26542
+  },
+  "llms-err": {
+   "url": "https://www.mediawiki.org/wiki/API:Main_page/llms.txt",
+   "status": 404,
+   "final_url": "https://www.mediawiki.org/wiki/API:Main_page/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 42252,
+   "truncated": false,
+   "sha256": "f082bd420e7041bffa5d34de756f775f59679589f30f5c062b74466e607e21c7",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://docs.mediawiki.org/llms.txt",
+   "status": 200,
+   "final_url": "https://doc.wikimedia.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 86039,
+   "truncated": false,
+   "sha256": "2cd3a42a459c9e499644c523d811a51bfd88e19eb3a946a4e7e77032f33e1271",
+   "fetched_at": "2026-10-20T01:47:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 18290
+  },
+  "policy": {
+   "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 95074,
+   "truncated": false,
+   "sha256": "e5cdb2f85c6cf767e3d2e0179afb0b2942100b37d8b1c902b387e3ff66e99a51",
+   "fetched_at": "2026-10-20T01:49:53+00:00",
+   "rate_headers": {},
+   "text_bytes": 9604
+  },
+  "policy2": {
+   "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 95074,
+   "truncated": false,
+   "sha256": "e5cdb2f85c6cf767e3d2e0179afb0b2942100b37d8b1c902b387e3ff66e99a51",
+   "fetched_at": "2026-10-20T01:50:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 9604
+  },
+  "limits": {
+   "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 95074,
+   "truncated": false,
+   "sha256": "e5cdb2f85c6cf767e3d2e0179afb0b2942100b37d8b1c902b387e3ff66e99a51",
+   "fetched_at": "2026-10-20T01:54:14+00:00",
+   "rate_headers": {},
+   "text_bytes": 9604
+  },
+  "r1": {
+   "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "status": 200,
+   "final_url": "https://www.mediawiki.org/wiki/API:Etiquette",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 95074,
+   "truncated": false,
+   "sha256": "e5cdb2f85c6cf767e3d2e0179afb0b2942100b37d8b1c902b387e3ff66e99a51",
+   "fetched_at": "2026-10-20T01:58:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 9604
+  }
+ }
+}

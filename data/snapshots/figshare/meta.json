@@ -1,0 +1,78 @@
+{
+ "slug": "figshare",
+ "name": "Figshare",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:47+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://docs.figshare.com/",
+   "status": 200,
+   "final_url": "https://docs.figshare.com/v2/",
+   "content_type": "text/html",
+   "bytes": 243312,
+   "truncated": false,
+   "sha256": "fd0f3c90f9ba5f8d08d3ee10e8e91ae3344a0f226c8dd364384cf2262d344de4",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 141044
+  },
+  "home-err": {
+   "url": "https://figshare.com/",
+   "status": 202,
+   "final_url": "https://figshare.com/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1995,
+   "truncated": false,
+   "sha256": "b9bdd0f1873435d22b467bc6f3994dcdc002dae0780a4e39ae07c6a6435481ff",
+   "fetched_at": "2026-10-20T01:47:49+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://figshare.com/llms.txt",
+   "status": 202,
+   "final_url": "https://figshare.com/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1995,
+   "truncated": false,
+   "sha256": "4f32d0ac3d8bab83b84609061ae9fadd7fcfad9d9304168c5dda6c58e4418301",
+   "fetched_at": "2026-10-20T01:47:51+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://docs.figshare.com/",
+   "status": 200,
+   "final_url": "https://docs.figshare.com/v2/",
+   "content_type": "text/html",
+   "bytes": 243312,
+   "truncated": false,
+   "sha256": "fd0f3c90f9ba5f8d08d3ee10e8e91ae3344a0f226c8dd364384cf2262d344de4",
+   "fetched_at": "2026-10-20T01:49:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 141044
+  },
+  "policy2": {
+   "url": "https://docs.figshare.com/#rate_limits",
+   "status": 200,
+   "final_url": "https://docs.figshare.com/v2/",
+   "content_type": "text/html",
+   "bytes": 243312,
+   "truncated": false,
+   "sha256": "fd0f3c90f9ba5f8d08d3ee10e8e91ae3344a0f226c8dd364384cf2262d344de4",
+   "fetched_at": "2026-10-20T01:50:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 141044
+  },
+  "r1": {
+   "url": "https://docs.figshare.com/#rate_limits",
+   "status": 200,
+   "final_url": "https://docs.figshare.com/v2/",
+   "content_type": "text/html",
+   "bytes": 243312,
+   "truncated": false,
+   "sha256": "fd0f3c90f9ba5f8d08d3ee10e8e91ae3344a0f226c8dd364384cf2262d344de4",
+   "fetched_at": "2026-10-20T01:58:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 141044
+  }
+ }
+}

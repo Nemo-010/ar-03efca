@@ -1,0 +1,102 @@
+{
+ "slug": "obis",
+ "name": "OBIS",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:58+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.obis.org/",
+   "status": 200,
+   "final_url": "https://api.obis.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1392,
+   "truncated": false,
+   "sha256": "ccd680d96caba3fcea401bad55a1af0082e628ef9815d705cb7a56048ade1212",
+   "fetched_at": "2026-10-20T01:47:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "home": {
+   "url": "https://obis.org/",
+   "status": 200,
+   "final_url": "https://obis.org/",
+   "content_type": "text/html",
+   "bytes": 28579,
+   "truncated": false,
+   "sha256": "e50f453d669b44ec125e0971d5c86fb68e6940183ddf903e6f332ea1ed69c6e8",
+   "fetched_at": "2026-10-20T01:47:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 2110
+  },
+  "llms-err": {
+   "url": "https://docs.obis.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.obis.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.obis.org/",
+   "status": 200,
+   "final_url": "https://api.obis.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1392,
+   "truncated": false,
+   "sha256": "ccd680d96caba3fcea401bad55a1af0082e628ef9815d705cb7a56048ade1212",
+   "fetched_at": "2026-10-20T01:49:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "policy2": {
+   "url": "https://api.obis.org/",
+   "status": 200,
+   "final_url": "https://api.obis.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1392,
+   "truncated": false,
+   "sha256": "ccd680d96caba3fcea401bad55a1af0082e628ef9815d705cb7a56048ade1212",
+   "fetched_at": "2026-10-20T01:51:04+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "limits": {
+   "url": "https://api.obis.org/",
+   "status": 200,
+   "final_url": "https://api.obis.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1392,
+   "truncated": false,
+   "sha256": "ccd680d96caba3fcea401bad55a1af0082e628ef9815d705cb7a56048ade1212",
+   "fetched_at": "2026-10-20T01:53:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "r1": {
+   "url": "https://api.obis.org/",
+   "status": 200,
+   "final_url": "https://api.obis.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1392,
+   "truncated": false,
+   "sha256": "ccd680d96caba3fcea401bad55a1af0082e628ef9815d705cb7a56048ade1212",
+   "fetched_at": "2026-10-20T01:58:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "r2": {
+   "url": "https://obis.org/manual/access/",
+   "status": 404,
+   "final_url": "https://obis.org/manual/access/",
+   "content_type": "text/html",
+   "bytes": 153,
+   "truncated": false,
+   "sha256": "cf9be91f18e11cf4bf9caf1181753266a2b7f159327bb3d0081bcc02260d27c2",
+   "fetched_at": "2026-10-20T02:21:54+00:00",
+   "rate_headers": {}
+  }
+ }
+}

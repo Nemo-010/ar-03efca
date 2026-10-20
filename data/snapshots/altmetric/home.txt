@@ -1,0 +1,268 @@
+Reveal online attention to research - Altmetric 
+ Search for: 
+About us
+ Altmetric 
+ About us 
+ What are altmetrics? 
+ Our data 
+ Altmetric Details Page 
+ Altmetric Attention Score 
+ Altmetric news 
+ Our team 
+ Brand 
+ Let’s collaborate 
+ Request more information 
+Solutions
+ Altmetric Explorer 
+ Altmetric Badges 
+ Altmetric API 
+ Altmetric on GBQ 
+ Altmetric for Books 
+ Altmetric Consulting Services 
+ Compass by Dimensions 
+ Dashboards 
+ Share of Voice 
+ Journal Selection 
+ Publication Impact 
+ Journal Benchmark 
+ Sentiment Analysis 
+ Attention Digest 
+ History of Altmetric Attention Score 
+Who we serve
+ Who is Altmetric for? 
+ Institutions 
+ Publishers 
+ Researchers 
+ Nonprofits 
+ Corporate R&D 
+ Medical Affairs 
+ Request a demo 
+Resources
+ Resources 
+ Blog 
+ Events 
+ Case studies 
+ Use cases 
+ Whitepapers / Reports 
+ Free tools 
+ Product updates 
+ Sign up for our newsletter 
+Support
+ Support 
+ Support centre 
+ Getting started 
+ Resource library 
+ Product support 
+ Implementation guide 
+ Altmetric Details Page API documentation 
+ $refs.searchInput.focus());">
+ Sign In 
+ Contact us 
+About us 
+ Altmetric 
+ About us 
+ What are altmetrics? 
+ Our data 
+ Altmetric Details Page 
+ Altmetric Attention Score 
+ Altmetric news 
+ Our team 
+ Brand 
+ Let’s collaborate 
+ Request more information 
+Solutions 
+ Altmetric Explorer 
+ Altmetric Badges 
+ Altmetric API 
+ Altmetric on GBQ 
+ Altmetric for Books 
+ Altmetric Consulting Services 
+ Compass by Dimensions 
+ Dashboards 
+ Share of Voice 
+ Journal Selection 
+ Publication Impact 
+ Journal Benchmark 
+ Sentiment Analysis 
+ Attention Digest 
+ History of Altmetric Attention Score 
+Who we serve 
+ Who is Altmetric for? 
+ Institutions 
+ Publishers 
+ Researchers 
+ Nonprofits 
+ Corporate R&D 
+ Medical Affairs 
+ Request a demo 
+Resources 
+ Resources 
+ Blog 
+ Events 
+ Case studies 
+ Use cases 
+ Whitepapers / Reports 
+ Free tools 
+ Product updates 
+ Sign up for our newsletter 
+Support 
+ Support 
+ Support centre 
+ Getting started 
+ Resource library 
+ Product support 
+ Implementation guide 
+ Altmetric Details Page API documentation 
+ Sign In 
+ Contact us 
+ Your influence. Tracked. Explained. Visualized. 
+ Altmetric’s interface tracks online engagement to reveal how and where your research is making a difference. 
+ Request a demo 
+ Publishers 
+ Academic 
+ N onprofits 
+ Researchers 
+ Medical Affairs 
+ Corporate R&D 
+ Reveal online attention to research at speed 
+ Thousands of conversations about research happen online every day. Altmetric tracks and captures a range of online attention sources to published research across social media, news outlets, policy and more. We collate this activity, to help you monitor, report and showcase the attention surrounding the research you care about. 
+ Request a demo 
+ 1 4 3 5 6 8 
+ Discover some of our solutions for online attention tracking 
+ Uncover the wider influence of published research 
+ Altmetric Explorer 
+ Access and compare online attention to research, as Altmetric tracks thousands of online mentions across social media, mainstream media, policy, patents and more all in one platform. 
+ Learn more 
+ Showcase research influence 
+ Altmetric Badges 
+ Quickly view and understand the dissemination of research at a glance. 
+ Complement traditional citation analysis with Altmetric Badges. Each badge compiles and consolidates online attention to research, so you can instantly visualize and interpret online attention. 
+ Learn more 
+ Flexible data as you need it 
+ Altmetric API 
+ Leverage Altmetric data in the way that works best for your organization. 
+ Conduct more complex searches, ask granular questions, build custom visualizations and merge your own data with the Altmetric API. 
+ Learn more 
+ Custom insight to meet your needs 
+ Altmetric Consultancy 
+ Have your questions answered, as our team creates customized and accurate dashboards in the way you need it. 
+ Tell us your needs and our friendly data analysts can help you create a solution based on your exact requirements. They can even help you uncover solutions you hadn’t thought possible. 
+ Learn more 
+ Transform your approach to engagement tracking 
+ Move beyond citations and listen in on the conversation 
+ Request a quote 
+ Find out more 
+ What our customers say about us 
+ “Altmetric has the potential to change the way we understand the impact that research has within academia and more importantly the wider impact that it has in society.” 
+ SAGE Publications 
+ Latest insights 
+ View all 
+ A Year in Discovery: The Top 10 Standout Publication… 
+ With thousands of papers and studies being published daily, how do you know whether your… 
+ Read more 
+ Understanding attention with sentiment in Medical Affairs 
+ For Medical Affairs teams, “impact” has often been measured by volume: how many times a… 
+ Read more 
+ Beyond the journal: Inside the Altmetric Top 25 NTRO… 
+ For decades, journal articles have been the gold standard of scholarly communication. And while they… 
+ Read more 
+ The institutional dilemma: Assessing impact vs. miti… 
+ For academic research administrators and institutional leadership, the core mandate is twofold: drive high-value, real-world… 
+ Read more 
+ On-demand webinars 
+ View all 
+ What’s new in Altmetric: A guide for publishers 
+ Research attention is evolving, and so are the ways publishers can track, understand and make… 
+ View event 
+ From rankings to reputation intelligence 
+ Exploring the data behind research performance, visibility and academic reputation University rankings attract strong opinions… 
+ View event 
+ The Online Life of Retracted Science: the news cycle, social media and journalistic responsibilities 
+ Retracted research doesn’t simply disappear once it is withdrawn from the scientific record. In many… 
+ View event 
+ Building institutional impact: Supporting researchers and strengthening the university 
+ Who is this webinar for? Research administrators, knowledge exchange and impact professionals, deans, department chairs,… 
+ View event 
+ Unreliable science: Unravelling the impact of mainstream media misrepresentation 
+ This session dives into a project by the University of Turku, funded by the European… 
+ View event 
+ Altmetric update: A year of new features 
+ In this webinar, we highlight major updates introduced over the past year, including new attention… 
+ View event 
+ 12 months that changed a year: New ways Altmetric is helping you capture the dissemination of research online 
+ The Altmetric doughnut has long been a recognisable staple in the research landscape – helping… 
+ View event 
+ Business school accreditation with Altmetric: BI Norwegian Business School 
+ In this session from our Academic User Day, we were joined by Craig Aaen-Stockdale. Craig… 
+ View event 
+ Using Altmetric for impact analysis at VU Amsterdam 
+ In this session from our Academic User Day, we were joined by Matthijs de Zwaan,… 
+ View event 
+ The research radar: How Altmetrics shape academic strategy 
+ The final webinar in our Research Impact User Stories series. Altmetrics offer more than just… 
+ View event 
+ Altmetric & Dimensions Academic User Day 2025 
+ An exciting, content-rich virtual event where our team highlighted what sets Altmetric and Dimensions apart.… 
+ View event 
+ On impact and career trajectories of scientists: Using Altmetrics, bibliometrics, and administrative data in research 
+ The third webinar in our Research Impact User Stories series. Watch our compelling webinar that… 
+ View event 
+ Let’s stay in touch 
+ Subscribe to our newsletter to receive the latest updates about Altmetric and other Digital Science solutions. 
+ Altmetric 
+ A Digital Science solution 
+ Research impact beyond citations – tracking online attention across news, social media, policy, clinical guidelines, blogs, and more. 
+ LinkedIn 
+ X 
+ YouTube 
+ Bluesky 
+ Subscribe to newsletter 
+ Audiences 
+ Publishers 
+ Institutions 
+ Researchers 
+ Nonprofits 
+ Corporate 
+ Pharmaceutical 
+ Products 
+ Altmetric Explorer 
+ Altmetric Badges 
+ Altmetric API 
+ Altmetric Books 
+ Consulting Services 
+ Free tools 
+ Resources 
+ Blog 
+ News 
+ Case studies 
+ Whitepapers 
+ Use cases 
+ About 
+ About us 
+ Our team 
+ Careers 
+ Our data 
+ Collaborate 
+ Contact us 
+ Support 
+ Get support 
+ Help center 
+ System status 
+ Digital Science 
+ Research. Smarter. 
+ Innovative, AI-powered technology driving global research progress – solutions for researchers, institutions, governments, funders, and publishers. 
+ www.digital-science.com 
+ Discover the Digital Science Ecosystem 
+ Dimensions 
+ Figshare 
+ IFI CLAIMS Patent Services 
+ metaphactory 
+ Overleaf 
+ ReadCube 
+ Symplectic Elements 
+ Copyright 2026 Altmetric. A Digital Science solution. All rights reserved. 
+ Privacy 
+ Terms 
+ Cookie Settings 
+ Security 
+ Accessibility

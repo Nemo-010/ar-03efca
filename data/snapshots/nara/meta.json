@@ -1,0 +1,67 @@
+{
+ "slug": "nara",
+ "name": "US National Archives Catalog",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:29+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.archives.gov/research/catalog/help/api",
+   "status": 200,
+   "final_url": "https://www.archives.gov/research/catalog/help/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 45968,
+   "truncated": false,
+   "sha256": "2427610049c68c92707e69fc79fa1c8a06ca835b228e01ee7faf8b2153de008f",
+   "fetched_at": "2026-10-20T01:47:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 13091
+  },
+  "home": {
+   "url": "https://www.archives.gov/research/catalog",
+   "status": 200,
+   "final_url": "https://catalog.archives.gov/",
+   "content_type": "text/html",
+   "bytes": 5454,
+   "truncated": false,
+   "sha256": "64f334d04ad9c9e56607f11c4fad19022e8cd8cb5acb7de9a7b1938eb94b43d1",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {},
+   "text_bytes": 0
+  },
+  "llms-err": {
+   "url": "https://docs.archives.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.archives.gov/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.archives.gov/research/catalog/help/api",
+   "status": 200,
+   "final_url": "https://www.archives.gov/research/catalog/help/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 45968,
+   "truncated": false,
+   "sha256": "2427610049c68c92707e69fc79fa1c8a06ca835b228e01ee7faf8b2153de008f",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 13091
+  },
+  "policy2": {
+   "url": "https://www.archives.gov/research/catalog/help/api",
+   "status": 200,
+   "final_url": "https://www.archives.gov/research/catalog/help/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 45968,
+   "truncated": false,
+   "sha256": "2427610049c68c92707e69fc79fa1c8a06ca835b228e01ee7faf8b2153de008f",
+   "fetched_at": "2026-10-20T01:50:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 13091
+  }
+ }
+}

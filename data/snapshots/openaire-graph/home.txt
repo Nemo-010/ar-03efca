@@ -1,0 +1,132 @@
+OpenAIRE Graph - Home 
+ Skip to main content 
+ About 
+ About the Graph 
+ Graph & Open Science 
+ Statistics 
+ Roadmap 
+ Changelog 
+ The Team 
+ Use / Contribute 
+ Learn how 
+ Access the Graph dataset 
+ Community 
+ User forum 
+ Community Calls 
+ News 
+ Cases 
+ Support 
+ Supporting Materials 
+ Training Resources 
+ FAQs 
+ APIs 
+ Publications 
+ Documentation 
+ Explore the Graph 
+ About 
+ What is the OpenAIRE Graph 
+ A general overview of one of the world's largest Scholarly Knowledge Graphs. 
+ Learn more 
+ OpenAIRE Graph and Open Science 
+ A 360 o view of research enabled by an interconnected ecosystem of research results. All made possible by Open Science. 
+ Find out how 
+ Dive Deeper 
+ Statistics 
+ Roadmap 
+ Changelog 
+ Team 
+ Use / Contribute 
+ Use and Contribute 
+ Explore all of the ways that you can access, use, or contribute to the Graph. 
+ Learn how 
+ Harness the Power of Open Data 
+ Access the OpenAIRE Graph dataset 
+ Community 
+ User Forum 
+ Community Calls 
+ News 
+ Events 
+ Cases 
+ Discover how organisations like yours use the OpenAIRE Graph in their workflows, discovery, assessment excercises, and more. 
+ View more 
+ Support 
+ General Support 
+ Technical Support 
+ Helpdesk 
+ Supporting Material 
+ Training Resources 
+ FAQs 
+ APIs Learn how to access the Graph. 
+ Publications Understand in depth. 
+ Graph Inquiries Technical Assistance 
+ Ask us 
+ Documentation 
+ Explore the Graph 
+ A Global Scholarly Knowledge Graph 
+ 390.4 M Research Products 
+ PUBLICATIONS. DATA. SOFTWARE. + 
+    results are shown in the Graph user interface, OpenAIRE EXPLORE   
+ Oct 14-16 
+ EOSC Symposium 2026 
+ Oct 26 
+ Sci-K 2026 
+ Nov 18 
+ OpenAIRE Graph Community Call 
+ Nov 24 - 25 
+ 2026 Conference of the Barcelona Declaration on Open Research Information 
+ Join our next Community Call 
+ November 18, 2026 @ 11:00 CET 
+ Grab your coffee and join our online user meeting to learn about how to best take advantage of the Graph and new or pending developments. 
+ See Upcoming Topics & Register Now 
+ Join the Graph User Forum 
+ Get involved to help shape a better service. 
+ Join 
+ Why the OpenAIRE Graph? 
+ Open. Transparent. Trusted . 
+ A 360 o view of research 
+ Publications, research data, software, protocols and other research outcomes interlinked, and all linked to authors, organisations, funders and publication venues. 
+ Interoperable 
+ Data uploaded to the Graph contain ORCID , ROR , Scholix, OpenCitations, and other registry identifiers, allowing for global interoperability and registered data is compliant with the OpenAIRE Guidelines . 
+ Open & Trasparent 
+ Provenance is tracked at all levels of records and properties, fully documented. The Graph is freely available for download and re-use to all as CC-BY or CC-0. 
+ Enriched 
+ Each record is classified with information related to Fields of Science, emerging scientific or technological topics, SDGs. 
+ Connected 
+ Open Access publications are processed by AI algorithms and extract information on authors citations of datasets, software, bioentities, methods, diseases, etc. providing context for discovery and assessment. 
+ Completed with Metrics 
+ Metrics are embedded into each record of the Graph to provide advanced statistics about its use, impact and openness. 
+ Learn more 
+ The epitome of a community driven-effort and technological advancement. 
+ How can I use or contribute to the OpenAIRE Graph? 
+ Learn how 
+ Community Cases 
+ See how others are using the OpenAIRE Graph in workflows, discovery, and assessment 
+ European Commission Monitor Dashboard 
+ The National Open Access Monitor Ireland 
+ Supporting intelligent policy making with OpenAIRE Graph 
+ EC Participant Portal 
+ Curating the OpenAIRE Graph: disambiguating Greek organisations metadata with OpenOrgs 
+ Integration of OpenAIRE Graph on OiPub SME platform 
+ ​Linknovate knowledge base enrichment and curation via OpenAIRE Graph 
+ Science. Set free. 
+ About 
+ The OpenAIRE Graph Documentation FAQs OpenAIRE Privacy Policy 
+ Connect 
+ Contact us User Forum Community Calls News 
+ Upcoming Events 
+ Sci-K 2026 
+ Monday, 26 October 2026 
+ Workshops 
+ 26th OpenAIRE Graph Community Call 
+ Wednesday, 18 November 2026 
+ Community Calls 
+ 2026 Conference of the Barcelona Declaration on Open Research Information 
+ Tuesday, 24 November 2026 
+ Conferences 
+ Follow Us 
+ Privacy Policy
+ Privacy Statement
+ Terms of Services
+ Accessibility Statement
+ Cookies Policy
+ Unless otherwise indicated, all materials created by OpenAIRE are licenced under  CC ATTRIBUTION 4.0 INTERNATIONAL LICENSE .

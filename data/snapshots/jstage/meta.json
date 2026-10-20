@@ -1,0 +1,103 @@
+{
+ "slug": "jstage",
+ "name": "J-STAGE",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:48:01+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "status": 200,
+   "final_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 36421,
+   "truncated": false,
+   "sha256": "eb35d7ff1fbe16524ff354b36aa9fa2175cfb21648dc2f793b8c49cdb140f471",
+   "fetched_at": "2026-10-20T01:48:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 7596
+  },
+  "home": {
+   "url": "https://www.jstage.jst.go.jp/",
+   "status": 200,
+   "final_url": "https://www.jstage.jst.go.jp/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 84772,
+   "truncated": false,
+   "sha256": "df0c515406c9acbebb6b66e5b91cc06793f4862cf3ac8b00a69e9de492772dc1",
+   "fetched_at": "2026-10-20T01:48:02+00:00",
+   "rate_headers": {},
+   "text_bytes": 7690
+  },
+  "llms-err": {
+   "url": "https://docs.jstage.jst.go.jp/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.jstage.jst.go.jp/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:48:06+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "status": 200,
+   "final_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 36421,
+   "truncated": false,
+   "sha256": "eb35d7ff1fbe16524ff354b36aa9fa2175cfb21648dc2f793b8c49cdb140f471",
+   "fetched_at": "2026-10-20T01:49:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 7596
+  },
+  "policy2": {
+   "url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "status": 200,
+   "final_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 36421,
+   "truncated": false,
+   "sha256": "eb35d7ff1fbe16524ff354b36aa9fa2175cfb21648dc2f793b8c49cdb140f471",
+   "fetched_at": "2026-10-20T01:51:10+00:00",
+   "rate_headers": {},
+   "text_bytes": 7596
+  },
+  "limits": {
+   "url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "status": 200,
+   "final_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 36421,
+   "truncated": false,
+   "sha256": "eb35d7ff1fbe16524ff354b36aa9fa2175cfb21648dc2f793b8c49cdb140f471",
+   "fetched_at": "2026-10-20T01:53:53+00:00",
+   "rate_headers": {},
+   "text_bytes": 7596
+  },
+  "r1": {
+   "url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "status": 200,
+   "final_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 36421,
+   "truncated": false,
+   "sha256": "eb35d7ff1fbe16524ff354b36aa9fa2175cfb21648dc2f793b8c49cdb140f471",
+   "fetched_at": "2026-10-20T01:58:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 7596
+  },
+  "r2": {
+   "url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "status": 200,
+   "final_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 36421,
+   "truncated": false,
+   "sha256": "eb35d7ff1fbe16524ff354b36aa9fa2175cfb21648dc2f793b8c49cdb140f471",
+   "fetched_at": "2026-10-20T02:21:57+00:00",
+   "rate_headers": {},
+   "text_bytes": 7596
+  }
+ }
+}

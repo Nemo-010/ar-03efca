@@ -1,0 +1,101 @@
+{
+ "slug": "gallica",
+ "name": "Gallica (BnF)",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:33+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.bnf.fr/api-gallica-de-recherche",
+   "status": 200,
+   "final_url": "https://api.bnf.fr/api-gallica-de-recherche",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 71718,
+   "truncated": false,
+   "sha256": "65efe1cf29ca9bb72a71dfac6dee00f92049a976ea1b721f74d406560b3b2031",
+   "fetched_at": "2026-10-20T01:47:33+00:00",
+   "rate_headers": {},
+   "text_bytes": 33906
+  },
+  "home-err": {
+   "url": "https://gallica.bnf.fr/",
+   "status": 403,
+   "final_url": "https://gallica.bnf.fr/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5707,
+   "truncated": false,
+   "sha256": "d3a9d02ae3f32cd2aba65e742a21f10cef60e2f55c149cee78b5b3b5526a44d4",
+   "fetched_at": "2026-10-20T01:47:34+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.bnf.fr/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.bnf.fr/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "status": 200,
+   "final_url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 90057,
+   "truncated": false,
+   "sha256": "575d3b0f056855f0e58d77f5e5fdf41be98add78225b9f9ae9faf96e2bd2b911",
+   "fetched_at": "2026-10-20T01:49:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 37729
+  },
+  "policy2": {
+   "url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "status": 200,
+   "final_url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 90057,
+   "truncated": false,
+   "sha256": "575d3b0f056855f0e58d77f5e5fdf41be98add78225b9f9ae9faf96e2bd2b911",
+   "fetched_at": "2026-10-20T01:51:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 37729
+  },
+  "limits": {
+   "url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "status": 200,
+   "final_url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 90057,
+   "truncated": false,
+   "sha256": "575d3b0f056855f0e58d77f5e5fdf41be98add78225b9f9ae9faf96e2bd2b911",
+   "fetched_at": "2026-10-20T01:54:10+00:00",
+   "rate_headers": {},
+   "text_bytes": 37729
+  },
+  "r1": {
+   "url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "status": 200,
+   "final_url": "https://api.bnf.fr/fr/api-document-de-gallica",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 90057,
+   "truncated": false,
+   "sha256": "575d3b0f056855f0e58d77f5e5fdf41be98add78225b9f9ae9faf96e2bd2b911",
+   "fetched_at": "2026-10-20T01:58:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 37729
+  },
+  "r2": {
+   "url": "https://api.bnf.fr/fr/limites-dutilisation-de-lapi-gallica",
+   "status": 404,
+   "final_url": "https://api.bnf.fr/fr/limites-dutilisation-de-lapi-gallica",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 20382,
+   "truncated": false,
+   "sha256": "68b6087edf2bd3e22fe39fc248ef9f7e453006dc69a540b7d419c2c2a62b805c",
+   "fetched_at": "2026-10-20T02:21:52+00:00",
+   "rate_headers": {}
+  }
+ }
+}

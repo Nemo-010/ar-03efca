@@ -1,0 +1,71 @@
+IA Scholar Help 
+ IA Scholar 
+ Search 
+ Scholar User Guide 
+ See also: About Scholarly Search 
+ This service provides fulltext searching for research publications archived in Internet Archive's various collections. It includes content from the natural sciences, humanities, biomedicine, art, history, industrial research, government reports, and more. 
+ Reader access to the content is provided when possible. Sometimes this access is to a preprint or other version of the work, and this is indicated in the search results. In other cases, depending on search filters, results are included for which there is only a bibliographic catalog entry. It may still be possible to obtain access through a public library or from the publisher directly. 
+ Query Syntax 
+ In addition to the basic filtering and sorting options, this search interface also allows the use of Lucene query syntax in the search box. You can restrict term queries on multiple metadata fields using colon statements like journal:Science , set filters like lang:de , and apply range queries like year:>1989 year:<2000 . 
+ While this syntax allows for relatively complex and powerful queries, at some point advanced users may run into limits on the size or complexity of queries. For the time being we recommend systems like lens.org for a more powerful interface. 
+ Example Queries 
+ Search for digitized pages about a topic from specific years: 
+ Try It 
+ Search for papers in Chinese matching a term: 
+ Try It 
+ Conference papers with an author name query: 
+ Try It 
+ Metadata Fields 
+ You can restrict to records where the field exists with an asterisk like doi:* , and negate any term like !type:article-journal . 
+ In-depth documentation of the query syntax is available from the Elasticsearch project . 
+ The complete current search document schema is available (as JSON) in the source code . 
+ title: 
+ author: 
+ journal: 
+ year: 
+ issue: 
+ volume: 
+ doi: 
+ tag: eg, "tag:oa" 
+ type: eg, "article-journal", "dataset", "book" 
+ stage: eg, "published", "submitted", "accepted", "draft" 
+ lang: value is a 2-character lower-case ISO language code 
+ country: value is a 2-character lower-case ISO country code 
+ access_type: "wayback", "ia_file", "ia_sim" 
+ Search Results 
+ Access Links 
+ If we are able to provide access to full-text for a given search result
+ it will have a link like "Archived PDF" or "Microfilm Scan". If possible,
+ we also link to a "live" URL for a given release ("Original URL"). 
+ Persistent Identifiers 
+ Underneath search results, and alternate version listings, are any known "persistent identifiers" that uniquely identify the specific version of the work. These are usually hyperlinks. 
+ doi: Digital Object Identifier (DOI) , provides a redirect to the publisher's landing page 
+ pmid: PubMed/MEDLINE 
+ pmcid: PubMed Central 
+ arxiv: arXiv pre-print service 
+ dblp: The DBLP Computer Science Bibliography 
+ doaj: Article-level identifier for works in DOAJ, particularly those with no DOI 
+ Work In Progress 
+ Metadata is continually being improved and some features have not been finalized. 
+ Some known bugs and issues: 
+ Poor metadata quality for conference proceedings. Many are labeled "unpublished" and are not associated with the conference. 
+ Duplicate versions of same work. For example, different versions of the same paper or dataset. We are working on basic entity-deduplication in the fatcat catalog. 
+ Mis-matching of file content or version with work metadata. For example, sometimes pre-prints or author manuscripts are incorrectly associated with version-of-record metadata, or vice-versa. 
+ Internet Archive 
+ We are a US 501(c)(3) non-profit library, building a global archive
+ of Internet sites and other cultural artifacts in digital form.
+ Other projects include
+ The Wayback Machine ,
+ archive.org ,
+ Open Library , and
+ Archive-It .
+ About Us 
+ Contact Us 
+ Policies 
+ Donate 
+ scholar.archive.org 
+ How It Works 
+ Content Sources 
+ Text and Data Mining 
+ Help 
+ Source Code

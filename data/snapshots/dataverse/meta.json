@@ -1,0 +1,114 @@
+{
+ "slug": "dataverse",
+ "name": "Harvard Dataverse",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:49+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://guides.dataverse.org/en/latest/api/",
+   "status": 200,
+   "final_url": "https://guides.dataverse.org/en/latest/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 43093,
+   "truncated": false,
+   "sha256": "b35aa846a95537710b4ffc5b70435e6d9d9ba24897fce008229c240324fc76c1",
+   "fetched_at": "2026-10-20T01:47:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 6776
+  },
+  "home-err": {
+   "url": "https://dataverse.harvard.edu/",
+   "status": 202,
+   "final_url": "https://dataverse.harvard.edu/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2071,
+   "truncated": false,
+   "sha256": "fb3c2c953e4716cd98f4c361a383e256bf9ebbec951b243b7f442942a0c8fead",
+   "fetched_at": "2026-10-20T01:47:49+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.guides.dataverse.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.guides.dataverse.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://guides.dataverse.org/en/latest/api/",
+   "status": 200,
+   "final_url": "https://guides.dataverse.org/en/latest/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 43093,
+   "truncated": false,
+   "sha256": "b35aa846a95537710b4ffc5b70435e6d9d9ba24897fce008229c240324fc76c1",
+   "fetched_at": "2026-10-20T01:49:38+00:00",
+   "rate_headers": {},
+   "text_bytes": 6776
+  },
+  "policy2": {
+   "url": "https://guides.dataverse.org/en/latest/api/native-api.html",
+   "status": 200,
+   "final_url": "https://guides.dataverse.org/en/latest/api/native-api.html",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1109584,
+   "truncated": false,
+   "sha256": "2578df267a4a8a98f55c266eca417f7e262aed245592a51a022bfe4be5ca6602",
+   "fetched_at": "2026-10-20T01:51:02+00:00",
+   "rate_headers": {},
+   "text_bytes": 400296
+  },
+  "limits": {
+   "url": "https://guides.dataverse.org/en/latest/api/native-api.html",
+   "status": 200,
+   "final_url": "https://guides.dataverse.org/en/latest/api/native-api.html",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1109584,
+   "truncated": false,
+   "sha256": "2578df267a4a8a98f55c266eca417f7e262aed245592a51a022bfe4be5ca6602",
+   "fetched_at": "2026-10-20T01:54:24+00:00",
+   "rate_headers": {},
+   "text_bytes": 400296
+  },
+  "r1": {
+   "url": "https://guides.dataverse.org/en/latest/api/native-api.html",
+   "status": 200,
+   "final_url": "https://guides.dataverse.org/en/latest/api/native-api.html",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1109584,
+   "truncated": false,
+   "sha256": "2578df267a4a8a98f55c266eca417f7e262aed245592a51a022bfe4be5ca6602",
+   "fetched_at": "2026-10-20T01:59:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 400296
+  },
+  "r2": {
+   "url": "https://guides.dataverse.org/en/latest/api/index.html",
+   "status": 200,
+   "final_url": "https://guides.dataverse.org/en/latest/api/index.html",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 43093,
+   "truncated": false,
+   "sha256": "b35aa846a95537710b4ffc5b70435e6d9d9ba24897fce008229c240324fc76c1",
+   "fetched_at": "2026-10-20T02:21:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 6776
+  },
+  "ratelimits": {
+   "url": "https://guides.dataverse.org/en/latest/installation/config.html",
+   "status": 200,
+   "final_url": "https://guides.dataverse.org/en/latest/installation/config.html",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 805280,
+   "truncated": false,
+   "sha256": "9b4070eb0915bb7d9dba460ba0aa2049e8dcfa1946d51d0600d0853f8af55fb6",
+   "fetched_at": "2026-10-20T02:36:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 337533
+  }
+ }
+}

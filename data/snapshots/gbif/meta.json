@@ -1,0 +1,136 @@
+{
+ "slug": "gbif",
+ "name": "GBIF",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:51+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://techdocs.gbif.org/en/openapi/",
+   "status": 200,
+   "final_url": "https://techdocs.gbif.org/en/openapi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 23511,
+   "truncated": false,
+   "sha256": "9d5744bd574e711124a74a65c54e4543af2796b88858269e8518434eb7275ba3",
+   "fetched_at": "2026-10-20T01:47:51+00:00",
+   "rate_headers": {
+    "X-RateLimit": ""
+   },
+   "text_bytes": 8357
+  },
+  "home-err": {
+   "url": "https://www.gbif.org/",
+   "status": 403,
+   "final_url": "https://www.gbif.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5584,
+   "truncated": false,
+   "sha256": "09e3c3afd22934868add56ee84d0eb2b4db3b3d66406fecf8e6908caf3da9c29",
+   "fetched_at": "2026-10-20T01:47:52+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.techdocs.gbif.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.techdocs.gbif.org/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://techdocs.gbif.org/en/openapi/",
+   "status": 200,
+   "final_url": "https://techdocs.gbif.org/en/openapi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 23511,
+   "truncated": false,
+   "sha256": "9d5744bd574e711124a74a65c54e4543af2796b88858269e8518434eb7275ba3",
+   "fetched_at": "2026-10-20T01:49:41+00:00",
+   "rate_headers": {
+    "X-RateLimit": ""
+   },
+   "text_bytes": 8357
+  },
+  "policy2": {
+   "url": "https://techdocs.gbif.org/en/openapi/#rate-limits",
+   "status": 200,
+   "final_url": "https://techdocs.gbif.org/en/openapi/#rate-limits",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 23511,
+   "truncated": false,
+   "sha256": "9d5744bd574e711124a74a65c54e4543af2796b88858269e8518434eb7275ba3",
+   "fetched_at": "2026-10-20T01:50:42+00:00",
+   "rate_headers": {
+    "X-RateLimit": ""
+   },
+   "text_bytes": 8357
+  },
+  "limits": {
+   "url": "https://techdocs.gbif.org/en/openapi/",
+   "status": 200,
+   "final_url": "https://techdocs.gbif.org/en/openapi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 23511,
+   "truncated": false,
+   "sha256": "9d5744bd574e711124a74a65c54e4543af2796b88858269e8518434eb7275ba3",
+   "fetched_at": "2026-10-20T01:52:53+00:00",
+   "rate_headers": {
+    "X-RateLimit": ""
+   },
+   "text_bytes": 8357
+  },
+  "limits2": {
+   "url": "https://www.gbif.org/faq",
+   "status": 403,
+   "final_url": "https://www.gbif.org/faq",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5614,
+   "truncated": false,
+   "sha256": "69ef37025e5f0e46d275cff04ed45db33ad4b430261ac5d3f15f844081d4e9dc",
+   "fetched_at": "2026-10-20T01:52:54+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://techdocs.gbif.org/en/openapi/",
+   "status": 200,
+   "final_url": "https://techdocs.gbif.org/en/openapi/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 23511,
+   "truncated": false,
+   "sha256": "9d5744bd574e711124a74a65c54e4543af2796b88858269e8518434eb7275ba3",
+   "fetched_at": "2026-10-20T01:59:00+00:00",
+   "rate_headers": {
+    "X-RateLimit": ""
+   },
+   "text_bytes": 8357
+  },
+  "r2": {
+   "url": "https://techdocs.gbif.org/en/openapi/#rate-limits",
+   "status": 200,
+   "final_url": "https://techdocs.gbif.org/en/openapi/#rate-limits",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 23511,
+   "truncated": false,
+   "sha256": "9d5744bd574e711124a74a65c54e4543af2796b88858269e8518434eb7275ba3",
+   "fetched_at": "2026-10-20T02:21:40+00:00",
+   "rate_headers": {
+    "X-RateLimit": ""
+   },
+   "text_bytes": 8357
+  },
+  "r3": {
+   "url": "https://www.gbif.org/faq",
+   "status": 403,
+   "final_url": "https://www.gbif.org/faq",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5614,
+   "truncated": false,
+   "sha256": "cb6c97357a0e79814687201bb6cb98054cc29fb31ce4a31fa84ba5a6dd3d116e",
+   "fetched_at": "2026-10-20T02:21:42+00:00",
+   "rate_headers": {}
+  }
+ }
+}

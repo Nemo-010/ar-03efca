@@ -1,0 +1,103 @@
+{
+ "slug": "biomodels",
+ "name": "BioModels",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:48:00+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.ebi.ac.uk/biomodels/docs/",
+   "status": 200,
+   "final_url": "https://www.biomodels.org/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1363,
+   "truncated": false,
+   "sha256": "f8b3c14cbc7c76756e283095f376424c3cdd77d80ba8a9a70763daa1886dfadb",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 32
+  },
+  "home": {
+   "url": "https://www.ebi.ac.uk/biomodels/",
+   "status": 200,
+   "final_url": "https://www.biomodels.org/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 245379,
+   "truncated": false,
+   "sha256": "ba41b93cfd2c08a629b2ab6640b9c7dd40b50fa27fb6ff7f75fc4d1ccc874066",
+   "fetched_at": "2026-10-20T01:48:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 9074
+  },
+  "llms-err": {
+   "url": "https://docs.ebi.ac.uk/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ebi.ac.uk/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:05+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.ebi.ac.uk/biomodels/docs/",
+   "status": 200,
+   "final_url": "https://www.biomodels.org/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1363,
+   "truncated": false,
+   "sha256": "f8b3c14cbc7c76756e283095f376424c3cdd77d80ba8a9a70763daa1886dfadb",
+   "fetched_at": "2026-10-20T01:49:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 32
+  },
+  "policy2": {
+   "url": "https://www.ebi.ac.uk/biomodels/docs/",
+   "status": 200,
+   "final_url": "https://www.biomodels.org/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1363,
+   "truncated": false,
+   "sha256": "f8b3c14cbc7c76756e283095f376424c3cdd77d80ba8a9a70763daa1886dfadb",
+   "fetched_at": "2026-10-20T01:51:35+00:00",
+   "rate_headers": {},
+   "text_bytes": 32
+  },
+  "limits": {
+   "url": "https://www.ebi.ac.uk/biomodels/docs/",
+   "status": 200,
+   "final_url": "https://www.biomodels.org/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1363,
+   "truncated": false,
+   "sha256": "f8b3c14cbc7c76756e283095f376424c3cdd77d80ba8a9a70763daa1886dfadb",
+   "fetched_at": "2026-10-20T01:53:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 32
+  },
+  "r1": {
+   "url": "https://www.ebi.ac.uk/biomodels/docs/",
+   "status": 200,
+   "final_url": "https://www.biomodels.org/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1363,
+   "truncated": false,
+   "sha256": "f8b3c14cbc7c76756e283095f376424c3cdd77d80ba8a9a70763daa1886dfadb",
+   "fetched_at": "2026-10-20T01:58:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 32
+  },
+  "r2": {
+   "url": "https://www.ebi.ac.uk/biomodels/docs/",
+   "status": 200,
+   "final_url": "https://www.biomodels.org/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 1363,
+   "truncated": false,
+   "sha256": "f8b3c14cbc7c76756e283095f376424c3cdd77d80ba8a9a70763daa1886dfadb",
+   "fetched_at": "2026-10-20T02:22:10+00:00",
+   "rate_headers": {},
+   "text_bytes": 32
+  }
+ }
+}

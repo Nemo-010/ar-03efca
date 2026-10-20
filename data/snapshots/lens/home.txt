@@ -1,0 +1,134 @@
+The Lens - Patent and Scholarly Search and Analysis 
+Menu 
+Our Apps 
+ Our Apps 
+ Patents 
+ Patents 
+ Search and Analysis 
+ Our patent search capabilities offer advanced boolean functions, structured search, biological search, classification search, filtering and sorting options to find the most relevant and important patents. Create collections, alerts and visualisations to be annotated and shared. 
+ Start Using 
+ Watch Video 
+Patents Search and Analysis 
+ Scholarly Works 
+ Scholarly Works 
+ Search and Analysis 
+ Lens serves over 200 million scholarly records, compiled and harmonised from Microsoft Academic, PubMed and Crossref, enhanced with OpenAlex and UnPaywall open access information and links to ORCID. The full scholarly citation graph is provided for the first time as an open public resource. 
+ Start Using 
+Scholarly Works Search and Analysis 
+ API & Data 
+ API & Data 
+ Bulk Data Access 
+ Access the full corpus of Lens scholarly works, biological sequences and patents using the flexibility and convenience of an API or bulk downloads. Perform and combine API search operations to programmatically retrieve results or download bulk sequence listings. 
+ API & Data Home 
+ Scholarly API & Data 
+ Patent API & Data 
+ PatSeq Bulk Data 
+API & Data Bulk Data Access 
+ PatSeq 
+ PatSeq 
+ Explore Biological Sequences 
+ Search and analyse biological sequences disclosed in patents. This is the world’s largest publicly available database with internal transparency metrics. Choose among the 5 apps to search and analyse the DNA, RNA and protein sequences found in patents. 
+ PatSeq Home 
+ Finder 
+ Data 
+ Text 
+ Explorer 
+ Analyzer 
+PatSeq Biological Toolset 
+ PatCite 
+ PatCite 
+ Discover Experts & Collaborators 
+ Analyze linkages between academic research and inventions. Explore which scholarly works have influenced what patents and who is using scholarly work to build products and services. Visualise important linkages and explore networks of collaborations. 
+ Start Using 
+ Watch Video 
+PatCite Citation Analysis 
+ Lens Profiles 
+ Lens Profiles 
+ User Profiles 
+ Lens Profiles are composite author/inventor profiles based on ORCID records and enhanced with aggregated data from various sources. Link your profile to update your ORCID record with additional scholarly works or patents from the Lens in just a few easy steps. 
+ Start Using 
+Lens Profiles User Profiles 
+ Lens Reports 
+ Lens Reports 
+ Data Driven Report Builder 
+ Lens Reports is a new facility for creating evidence-based, open, sharable and reusable reports linked to real-time, automatically-updated Lens data and analytics. The next evolution of Lens, search, collect, analyze, annotate and now present your findings in a flexible, data-driven reporting interface. 
+ Start Using 
+Lens Reports Beta 
+ Report Builder 
+ In4M 
+ In4M 
+ Mapping Influence of Scholarship 
+ The International Industry & Innovation Influence Mapping (In4M) uses citation-based metrics to map the influence of academic research on academia and enterprise. In4M explores, exposes and ranks the degree to which scholarly work output influences outcomes. 
+ Start Using 
+ Watch Video 
+In4M Measuring Influence 
+ Release 9.10
+ Release 9.10: Introducing the new and improved Lens.org Beta including AI Natural Language search, an updated interface and new features!… 
+ Read Release Notes 
+Pricing 
+Feature Tour 
+About 
+ About 
+ What is the Lens 
+ Institutional Toolkit 
+ In4M: Influence Mapping 
+ Lens Labs 
+ Collective Action 
+ Release Notes 
+ Lens Use Cases 
+ Our News 
+ Policies 
+ Support Center 
+ API Documentation 
+ Language 
+ English - EN
+ Español - ES
+ 中文简体 - ZH
+ Português - PT
+ Русский язык - RU
+ 한국어 - KR
+ Français - FR
+ Italiano - IT
+ हिन्दी - HI
+ Deutsch - DE
+ 日本語 - JA
+ Bahasa Indonesia - ID
+ العَرَبِيَّة‎‎ - AR
+ فارسی - IR
+Register 
+Sign in 
+ Try the New Lens.org Beta We've rebuilt The Lens with faster search, new analysis dashboards and a cleaner interface and more... 
+ Try the New Lens.org 
+ Bridging Cultures 
+Start Exploring 
+ Patents 
+ Scholarly Works 
+ Profiles 
+ Classifications 
+ Climate Landscapes 
+Search 
+ Show More Options 
+ Explore global science and technology knowledge 
+ The Lens serves integrated scholarly and patent knowledge as a public good to inform science and technology enabled problem solving. 
+Watch Explainer Video  
+Take Tour  
+ Loading Lens... 
+ It takes a bit of work. Thanks for your patience 
+ Sign in to the Lens 
+ Email address or Username 
+ Email address or Username 
+ Password 
+ Password 
+ Keep me signed in 
+ Sign in 
+ Forgot Password? 
+ Create Account 
+ or sign in with 
+ LinkedIn 
+ ORCID 
+ Language Improvements 
+ We have been busy updating our localisation and all existing languages. 
+ Much of these translations have been done using machine translation with a check from a native speaker, however not all elements of the UI have been checked for each language. If you see a term that is not translated correctly or should be improved, please contact Support. 
+ Help Us Translate
+Don't show again 
+Feedback

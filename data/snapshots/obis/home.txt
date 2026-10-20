@@ -1,0 +1,96 @@
+Ocean Biodiversity Information System (OBIS)
+ Service disruption: We are experiencing outages. Displayed statistics and data downloaded through the R package may be partial while we work to fix the issue.
+ Who we are
+ Vision and mission 
+ Nodes 
+ Governance 
+ Meeting reports 
+ Team and contacts 
+ What we do
+ Core activities 
+ Projects 
+ Partnerships 
+ Impact 
+ Workplan 2026-2027 
+ Data
+ Access OBIS data 
+ Mapper 
+ OBIS API 
+ External sources 
+ Quality control 
+ Data policy 
+ Community
+ News 
+ Events 
+ Contribute to OBIS 
+ Coordination groups 
+ Community Heroes Awards 
+ OBIS Newsletter 
+ OBIS Discourse 
+ Resources
+ Publications citing OBIS 
+ OBIS manual 
+ OBIS GitHub 
+ OBIS courses on OTGA 
+ DNA derived data publishing 
+ OBIS YouTube 
+ Search 
+ Marine biodiversity data you can trust 
+ Explore this map
+ Search for 
+ Scientific name 
+ Dataset 
+ Common name 
+ Area 
+ Publisher country 
+ Search term 
+ Search 
+ Featured news and stories 
+ The OBIS Species Distribution Models among the winners of the GBIF Ebbe Nielsen Challenge 2026 
+ 30 September 2026 
+ Species Distribution Models 
+ GBIF 
+ MPA Europe 
+ OBIS Poland: from the Baltic Sea to the North Atlantic, a trove of data and a reservoir of expertise 
+ 9 September 2026 
+ OBIS Poland 
+ 8th session of the OBIS Executive Committee: towards community-driven delivery in the first phase of the OBIS Work Plan 2026–2027 
+ 1 September 2026 
+ OBIS Governance 
+ Work Plan 2026-2027 
+ OBIS Nodes 
+ All the OBIS-related content at TDWG 2026 at a glance! 
+ 26 August 2026 
+ TDWG 2026 
+ OBIS Nodes 
+ MOZAIEK: a tiled approach to a bigger ocean picture 
+ 3 August 2026 
+ MOZAIEK 
+ GOOS 
+ BioEco EOVs 
+ FUST 
+ IOCARIBE 
+ Node Spotlight: OBIS Malaysia, turning Malaysia's largest marine collection into global open data 
+ 17 July 2026 
+ OBIS Malaysia 
+ Node Spotlight 
+ Read more news › 
+ Recent datasets 
+ OBIS in numbers 
+ 228M 
+ species observations 
+ 208K 
+ marine species 
+ 7,380 
+ datasets 
+ 38 
+ nodes worldwide 
+ 83M 
+ DNA sequences 
+ 432M 
+ measurements and facts 
+ 6K 
+ scientists & data managers 
+ 99 
+ countries engaged 
+ Subscribe to our newsletter

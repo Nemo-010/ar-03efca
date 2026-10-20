@@ -1,0 +1,42 @@
+{
+ "slug": "archives-portal-europe",
+ "name": "Archives Portal Europe",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:30+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://www.archivesportaleurope.net/information/api",
+   "status": 404,
+   "final_url": "https://www.archivesportaleurope.net/information/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 101467,
+   "truncated": false,
+   "sha256": "1f8f9dc994ee621278290b7b6e0f3d4a7c36329fe6a09cef08181c9239c40c60",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.archivesportaleurope.net/",
+   "status": 200,
+   "final_url": "https://www.archivesportaleurope.net/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 101467,
+   "truncated": false,
+   "sha256": "6078f76cd12d0bb64ec707f817305acac9945039d7b2c7322b9e13db73d88f6c",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {},
+   "text_bytes": 33503
+  },
+  "llms-err": {
+   "url": "https://docs.archivesportaleurope.net/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.archivesportaleurope.net/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:36+00:00",
+   "rate_headers": {}
+  }
+ }
+}

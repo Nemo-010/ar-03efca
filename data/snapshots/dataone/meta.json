@@ -1,0 +1,97 @@
+{
+ "slug": "dataone",
+ "name": "DataONE",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:50+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "status": 404,
+   "final_url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 9379,
+   "truncated": false,
+   "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.dataone.org/",
+   "status": 200,
+   "final_url": "https://www.dataone.org/",
+   "content_type": "text/html",
+   "bytes": 140483,
+   "truncated": false,
+   "sha256": "7e0cf4117050c99e6fc90c690366e688ad2d661af60ffecf4b12907bd2991928",
+   "fetched_at": "2026-10-20T01:47:51+00:00",
+   "rate_headers": {},
+   "text_bytes": 5317
+  },
+  "llms-err": {
+   "url": "https://docs.purl.dataone.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.purl.dataone.org/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:53+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "status": 404,
+   "final_url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 9379,
+   "truncated": false,
+   "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+   "fetched_at": "2026-10-20T01:49:38+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "status": 404,
+   "final_url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 9379,
+   "truncated": false,
+   "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+   "fetched_at": "2026-10-20T01:51:01+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "status": 404,
+   "final_url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 9379,
+   "truncated": false,
+   "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+   "fetched_at": "2026-10-20T01:53:10+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "status": 404,
+   "final_url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 9379,
+   "truncated": false,
+   "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+   "fetched_at": "2026-10-20T01:58:32+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "status": 404,
+   "final_url": "https://purl.dataone.org/architecture/apis/MN-API.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 9379,
+   "truncated": false,
+   "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+   "fetched_at": "2026-10-20T02:22:14+00:00",
+   "rate_headers": {}
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "slug": "chembl",
+ "name": "ChEMBL",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:54+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "status": 200,
+   "final_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 370474,
+   "truncated": false,
+   "sha256": "cbe6d9239184615bd17fd156064111287b2546f36c30eb2e408cdfbe9922738a",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 1008
+  },
+  "home": {
+   "url": "https://www.ebi.ac.uk/chembl/",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/chembl/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 615475,
+   "truncated": false,
+   "sha256": "700c7d5aa5abe2f3032ce337a88fc6f0f3af47a95eb056ada7b7e2931d836c50",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 2140
+  },
+  "llms-err": {
+   "url": "https://docs.chembl.gitbook.io/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.chembl.gitbook.io/llms.txt",
+   "content_type": "",
+   "bytes": 98,
+   "truncated": false,
+   "sha256": "3bc85200c61d9ef9e6ef6aa67eaf019641bc3966ba241c0f14088573f1ef926b",
+   "fetched_at": "2026-10-20T01:47:58+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "status": 200,
+   "final_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 370474,
+   "truncated": false,
+   "sha256": "cbe6d9239184615bd17fd156064111287b2546f36c30eb2e408cdfbe9922738a",
+   "fetched_at": "2026-10-20T01:49:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 1008
+  },
+  "policy2": {
+   "url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "status": 200,
+   "final_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 370474,
+   "truncated": false,
+   "sha256": "cbe6d9239184615bd17fd156064111287b2546f36c30eb2e408cdfbe9922738a",
+   "fetched_at": "2026-10-20T01:51:31+00:00",
+   "rate_headers": {},
+   "text_bytes": 1008
+  },
+  "limits": {
+   "url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "status": 200,
+   "final_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 370474,
+   "truncated": false,
+   "sha256": "cbe6d9239184615bd17fd156064111287b2546f36c30eb2e408cdfbe9922738a",
+   "fetched_at": "2026-10-20T01:53:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 1008
+  },
+  "r1": {
+   "url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services",
+   "status": 200,
+   "final_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1075199,
+   "truncated": false,
+   "sha256": "bd45bd65effb8c8f0dc00e5f0ee15a4ff9b412b32bcf97a8ed2ecf216d80a55d",
+   "fetched_at": "2026-10-20T01:58:11+00:00",
+   "rate_headers": {},
+   "text_bytes": 22109
+  },
+  "llms": {
+   "url": "https://chembl.gitbook.io/llms.txt",
+   "status": 200,
+   "final_url": "https://chembl.gitbook.io/chembl-interface-documentation/llms.txt",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 4044,
+   "truncated": false,
+   "sha256": "b5683d06e2a271b405aa804e04c530f84dbe9998408eff3a30b6d5b2d667b236",
+   "fetched_at": "2026-10-20T02:14:22+00:00",
+   "rate_headers": {},
+   "text_bytes": 4044
+  },
+  "r2": {
+   "url": "https://www.ebi.ac.uk/chembl/api/data/docs",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/chembl/api/data/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2520,
+   "truncated": false,
+   "sha256": "17427b9bb56f08d217a76e1a8cd3ea07b89f5ec1ae096194222bc625c63e718b",
+   "fetched_at": "2026-10-20T02:22:06+00:00",
+   "rate_headers": {},
+   "text_bytes": 67
+  }
+ }
+}

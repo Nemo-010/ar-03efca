@@ -1,0 +1,372 @@
+OSTI.GOV API (v1) Documentation 
+ API Documentation 
+ Introduction 
+ General Guidelines 
+ HTTP Methods 
+ Response Formats 
+ Response Headers 
+ Pagination Structure 
+ Record Model 
+ HTTP Status Codes 
+ Record Fields 
+ Error Model 
+ HTTP Status Codes 
+ Error Fields 
+ Endpoints 
+ Record List (Search) 
+ Single Record by ID 
+ Introduction 
+ The OSTI.GOV API allows you to query the Department of Energy's repository of research information resulting from DOE research funding. 
+ The API is built on a REST architecture, providing predictable URLs that make writing applications easy. The API is HTTP-based, so it can be accessed using a wide variety of clients; most examples are illustrated using the cURL command to demonstrate basic use cases. 
+ The list of resources available through the API, and their corresponding reference documentation, will always be made available at the API root endpoint (this document). 
+ API Root Endpoint 
+ https://www.osti.gov/api/v1 
+ General Guidelines 
+ Each resource endpoint in the API will vary slightly in some respects, such as what query parameters are valid for that type of request and how the expected output may be structured. These variations will be outlined in detail in the resource-specific sections below. There are, however, some general rules and expectations that are common to all interactions with the API. 
+ HTTP Methods 
+ The OSTI.GOV API uses the HTTP verb (method) associated with the incoming request to identify the type of action being performed. 
+ Note that at this time the OSTI.GOV API has methods for querying data only, and therefore all requests to the API will be GET requests. 
+ Request Methods 
+ Method 
+ Description 
+ GET 
+ Used for retrieving resources. 
+ POST 
+ Used for creating resources and performing resource actions. Not currently valid for OSTI.GOV API resource requests 
+ PUT 
+ Used for updating resources. Not currently valid for OSTI.GOV API resource requests 
+ DELETE 
+ Used for deleting resources. Not currently valid for OSTI.GOV API resource requests 
+ Using the GET method, you can retrieve a list (collection) of resources or details of a particular resource. 
+ To get a list of records: 
+ $ curl https://www.osti.gov/api/v1/records 
+ To get details of a record with a particular ID: 
+ $ curl https://www.osti.gov/api/v1/records/{osti_id} 
+ To get details of a record with a particular ID: 
+ $ curl https://www.osti.gov/api/v1/records/{osti_id} 
+ Response Formats 
+ By default, results from the OSTI.GOV API will be returned in JSON format. By specifying an expected mime type in the Accept header of the 
+ request, results can also be returned in any of JSON, XML, or BibTeX formats. 
+ Format Types and Accept Headers 
+ Format 
+ Accept header 
+ JSON 
+ application/json 
+ XML 
+ application/xml 
+ BibTeX 
+ application/x-bibtex 
+ Specifying the Accept header in the request, you can retrieve results in a particular format. 
+ JSON 
+ XML 
+ BibTeX 
+ To get a record's metadata in JSON format: 
+ $ curl https://www.osti.gov/api/v1/records/{osti_id} \ 
+ -H 'Accept: application/json' 
+ To get a record's metadata in XML format: 
+ $ curl https://www.osti.gov/api/v1/records/{osti_id} \ 
+ -H 'Accept: application/xml' 
+ To get a record's metadata in BibTeX format: 
+ $ curl https://www.osti.gov/api/v1/records/{osti_id} \ 
+ -H 'Accept: application/x-bibtex' 
+ Response Headers 
+ Responses from the API will include certain common HTTP headers, providing details about the response or the included content. 
+ Common Response Headers 
+ Response Header 
+ Description 
+ Date 
+ The date the repsonse is issued, in RFC 1123 format 
+ Content-Type 
+ The mime type in which the response data is formatted 
+ X-Total-Count 
+ For reponses containing data, the number of records returned in the current response 
+ Link 
+ If more matching records are available than are returned in the current response, this will contain links to more pages in RFC 5988 format 
+ Example Response Headers 
+ HTTP/1.1 200 OK 
+Date: Thu, 26 May 2016 16:25:04 GMT 
+Content-Type: application/json 
+X-Total-Count: 50 
+Link: <https://www.osti.gov/api/v1/records?page=2>; rel="next", <https://www.osti.gov/api/v1/records?page=3>; rel="last" 
+Content-Length: 3911 
+ Pagination 
+ Requests that return multiple records will be paginated to 20 records by default; the number of records per page can be modified by specifying a numerical value for the ?rows parameter, and the specific page with the ?page parameter (default 1). If more matching records exist, the Link response header will contain links to additional pages of data, in RFC 5988 format. The specific type of link is denoted by the "rel" value. 
+ Link Header Rel Values 
+ Name 
+ Description 
+ next 
+ The link relation for the immediate next page of results 
+ last 
+ The link relation for the last page of results 
+ first 
+ The link relation for the last page of results 
+ prev 
+ The link relation for the immediate previous page of results 
+ Example Link Header Values 
+$ curl https://www.osti.gov/api/v1/records?page=2&rows=20 
+HTTP/1.1 200 OK 
+... 
+X-Total-Count: 250 
+Link: 
+<https://www.osti.gov/api/v1/records?page=3&rows=20>; rel="next", 
+<https://www.osti.gov/api/v1/records?page=13&rows=20>; rel="last", 
+<https://www.osti.gov/api/v1/records?page=1&rows=20>; rel="first", 
+<https://www.osti.gov/api/v1/records?page=1&rows=20>; rel="prev" 
+... 
+ Record Model 
+ Responses returning data all return the same basic structure, formatted as appropriate for the content type requested. 
+ HTTP Status Codes 
+ A successful response from the API will always return an HTTP status code of 200. 
+ HTTP Success Status 
+ Status 
+ Description 
+ 200 
+ OK 
+ Record Fields 
+ Results are always presented as a list of Record objects, formatted according to the content type requested. For JSON, records are returned as an array of objects. For XML, records are returned as <record> elements wrapped in a <records> container. BibTeX results are formatted serially. 
+ Record Fields 
+ Field Name 
+ Description 
+ osti_id The unique OSTI identifier for the record 
+ title A name or title by which the record is known 
+ authors The person(s) primarily responsible for the creation of the data 
+ subjects A list of subjects, keywords, or key phrases describing the resource 
+ description A short description or abstract 
+ publisher The name of the entity that holds, archives, distributes, releases, or produces the resource 
+ country_publication The country in which this version of the record was published 
+ publication_date The publication date, in ISO-8601 format 
+ entry_date The date the record was added or last modified, in ISO-8601 format 
+ doi The Digital Object Identifier (DOI) 
+ journal_name The name of the journal the article was published in 
+ journal_volume The journal volume containing this article 
+ journal_issue The journal issue containing to this article 
+ product_type The product type of the record (defaults to "Journal Article") 
+ language The primary language of the resource 
+ availability If applicable, the office or organization to refer access requests to 
+ research_org If credited, the organization name primarily responsible for conducting the research 
+ sponsor_org If credited, the organzation name that sponsored / funded the research 
+ contributor_org If credited, the organzation(s) contributing to the research 
+ format Additional format / paging information 
+ report_number The report number associated with the entry 
+ doe_contract_number The DOE contract number associated with the entry 
+ nsa_number The NSA number associated with the entry, if present 
+ links A multivalued field containting link references for this article, typed by "rel" attribute (HATEOAS constraint) 
+ Example Response 
+ JSON 
+ XML 
+ BibTeX 
+ HTTP/1.1 200 OK 
+Content-Type: application/json 
+ [ 
+ { 
+ "osti_id": "{osti_id}", 
+ "title": "Example Title", 
+ "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
+ "authors": [ 
+ "Nominator, Lois D.", 
+ "Dactyl, Terry", 
+ "Anthemum, Chris" 
+ "Turner, Paige" 
+ ], 
+ "doi": "https://doi.org/10.5555/12345678", 
+ "journal_name": "The Journal of Psychoceramics", 
+ "journal_volume": "60", 
+ "journal_issue": "5", 
+ "publisher": "Example Publisher", 
+ "country_publication": "United States", 
+ "product_type": "Journal Article", 
+ "article_type": "Accepted Manuscript", 
+ "language": "English", 
+ "publication_date": "2015-06-02T04:00:00Z", 
+ "entry_date": "2016-09-07T04:00:00Z", 
+ "sponsor_orgs": [ 
+ "USDOE", 
+ "Example Sponsor Orgnization 2" 
+ ], 
+ "research_orgs": [ 
+ "Example Research Orgnization 1", 
+ "Example Research Orgnization 2" 
+ ], 
+ "report_number": "XX-YY-15-12345; XYZ-2015-4321A", 
+ "doe_contract_number": "ACXX-012345678; ACXX-987654321", 
+ "availability": "", 
+ "format": "Medium: ED; Size: p. 445-455", 
+ "subjects": [ 
+ "magnetic relaxometry", 
+ "nanoparticles", 
+ "cancer", 
+ "relaxometry" 
+ ], 
+ "links": [{ 
+ "rel": "citation", 
+ "href": "https://www.osti.gov/biblio/{osti_id}" 
+ }, { 
+ "rel": "fulltext", 
+ "href": "https://www.osti.gov/servlets/purl/{osti_id}" 
+ }] 
+ } 
+] 
+ HTTP/1.1 200 OK 
+Content-Type: application/xml 
+ <?xml version="1.0"?> 
+<records> 
+ <record> 
+ <osti_id>{osti_id}</osti_id> 
+ <title>Example Title</title> 
+ <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description> 
+ <authors> 
+ <author>Nominator, Lois D.</author> 
+ <author>Dactyl, Terry</author> 
+ <author>Anthemum, Chris</author> 
+ <author>Turner, Paige</author> 
+ </authors> 
+ <doi>https://doi.org/10.5555/12345678</doi> 
+ <journal_name>The Journal of Psychoceramics</journal_name> 
+ <journal_volume>60</journal_volume> 
+ <journal_issue>5</journal_issue> 
+ <publisher>Example Publisher</publisher> 
+ <country_publication>United States</country_publication> 
+ <product_type>Journal Article</product_type> 
+ <article_type>Accepted Manuscript</article_type> 
+ <language>English</language> 
+ <publication_date>2015-06-02T04:00:00Z</publication_date> 
+ <entry_date>2016-09-07T04:00:00Z</entry_date> 
+ <sponsor_orgs> 
+ <sponsor_org>USDOE</sponsor_org> 
+ <sponsor_org>Example Sponsor Orgnization 2</sponsor_org> 
+ </sponsor_orgs> 
+ <research_orgs> 
+ <research_org>Example Research Orgnization 1</research_org> 
+ <research_org>Example Research Orgnization 2</research_org> 
+ </research_org> 
+ <report_number>XX-YY-15-12345; XYZ-2015-4321A</report_number> 
+ <doe_contract_number>ACXX-012345678; ACXX-987654321</doe_contract_number> 
+ <availability></availability> 
+ <format>Medium: ED; Size: p. 445-455</format> 
+ <subjects> 
+ <subject>magnetic relaxometry</subject> 
+ <subject>nanoparticles</subject> 
+ <subject>cancer</subject> 
+ <subject>relaxometry</subject> 
+ </subjects> 
+ <links> 
+ <link rel="citation" href="https://www.osti.gov/biblio/{osti_id}" /> 
+ <link rel="fulltext" href="https://www.osti.gov/servlets/purl/{osti_id}" /> 
+ </links> 
+ </record> 
+</records> 
+ HTTP/1.1 200 OK 
+Content-Type: application/x-bibtex 
+ @misc{osti_{osti_id}, 
+ title = {Example Title}, 
+ author = {Nominator, L. and Dactyl, T. and Anthemum, C. and Turner, P.}, 
+ abstractNote = {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}, 
+ doi = {10.5555/12345678}, 
+ place = {United States}, 
+ year = 2015, 
+ month = 9, 
+ note = {An optional note}, 
+} 
+ Error Model 
+ If for some reason the API returns an error response, it will be formatted as appropriate for the content type requested. All error responses have the same basic structure. 
+ HTTP Status Codes 
+ Errors will be returned with an HTTP error status code appropriate to the type of error encountered. 
+ HTTP Error Status 
+ Status 
+ Description 
+ 400 
+ Bad request 
+ 401 
+ Unauthorized 
+ 404 
+ Resource Not Found 
+ 405 
+ Method Not Allowed 
+ 500 
+ Internal Error 
+ Error Fields 
+ Errors are always presented as a single object, formatted according to the content type requested. 
+ Error Fields 
+ Field Name 
+ Description 
+ statusCode The response error code, duplicated for convenience 
+ statusMessage A brief description of the error type 
+ errorDescription A more detailed description of the specific error cause 
+ Example Error 
+ JSON 
+ XML 
+ BibTeX 
+ HTTP/1.1 404 Not Found 
+Content-Type: application/json 
+ { 
+ "statusCode": 404, 
+ "statusMessage": "Not Found", 
+ "errorDescription": "No record matching the supplied OSTI ID was found" 
+} 
+ HTTP/1.1 404 Not Found 
+Content-Type: application/xml 
+ <?xml version="1.0"?> 
+<error> 
+ <statusCode>404</statusCode> 
+ <statusMessage>Not Found</statusMessage> 
+ <errorDescription>No record matching the supplied OSTI ID was found</errorDescription> 
+</error> 
+ HTTP/1.1 404 Not Found 
+Content-Type: application/x-bibtex 
+ 404 
+Not Found 
+No record matching the supplied OSTI ID was found 
+ Endpoints 
+ The OSTI.GOV API currently supports two endpoints, both of which are data retrieval endpoints and as such only GET method requests are valid. All endpoints are relative to the root endpoint. 
+ API Root Endpoint 
+ https://www.osti.gov/api/v1 
+ Record List (Search) 
+ GET /records 
+ The record list endpoint allows you to search for lists of records in OSTI.GOV by a variety of criteria. 
+ Record List Query Parameters 
+ Parameter 
+ Description 
+ q General query field, will search full record for provided terms 
+ osti_id The unique OSTI identifier for a record 
+ doi The Digital Object Identifier (DOI), e.g. 10.5555/12345678 
+ fulltext Searches the article full text (if available) for the provided terms 
+ biblio Searches the bibliographic information for the provided terms 
+ author Searches the author entries 
+ title Searches within document titles 
+ identifier Finds records based on common identifiers (report number, contract number, etc.) 
+ sponsor_org Searches the sponsoring organization field 
+ research_org Searches the research organization field 
+ contributing_org Searches the contributing organization field 
+ source_id A code specifying the organization that submitted the record 
+ publication_date_start Beginning publication date boundary in MM/DD/YYYY format 
+ publication_date_end End publication date boundary in MM/DD/YYYY format 
+ entry_date_start Beginning entry date boundary in MM/DD/YYYY format 
+ entry_date_end Ending entry date boundary in MM/DD/YYYY format 
+ language Finds records by language 
+ country Finds records by country of publication 
+ site_ownership_code Finds records by the ID code of the submitting organization 
+ subject Searches both the standardized subject categories and keywords associated with the record. Subject categories and keywords are optional metadata fields, so the data may be limited. 
+ has_fulltext true to select records with available full text, false to select citation-only records 
+ sort Specifies a field name on which to sort 
+ order Specifies the sort order (one of asc or desc) 
+ rows The number of rows per page to return (default 20) 
+ page The specific page of records to return (default 1) 
+ Record List Endpoint 
+ https://www.osti.gov/api/v1/records 
+ Note: The API expects parameter values to be submitted as url-escaped strings. Most browsers and scripting libraries handle this automatically, 
+ but if the request is issued as a simple string (such as the default case using the curl command), it may be necessary to specify that encoding 
+ to avoid unexpected results using some characters, e.g. double quotes. 
+ $ curl --get \ 
+--data-urlencode "identifier=\"fusion energy\"" \ 
+--data-urlencode "rows=100" \ 
+https://www.osti.gov/api/v1/records 
+ Single Record by ID 
+ GET /records/{osti_id} 
+ The single record by id endpoint allows you to retrieve details for a specific record by providing the appropriate OSTI ID value as the key in the request path. 
+ Record List Query Parameters 
+ Parameter 
+ Description 
+ none 
+ Single Record Endpoint 
+ https://www.osti.gov/api/v1/records/{osti_id} 
+ The OSTI.GOV API is actively in development; the documentation should be kept up to date with the functionality of the current release. If you have any questions or suggestions, please let us know .

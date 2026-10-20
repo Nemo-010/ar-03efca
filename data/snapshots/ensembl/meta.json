@@ -1,0 +1,127 @@
+{
+ "slug": "ensembl",
+ "name": "Ensembl REST",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:53+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://rest.ensembl.org/",
+   "status": 200,
+   "final_url": "https://rest.ensembl.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 28794,
+   "truncated": false,
+   "sha256": "1cb646abfb0c99ee28920ed52e8ca87e9f306507881377a6639912f82c3c4a8b",
+   "fetched_at": "2026-10-20T01:47:53+00:00",
+   "rate_headers": {
+    "X-RateLimit-Limit": "55000",
+    "X-RateLimit-Reset": "761",
+    "X-RateLimit-Period": "3600",
+    "X-RateLimit-Remaining": "54997"
+   },
+   "text_bytes": 12879
+  },
+  "home": {
+   "url": "https://www.ensembl.org/",
+   "status": 200,
+   "final_url": "https://www.ensembl.org/",
+   "content_type": "text/html",
+   "bytes": 4867,
+   "truncated": false,
+   "sha256": "63a9691ed9994146d02bbbb56809a64cb165086dabbe79f212c6540940d81b3b",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 7
+  },
+  "llms-err": {
+   "url": "https://docs.rest.ensembl.org/llms.txt",
+   "status": 503,
+   "final_url": "https://docs.rest.ensembl.org/llms.txt",
+   "content_type": "text/html",
+   "bytes": 10591,
+   "truncated": false,
+   "sha256": "112a60faa644c07f219e8dc2e2603de6f352f42d2e6dc1ef718dab9403b3efc6",
+   "fetched_at": "2026-10-20T01:47:57+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://rest.ensembl.org/",
+   "status": 200,
+   "final_url": "https://rest.ensembl.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 28794,
+   "truncated": false,
+   "sha256": "1cb646abfb0c99ee28920ed52e8ca87e9f306507881377a6639912f82c3c4a8b",
+   "fetched_at": "2026-10-20T01:49:40+00:00",
+   "rate_headers": {
+    "X-RateLimit-Limit": "55000",
+    "X-RateLimit-Reset": "642",
+    "X-RateLimit-Period": "3600",
+    "X-RateLimit-Remaining": "54995"
+   },
+   "text_bytes": 12879
+  },
+  "policy2": {
+   "url": "https://rest.ensembl.org/",
+   "status": 200,
+   "final_url": "https://rest.ensembl.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 28794,
+   "truncated": false,
+   "sha256": "1cb646abfb0c99ee28920ed52e8ca87e9f306507881377a6639912f82c3c4a8b",
+   "fetched_at": "2026-10-20T01:51:31+00:00",
+   "rate_headers": {
+    "X-RateLimit-Limit": "55000",
+    "X-RateLimit-Reset": "543",
+    "X-RateLimit-Period": "3600",
+    "X-RateLimit-Remaining": "54994"
+   },
+   "text_bytes": 12879
+  },
+  "limits": {
+   "url": "https://rest.ensembl.org/",
+   "status": 0,
+   "final_url": "https://rest.ensembl.org/",
+   "content_type": "",
+   "bytes": 28,
+   "truncated": false,
+   "sha256": "693919be92a592d0ab39d3a80a50801930732ee20d6dee5aaf1c0eb0cda7c5ff",
+   "fetched_at": "2026-10-20T01:53:14+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://rest.ensembl.org/",
+   "status": 200,
+   "final_url": "https://rest.ensembl.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 28794,
+   "truncated": false,
+   "sha256": "1cb646abfb0c99ee28920ed52e8ca87e9f306507881377a6639912f82c3c4a8b",
+   "fetched_at": "2026-10-20T01:58:02+00:00",
+   "rate_headers": {
+    "X-RateLimit-Limit": "55000",
+    "X-RateLimit-Reset": "144",
+    "X-RateLimit-Period": "3600",
+    "X-RateLimit-Remaining": "54993"
+   },
+   "text_bytes": 12879
+  },
+  "r2": {
+   "url": "https://rest.ensembl.org/documentation",
+   "status": 200,
+   "final_url": "https://rest.ensembl.org/documentation",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 28794,
+   "truncated": false,
+   "sha256": "1cb646abfb0c99ee28920ed52e8ca87e9f306507881377a6639912f82c3c4a8b",
+   "fetched_at": "2026-10-20T02:22:05+00:00",
+   "rate_headers": {
+    "X-RateLimit-Limit": "55000",
+    "X-RateLimit-Reset": "2309",
+    "X-RateLimit-Period": "3600",
+    "X-RateLimit-Remaining": "54997"
+   },
+   "text_bytes": 12879
+  }
+ }
+}

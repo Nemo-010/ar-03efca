@@ -1,0 +1,126 @@
+{
+ "slug": "osf",
+ "name": "OSF (Open Science Framework)",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:48+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://developer.osf.io/",
+   "status": 200,
+   "final_url": "https://developer.osf.io/",
+   "content_type": "text/html",
+   "bytes": 551,
+   "truncated": false,
+   "sha256": "8fcdce0773fb855ff9a8cd1da929347522aed744a5b20516ba94829d0094494e",
+   "fetched_at": "2026-10-20T01:47:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 23
+  },
+  "home": {
+   "url": "https://osf.io/",
+   "status": 200,
+   "final_url": "https://osf.io/",
+   "content_type": "text/html",
+   "bytes": 4207,
+   "truncated": false,
+   "sha256": "185604818b2f43bab5ffb6a9b93f481d2b739fc22853611c62d4f65322665dd3",
+   "fetched_at": "2026-10-20T01:47:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 3
+  },
+  "llms-err": {
+   "url": "https://developer.osf.io/llms.txt",
+   "status": 403,
+   "final_url": "https://developer.osf.io/llms.txt",
+   "content_type": "application/xml",
+   "bytes": 243,
+   "truncated": false,
+   "sha256": "07cab58f164a54126c42c9cfbacace8093a9f317de14a45f5d1c77d0060d4949",
+   "fetched_at": "2026-10-20T01:47:49+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://osf.io/llms.txt",
+   "status": 200,
+   "final_url": "https://osf.io/llms.txt",
+   "content_type": "text/html",
+   "bytes": 4207,
+   "truncated": false,
+   "sha256": "185604818b2f43bab5ffb6a9b93f481d2b739fc22853611c62d4f65322665dd3",
+   "fetched_at": "2026-10-20T01:47:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 3
+  },
+  "llms-5f4045-err": {
+   "url": "https://docs.developer.osf.io/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.developer.osf.io/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://developer.osf.io/",
+   "status": 200,
+   "final_url": "https://developer.osf.io/",
+   "content_type": "text/html",
+   "bytes": 551,
+   "truncated": false,
+   "sha256": "8fcdce0773fb855ff9a8cd1da929347522aed744a5b20516ba94829d0094494e",
+   "fetched_at": "2026-10-20T01:49:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 23
+  },
+  "policy2": {
+   "url": "https://developer.osf.io/",
+   "status": 200,
+   "final_url": "https://developer.osf.io/",
+   "content_type": "text/html",
+   "bytes": 551,
+   "truncated": false,
+   "sha256": "8fcdce0773fb855ff9a8cd1da929347522aed744a5b20516ba94829d0094494e",
+   "fetched_at": "2026-10-20T01:51:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 23
+  },
+  "limits": {
+   "url": "https://developer.osf.io/",
+   "status": 200,
+   "final_url": "https://developer.osf.io/",
+   "content_type": "text/html",
+   "bytes": 551,
+   "truncated": false,
+   "sha256": "8fcdce0773fb855ff9a8cd1da929347522aed744a5b20516ba94829d0094494e",
+   "fetched_at": "2026-10-20T01:53:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 23
+  },
+  "r1": {
+   "url": "https://developer.osf.io/",
+   "status": 200,
+   "final_url": "https://developer.osf.io/",
+   "content_type": "text/html",
+   "bytes": 551,
+   "truncated": false,
+   "sha256": "8fcdce0773fb855ff9a8cd1da929347522aed744a5b20516ba94829d0094494e",
+   "fetched_at": "2026-10-20T01:58:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 23
+  },
+  "r2": {
+   "url": "https://developer.osf.io/",
+   "status": 200,
+   "final_url": "https://developer.osf.io/",
+   "content_type": "text/html",
+   "bytes": 551,
+   "truncated": false,
+   "sha256": "8fcdce0773fb855ff9a8cd1da929347522aed744a5b20516ba94829d0094494e",
+   "fetched_at": "2026-10-20T02:22:12+00:00",
+   "rate_headers": {},
+   "text_bytes": 23
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "slug": "base",
+ "name": "BASE (Bielefeld)",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:38+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.base-search.net/",
+   "status": 200,
+   "final_url": "https://api.base-search.net/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5189,
+   "truncated": false,
+   "sha256": "0bb8f6067ba62cd4355941ac4461f50017b5732a31a07cecdc3dc76987dc5384",
+   "fetched_at": "2026-10-20T01:47:38+00:00",
+   "rate_headers": {},
+   "text_bytes": 1179
+  },
+  "home": {
+   "url": "https://www.base-search.net/",
+   "status": 200,
+   "final_url": "https://www.base-search.net/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7824,
+   "truncated": false,
+   "sha256": "9b6e7eaae379b7bb837cbb5872f32f70b3ac42b3e05babcfddecbefd164652bf",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 1504
+  },
+  "llms-err": {
+   "url": "https://api.base-search.net/llms.txt",
+   "status": 404,
+   "final_url": "https://api.base-search.net/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 999,
+   "truncated": false,
+   "sha256": "d9763a7e708367d60ee3db8d473d390adb4237a90cb52bef09cafeae001a1338",
+   "fetched_at": "2026-10-20T01:47:40+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://www.base-search.net/llms.txt",
+   "status": 200,
+   "final_url": "https://www.base-search.net/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7825,
+   "truncated": false,
+   "sha256": "f051f836c6dcc9f4081b958f262c7d612e5f4d15c83dd94828c3e48798f7fec6",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 1504
+  },
+  "llms-9b8b08-err": {
+   "url": "https://docs.base-search.net/llms.txt",
+   "status": 404,
+   "final_url": "https://docs.base-search.net/llms.txt",
+   "content_type": "text/plain; charset=utf-8",
+   "bytes": 19,
+   "truncated": false,
+   "sha256": "b16e15764b8bc06c5c3f9f19bc8b99fa48e7894aa5a6ccdad65da49bbf564793",
+   "fetched_at": "2026-10-20T01:47:42+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.base-search.net/",
+   "status": 200,
+   "final_url": "https://api.base-search.net/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5189,
+   "truncated": false,
+   "sha256": "0bb8f6067ba62cd4355941ac4461f50017b5732a31a07cecdc3dc76987dc5384",
+   "fetched_at": "2026-10-20T01:49:36+00:00",
+   "rate_headers": {},
+   "text_bytes": 1179
+  },
+  "policy2": {
+   "url": "https://www.base-search.net/about/en/faq_search.php",
+   "status": 200,
+   "final_url": "https://www.base-search.net/about/en/faq_search.php",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7825,
+   "truncated": false,
+   "sha256": "df04c9c4765436267de5075445821f2a405ec62313d0dc18752040fca781d360",
+   "fetched_at": "2026-10-20T01:51:16+00:00",
+   "rate_headers": {},
+   "text_bytes": 1504
+  },
+  "limits": {
+   "url": "https://www.base-search.net/about/en/faq_search.php",
+   "status": 200,
+   "final_url": "https://www.base-search.net/about/en/faq_search.php",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7825,
+   "truncated": false,
+   "sha256": "29eb63e0e116ad57a6c5a4784433bb4e25307f34d5399a161f5b84b3a866cc2b",
+   "fetched_at": "2026-10-20T01:52:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 1504
+  },
+  "limits2": {
+   "url": "https://api.base-search.net/",
+   "status": 200,
+   "final_url": "https://api.base-search.net/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5189,
+   "truncated": false,
+   "sha256": "0bb8f6067ba62cd4355941ac4461f50017b5732a31a07cecdc3dc76987dc5384",
+   "fetched_at": "2026-10-20T01:52:55+00:00",
+   "rate_headers": {},
+   "text_bytes": 1179
+  },
+  "r1": {
+   "url": "https://www.base-search.net/about/en/faq_search.php",
+   "status": 200,
+   "final_url": "https://www.base-search.net/about/en/faq_search.php",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7825,
+   "truncated": false,
+   "sha256": "282e1a9c136c17f97a0549f6e6e6a024371980a718e7d6895841c150edd79a7c",
+   "fetched_at": "2026-10-20T01:59:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 1504
+  },
+  "r2": {
+   "url": "https://www.base-search.net/about/en/faq_search.php",
+   "status": 200,
+   "final_url": "https://www.base-search.net/about/en/faq_search.php",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 7825,
+   "truncated": false,
+   "sha256": "81ddc0a8a177146094c5f1dc7d11839d0ed1bdbaf7989052b0b6fa88e1ae67a4",
+   "fetched_at": "2026-10-20T02:22:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 1504
+  }
+ }
+}

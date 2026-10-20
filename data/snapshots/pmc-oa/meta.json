@@ -1,0 +1,91 @@
+{
+ "slug": "pmc-oa",
+ "name": "PMC Open Access Subset",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:43+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 79591,
+   "truncated": false,
+   "sha256": "ffb9550bbf1c099182b8a8f17f883f2ed23c7e70fc993666c7918134a73fcf33",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 2483
+  },
+  "home": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 67236,
+   "truncated": false,
+   "sha256": "f2f2ccfb38c9cd59e77978ac865c0807860a1782dcffa7a24b23c889f70a4823",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 2907
+  },
+  "llms-err": {
+   "url": "https://docs.ncbi.nlm.nih.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ncbi.nlm.nih.gov/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 79591,
+   "truncated": false,
+   "sha256": "f00342de4974be7fb869cc5a237b518f326368c6778abe8b7ced4d93dd91ba74",
+   "fetched_at": "2026-10-20T01:49:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 2483
+  },
+  "policy2": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 79591,
+   "truncated": false,
+   "sha256": "0b5a8abb3b5b53e8566be7c1b34d2e82945dea27f15fbdbcc2148686a63a5e36",
+   "fetched_at": "2026-10-20T01:51:30+00:00",
+   "rate_headers": {},
+   "text_bytes": 2483
+  },
+  "limits": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/oa-service/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 79591,
+   "truncated": false,
+   "sha256": "10d5fe42231aef00023679dd6a197865624bbde450129a3d7317302656f6b1de",
+   "fetched_at": "2026-10-20T01:52:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 2483
+  },
+  "limits2": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/tools/developers/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/developers/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 84527,
+   "truncated": false,
+   "sha256": "b5d943b4011b495a9d8d8f3f03dee3739e6affa65b5f477f796046070f389926",
+   "fetched_at": "2026-10-20T01:53:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 5077
+  }
+ }
+}

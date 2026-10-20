@@ -1,0 +1,96 @@
+{
+ "slug": "dpla",
+ "name": "Digital Public Library of America",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:30+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://pro.dp.la/developers/api-codex",
+   "status": 403,
+   "final_url": "https://pro.dp.la/developers/api-codex",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "11a93b08ea99edebee9318c6aa10302ffcc3bdfe030f6d9606a4ca4360813b33",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://dp.la/",
+   "status": 403,
+   "final_url": "https://dp.la/",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "f7f7640418050c766faa7c69527f75fba5451a01823f3ca913575fbcfdcf6432",
+   "fetched_at": "2026-10-20T01:47:31+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.pro.dp.la/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.pro.dp.la/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:31+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://pro.dp.la/developers/api-codex",
+   "status": 403,
+   "final_url": "https://pro.dp.la/developers/api-codex",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "40e5448c11b522b026edcbb763408c982b9aaf34c912b7f51a86bb25edb6e6b0",
+   "fetched_at": "2026-10-20T01:49:39+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://pro.dp.la/developers/overview",
+   "status": 403,
+   "final_url": "https://pro.dp.la/developers/overview",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "ad02854f3982a2dce9fccb5a5a7478c6543471e98f0e942bd2e2c38d0b64359d",
+   "fetched_at": "2026-10-20T01:50:34+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://pro.dp.la/developers/overview",
+   "status": 403,
+   "final_url": "https://pro.dp.la/developers/overview",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "72b07546bfb6f96579d9737c3423479eab58638e0c7a11e5920781094a44d15d",
+   "fetched_at": "2026-10-20T01:54:08+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://pro.dp.la/developers/overview",
+   "status": 403,
+   "final_url": "https://pro.dp.la/developers/overview",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "cbbfc007f089a45d923558389c9402f2448802f3180f8be01b4169c0fc2765e4",
+   "fetched_at": "2026-10-20T01:58:46+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://pro.dp.la/developers/technical-details",
+   "status": 403,
+   "final_url": "https://pro.dp.la/developers/technical-details",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "e665599c753285fe86b969dd9fa9d1202f0687b05d96c1831ac20afd362b4090",
+   "fetched_at": "2026-10-20T02:21:48+00:00",
+   "rate_headers": {}
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "slug": "europeana",
+ "name": "Europeana",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:30+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation",
+   "status": 200,
+   "final_url": "https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation",
+   "content_type": "text/html; charset=\"utf-8\"",
+   "bytes": 790717,
+   "truncated": false,
+   "sha256": "eb433df57803fb6de004c10deeb229b713707f98652cc44c23010804e2583665",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {},
+   "text_bytes": 1080
+  },
+  "home-err": {
+   "url": "https://www.europeana.eu/",
+   "status": 403,
+   "final_url": "https://www.europeana.eu/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5673,
+   "truncated": false,
+   "sha256": "16b203d41e3190f1dcfe0b5ba8d1b05a38123489cec5b3ca5e4138300e22554c",
+   "fetched_at": "2026-10-20T01:47:31+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.europeana.atlassian.net/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.europeana.atlassian.net/llms.txt",
+   "content_type": "",
+   "bytes": 169,
+   "truncated": false,
+   "sha256": "4d1c518b66cebca69f222697a825f1b8786bd254d97e0538f30b95161f6cad4d",
+   "fetched_at": "2026-10-20T01:47:32+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation",
+   "status": 200,
+   "final_url": "https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation",
+   "content_type": "text/html; charset=\"utf-8\"",
+   "bytes": 790716,
+   "truncated": false,
+   "sha256": "51807aeaf13f37f6b437f0abfeb977ee24475a660b993e974fb892cdb0cd7a14",
+   "fetched_at": "2026-10-20T01:49:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 1080
+  },
+  "policy2": {
+   "url": "https://www.europeana.eu/en/rights/api",
+   "status": 403,
+   "final_url": "https://www.europeana.eu/en/rights/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5734,
+   "truncated": false,
+   "sha256": "abb4295caf536ffdef662c28222c990e24e7cee1fa5aa2d893a5182dffefdc15",
+   "fetched_at": "2026-10-20T01:50:34+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://www.europeana.eu/en/rights/api",
+   "status": 403,
+   "final_url": "https://www.europeana.eu/en/rights/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5734,
+   "truncated": false,
+   "sha256": "f6133e8bc049b08eed40e1069dfcd31862541e212b94c507eca7627cf89f9c55",
+   "fetched_at": "2026-10-20T01:54:08+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://www.europeana.eu/en/rights/api",
+   "status": 403,
+   "final_url": "https://www.europeana.eu/en/rights/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5734,
+   "truncated": false,
+   "sha256": "5c63de4f946ae49f982d30692fe55f86bf8685c2bc53e17e9b6ae23c8266e56a",
+   "fetched_at": "2026-10-20T01:58:46+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://www.europeana.eu/en/rights/api",
+   "status": 403,
+   "final_url": "https://www.europeana.eu/en/rights/api",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5734,
+   "truncated": false,
+   "sha256": "a7c473e64ae262dfa604d4aa981df6134b37eb4cd04e2a442b7ed2172d19cf65",
+   "fetched_at": "2026-10-20T02:21:48+00:00",
+   "rate_headers": {}
+  }
+ }
+}

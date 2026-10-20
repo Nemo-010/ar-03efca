@@ -1,0 +1,65 @@
+{
+ "slug": "fatcat",
+ "name": "Internet Archive Scholar / fatcat",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:28+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://api.fatcat.wiki/",
+   "status": 0,
+   "final_url": "https://api.fatcat.wiki/",
+   "content_type": "",
+   "bytes": 25,
+   "truncated": false,
+   "sha256": "0d7860b32a657ff27d8b0b899f5a973d2d17137e368dbafd67ad1e76bf4f9b9f",
+   "fetched_at": "2026-10-20T01:47:28+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://scholar.archive.org/",
+   "status": 200,
+   "final_url": "https://scholar.archive.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 8007,
+   "truncated": false,
+   "sha256": "47a1a5d24fa24abdf9eb950c8c8369299c35614073e56d0e40fd5e2475cdeb7f",
+   "fetched_at": "2026-10-20T01:47:53+00:00",
+   "rate_headers": {},
+   "text_bytes": 551
+  },
+  "llms-err": {
+   "url": "https://docs.fatcat.wiki/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.fatcat.wiki/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:19+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://guide.fatcat.wiki/",
+   "status": 0,
+   "final_url": "https://guide.fatcat.wiki/",
+   "content_type": "",
+   "bytes": 25,
+   "truncated": false,
+   "sha256": "0d7860b32a657ff27d8b0b899f5a973d2d17137e368dbafd67ad1e76bf4f9b9f",
+   "fetched_at": "2026-10-20T01:49:40+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://scholar.archive.org/help",
+   "status": 200,
+   "final_url": "https://scholar.archive.org/help",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 15120,
+   "truncated": false,
+   "sha256": "d3e275b21177e78a35ab4cccffca11ffd7bd4b51238dd9415246c8081fa4839c",
+   "fetched_at": "2026-10-20T01:50:33+00:00",
+   "rate_headers": {},
+   "text_bytes": 3997
+  }
+ }
+}

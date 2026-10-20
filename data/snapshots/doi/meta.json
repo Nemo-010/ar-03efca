@@ -1,0 +1,17 @@
+{
+ "slug": "doi",
+ "sources": {
+  "r1": {
+   "url": "https://www.doi.org/the-identifier/what-is-a-doi/",
+   "status": 200,
+   "final_url": "https://www.doi.org/the-identifier/what-is-a-doi/",
+   "content_type": "text/html",
+   "bytes": 35697,
+   "truncated": false,
+   "sha256": "c477ec656c74aae6d72ac55efac1bd12bd3be5235aba86fcf347eee938542e86",
+   "fetched_at": "2026-10-20T01:59:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 6091
+  }
+ }
+}

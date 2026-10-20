@@ -1,0 +1,91 @@
+{
+ "slug": "cleveland-art",
+ "name": "Cleveland Museum of Art Open Access API",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:55+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://openaccess-api.clevelandart.org/",
+   "status": 200,
+   "final_url": "https://openaccess-api.clevelandart.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 107334,
+   "truncated": false,
+   "sha256": "0a0e1536dbdb61ac6d821d9b1ad3f51ab104b69fc51c455f2b13964d80c68197",
+   "fetched_at": "2026-10-20T01:47:55+00:00",
+   "rate_headers": {},
+   "text_bytes": 66488
+  },
+  "home": {
+   "url": "https://www.clevelandart.org/",
+   "status": 200,
+   "final_url": "https://www.clevelandart.org/home",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 772797,
+   "truncated": false,
+   "sha256": "d8c5475e4fdde4dfbe81e893c3e350dfae2ce2b846378b24d27a7f58f7159dc6",
+   "fetched_at": "2026-10-20T01:47:55+00:00",
+   "rate_headers": {},
+   "text_bytes": 1668
+  },
+  "llms-err": {
+   "url": "https://docs.openaccess-api.clevelandart.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.openaccess-api.clevelandart.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:57+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://openaccess-api.clevelandart.org/",
+   "status": 200,
+   "final_url": "https://openaccess-api.clevelandart.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 107334,
+   "truncated": false,
+   "sha256": "c17c5f6bdecd4c761daf91cff27630068381bfd10d7cba674e2c6c034047f7e8",
+   "fetched_at": "2026-10-20T01:49:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 66488
+  },
+  "policy2": {
+   "url": "https://openaccess-api.clevelandart.org/",
+   "status": 200,
+   "final_url": "https://openaccess-api.clevelandart.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 107334,
+   "truncated": false,
+   "sha256": "71eebe197e83605a2256a19d16e97275dfc8c641faf4c87e5f9a8bb1bf9941de",
+   "fetched_at": "2026-10-20T01:51:22+00:00",
+   "rate_headers": {},
+   "text_bytes": 66488
+  },
+  "limits": {
+   "url": "https://openaccess-api.clevelandart.org/",
+   "status": 200,
+   "final_url": "https://openaccess-api.clevelandart.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 107334,
+   "truncated": false,
+   "sha256": "5ae9e271efe500d2236d6a753e7ea5539ba8d6f15f71f3e9fa61c639e83db6f9",
+   "fetched_at": "2026-10-20T01:54:15+00:00",
+   "rate_headers": {},
+   "text_bytes": 66488
+  },
+  "r1": {
+   "url": "https://openaccess-api.clevelandart.org/",
+   "status": 200,
+   "final_url": "https://openaccess-api.clevelandart.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 107334,
+   "truncated": false,
+   "sha256": "8da993198577d34b3ed868f8886e2b394c2e29d6445d4f9286debe35abe6ce64",
+   "fetched_at": "2026-10-20T01:58:52+00:00",
+   "rate_headers": {},
+   "text_bytes": 66488
+  }
+ }
+}

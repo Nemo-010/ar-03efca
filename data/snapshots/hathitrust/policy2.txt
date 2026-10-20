@@ -1,0 +1,121 @@
+Bibliographic API – HathiTrust Digital Library 
+ Skip to main content 
+ Home 
+ Member Libraries 
+ Resources for Librarians 
+ How to Use HathiTrust Data Resources 
+ Bibliographic API 
+ Bibliographic API 
+ This API returns bibliographic, rights, and volume information when given a single or multiple standard identifiers (ISBN, LCCN, OCLC, etc.). It is intended for use to retrieve information about small numbers of items at a time. The HathiTrust Bibliographic API is not a search API (e.g., where you use a keyword to search across the collection). 
+ Bulk retrieval should be done using OAI or the HathiTrust tab-delimited inventory files (hathifiles ). Note that use of the data may be subject to third-party agreements, such as OCLC’s Record Use policy. Permission must be sought for bulk retrieval of OCLC records by non-OCLC members. 
+ HathiTrust Metadata Sharing : Under HathiTrust Digital Library’s (HTDL) Metadata Sharing Policy , independent users, member institutions, and other third parties are free to harvest (for example, through our OAI feed or the HathiFiles ), modify and/or otherwise make use of any metadata contained in HTDL unless restricted by contractual obligations residing with the parties that have contributed the metadata (“Depositing Institutions”) to HTDL.  Furthermore, HTDL provides no warranties on the data made available through any sharing mechanisms. Use of the data is undertaken at the user’s own risk. Any contributions made by HTDL to the metadata in the repository have been placed into the public domain by HTDL via a CC0 Public Domain Dedication . 
+ Definitions: 
+ For the purposes of this specification 
+ A record is a description of a bibliographic entity (a book, serial, etc.) 
+ An item is a physical volume that was scanned. Each item belongs to a single record, but a single record (e.g., the record for the journal Nature ) may have many items associated with it. 
+ Simple, single-identifier API 
+ In the simplest case, to retrieve volume information based on a single identifier, the following syntax would be used: 
+ https://catalog.hathitrust.org/api/volumes/ brief /<id type>/<id value>.json 
+https://catalog.hathitrust.org/api/volumes/ full /<id type>/<id value>.json 
+ The difference between a brief and full API request is that complete MARC-XML is returned in a full response. 
+ For example, to get information about any item(s) associated with records that have the OCLC number 424023 ( Infinite Series ), the request would be: 
+ https://catalog.hathitrust.org/api/volumes/brief/oclc/424023.json 
+ or 
+ https://catalog.hathitrust.org/api/volumes/full/oclc/424023.json 
+ Valid id types are: 
+ oclc : OCLC Number. Will be normalized to just digits. 
+ lccn: Will be normalized as recommended 
+ issn : Will be normalized to just digits 
+ isbn : Will be normalized to just digits (and possible trailing X). ISBN-13s will be left alone; ISBN-10s will search against both the ISBN-10 and the ISBN-13 
+ htid : The HathiTrust Volume ID of a particular volume (e.g., mdp.39015058510069) 
+ recordnumber: The 9-digit HathiTrust record number, as described above. 
+ The data should be url-encoded if necessary; LCCN’s in particular tend to have spaces and forward-slashes in them. 
+ The Basic JSON return structure 
+ The return value will look like this: 
+ { 
+ “records” : { 
+ “000578050” : { 
+ “recordURL” : “https:\/\/catalog.hathitrust.org\/Record\/000578050” , 
+ “titles” : [ “Infinite series.” ] , 
+ “isbns” : [ “0030110408” ] , 
+ “issns” : [ ] , 
+ “oclcs” : [ “00424023” ] , 
+ “lccns” : [ “62009520” ] , 
+“marc-xml”: “the marc-xml, only if requested via a full URL” 
+ } 
+ } , 
+ “items” : [ 
+ { 
+ “orig” : “University of California” , 
+ “fromRecord” : “000578050” , 
+ “htid” : “uc1.b4405602” , 
+ “itemURL” : “https:\/\/hdl.handle.net\/2027\/uc1.b4405602” , 
+ “rightsCode” : “ic” , 
+ “lastUpdate” : “20090903” , 
+ “enumcron” : false , 
+ “usRightsString” : “Limited (search-only)” 
+ } , 
+ { 
+ “orig” : “University of Michigan” , 
+ “fromRecord” : “000578050” , 
+ “htid” : “mdp.39015025315527” , 
+ “itemURL” : “https:\/\/hdl.handle.net\/2027\/mdp.39015025315527” , 
+ “rightsCode” : “ic” , 
+ “lastUpdate” : “20090612” , 
+ “enumcron” : false , 
+ “usRightsString” : “Limited (search-only)” 
+ } 
+ ] 
+ } 
+ There are two sections: records which holds basic metadata about the set of records which match the query, and items which lists the complete set of individual HathiTrust items (volumes) associated with those records. 
+ The records section 
+ The records structure is a hash keyed on the nine-digit record number of each matched record. It may easily contain multiple records, since duplicates, while not common, are certainly possible. 
+ For each record, we list: 
+ recordURL : The URL to the catalog display record. 
+ titles : The list of titles associated with this record, for sanity checking. This list includes the standard (MARC field 245) title with and without leading articles, and any vernacular (foreign language) titles provided in the record (MARC field 880). 
+ isbns, issns, lccns, oclcs, lccns: Each is a (possibly empty) list of identifiers of the appropriate type. 
+ marc-xml : The full MARC-XML of the record if the URL was of the form /api/volumes/full/… MARC-XML is not included in brief return values. 
+ The items section 
+ The items structure is an array of hashes describing all the available items associated with matched records. There may be multiple items because the record(s) in question describe a serial or multi-volume set, or because identical volumes were digitized at more than one contributing institution. 
+ For each item, we list: 
+ orig : The originating institution — where this particular volume was digitized. 
+ fromRecord : The nine-digit record number to which this particular item is attached. It will always be one of the records listed in the records section. 
+ htid : The HathiTrust volume id. 
+ itemURL : The URL to this item in the pageturner interface. This is trivially derived from the htid at the moment, but is included here in the event that the handle URLs get more complex in the future. 
+ rightsCode : The rights code as used in the downloadable files, describing the copyright status of the item and what users in various locales are able to do with it. 
+ lastUpdate : The date (YYYYMMDD) this item was ingested or last changed (because, e.g., the rights determination changed). 
+ enumcron : The enumeration/chronology of the item, describing its place in a series. These are commonly of the form, “vol. 3, n. 2 1993” or something similar. Used to sort the items when present. 
+ usRightsString : A textual description of the rights for a US-based user. This is, again, trivially derived from the rightsCode, but useful enough to the majority of likely users that it is included here. Will be either “Limited (search only)” or “Full View.” 
+ As noted, a reasonably-sophisticated attempt is made to sort items by their enumcron (when present), often resulting in the items listed correctly by volume/number. Variation in the way these data have been entered at different institutions and at different times makes it impractical to guarantee the order will be correct, but it is more often than not correct. 
+ The multi-id request format 
+ The multi-id request format allows two extensions to the simple API described above: 
+ multiple id type-value pairs can be included in an attempt to find a record (e.g., sending both an LCCN and an OCLC number) 
+ multiple search specifications can be sent at once, allowing you to request items for up to 20 records at a time (e.g., if you want to request data for all the items on a page of results in your own search interface without making 20 AJAX calls) 
+ The basic URL structure for these requests is 
+ https://catalog.hathitrust.org/api/volumes/brief/<return type>/<search1>|<search2>|...|<searchN> 
+https://catalog.hathitrust.org/api/volumes/full/<return type>/<search1>|<search2>|...|<searchN> 
+ A simple example to get  items associated with a single record based on multiple identifiers would be 
+ https://catalog.hathitrust.org/api/volumes/brief/json/id:BJD1;oclc:424023;isbn:0030110408 
+ or 
+ https://catalog.hathitrust.org/api/volumes/full/json/id:BJD1;oclc:424023;isbn:0030110408 
+ This example is looking for json results describing records (and the items attached to those records) that have the given OCLC number and/or the given ISBN. The local ID (from which the OCLC and ISBN were retrieved) is ‘BJD1’. The data returned will be identified with that string [so the HathiTrust data can be added to a local display]. 
+ The return type 
+ …is always json at the moment. No other return types are offered (but please ask if you need something else). 
+ The search specification and how a match is determined 
+ A search specification is a set of <id type>:<id value> pairs separated by semi-colons. The id types and values are exactly as described for the Simple API. 
+ It is possible to provide a special “id:MyID” pair as part of the search specification. If this is done, the basic JSON return structure associated with this search will be keyed on “MyID”. If not, it will be keyed on the whole search specification (colons, semicolons, etc.). 
+ A record matches if all <id type>:<id value> pairs provided match or are not present . As an example, if an OCLC number and an LCCN number are provide (along with the ignored-for-matching id ): 
+ id:1;oclc:45678;lccn:70628581 
+ If a record has an oclc number but no lccn, at least one of the record’s oclc numbers must match the passed oclc number. 
+ If a record has an lccn but no oclc number, at least one of the record’s lccns must match the passed lccn value. 
+ If a record has both an lccn and an oclc number, the record must have an OCLC number and an LCCN that match the passed values. 
+ If a record has both an lccn and an oclc number and the OCLC number matches but the LCCN does not, then the record does not match . 
+ Requesting several records at once 
+ Up to 20 records may be requested at once by providing multiple search specifications separated by the pipe ( | ) character. 
+ Regardless of whether a request is made for one record or many, what is returned is a set of basic JSON return structures keyed on the provided ids (or on the whole search specification if the request does not include an id). 
+ So, the URL 
+ https://catalog.hathitrust.org/api/volumes/brief/json/id:552;lccn:70628581|isbn: 0030110408 
+ …will return a hash with two elements. One is keyed on ‘552’ (the provided id) and the other on ‘isbn: 0030110408′ (since no id was provided). 
+ JSON-P requests supported 
+ JSON-P is a convention used to allow cross-site scripting in AJAX calls to get JSON data. The Rights API supports JSON-P requests — just add ‘&callback=<value>” to the end of your URL. 
+ Top

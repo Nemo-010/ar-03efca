@@ -1,0 +1,91 @@
+{
+ "slug": "elsevier",
+ "name": "Elsevier Scopus / ScienceDirect API",
+ "category": "publisher",
+ "fetched_at": "2026-10-20T01:48:05+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://dev.elsevier.com/",
+   "status": 200,
+   "final_url": "https://dev.elsevier.com/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 78901,
+   "truncated": false,
+   "sha256": "2a7a481aa213828f8cd0fa39dcc55ef97ce0557da110eea6bc6685bb9da6233c",
+   "fetched_at": "2026-10-20T01:48:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 3354
+  },
+  "home": {
+   "url": "https://www.elsevier.com/",
+   "status": 200,
+   "final_url": "https://www.elsevier.com/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 378072,
+   "truncated": false,
+   "sha256": "f8c865d0d9431ade87819fe1741f4c5eed73000aa0a75867327a98bda26b7c8e",
+   "fetched_at": "2026-10-20T01:48:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 9921
+  },
+  "llms-err": {
+   "url": "https://docs.dev.elsevier.com/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.dev.elsevier.com/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:08+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://dev.elsevier.com/",
+   "status": 200,
+   "final_url": "https://dev.elsevier.com/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 78901,
+   "truncated": false,
+   "sha256": "2a7a481aa213828f8cd0fa39dcc55ef97ce0557da110eea6bc6685bb9da6233c",
+   "fetched_at": "2026-10-20T01:49:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 3354
+  },
+  "policy2": {
+   "url": "https://dev.elsevier.com/api_key_settings.html",
+   "status": 200,
+   "final_url": "https://dev.elsevier.com/api_key_settings.html",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 96312,
+   "truncated": false,
+   "sha256": "ab2586a1e696e25fdba3cdde493ffaa47b4ffa270ddde916a125db7e8b796a86",
+   "fetched_at": "2026-10-20T01:51:25+00:00",
+   "rate_headers": {},
+   "text_bytes": 7671
+  },
+  "limits": {
+   "url": "https://dev.elsevier.com/api_key_settings.html",
+   "status": 200,
+   "final_url": "https://dev.elsevier.com/api_key_settings.html",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 96312,
+   "truncated": false,
+   "sha256": "ab2586a1e696e25fdba3cdde493ffaa47b4ffa270ddde916a125db7e8b796a86",
+   "fetched_at": "2026-10-20T01:53:57+00:00",
+   "rate_headers": {},
+   "text_bytes": 7671
+  },
+  "r1": {
+   "url": "https://dev.elsevier.com/api_key_settings.html",
+   "status": 200,
+   "final_url": "https://dev.elsevier.com/api_key_settings.html",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 96312,
+   "truncated": false,
+   "sha256": "ab2586a1e696e25fdba3cdde493ffaa47b4ffa270ddde916a125db7e8b796a86",
+   "fetched_at": "2026-10-20T01:58:26+00:00",
+   "rate_headers": {},
+   "text_bytes": 7671
+  }
+ }
+}

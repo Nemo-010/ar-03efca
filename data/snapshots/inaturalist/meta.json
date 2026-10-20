@@ -1,0 +1,100 @@
+{
+ "slug": "inaturalist",
+ "name": "iNaturalist",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:59+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.inaturalist.org/v1/docs/",
+   "status": 200,
+   "final_url": "https://api.inaturalist.org/v1/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 4157,
+   "truncated": false,
+   "sha256": "5f394b8d0fe92be7d8e45559bdb62a9f326b25dddbb57352db7eb1bab9a49aaa",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 15
+  },
+  "home": {
+   "url": "https://www.inaturalist.org/",
+   "status": 200,
+   "final_url": "https://www.inaturalist.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 70196,
+   "truncated": false,
+   "sha256": "1d9e61557b46d4c3d6bdaf323f734dc17feae983f4da3f71a77f1a7b55175b18",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 8107
+  },
+  "llms-err": {
+   "url": "https://docs.inaturalist.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.inaturalist.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.inaturalist.org/v1/docs/",
+   "status": 200,
+   "final_url": "https://api.inaturalist.org/v1/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 4157,
+   "truncated": false,
+   "sha256": "5f394b8d0fe92be7d8e45559bdb62a9f326b25dddbb57352db7eb1bab9a49aaa",
+   "fetched_at": "2026-10-20T01:49:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 15
+  },
+  "policy2": {
+   "url": "https://www.inaturalist.org/pages/api+recommended+practices",
+   "status": 403,
+   "final_url": "https://www.inaturalist.org/pages/api+recommended+practices",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5769,
+   "truncated": false,
+   "sha256": "0e574038bcbd1dd4e910f7deb244ef307c37fd84ca2097429e1a12ce69a19ea7",
+   "fetched_at": "2026-10-20T01:51:06+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://www.inaturalist.org/pages/api+recommended+practices",
+   "status": 403,
+   "final_url": "https://www.inaturalist.org/pages/api+recommended+practices",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5769,
+   "truncated": false,
+   "sha256": "a37086ff3789af810380941f98476af05773e9e673ad3d12993c1d06f5173c40",
+   "fetched_at": "2026-10-20T01:53:47+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://www.inaturalist.org/pages/api+recommended+practices",
+   "status": 403,
+   "final_url": "https://www.inaturalist.org/pages/api+recommended+practices",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5769,
+   "truncated": false,
+   "sha256": "ae4fe2422fdce42e79fb10786999b87323befe30df8f27c0e82dbdfb0058b474",
+   "fetched_at": "2026-10-20T01:58:39+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://api.inaturalist.org/v1/docs/",
+   "status": 200,
+   "final_url": "https://api.inaturalist.org/v1/docs/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 4157,
+   "truncated": false,
+   "sha256": "5f394b8d0fe92be7d8e45559bdb62a9f326b25dddbb57352db7eb1bab9a49aaa",
+   "fetched_at": "2026-10-20T02:21:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 15
+  }
+ }
+}

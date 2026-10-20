@@ -1,0 +1,94 @@
+DataverseNL 
+ Skip to main content 
+ Toggle navigation 
+ Search 
+ Search 
+ About 
+ User Guide 
+ Support 
+ Sign Up 
+ Log In 
+ Dataverse NL 
+ Toggle navigation 
+ Benefits 
+ Features 
+ Contact 
+ About 
+ Login 
+ Online storage, sharing and publishing of research data 
+ Search datasets 
+ Visit DataverseNL 
+ Recently published datasets 
+ Benefits
+ DataverseNL is a publicly accessible data repository platform, open to researchers of affiliated institutes and their collaborators to deposit
+ and share research data openly with anyone. It facilitates making your research data FAIR (Findable, Accessible, Interoperable, Reusable). 
+ DataverseNL supports the creation of custom terms of use and restrictions in order to control
+ access to your research data. DataverseNL facilitates long-term access, persistent identifiers, and preservation
+ by storing a backup copy for safekeeping. 
+ Receive academic credit and recognition by making your data more discoverable to the research community online.
+ Collaborate in teams and track changes as Dataverse provides increased user control over managing changes to a project. 
+ Meet grant requirements by depositing your research data in DataverseNL. 
+ For institutes it is possible to get a CoreTrustSeal certification for their dataverses within DataverseNL, like Tilburg University did. 
+ A connection to the DANS Data Vault secures Long Term Preservation of the data. 
+ Features 
+ Technical infrastructure 
+ Data is hosted on Dutch servers. DANS offers a reliable and secure infrastructure. 
+ Persistent Identifiers 
+ Get a DOI for your dataset in order to make your data more accessible and citable. 
+ Features 
+ Better visibility 
+ The metadata of your dataset will be findable in for example: Google Scholar ,
+ Google Dataset search 
+ and the Netherlands Research Portal within OpenAIRE. 
+ Log-in with SURFconext 
+ No need to create another account, use your institutional login credentials.
+ If your institute isn’t connected via SURFconext, DataverseNL offers the possibility to create local accounts. 
+ Institutional Dataverses 
+ Deposit your data in a Dataverse of your institute, in line with their RDM policies. 
+ Contact
+ If you have questions about how to use DataverseNL, please contact your institution directly via one of
+ the email addresses on this page .
+ If your institution is not on this list, and you are looking for a repository to publish research data,
+ please contact the DataverseNL service manager .
+ About
+ Online storage, sharing and registration of research data, during the research period and after its completion. That is DataverseNL. 
+ DataverseNL is a shared service provided by participating institutes and DANS.
+ DataverseNL uses the Dataverse software developed by Harvard University, which is used worldwide. 
+ DataverseNL is jointly offered by participating institutes and DANS. Since 2014, DANS has been managing the technical infrastructure;
+ the participating institutes are responsible for managing the deposited data in their dataverses within DataverseNL.
+ Every institute participates in the Dataverse Advisory Board, which determines the policies of the service.
+ The local dataverse managers exchange their experiences regularly, together they develop "good practices" in the field of research data management. 
+ For more information please visit https://dans.knaw.nl/en/data-services/dataversenl .
+ Copyright © 2026 , Data Archiving and Networked Services (DANS)
+ Powered by 
+ v. 6.10.1 DANS-DataStation-PATCH-9 
+ Contact and Support 
+ Contact 
+ Using the Services 
+ Legal Information 
+ Privacy 
+ Disclaimer 
+ About DANS 
+ Mission 
+ Our Team 
+ Working for DANS 
+ Follow Us 
+ Newsletter DataLink
+ LinkedIn
+ Mastodon
+ Bluesky
+ YouTube
+ DANS is an institute of 
+ KNAW 
+ and
+ NWO 
+ Contact DataverseNL Support 
+ To 
+ DataverseNL Support 
+ From 
+ Subject 
+ Message 
+ Please fill this out to prove you are not a robot. 
+ 1 + 4 = 
+ Send Message 
+ Cancel

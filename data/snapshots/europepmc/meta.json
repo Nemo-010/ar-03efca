@@ -1,0 +1,125 @@
+{
+ "slug": "europepmc",
+ "name": "Europe PMC",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:43+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://europepmc.org/RestfulWebService",
+   "status": 200,
+   "final_url": "https://europepmc.org/RestfulWebService",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 64221,
+   "truncated": false,
+   "sha256": "bea55d8c8bc32c6cce58d30d7005f9fc6485502ac594fcfdb3dd73552ae44202",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 7917
+  },
+  "home": {
+   "url": "https://europepmc.org/",
+   "status": 200,
+   "final_url": "https://europepmc.org/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 42015,
+   "truncated": false,
+   "sha256": "771d4d254a024eb864f0d23a57b8cf3dfc1346689141aef0d91d6b35b3495d3f",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 2172
+  },
+  "llms-err": {
+   "url": "https://docs.europepmc.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.europepmc.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://europepmc.org/RestfulWebService",
+   "status": 200,
+   "final_url": "https://europepmc.org/RestfulWebService",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 64221,
+   "truncated": false,
+   "sha256": "bfc5de3ff7bc5d5e4b8bd258b08838027a7a6f4efac0029c129005c8ce013d2e",
+   "fetched_at": "2026-10-20T01:49:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 7917
+  },
+  "policy2": {
+   "url": "https://europepmc.org/developers",
+   "status": 200,
+   "final_url": "https://europepmc.org/developers",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 54235,
+   "truncated": false,
+   "sha256": "4ea295e91c775837a0ddf5465434ff0fc3fdf12b73feec5b9b26026e917dbba0",
+   "fetched_at": "2026-10-20T01:50:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 4319
+  },
+  "limits": {
+   "url": "https://europepmc.org/RestfulWebService#restarts",
+   "status": 403,
+   "final_url": "https://europepmc.org/RestfulWebService#restarts",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5700,
+   "truncated": false,
+   "sha256": "318b374eb346ea0c8f2d52c3140b8922030e83022a40f5e51017f67668aaf693",
+   "fetched_at": "2026-10-20T01:52:45+00:00",
+   "rate_headers": {}
+  },
+  "limits2": {
+   "url": "https://europepmc.org/help",
+   "status": 404,
+   "final_url": "https://europepmc.org/help",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 748,
+   "truncated": false,
+   "sha256": "925ba05c121163a80aa52aa77d0351ece6a3d5c88811afdc842a12bf734995f1",
+   "fetched_at": "2026-10-20T01:52:45+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://europepmc.org/docs/EBI_Europe_PMC_Web_Service_Reference.pdf",
+   "status": 200,
+   "final_url": "https://europepmc.org/docs/EBI_Europe_PMC_Web_Service_Reference.pdf",
+   "content_type": "application/pdf",
+   "bytes": 874938,
+   "truncated": false,
+   "sha256": "b2585dae9ecd9426b41e16770884bd7592e9fcbbd541eb482f919d0224dbac76",
+   "fetched_at": "2026-10-20T01:57:09+00:00",
+   "rate_headers": {},
+   "text_bytes": 838210
+  },
+  "r2": {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=x&format=json&pageSize=1",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=x&format=json&pageSize=1",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 1215,
+   "truncated": false,
+   "sha256": "1acba91a134e7f80fbfbb6c03a661892622381891a82b758c10be7ab0080dbea",
+   "fetched_at": "2026-10-20T02:22:02+00:00",
+   "rate_headers": {},
+   "text_bytes": 1215
+  },
+  "r3": {
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=x&format=json&pageSize=1",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=x&format=json&pageSize=1",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 1215,
+   "truncated": false,
+   "sha256": "9cef60096f0ef2a285ed399ede6c0060a24d671e62a2968860362f9d72ebc82e",
+   "fetched_at": "2026-10-20T01:57:50+00:00",
+   "rate_headers": {},
+   "text_bytes": 1215
+  }
+ }
+}

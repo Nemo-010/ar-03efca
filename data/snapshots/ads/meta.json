@@ -1,0 +1,120 @@
+{
+ "slug": "ads",
+ "name": "NASA ADS",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:44+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://ui.adsabs.harvard.edu/help/api/",
+   "status": 202,
+   "final_url": "https://ui.adsabs.harvard.edu/help/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2099,
+   "truncated": false,
+   "sha256": "5bf16435048cebd6ff42bd77c96b7a2160dae455e839a3d0d3ed8ea0c1c05c45",
+   "fetched_at": "2026-10-20T01:47:44+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://ui.adsabs.harvard.edu/",
+   "status": 202,
+   "final_url": "https://ui.adsabs.harvard.edu/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2099,
+   "truncated": false,
+   "sha256": "f67c4a7393ccd8a2ae42ae562db6bb39e8b372dba80f954f566fc10d78c42a45",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.ui.adsabs.harvard.edu/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ui.adsabs.harvard.edu/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://ui.adsabs.harvard.edu/help/api/",
+   "status": 202,
+   "final_url": "https://ui.adsabs.harvard.edu/help/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2099,
+   "truncated": false,
+   "sha256": "d30591686263eead9ee7030cfe02e949e400e8530fa2ea0af5047aea987c4bb9",
+   "fetched_at": "2026-10-20T01:49:36+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://ui.adsabs.harvard.edu/help/api/",
+   "status": 202,
+   "final_url": "https://ui.adsabs.harvard.edu/help/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2099,
+   "truncated": false,
+   "sha256": "212db30dc9fcd244ef994ee0b2b0e34247bbc1e81727f1d079d9c15de16f8392",
+   "fetched_at": "2026-10-20T01:53:02+00:00",
+   "rate_headers": {}
+  },
+  "limits2": {
+   "url": "https://ui.adsabs.harvard.edu/help/api/faq",
+   "status": 202,
+   "final_url": "https://ui.adsabs.harvard.edu/help/api/faq",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2099,
+   "truncated": false,
+   "sha256": "be1251e4ac898902cb1999d7e7307795c90863bf31714414831c2e2f8610924b",
+   "fetched_at": "2026-10-20T01:53:02+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://ui.adsabs.harvard.edu/help/api/",
+   "status": 202,
+   "final_url": "https://ui.adsabs.harvard.edu/help/api/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2099,
+   "truncated": false,
+   "sha256": "d84effbe4779f8b84f97f7371d5a09fea773d7c0bd28bf63831ca852fff813f3",
+   "fetched_at": "2026-10-20T01:58:18+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://ui.adsabs.harvard.edu/help/api/faq",
+   "status": 202,
+   "final_url": "https://ui.adsabs.harvard.edu/help/api/faq",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 2099,
+   "truncated": false,
+   "sha256": "c3b78e428526cc2c129b2a26a5277d62295b7e627753ba8ab60a5df03294a961",
+   "fetched_at": "2026-10-20T02:21:58+00:00",
+   "rate_headers": {}
+  },
+  "docs": {
+   "url": "https://adsabs.github.io/help/api/",
+   "status": 200,
+   "final_url": "https://adsabs.github.io/help/api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 33079,
+   "truncated": false,
+   "sha256": "a673e62d6df23546e647079762e7b5978a03d88d640c9235a0da9c0c0feb75a3",
+   "fetched_at": "2026-10-20T02:43:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 2942
+  },
+  "ratelimits": {
+   "url": "https://adsabs.github.io/help/policies/rate-limits",
+   "status": 200,
+   "final_url": "https://adsabs.github.io/help/policies/rate-limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 35812,
+   "truncated": false,
+   "sha256": "50093adcadf28b9e249f8efbc0ba232c864620af43738bf0a457b8357644f0e9",
+   "fetched_at": "2026-10-20T02:44:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 5582
+  }
+ }
+}

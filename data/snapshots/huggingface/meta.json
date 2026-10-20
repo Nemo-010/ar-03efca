@@ -1,0 +1,109 @@
+{
+ "slug": "huggingface",
+ "name": "Hugging Face Hub",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:50+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://huggingface.co/docs/hub/api",
+   "status": 200,
+   "final_url": "https://huggingface.co/docs/hub/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 177829,
+   "truncated": false,
+   "sha256": "eabe17f0e4a0d882d0d4240b193568ab6421be1bf9dac2f9dd5589775389ed4e",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=99;t=205",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 4506
+  },
+  "home": {
+   "url": "https://huggingface.co/",
+   "status": 200,
+   "final_url": "https://huggingface.co/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 181131,
+   "truncated": false,
+   "sha256": "25a97f64773e57fe46586eeb1bcc69b5a40889794dfd72532c317229f7448ee4",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=97;t=164",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 4516
+  },
+  "llms-err": {
+   "url": "https://docs.huggingface.co/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.huggingface.co/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:52+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://huggingface.co/docs/hub/api",
+   "status": 200,
+   "final_url": "https://huggingface.co/docs/hub/api",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 177829,
+   "truncated": false,
+   "sha256": "3be38201cd953378a1caf4eafd6f7456df63364172bab7951b4f52869ee6cc97",
+   "fetched_at": "2026-10-20T01:49:43+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=92;t=92",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 4506
+  },
+  "policy2": {
+   "url": "https://huggingface.co/docs/hub/rate-limits",
+   "status": 200,
+   "final_url": "https://huggingface.co/docs/hub/rate-limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 194214,
+   "truncated": false,
+   "sha256": "1ec1aeb0639100d7d553309259bb7d9f05932fc2ab4a7aad54cfa99a77941ecb",
+   "fetched_at": "2026-10-20T01:50:42+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=90;t=33",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 9295
+  },
+  "r1": {
+   "url": "https://huggingface.co/docs/hub/rate-limits",
+   "status": 200,
+   "final_url": "https://huggingface.co/docs/hub/rate-limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 194214,
+   "truncated": false,
+   "sha256": "1560187884b95181541fe761e182c38768f3ac12dc9549d0eabf36bbb9fab23a",
+   "fetched_at": "2026-10-20T01:59:09+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=98;t=126",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 9295
+  },
+  "r2": {
+   "url": "https://huggingface.co/docs/hub/rate-limits",
+   "status": 200,
+   "final_url": "https://huggingface.co/docs/hub/rate-limits",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 194214,
+   "truncated": false,
+   "sha256": "7b83f3fc78c89badaded7f82c1695465d41262f65fad1f6e4db4018660abe7b1",
+   "fetched_at": "2026-10-20T02:21:42+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=99;t=273",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 9295
+  }
+ }
+}

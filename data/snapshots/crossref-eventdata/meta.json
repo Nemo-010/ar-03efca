@@ -1,0 +1,52 @@
+{
+ "slug": "crossref-eventdata",
+ "name": "Crossref Event Data",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:39+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://www.eventdata.crossref.org/guide/",
+   "status": 0,
+   "final_url": "https://www.eventdata.crossref.org/guide/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {}
+  },
+  "home-err": {
+   "url": "https://www.eventdata.crossref.org/",
+   "status": 0,
+   "final_url": "https://www.eventdata.crossref.org/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.eventdata.crossref.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.eventdata.crossref.org/llms.txt",
+   "content_type": "",
+   "bytes": 25,
+   "truncated": false,
+   "sha256": "0d7860b32a657ff27d8b0b899f5a973d2d17137e368dbafd67ad1e76bf4f9b9f",
+   "fetched_at": "2026-10-20T01:47:40+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.eventdata.crossref.org/guide/",
+   "status": 0,
+   "final_url": "https://www.eventdata.crossref.org/guide/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:49:38+00:00",
+   "rate_headers": {}
+  }
+ }
+}

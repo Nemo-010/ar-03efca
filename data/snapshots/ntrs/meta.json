@@ -1,0 +1,120 @@
+{
+ "slug": "ntrs",
+ "name": "NASA NTRS",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:48:00+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://sti.nasa.gov/ntrs-api/",
+   "status": 404,
+   "final_url": "https://sti.nasa.gov/ntrs-api/",
+   "content_type": "text/html",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://ntrs.nasa.gov/",
+   "status": 200,
+   "final_url": "https://ntrs.nasa.gov/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 53778,
+   "truncated": false,
+   "sha256": "29656f91d11bb251c6f4a5edc0ffa12154cfe46f408d31aaca73a53770e8d7f9",
+   "fetched_at": "2026-10-20T01:48:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 2630
+  },
+  "llms-err": {
+   "url": "https://sti.nasa.gov/ntrs-api/llms.txt",
+   "status": 404,
+   "final_url": "https://sti.nasa.gov/ntrs-api/llms.txt",
+   "content_type": "text/html",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:48:02+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://ntrs.nasa.gov/llms.txt",
+   "status": 200,
+   "final_url": "https://ntrs.nasa.gov/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46705,
+   "truncated": false,
+   "sha256": "45d6262b4f4179cba87150aae1d5c2352caec148dcad6ee825c5462391f98ee5",
+   "fetched_at": "2026-10-20T01:48:03+00:00",
+   "rate_headers": {},
+   "text_bytes": 607
+  },
+  "llms-a04e74-err": {
+   "url": "https://docs.sti.nasa.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.sti.nasa.gov/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:04+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://sti.nasa.gov/ntrs-api/",
+   "status": 404,
+   "final_url": "https://sti.nasa.gov/ntrs-api/",
+   "content_type": "text/html",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://sti.nasa.gov/ntrs-api/",
+   "status": 404,
+   "final_url": "https://sti.nasa.gov/ntrs-api/",
+   "content_type": "text/html",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:51:07+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://sti.nasa.gov/ntrs-api/",
+   "status": 404,
+   "final_url": "https://sti.nasa.gov/ntrs-api/",
+   "content_type": "text/html",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:53:48+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://sti.nasa.gov/ntrs-api/",
+   "status": 404,
+   "final_url": "https://sti.nasa.gov/ntrs-api/",
+   "content_type": "text/html",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T01:58:40+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://sti.nasa.gov/ntrs-api/",
+   "status": 404,
+   "final_url": "https://sti.nasa.gov/ntrs-api/",
+   "content_type": "text/html",
+   "bytes": 146,
+   "truncated": false,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "fetched_at": "2026-10-20T02:21:56+00:00",
+   "rate_headers": {}
+  }
+ }
+}

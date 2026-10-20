@@ -1,0 +1,127 @@
+{
+ "slug": "ebisearch",
+ "name": "EBI Search",
+ "category": "data-api",
+ "fetched_at": "2026-10-20T01:47:59+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "home": {
+   "url": "https://www.ebi.ac.uk/ebisearch/",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:47:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "llms": {
+   "url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi/llms.txt",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi/llms.txt",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:48:00+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "llms-5c828a": {
+   "url": "https://www.ebi.ac.uk/ebisearch/llms.txt",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/llms.txt",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:48:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "llms-6fc1ce-err": {
+   "url": "https://docs.ebi.ac.uk/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ebi.ac.uk/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:02+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:49:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "policy2": {
+   "url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:51:33+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "limits": {
+   "url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:53:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "r1": {
+   "url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T01:58:34+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  },
+  "r2": {
+   "url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "status": 200,
+   "final_url": "https://www.ebi.ac.uk/ebisearch/swagger.ebi",
+   "content_type": "text/html",
+   "bytes": 58490,
+   "truncated": false,
+   "sha256": "df88670799b49583dc7801f910297884c913f4a52273272e2b507f4678b08ebe",
+   "fetched_at": "2026-10-20T02:22:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 21
+  }
+ }
+}

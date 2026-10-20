@@ -1,0 +1,256 @@
+Open Machine Learning 
+ Skip to content
+ Open Machine Learning
+ OpenML
+ Initializing search
+ openml/docs
+ OpenML
+ Get Started
+ Datasets
+ Benchmarking
+ Ecosystem
+ Contributing
+ Questions
+ Python
+ PyTorch
+ TensorFlow
+ Julia
+ R
+ APIv2
+ Open Machine Learning
+ openml/docs
+ OpenML
+ OpenML
+ Table of contents
+ How to use OpenML
+ Contributing to OpenML
+ Want to get involved?
+ Get Started
+ Get Started
+ OpenML in 10 minutes
+ Concepts
+ Concepts
+ Data
+ Tasks
+ Flows
+ Runs
+ Collections & Benchmarks
+ Tagging
+ Authentication
+ Sharing
+ Showcase
+ Governance
+ Terms
+ Datasets
+ Datasets
+ Using datasets
+ Technical specs
+ Benchmarking
+ Benchmarking
+ AutoML Benchmark
+ AutoML Benchmark
+ AutoML Benchmark
+ Important Parameters
+ Benchmark on OpenML
+ Tutorials
+ Tutorials
+ Basic Example - Random Forest
+ Specific Task and Fold
+ Ecosystem
+ Ecosystem
+ Python Integrations
+ Scikit-learn
+ Scikit-learn
+ Tutorials
+ Tutorials
+ Basic tutorial
+ Datasets
+ MLR
+ Weka
+ MOA
+ Java
+ REST API
+ Contributing
+ Contributing
+ Documentation
+ Backend
+ Backend
+ Local Installation
+ Datasets
+ Code structure
+ Evaluation Engine
+ Frontend
+ Frontend
+ Getting started
+ Flask backend
+ React frontend
+ Dash visualizations
+ Clients
+ Clients
+ Client development
+ Metadata definition
+ REST API
+ Style guide
+ Resources
+ Questions
+ Python
+ Python
+ Code Reference
+ Code Reference
+ base
+ cli
+ config
+ evaluations
+ evaluations
+ evaluation
+ functions
+ exceptions
+ extensions
+ extensions
+ extension_interface
+ functions
+ sklearn
+ sklearn
+ extension
+ flows
+ flows
+ flow
+ functions
+ runs
+ runs
+ functions
+ run
+ trace
+ setups
+ setups
+ functions
+ setup
+ study
+ study
+ functions
+ study
+ tasks
+ tasks
+ functions
+ split
+ task
+ testing
+ utils
+ Examples
+ Examples
+ Basic
+ Basic
+ Introduction tutorial & Setup
+ Datasets
+ Flows and Runs
+ Benchmark suites
+ Extended
+ Extended
+ benchmark_with_optunahub.py
+ Logging
+ Dataset upload tutorial
+ Creating and Using a Custom Flow
+ Datasets
+ Fetching Evaluations
+ Preparing tasks and scikit-learn models
+ Obtaining Flow IDs
+ Flows and Runs
+ Plotting hyperparameter surfaces
+ Run Setup
+ Benchmark studies
+ Benchmark suites
+ Tasks: retrieving splits
+ Tasks
+ Paper
+ Paper
+ Feurer et al. (2015)
+ Strang et al. (2018)
+ van Rijn and Hutter (2018)
+ Perrone et al. (2018)
+ Usage
+ Contributing
+ Extensions
+ Changelog
+ PyTorch
+ PyTorch
+ API Reference
+ API Reference
+ Callbacks
+ Custom Datasets
+ Metrics
+ OpenML Connection
+ Trainer
+ Examples
+ Examples
+ Beginner
+ Beginner
+ Create dataset and task - tiniest imagenet
+ Image Classification Task
+ Pretrained Transformer Image Classification Task
+ Sequential Classification Task
+ Tabular Classification
+ Advanced
+ Advanced
+ Choose a Custom Optimizer
+ Other Integrations
+ Limitations of the API
+ Philosophy behind the API Design
+ TensorFlow
+ TensorFlow
+ API Reference
+ API Reference
+ Config
+ OpenML Integration
+ Docker Reference
+ Docker Reference
+ Docker
+ Examples
+ Examples
+ Tensorflow image classification model example I
+ Performance check of tensorflow image classification model
+ Tensorflow image dataset classification model example II
+ Tensorflow image classification using pre-trained model example II
+ Tensorflow image classification using pre-trained model example I
+ Limitations of the API
+ Julia
+ Julia
+ R
+ APIv2
+ APIv2
+ Getting Started
+ Contributing
+ Contributing
+ Development
+ Tests
+ Documentation
+ Project Overview
+ Changes
+ Table of contents
+ How to use OpenML
+ Contributing to OpenML
+ Want to get involved?
+ OpenML builds a seamless, open ecosystem of machine learning data, models, and benchmarks - advancing AI openly for the benefit of all humanity. 
+   1000s of data sets , uniformly formatted, easy to load and organized online 
+  Models and pipelines automatically uploaded from machine learning libraries 
+   Extensive APIs to integrate OpenML into your tools and scripts 
+   Easily reproducible results (e.g. models, evaluations) for comparison and reuse 
+   Stand on the shoulders of giants and collaborate in real time 
+   Make your work more visible and reusable 
+   Built for automation: streamline your experiments and model building 
+ How to use OpenML ¶ 
+ OpenML is accessible to a wide range of people: 
+ Explore the OpenML website to discover, download and upload ML resources. 
+ Install an OpenML library to access and share resources programmatically through our APIs. Select one of the detailed guides in the top menu. 
+ Get started by learning more about the structure and concepts behind OpenML, such as Datasets, Tasks, Flows, Runs, Benchmarking and much more. This will help you leverage OpenML even better in your work. 
+ Contributing to OpenML ¶ 
+ OpenML is an open source project, hosted on GitHub . We welcome everybody to help improve OpenML, and make it more useful for everyone. For more information on how to contribute, see the Contributing page. 
+ We want to make machine learning and data analysis simple , accessible , collaborative and open with an optimal division of labour between computers and humans. 
+ Want to get involved? ¶ 
+ Awesome, we're happy to have you! 
+ OpenML is dependent on the community. If you want to help, please email us ( openmlHQ@googlegroups.com ). If you feel already comfortable you can help by opening issues or make a pull request on GitHub. We also have regular workshops you can join (they are announced on openml.org). 
+ February 11, 2026 
+ June 29, 2019 
+ Next
+ OpenML
+ Made with
+ Material for MkDocs

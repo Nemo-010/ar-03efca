@@ -1,0 +1,53 @@
+{
+ "slug": "archive-today",
+ "name": "archive.today",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:28+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://archive.ph/",
+   "status": 200,
+   "final_url": "https://archive.ph/",
+   "content_type": "text/html;charset=utf-8",
+   "bytes": 14264,
+   "truncated": false,
+   "sha256": "50f184bd56602af87506d237091c242d42afbfbc90842d57e2c4e3f7d9604dad",
+   "fetched_at": "2026-10-20T01:47:28+00:00",
+   "rate_headers": {},
+   "text_bytes": 1222
+  },
+  "llms-err": {
+   "url": "https://docs.archive.ph/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.archive.ph/llms.txt",
+   "content_type": "",
+   "bytes": 63,
+   "truncated": false,
+   "sha256": "cd8859b6124240b7dcdab329b6ba07f05e4040490703999a68b65a0dff36da6e",
+   "fetched_at": "2026-10-20T01:47:29+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://archive.ph/faq",
+   "status": 429,
+   "final_url": "https://archive.ph/faq",
+   "content_type": "text/html",
+   "bytes": 59156,
+   "truncated": false,
+   "sha256": "580162d0b7d7c4ede3f0ef0599879cd9d7ce05995af93efbd168c0ef392aa62c",
+   "fetched_at": "2026-10-20T01:49:36+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://archive.ph/faq",
+   "status": 429,
+   "final_url": "https://archive.ph/faq",
+   "content_type": "text/html",
+   "bytes": 59155,
+   "truncated": false,
+   "sha256": "d4ceb1140c50b7ef1412147c94402321f3c6b441d5900674d6db4c5154a13311",
+   "fetched_at": "2026-10-20T01:51:38+00:00",
+   "rate_headers": {}
+  }
+ }
+}

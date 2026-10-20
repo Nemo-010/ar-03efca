@@ -1,0 +1,103 @@
+{
+ "slug": "lens",
+ "name": "Lens.org Scholarly API",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:40+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://docs.api.lens.org/",
+   "status": 200,
+   "final_url": "https://docs.api.lens.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10793,
+   "truncated": false,
+   "sha256": "851c28ce48d3d742b27565063b82cb787aade5beae42dd59e22ed95d58153466",
+   "fetched_at": "2026-10-20T01:47:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 2324
+  },
+  "home": {
+   "url": "https://www.lens.org/",
+   "status": 200,
+   "final_url": "https://www.lens.org/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 573117,
+   "truncated": false,
+   "sha256": "8b5ae647d844bb6f32650cb7e7a893b64d901278a5a7f451dc4e5e7c0b1b95a3",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 5022
+  },
+  "llms-err": {
+   "url": "https://www.lens.org/llms.txt",
+   "status": 404,
+   "final_url": "https://www.lens.org/llms.txt",
+   "content_type": "text/html",
+   "bytes": 162,
+   "truncated": false,
+   "sha256": "f33c27745f2bd87344be790465ef984a972fd539dc83bd4f61d4242c607ef1ee",
+   "fetched_at": "2026-10-20T01:47:43+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://docs.api.lens.org/",
+   "status": 200,
+   "final_url": "https://docs.api.lens.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10793,
+   "truncated": false,
+   "sha256": "851c28ce48d3d742b27565063b82cb787aade5beae42dd59e22ed95d58153466",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 2324
+  },
+  "policy2": {
+   "url": "https://docs.api.lens.org/",
+   "status": 200,
+   "final_url": "https://docs.api.lens.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10793,
+   "truncated": false,
+   "sha256": "851c28ce48d3d742b27565063b82cb787aade5beae42dd59e22ed95d58153466",
+   "fetched_at": "2026-10-20T01:51:23+00:00",
+   "rate_headers": {},
+   "text_bytes": 2324
+  },
+  "limits": {
+   "url": "https://docs.api.lens.org/",
+   "status": 200,
+   "final_url": "https://docs.api.lens.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10793,
+   "truncated": false,
+   "sha256": "851c28ce48d3d742b27565063b82cb787aade5beae42dd59e22ed95d58153466",
+   "fetched_at": "2026-10-20T01:54:02+00:00",
+   "rate_headers": {},
+   "text_bytes": 2324
+  },
+  "r1": {
+   "url": "https://docs.api.lens.org/",
+   "status": 200,
+   "final_url": "https://docs.api.lens.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10793,
+   "truncated": false,
+   "sha256": "851c28ce48d3d742b27565063b82cb787aade5beae42dd59e22ed95d58153466",
+   "fetched_at": "2026-10-20T01:58:22+00:00",
+   "rate_headers": {},
+   "text_bytes": 2324
+  },
+  "r2": {
+   "url": "https://docs.api.lens.org/",
+   "status": 200,
+   "final_url": "https://docs.api.lens.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 10793,
+   "truncated": false,
+   "sha256": "851c28ce48d3d742b27565063b82cb787aade5beae42dd59e22ed95d58153466",
+   "fetched_at": "2026-10-20T02:21:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 2324
+  }
+ }
+}

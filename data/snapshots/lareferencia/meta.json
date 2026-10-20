@@ -1,0 +1,75 @@
+{
+ "slug": "lareferencia",
+ "name": "LA Referencia",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:45+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://api.lareferencia.info/v1/",
+   "status": 0,
+   "final_url": "https://api.lareferencia.info/v1/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.lareferencia.info/",
+   "status": 200,
+   "final_url": "https://www.lareferencia.info/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1522,
+   "truncated": false,
+   "sha256": "154fcf9f0e5ddb024b192829b2690265980bc96e2e3c12d93c20e2e2d9254a73",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 77
+  },
+  "llms-err": {
+   "url": "https://docs.lareferencia.info/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.lareferencia.info/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.lareferencia.info/v1/",
+   "status": 0,
+   "final_url": "https://api.lareferencia.info/v1/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://api.lareferencia.info/v1/",
+   "status": 0,
+   "final_url": "https://api.lareferencia.info/v1/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:51:45+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://api.lareferencia.info/v1/",
+   "status": 0,
+   "final_url": "https://api.lareferencia.info/v1/",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:53:05+00:00",
+   "rate_headers": {}
+  }
+ }
+}

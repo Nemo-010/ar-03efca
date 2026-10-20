@@ -1,0 +1,75 @@
+{
+ "slug": "oapen",
+ "name": "OAPEN Library",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:45+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://library.oapen.org/rest/",
+   "status": 403,
+   "final_url": "https://library.oapen.org/rest/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.oapen.org/",
+   "status": 200,
+   "final_url": "https://www.oapen.org/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 78076,
+   "truncated": false,
+   "sha256": "02bf37d6bbb37e10592c3ffd147ad0d51b62d3f0c32740df1c545973ca9005b3",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 4913
+  },
+  "llms-err": {
+   "url": "https://docs.library.oapen.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.library.oapen.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:48+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://library.oapen.org/rest/",
+   "status": 403,
+   "final_url": "https://library.oapen.org/rest/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:49:46+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://library.oapen.org/rest/",
+   "status": 403,
+   "final_url": "https://library.oapen.org/rest/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:53:05+00:00",
+   "rate_headers": {}
+  },
+  "limits2": {
+   "url": "https://www.oapen.org/faq",
+   "status": 404,
+   "final_url": "https://www.oapen.org/faq",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 44109,
+   "truncated": false,
+   "sha256": "68d543b87f82c3386d1faac93787bcdf2b3add8037b80804fc297b5e7baa7289",
+   "fetched_at": "2026-10-20T01:53:06+00:00",
+   "rate_headers": {}
+  }
+ }
+}

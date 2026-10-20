@@ -1,0 +1,102 @@
+{
+ "slug": "epo-ops",
+ "name": "EPO Open Patent Services",
+ "category": "publisher",
+ "fetched_at": "2026-10-20T01:48:07+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://developers.epo.org/",
+   "status": 200,
+   "final_url": "https://developers.epo.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 41531,
+   "truncated": false,
+   "sha256": "f153a7ccad90096c855af78f856e897295b0c38f61129b1c2444b80dc4fdd5ed",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 1738
+  },
+  "home": {
+   "url": "https://www.epo.org/",
+   "status": 200,
+   "final_url": "https://www.epo.org/en",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 694575,
+   "truncated": false,
+   "sha256": "82e91c2cd98ba3dd9b5f91c099f1cb17f1715cc23c624a0910d0163a3ca5d959",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 36731
+  },
+  "llms-err": {
+   "url": "https://docs.developers.epo.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.developers.epo.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:11+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://developers.epo.org/",
+   "status": 200,
+   "final_url": "https://developers.epo.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 41531,
+   "truncated": false,
+   "sha256": "f153a7ccad90096c855af78f856e897295b0c38f61129b1c2444b80dc4fdd5ed",
+   "fetched_at": "2026-10-20T01:49:40+00:00",
+   "rate_headers": {},
+   "text_bytes": 1738
+  },
+  "policy2": {
+   "url": "https://developers.epo.org/",
+   "status": 200,
+   "final_url": "https://developers.epo.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 41531,
+   "truncated": false,
+   "sha256": "f153a7ccad90096c855af78f856e897295b0c38f61129b1c2444b80dc4fdd5ed",
+   "fetched_at": "2026-10-20T01:51:27+00:00",
+   "rate_headers": {},
+   "text_bytes": 1738
+  },
+  "limits": {
+   "url": "https://developers.epo.org/",
+   "status": 200,
+   "final_url": "https://developers.epo.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 41533,
+   "truncated": false,
+   "sha256": "1d55c9b7b5e96fea56c9bb1797e9c14559a809bfcd01dc8905a005256886b8d2",
+   "fetched_at": "2026-10-20T01:53:56+00:00",
+   "rate_headers": {},
+   "text_bytes": 1738
+  },
+  "r1": {
+   "url": "https://developers.epo.org/",
+   "status": 200,
+   "final_url": "https://developers.epo.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 41533,
+   "truncated": false,
+   "sha256": "1d55c9b7b5e96fea56c9bb1797e9c14559a809bfcd01dc8905a005256886b8d2",
+   "fetched_at": "2026-10-20T01:58:25+00:00",
+   "rate_headers": {},
+   "text_bytes": 1738
+  },
+  "r2": {
+   "url": "https://developers.epo.org/oauth2/technical",
+   "status": 404,
+   "final_url": "https://developers.epo.org/oauth2/technical",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 38513,
+   "truncated": false,
+   "sha256": "2564da595aed9362e5952df7d1a1bc78b50932c16c91e726d8c52ed1d76c236d",
+   "fetched_at": "2026-10-20T02:21:46+00:00",
+   "rate_headers": {}
+  }
+ }
+}

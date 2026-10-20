@@ -1,0 +1,115 @@
+{
+ "slug": "clinicaltrials",
+ "name": "ClinicalTrials.gov",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:45+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://clinicaltrials.gov/data-api/api",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/data-api/api",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:47:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  },
+  "home": {
+   "url": "https://clinicaltrials.gov/",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  },
+  "llms": {
+   "url": "https://clinicaltrials.gov/data-api/api/llms.txt",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/data-api/api/llms.txt",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  },
+  "llms-6e5998": {
+   "url": "https://clinicaltrials.gov/llms.txt",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/llms.txt",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  },
+  "llms-978d3a-err": {
+   "url": "https://docs.clinicaltrials.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.clinicaltrials.gov/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://clinicaltrials.gov/data-api/api",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/data-api/api",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:49:37+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  },
+  "policy2": {
+   "url": "https://clinicaltrials.gov/data-api/about-api",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/data-api/about-api",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:50:50+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  },
+  "limits": {
+   "url": "https://clinicaltrials.gov/data-api/about-api",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/data-api/about-api",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:53:03+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  },
+  "r1": {
+   "url": "https://clinicaltrials.gov/data-api/about-api",
+   "status": 200,
+   "final_url": "https://clinicaltrials.gov/data-api/about-api",
+   "content_type": "text/html",
+   "bytes": 94247,
+   "truncated": false,
+   "sha256": "c8f2db34b30c0fd6a31735436288114df705be51bf54fbaf2ad98f957f1af94d",
+   "fetched_at": "2026-10-20T01:58:15+00:00",
+   "rate_headers": {},
+   "text_bytes": 183
+  }
+ }
+}

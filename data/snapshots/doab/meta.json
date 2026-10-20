@@ -1,0 +1,98 @@
+{
+ "slug": "doab",
+ "name": "DOAB",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:47:46+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://directory.doabooks.org/rest/",
+   "status": 403,
+   "final_url": "https://directory.doabooks.org/rest/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:47:46+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.doabooks.org/",
+   "status": 200,
+   "final_url": "https://www.doabooks.org/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 51962,
+   "truncated": false,
+   "sha256": "72d56868e48f91ad7bc9bbe2edd5fb204fd67bca5d98308d6463aced3832c688",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {},
+   "text_bytes": 4185
+  },
+  "llms-err": {
+   "url": "https://directory.doabooks.org/rest/llms.txt",
+   "status": 403,
+   "final_url": "https://directory.doabooks.org/rest/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:47:47+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://www.doabooks.org/llms.txt",
+   "status": 200,
+   "final_url": "https://www.doabooks.org/llms.txt",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 51956,
+   "truncated": false,
+   "sha256": "f0c8ef65fb265cd88bbeee93ab85f71f6292ad72a249d6fc4317cf83c29cd647",
+   "fetched_at": "2026-10-20T01:47:48+00:00",
+   "rate_headers": {},
+   "text_bytes": 4191
+  },
+  "llms-8332d8-err": {
+   "url": "https://docs.directory.doabooks.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.directory.doabooks.org/llms.txt",
+   "content_type": "",
+   "bytes": 62,
+   "truncated": false,
+   "sha256": "7d8afe60f5ea1138c4952cbdee4b2a35b2f5ad72aa3714a712bac4eb5d4441d5",
+   "fetched_at": "2026-10-20T01:47:49+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://directory.doabooks.org/rest/",
+   "status": 403,
+   "final_url": "https://directory.doabooks.org/rest/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:49:39+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://directory.doabooks.org/rest/",
+   "status": 403,
+   "final_url": "https://directory.doabooks.org/rest/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:51:46+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://directory.doabooks.org/rest/",
+   "status": 403,
+   "final_url": "https://directory.doabooks.org/rest/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 46,
+   "truncated": false,
+   "sha256": "e1fbecd1ac19766cfb40ca82ac50b1ff87ab115a4f0d66ab02a9c0267017253c",
+   "fetched_at": "2026-10-20T01:53:06+00:00",
+   "rate_headers": {}
+  }
+ }
+}

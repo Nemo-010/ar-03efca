@@ -1,0 +1,115 @@
+{
+ "slug": "jstor-constellate",
+ "name": "JSTOR / Constellate",
+ "category": "publisher",
+ "fetched_at": "2026-10-20T01:48:07+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://constellate.org/docs/",
+   "status": 200,
+   "final_url": "https://labs.ithaka.org/project/text-mining/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 138238,
+   "truncated": false,
+   "sha256": "caa21eabbf3328240bd3c2caaa9884e738e87cd4c0f1881c85da7fa25d5637e5",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 3496
+  },
+  "home": {
+   "url": "https://www.jstor.org/",
+   "status": 200,
+   "final_url": "https://www.jstor.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3038,
+   "truncated": false,
+   "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+   "fetched_at": "2026-10-20T01:48:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 230
+  },
+  "llms": {
+   "url": "https://constellate.org/docs/llms.txt",
+   "status": 200,
+   "final_url": "https://labs.ithaka.org/project/text-mining/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 138238,
+   "truncated": false,
+   "sha256": "caa21eabbf3328240bd3c2caaa9884e738e87cd4c0f1881c85da7fa25d5637e5",
+   "fetched_at": "2026-10-20T01:48:08+00:00",
+   "rate_headers": {},
+   "text_bytes": 3496
+  },
+  "llms-19a032": {
+   "url": "https://www.jstor.org/llms.txt",
+   "status": 200,
+   "final_url": "https://www.jstor.org/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 3038,
+   "truncated": false,
+   "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+   "fetched_at": "2026-10-20T01:48:09+00:00",
+   "rate_headers": {},
+   "text_bytes": 230
+  },
+  "llms-17c8b6-err": {
+   "url": "https://docs.constellate.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.constellate.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:09+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://constellate.org/docs/",
+   "status": 200,
+   "final_url": "https://labs.ithaka.org/project/text-mining/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 138238,
+   "truncated": false,
+   "sha256": "caa21eabbf3328240bd3c2caaa9884e738e87cd4c0f1881c85da7fa25d5637e5",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {},
+   "text_bytes": 3496
+  },
+  "limits": {
+   "url": "https://constellate.org/docs/",
+   "status": 200,
+   "final_url": "https://labs.ithaka.org/project/text-mining/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 138238,
+   "truncated": false,
+   "sha256": "caa21eabbf3328240bd3c2caaa9884e738e87cd4c0f1881c85da7fa25d5637e5",
+   "fetched_at": "2026-10-20T01:54:01+00:00",
+   "rate_headers": {},
+   "text_bytes": 3496
+  },
+  "r1": {
+   "url": "https://constellate.org/docs/",
+   "status": 200,
+   "final_url": "https://labs.ithaka.org/project/text-mining/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 138238,
+   "truncated": false,
+   "sha256": "caa21eabbf3328240bd3c2caaa9884e738e87cd4c0f1881c85da7fa25d5637e5",
+   "fetched_at": "2026-10-20T01:58:28+00:00",
+   "rate_headers": {},
+   "text_bytes": 3496
+  },
+  "r2": {
+   "url": "https://constellate.org/docs/",
+   "status": 200,
+   "final_url": "https://labs.ithaka.org/project/text-mining/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 138238,
+   "truncated": false,
+   "sha256": "caa21eabbf3328240bd3c2caaa9884e738e87cd4c0f1881c85da7fa25d5637e5",
+   "fetched_at": "2026-10-20T02:21:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 3496
+  }
+ }
+}

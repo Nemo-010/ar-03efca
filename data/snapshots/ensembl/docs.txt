@@ -1,0 +1,148 @@
+Ensembl Rest API - Ensembl REST API Endpoints 
+ Endpoints 
+ User Guide 
+ Change Log 
+ About the Ensembl Project 
+ Contact Ensembl 
+ Privacy Notice 
+ Ensembl REST API Endpoints 
+ Archive 
+ Resource Description 
+ GET archive/id/:id Uses the given identifier to return its latest version 
+ POST archive/id Retrieve the latest version for a set of identifiers 
+ Comparative Genomics 
+ Resource Description 
+ GET cafe/genetree/id/:id Retrieves a cafe tree of the gene tree using the gene tree stable identifier 
+ GET cafe/genetree/member/symbol/:species/:symbol Retrieves the cafe tree of the gene tree that contains the gene identified by a symbol 
+ GET cafe/genetree/member/id/:species/:id Retrieves the cafe tree of the gene tree that contains the gene / transcript / translation stable identifier in the given species 
+ GET genetree/id/:id Retrieves a gene tree for a gene tree stable identifier 
+ GET genetree/member/symbol/:species/:symbol Retrieves the gene tree that contains the gene identified by a symbol 
+ GET genetree/member/id/:species/:id Retrieves the gene tree that contains the gene / transcript / translation stable identifier in the given species 
+ GET alignment/region/:species/:region Retrieves genomic alignments as separate blocks based on a region and species 
+ GET homology/id/:species/:id Retrieves homology information (orthologs) by species and Ensembl gene id 
+ GET homology/symbol/:species/:symbol Retrieves homology information (orthologs) by symbol 
+ Cross References 
+ Resource Description 
+ GET xrefs/symbol/:species/:symbol Looks up an external symbol and returns all Ensembl objects linked to it. This can be a display name for a gene/transcript/translation, a synonym or an externally linked reference. If a gene's transcript is linked to the supplied symbol the service will return both gene and transcript (it supports transient links). 
+ GET xrefs/id/:id Perform lookups of Ensembl Identifiers and retrieve their external references in other databases 
+ GET xrefs/name/:species/:name Performs a lookup based upon the primary accession or display label of an external reference and returning the information we hold about the entry 
+ Information 
+ Resource Description 
+ GET info/analysis/:species List the names of analyses involved in generating Ensembl data. 
+ GET info/assembly/:species List the currently available assemblies for a species, along with toplevel sequences, chromosomes and cytogenetic bands. 
+ GET info/assembly/:species/:region_name Returns information about the specified toplevel sequence region for the given species. 
+ GET info/biotypes/:species List the functional classifications of gene models that Ensembl associates with a particular species. Useful for restricting the type of genes/transcripts retrieved by other endpoints. 
+ GET info/biotypes/groups/:group/:object_type Without argument the list of available biotype groups is returned. With :group argument provided, list the properties of biotypes within that group. Object type (gene or transcript) can be provided for filtering. 
+ GET info/biotypes/name/:name/:object_type List the properties of biotypes with a given name. Object type (gene or transcript) can be provided for filtering. 
+ GET info/compara/methods List all compara analyses available (an analysis defines the type of comparative data). 
+ GET info/compara/species_sets/:method List all collections of species analysed with the specified compara method. 
+ GET info/comparas Lists all available comparative genomics databases and their data release. DEPRECATED: use info/genomes/division instead. 
+ GET info/data Shows the data releases available on this REST server. May return more than one release (unfrequent non-standard Ensembl configuration). 
+ GET info/eg_version Returns the Ensembl Genomes version of the databases backing this service 
+ GET info/external_dbs/:species Lists all available external sources for a species. 
+ GET info/divisions Get list of all Ensembl divisions for which information is available 
+ GET info/genomes/:genome_name Find information about a given genome 
+ GET info/genomes/accession/:accession Find information about genomes containing a specified INSDC accession 
+ GET info/genomes/assembly/:assembly_id Find information about a genome with a specified assembly 
+ GET info/genomes/division/:division_name Find information about all genomes in a given division. May be large for Ensembl Bacteria. 
+ GET info/genomes/taxonomy/:taxon_name Find information about all genomes beneath a given node of the taxonomy 
+ GET info/ping Checks if the service is alive. 
+ GET info/rest Shows the current version of the Ensembl REST API. 
+ GET info/software Shows the current version of the Ensembl API used by the REST server. 
+ GET info/species Lists all available species, their aliases, available adaptor groups and data release. 
+ GET info/variation/:species List the variation sources used in Ensembl for a species. 
+ GET info/variation/consequence_types Lists all variant consequence types. 
+ GET info/variation/populations/:species:/:population_name List all individuals for a population from a species 
+ GET info/variation/populations/:species List all populations for a species 
+ Linkage Disequilibrium 
+ Resource Description 
+ GET ld/:species/:id/:population_name Computes and returns LD values between the given variant and all other variants in a window centered around the given variant. The window size is set to 500 kb. 
+ GET ld/:species/pairwise/:id1/:id2 Computes and returns LD values between the given variants. 
+ GET ld/:species/region/:region/:population_name Computes and returns LD values between all pairs of variants in the defined region. 
+ Lookup 
+ Resource Description 
+ GET lookup/id/:id Find the species and database for a single identifier e.g. gene, transcript, protein 
+ POST lookup/id Find the species and database for several identifiers. IDs that are not found are returned with no data. 
+ GET lookup/symbol/:species/:symbol Find the species and database for a symbol in a linked external database 
+ POST lookup/symbol/:species/:symbol Find the species and database for a set of symbols in a linked external database. Unknown symbols are omitted from the response. 
+ Mapping 
+ Resource Description 
+ GET map/cdna/:id/:region Convert from cDNA coordinates to genomic coordinates. Output reflects forward orientation coordinates as returned from the Ensembl API. 
+ GET map/cds/:id/:region Convert from CDS coordinates to genomic coordinates. Output reflects forward orientation coordinates as returned from the Ensembl API. 
+ GET map/:species/:asm_one/:region/:asm_two Convert the co-ordinates of one assembly to another 
+ GET map/translation/:id/:region Convert from protein (translation) coordinates to genomic coordinates. Output reflects forward orientation coordinates as returned from the Ensembl API. 
+ Ontologies and Taxonomy 
+ Resource Description 
+ GET ontology/ancestors/:id Reconstruct the entire ancestry of a term from is_a and part_of relationships 
+ GET ontology/ancestors/chart/:id Reconstruct the entire ancestry of a term from is_a and part_of relationships. 
+ GET ontology/descendants/:id Find all the terms descended from a given term. By default searches are conducted within the namespace of the given identifier 
+ GET ontology/id/:id Search for an ontological term by its namespaced identifier 
+ GET ontology/name/:name Search for a list of ontological terms by their name 
+ GET taxonomy/classification/:id Return the taxonomic classification of a taxon node 
+ GET taxonomy/id/:id Search for a taxonomic term by its identifier or name 
+ GET taxonomy/name/:name Search for a taxonomic id by a non-scientific name 
+ Overlap 
+ Resource Description 
+ GET overlap/id/:id Retrieves features (e.g. genes, transcripts, variants and more) that overlap a region defined by the given identifier. 
+ GET overlap/region/:species/:region Retrieves features (e.g. genes, transcripts, variants and more) that overlap a given region. 
+ GET overlap/translation/:id Retrieve features related to a specific Translation as described by its stable ID (e.g. domains, variants). 
+ Phenotype annotations 
+ Resource Description 
+ GET /phenotype/accession/:species/:accession Return phenotype annotations for genomic features given a phenotype ontology accession 
+ GET /phenotype/gene/:species/:gene Return phenotype annotations for a given gene. 
+ GET /phenotype/region/:species/:region Return phenotype annotations that overlap a given genomic region. 
+ GET /phenotype/term/:species/:term Return phenotype annotations for genomic features given a phenotype ontology term 
+ Regulation 
+ Resource Description 
+ GET species/:species/binding_matrix/:binding_matrix_stable_id/ Return the specified binding matrix 
+ Sequence 
+ Resource Description 
+ GET sequence/id/:id Request multiple types of sequence by stable identifier. Supports feature masking and expand options. 
+ POST sequence/id Request multiple types of sequence by a stable identifier list. 
+ GET sequence/region/:species/:region Returns the genomic sequence of the specified region of the given species. Supports feature masking and expand options. 
+ POST sequence/region/:species Request multiple types of sequence by a list of regions. 
+ Transcript Haplotypes 
+ Resource Description 
+ GET transcript_haplotypes/:species/:id Computes observed transcript haplotype sequences based on phased genotype data 
+ VEP 
+ Resource Description 
+ GET vep/:species/hgvs/:hgvs_notation Fetch variant consequences based on a HGVS notation 
+ POST vep/:species/hgvs Fetch variant consequences for multiple HGVS notations 
+ GET vep/:species/id/:id Fetch variant consequences based on a variant identifier 
+ POST vep/:species/id Fetch variant consequences for multiple ids 
+ GET vep/:species/region/:region/:allele/ Fetch variant consequences 
+ POST vep/:species/region Fetch variant consequences for multiple regions 
+ Variation 
+ Resource Description 
+ GET variant_recoder/:species/:id Translate a variant identifier, HGVS notation or genomic SPDI notation to all possible variant IDs, HGVS and genomic SPDI 
+ POST variant_recoder/:species Translate a list of variant identifiers, HGVS notations or genomic SPDI notations to all possible variant IDs, HGVS and genomic SPDI 
+ GET variation/:species/:id Uses a variant identifier (e.g. rsID) to return the variation features including optional genotype, phenotype and population data 
+ GET variation/:species/pmcid/:pmcid Fetch variants by publication using PubMed Central reference number (PMCID) 
+ GET variation/:species/pmid/:pmid Fetch variants by publication using PubMed reference number (PMID) 
+ POST variation/:species/ Uses a list of variant identifiers (e.g. rsID) to return the variation features including optional genotype, phenotype and population data 
+ Variation GA4GH 
+ Resource Description 
+ GET ga4gh/beacon Return Beacon information 
+ GET ga4gh/beacon/query Return the Beacon response for allele information 
+ POST ga4gh/beacon/query Return the Beacon response for allele information 
+ GET ga4gh/features/:id Return the GA4GH record for a specific sequence feature given its identifier 
+ POST ga4gh/features/search Return a list of sequence annotation features in GA4GH format 
+ POST ga4gh/callsets/search Return a list of sets of genotype calls for specific samples in GA4GH format 
+ GET ga4gh/callsets/:id Return the GA4GH record for a specific CallSet given its identifier 
+ POST ga4gh/datasets/search Return a list of datasets in GA4GH format 
+ GET ga4gh/datasets/:id Return the GA4GH record for a specific dataset given its identifier 
+ POST ga4gh/featuresets/search Return a list of feature sets in GA4GH format 
+ GET ga4gh/featuresets/:id Return the GA4GH record for a specific featureSet given its identifier 
+ GET ga4gh/variants/:id Return the GA4GH record for a specific variant given its identifier. 
+ POST ga4gh/variantannotations/search Return variant annotation information in GA4GH format for a region on a reference sequence 
+ POST ga4gh/variants/search Return variant call information in GA4GH format for a region on a reference sequence 
+ POST ga4gh/variantsets/search Return a list of variant sets in GA4GH format 
+ GET ga4gh/variantsets/:id Return the GA4GH record for a specific VariantSet given its identifier 
+ POST ga4gh/references/search Return a list of reference sequences in GA4GH format 
+ GET ga4gh/references/:id Return data for a specific reference in GA4GH format by id 
+ POST ga4gh/referencesets/search Return a list of reference sets in GA4GH format 
+ GET ga4gh/referencesets/:id Return data for a specific reference set in GA4GH format 
+ POST ga4gh/variantannotationsets/search Return a list of annotation sets in GA4GH format 
+ GET ga4gh/variantannotationsets/:id Return meta data for a specific annotation set in GA4GH format 
+ Back to top 
+ Ensembl REST API (Version 15.12) © Oct 2026 EBI

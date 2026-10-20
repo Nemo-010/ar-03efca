@@ -1,0 +1,4 @@
+Swagger UI 
+ Unfortunately Swagger is not available until further notice due to a maintenance upgrade. 
+ We plan to support swagger again in the future. If you have any questions then please contact [email protected] 
+ The ORCiD API can be tested using postman.orcid.org

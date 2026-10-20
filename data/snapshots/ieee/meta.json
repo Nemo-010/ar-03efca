@@ -1,0 +1,103 @@
+{
+ "slug": "ieee",
+ "name": "IEEE Xplore API",
+ "category": "publisher",
+ "fetched_at": "2026-10-20T01:48:06+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://developer.ieee.org/docs",
+   "status": 200,
+   "final_url": "https://developer.ieee.org/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 18479,
+   "truncated": false,
+   "sha256": "18956cbf40daae9a2cb94ef0470b73eb0a33f0e6d6c179697736eb84fabab452",
+   "fetched_at": "2026-10-20T01:48:06+00:00",
+   "rate_headers": {},
+   "text_bytes": 1264
+  },
+  "home": {
+   "url": "https://developer.ieee.org/",
+   "status": 200,
+   "final_url": "https://developer.ieee.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 16124,
+   "truncated": false,
+   "sha256": "72dd4998aa0a8589e48c171eddac06be3fa184b71e1c42f0b9a5b5110781c763",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 400
+  },
+  "llms-err": {
+   "url": "https://docs.developer.ieee.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.developer.ieee.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:08+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://developer.ieee.org/docs",
+   "status": 200,
+   "final_url": "https://developer.ieee.org/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 18479,
+   "truncated": false,
+   "sha256": "cfa958ae570e71492dcb2e0d2c85c425e895e8c16738cca2bc4e019f4ff155a2",
+   "fetched_at": "2026-10-20T01:49:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 1264
+  },
+  "policy2": {
+   "url": "https://developer.ieee.org/docs",
+   "status": 200,
+   "final_url": "https://developer.ieee.org/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 18479,
+   "truncated": false,
+   "sha256": "751f330268fe78f63bf4998cc177fa6e34208186768f48f00376f4601daf220c",
+   "fetched_at": "2026-10-20T01:51:26+00:00",
+   "rate_headers": {},
+   "text_bytes": 1264
+  },
+  "limits": {
+   "url": "https://developer.ieee.org/docs",
+   "status": 200,
+   "final_url": "https://developer.ieee.org/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 18479,
+   "truncated": false,
+   "sha256": "e4e95ca681422dcfbb4e30658a8f5fa97f9051eb612f045afad33f74b0339008",
+   "fetched_at": "2026-10-20T01:53:56+00:00",
+   "rate_headers": {},
+   "text_bytes": 1264
+  },
+  "r1": {
+   "url": "https://developer.ieee.org/docs",
+   "status": 200,
+   "final_url": "https://developer.ieee.org/docs",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 18479,
+   "truncated": false,
+   "sha256": "1f2951fbb71d13a6ef7ad0f9eada4884b292078ed4bdc4d80430274b73127e83",
+   "fetched_at": "2026-10-20T01:58:25+00:00",
+   "rate_headers": {},
+   "text_bytes": 1264
+  },
+  "r2": {
+   "url": "https://developer.ieee.org/docs/read/Metadata_API_details",
+   "status": 200,
+   "final_url": "https://developer.ieee.org/docs/read/Metadata_API_details",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 24018,
+   "truncated": false,
+   "sha256": "45fa12d2c3f53161a304998b1e97fe5ae4a75bfe2595a4cbedc0dd7f916e6bb7",
+   "fetched_at": "2026-10-20T02:21:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 5031
+  }
+ }
+}

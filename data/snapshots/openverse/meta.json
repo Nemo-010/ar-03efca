@@ -1,0 +1,115 @@
+{
+ "slug": "openverse",
+ "name": "Openverse",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:54+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.openverse.org/v1/",
+   "status": 200,
+   "final_url": "https://api.openverse.org/v1/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2346,
+   "truncated": false,
+   "sha256": "5f1f2942aafef6b6c5ec6f2517ab2d07d6589a97de0c4114b7603f47914ad01c",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit-anon_burst": "20/min",
+    "x-ratelimit-available-anon_burst": "19",
+    "x-ratelimit-limit-anon_sustained": "200/day",
+    "x-ratelimit-available-anon_sustained": "199"
+   },
+   "text_bytes": 13
+  },
+  "home-err": {
+   "url": "https://openverse.org/",
+   "status": 403,
+   "final_url": "https://openverse.org/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5606,
+   "truncated": false,
+   "sha256": "c672a9a307b9274720d3fed063a00eb85142edeebc53ed036d4780f07b60655b",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://docs.openverse.org/llms.txt",
+   "status": 404,
+   "final_url": "https://docs.openverse.org/llms.txt",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 118471,
+   "truncated": false,
+   "sha256": "0b0856110294da691f01ba601c1f71a39b4c12ff1fe29d0de089ca88287f899d",
+   "fetched_at": "2026-10-20T01:47:55+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.openverse.org/v1/",
+   "status": 200,
+   "final_url": "https://api.openverse.org/v1/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2346,
+   "truncated": false,
+   "sha256": "c40182b098f4d47e22a7506171050f5c4d8fbdfa357d9adbfab81963c4aff336",
+   "fetched_at": "2026-10-20T01:49:48+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit-anon_burst": "20/min",
+    "x-ratelimit-available-anon_burst": "19",
+    "x-ratelimit-limit-anon_sustained": "200/day",
+    "x-ratelimit-available-anon_sustained": "199"
+   },
+   "text_bytes": 13
+  },
+  "policy2": {
+   "url": "https://api.openverse.org/v1/",
+   "status": 200,
+   "final_url": "https://api.openverse.org/v1/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2346,
+   "truncated": false,
+   "sha256": "5a1b9a2fb2f690b4605cd1ff24e80c4e317e99cdf22729a57858f8515b5f16a1",
+   "fetched_at": "2026-10-20T01:51:22+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit-anon_burst": "20/min",
+    "x-ratelimit-available-anon_burst": "19",
+    "x-ratelimit-limit-anon_sustained": "200/day",
+    "x-ratelimit-available-anon_sustained": "199"
+   },
+   "text_bytes": 13
+  },
+  "limits": {
+   "url": "https://api.openverse.org/v1/",
+   "status": 200,
+   "final_url": "https://api.openverse.org/v1/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2346,
+   "truncated": false,
+   "sha256": "7e665e99ddfab04c8850d7e5aca92c6b0f3fce8274b8b3349830cff02857aea1",
+   "fetched_at": "2026-10-20T01:54:15+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit-anon_burst": "20/min",
+    "x-ratelimit-available-anon_burst": "19",
+    "x-ratelimit-limit-anon_sustained": "200/day",
+    "x-ratelimit-available-anon_sustained": "199"
+   },
+   "text_bytes": 13
+  },
+  "r1": {
+   "url": "https://api.openverse.org/v1/",
+   "status": 200,
+   "final_url": "https://api.openverse.org/v1/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 2346,
+   "truncated": false,
+   "sha256": "a37e38f2d2b8afbf0f30051a00e3872954518beacf21e86c3d1fc42424a4c204",
+   "fetched_at": "2026-10-20T01:58:52+00:00",
+   "rate_headers": {
+    "x-ratelimit-limit-anon_burst": "20/min",
+    "x-ratelimit-available-anon_burst": "19",
+    "x-ratelimit-limit-anon_sustained": "200/day",
+    "x-ratelimit-available-anon_sustained": "199"
+   },
+   "text_bytes": 13
+  }
+ }
+}

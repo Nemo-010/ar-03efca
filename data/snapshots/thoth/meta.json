@@ -1,0 +1,65 @@
+{
+ "slug": "thoth",
+ "name": "Thoth Open Metadata",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:48:02+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://api.thoth.pub/graphql",
+   "status": 405,
+   "final_url": "https://api.thoth.pub/graphql",
+   "content_type": "application/json",
+   "bytes": 84,
+   "truncated": false,
+   "sha256": "d3821e1b7a2952cf2cc06298340bede985458375948fd3be384af384d170d9bc",
+   "fetched_at": "2026-10-20T01:48:02+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://thoth.pub/",
+   "status": 200,
+   "final_url": "https://thoth.pub/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 113922,
+   "truncated": false,
+   "sha256": "7be253127d6cba49a1379a5d4292b97d210f5539c308194d0ee734a7bc78e139",
+   "fetched_at": "2026-10-20T01:48:03+00:00",
+   "rate_headers": {},
+   "text_bytes": 4200
+  },
+  "llms-err": {
+   "url": "https://docs.thoth.pub/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.thoth.pub/llms.txt",
+   "content_type": "",
+   "bytes": 113,
+   "truncated": false,
+   "sha256": "3d97354cd05821a5f7b34af17a03ae2e676163d1d55ba0521eaad3eaa915c37e",
+   "fetched_at": "2026-10-20T01:48:04+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.thoth.pub/graphql",
+   "status": 405,
+   "final_url": "https://api.thoth.pub/graphql",
+   "content_type": "application/json",
+   "bytes": 84,
+   "truncated": false,
+   "sha256": "d3821e1b7a2952cf2cc06298340bede985458375948fd3be384af384d170d9bc",
+   "fetched_at": "2026-10-20T01:49:51+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://thoth.pub/",
+   "status": 200,
+   "final_url": "https://thoth.pub/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 113922,
+   "truncated": false,
+   "sha256": "7be253127d6cba49a1379a5d4292b97d210f5539c308194d0ee734a7bc78e139",
+   "fetched_at": "2026-10-20T01:50:59+00:00",
+   "rate_headers": {},
+   "text_bytes": 4200
+  }
+ }
+}

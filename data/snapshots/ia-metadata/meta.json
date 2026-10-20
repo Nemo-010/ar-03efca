@@ -1,0 +1,55 @@
+{
+ "slug": "ia-metadata",
+ "name": "Internet Archive Metadata API",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:28+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://archive.org/developers/md-read.html",
+   "status": 200,
+   "final_url": "https://archive.org/developers/md-read.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 33230,
+   "truncated": false,
+   "sha256": "62318b2e758451d2553469b45196c7691daf0447940ca6a8a555fd53ff0adade",
+   "fetched_at": "2026-10-20T01:47:28+00:00",
+   "rate_headers": {},
+   "text_bytes": 6551
+  },
+  "home": {
+   "url": "https://archive.org/",
+   "status": 200,
+   "final_url": "https://archive.org/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1951,
+   "truncated": false,
+   "sha256": "7fd0001d8ff3c6122db5e3d3ef32ea3f47615ba046cebfd3a1d9d02e53b7b4ec",
+   "fetched_at": "2026-10-20T01:47:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 93
+  },
+  "llms-err": {
+   "url": "https://docs.archive.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.archive.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://archive.org/developers/md-read.html",
+   "status": 200,
+   "final_url": "https://archive.org/developers/md-read.html",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 33230,
+   "truncated": false,
+   "sha256": "62318b2e758451d2553469b45196c7691daf0447940ca6a8a555fd53ff0adade",
+   "fetched_at": "2026-10-20T01:49:43+00:00",
+   "rate_headers": {},
+   "text_bytes": 6551
+  }
+ }
+}

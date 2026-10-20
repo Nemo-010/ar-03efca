@@ -1,0 +1,101 @@
+{
+ "slug": "nb-no",
+ "name": "National Library of Norway API",
+ "category": "aggregator",
+ "fetched_at": "2026-10-20T01:47:56+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://api.nb.no/catalog/swagger-ui.html",
+   "status": 404,
+   "final_url": "https://api.nb.no/catalog/swagger-ui.html",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 289,
+   "truncated": false,
+   "sha256": "0f2ebe057c8d4259357f9380754372c7b275a7bdf850c02496d86789b3766b3d",
+   "fetched_at": "2026-10-20T01:47:56+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://www.nb.no/",
+   "status": 200,
+   "final_url": "https://www.nb.no/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 191550,
+   "truncated": false,
+   "sha256": "2aa0a75413ba06dc9a43ce4198f00c7afa2360088d7f6bf2bdb78c3033f54444",
+   "fetched_at": "2026-10-20T01:47:57+00:00",
+   "rate_headers": {},
+   "text_bytes": 4628
+  },
+  "llms-err": {
+   "url": "https://docs.nb.no/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.nb.no/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:04+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://api.nb.no/catalog/swagger-ui.html",
+   "status": 404,
+   "final_url": "https://api.nb.no/catalog/swagger-ui.html",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 289,
+   "truncated": false,
+   "sha256": "c899470e9f29d2dc1083b9b5177570e87cd141b93531e15f1c9737700568aca7",
+   "fetched_at": "2026-10-20T01:49:45+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://api.nb.no/",
+   "status": 200,
+   "final_url": "https://api.nb.no/",
+   "content_type": "text/html",
+   "bytes": 734,
+   "truncated": false,
+   "sha256": "bb9928afd0ea8c12e124c42fef58fb080f36770389684badb2a4dcf548624eeb",
+   "fetched_at": "2026-10-20T01:50:58+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "limits": {
+   "url": "https://api.nb.no/",
+   "status": 200,
+   "final_url": "https://api.nb.no/",
+   "content_type": "text/html",
+   "bytes": 734,
+   "truncated": false,
+   "sha256": "bb9928afd0ea8c12e124c42fef58fb080f36770389684badb2a4dcf548624eeb",
+   "fetched_at": "2026-10-20T01:54:17+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "r1": {
+   "url": "https://api.nb.no/",
+   "status": 200,
+   "final_url": "https://api.nb.no/",
+   "content_type": "text/html",
+   "bytes": 734,
+   "truncated": false,
+   "sha256": "bb9928afd0ea8c12e124c42fef58fb080f36770389684badb2a4dcf548624eeb",
+   "fetched_at": "2026-10-20T01:58:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  },
+  "r2": {
+   "url": "https://api.nb.no/",
+   "status": 200,
+   "final_url": "https://api.nb.no/",
+   "content_type": "text/html",
+   "bytes": 734,
+   "truncated": false,
+   "sha256": "bb9928afd0ea8c12e124c42fef58fb080f36770389684badb2a4dcf548624eeb",
+   "fetched_at": "2026-10-20T02:22:20+00:00",
+   "rate_headers": {},
+   "text_bytes": 10
+  }
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "scite",
+ "name": "Scite",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:41+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://api.scite.ai/",
+   "status": 200,
+   "final_url": "https://api.scite.ai/",
+   "content_type": "application/json",
+   "bytes": 44,
+   "truncated": false,
+   "sha256": "aabd874c7abb3a05d01d424a6c102aedb53f25eed70e6912102f81baa662b427",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {
+    "RateLimit-Reset": "1",
+    "X-RateLimit-Remaining-Minute": "59",
+    "RateLimit-Limit": "13",
+    "X-RateLimit-Remaining-Second": "12",
+    "X-RateLimit-Limit-Second": "13",
+    "X-RateLimit-Limit-Minute": "60",
+    "RateLimit-Remaining": "12"
+   },
+   "text_bytes": 44
+  },
+  "home-err": {
+   "url": "https://scite.ai/",
+   "status": 403,
+   "final_url": "https://scite.ai/",
+   "content_type": "text/html",
+   "bytes": 919,
+   "truncated": false,
+   "sha256": "2fb1e31cc9f051d35134f54aad794ca2b33287e76584ec41365bca4e269c11ca",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {}
+  },
+  "llms-err": {
+   "url": "https://api.scite.ai/llms.txt",
+   "status": 404,
+   "final_url": "https://api.scite.ai/llms.txt",
+   "content_type": "application/json",
+   "bytes": 22,
+   "truncated": false,
+   "sha256": "37ec4665a8102d115ffd1ac20dae94c98b4dac64b0c1a68228aa2a531caeb35d",
+   "fetched_at": "2026-10-20T01:47:42+00:00",
+   "rate_headers": {
+    "RateLimit-Reset": "1",
+    "X-RateLimit-Remaining-Minute": "58",
+    "RateLimit-Limit": "13",
+    "X-RateLimit-Remaining-Second": "12",
+    "X-RateLimit-Limit-Second": "13",
+    "X-RateLimit-Limit-Minute": "60",
+    "RateLimit-Remaining": "12"
+   }
+  },
+  "llms": {
+   "url": "https://scite.ai/llms.txt",
+   "status": 200,
+   "final_url": "https://scite.ai/llms.txt",
+   "content_type": "text/plain; charset=utf-8",
+   "bytes": 5125,
+   "truncated": false,
+   "sha256": "8c62cde8e8584dd5f35dcc5f7bba616efdba6eda4f854255f7286073ce6fb1bc",
+   "fetched_at": "2026-10-20T02:13:54+00:00",
+   "rate_headers": {},
+   "text_bytes": 5125
+  },
+  "llms-f20482": {
+   "url": "https://docs.scite.ai/llms.txt",
+   "status": 200,
+   "final_url": "https://docs.scite.ai/llms.txt",
+   "content_type": "text/plain; charset=utf-8",
+   "bytes": 20220,
+   "truncated": false,
+   "sha256": "770a68c7498f483cc16b27ba355ec3b7824ba06dd79770f63e4c1364d0b6f4c3",
+   "fetched_at": "2026-10-20T01:47:42+00:00",
+   "rate_headers": {},
+   "text_bytes": 20212
+  },
+  "policy": {
+   "url": "https://api.scite.ai/",
+   "status": 200,
+   "final_url": "https://api.scite.ai/",
+   "content_type": "application/json",
+   "bytes": 44,
+   "truncated": false,
+   "sha256": "aabd874c7abb3a05d01d424a6c102aedb53f25eed70e6912102f81baa662b427",
+   "fetched_at": "2026-10-20T01:49:50+00:00",
+   "rate_headers": {
+    "RateLimit-Reset": "1",
+    "X-RateLimit-Remaining-Minute": "59",
+    "RateLimit-Limit": "13",
+    "X-RateLimit-Remaining-Second": "12",
+    "X-RateLimit-Limit-Second": "13",
+    "X-RateLimit-Limit-Minute": "60",
+    "RateLimit-Remaining": "12"
+   },
+   "text_bytes": 44
+  },
+  "policy2": {
+   "url": "https://api.scite.ai/",
+   "status": 200,
+   "final_url": "https://api.scite.ai/",
+   "content_type": "application/json",
+   "bytes": 44,
+   "truncated": false,
+   "sha256": "aabd874c7abb3a05d01d424a6c102aedb53f25eed70e6912102f81baa662b427",
+   "fetched_at": "2026-10-20T01:51:23+00:00",
+   "rate_headers": {
+    "RateLimit-Reset": "1",
+    "X-RateLimit-Remaining-Minute": "59",
+    "RateLimit-Limit": "13",
+    "X-RateLimit-Remaining-Second": "12",
+    "X-RateLimit-Limit-Second": "13",
+    "X-RateLimit-Limit-Minute": "60",
+    "RateLimit-Remaining": "12"
+   },
+   "text_bytes": 44
+  },
+  "limits": {
+   "url": "https://api.scite.ai/",
+   "status": 200,
+   "final_url": "https://api.scite.ai/",
+   "content_type": "application/json",
+   "bytes": 44,
+   "truncated": false,
+   "sha256": "aabd874c7abb3a05d01d424a6c102aedb53f25eed70e6912102f81baa662b427",
+   "fetched_at": "2026-10-20T01:52:58+00:00",
+   "rate_headers": {
+    "RateLimit-Reset": "1",
+    "X-RateLimit-Remaining-Minute": "59",
+    "RateLimit-Limit": "13",
+    "X-RateLimit-Remaining-Second": "12",
+    "X-RateLimit-Limit-Second": "13",
+    "X-RateLimit-Limit-Minute": "60",
+    "RateLimit-Remaining": "12"
+   },
+   "text_bytes": 44
+  },
+  "r1": {
+   "url": "https://api.scite.ai/",
+   "status": 200,
+   "final_url": "https://api.scite.ai/",
+   "content_type": "application/json",
+   "bytes": 44,
+   "truncated": false,
+   "sha256": "aabd874c7abb3a05d01d424a6c102aedb53f25eed70e6912102f81baa662b427",
+   "fetched_at": "2026-10-20T01:58:22+00:00",
+   "rate_headers": {
+    "RateLimit-Reset": "1",
+    "X-RateLimit-Remaining-Minute": "59",
+    "RateLimit-Limit": "13",
+    "X-RateLimit-Remaining-Second": "12",
+    "X-RateLimit-Limit-Second": "13",
+    "X-RateLimit-Limit-Minute": "60",
+    "RateLimit-Remaining": "12"
+   },
+   "text_bytes": 44
+  },
+  "intro": {
+   "url": "https://docs.scite.ai/introduction.md",
+   "status": 200,
+   "final_url": "https://docs.scite.ai/introduction.md",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 3993,
+   "truncated": false,
+   "sha256": "b9cdc2e895ec7c5e4f026a6d9f52fbf229bb8ce329d07d5f2d5b7e0e8ef067f5",
+   "fetched_at": "2026-10-20T02:28:05+00:00",
+   "rate_headers": {},
+   "text_bytes": 3989
+  },
+  "auth": {
+   "url": "https://docs.scite.ai/authentication.md",
+   "status": 200,
+   "final_url": "https://docs.scite.ai/authentication.md",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 4134,
+   "truncated": false,
+   "sha256": "8d76f53d62e737c4bd4d4b408ea380e403c928118108287499f16f20c87b7313",
+   "fetched_at": "2026-10-20T02:28:07+00:00",
+   "rate_headers": {},
+   "text_bytes": 4134
+  },
+  "quickstart": {
+   "url": "https://docs.scite.ai/quickstart.md",
+   "status": 200,
+   "final_url": "https://docs.scite.ai/quickstart.md",
+   "content_type": "text/markdown; charset=utf-8",
+   "bytes": 3266,
+   "truncated": false,
+   "sha256": "9669994b9446315eeede674350b6b373905963fbb46eb1c81c75e3a79192f590",
+   "fetched_at": "2026-10-20T02:28:15+00:00",
+   "rate_headers": {},
+   "text_bytes": 3266
+  }
+ }
+}

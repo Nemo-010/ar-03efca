@@ -1,0 +1,43 @@
+{
+ "slug": "pmc-idconv",
+ "name": "PMC ID Converter",
+ "category": "index",
+ "fetched_at": "2026-10-20T01:48:04+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/id-converter-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 94867,
+   "truncated": false,
+   "sha256": "dc361af6d2b23684347ea61ef3267464bfac05dc87b80c1ff97f6e05ccb88e47",
+   "fetched_at": "2026-10-20T01:48:04+00:00",
+   "rate_headers": {},
+   "text_bytes": 12393
+  },
+  "llms-err": {
+   "url": "https://docs.ncbi.nlm.nih.gov/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.ncbi.nlm.nih.gov/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:48:07+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/",
+   "status": 200,
+   "final_url": "https://pmc.ncbi.nlm.nih.gov/tools/id-converter-api/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 94867,
+   "truncated": false,
+   "sha256": "52d168062b3012a95dc81e5bdef5f2f7ca1d79238e9677d522052264518b1a36",
+   "fetched_at": "2026-10-20T01:49:49+00:00",
+   "rate_headers": {},
+   "text_bytes": 12393
+  }
+ }
+}

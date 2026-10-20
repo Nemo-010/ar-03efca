@@ -1,0 +1,154 @@
+{
+ "slug": "paperswithcode",
+ "name": "Papers with Code",
+ "category": "repository",
+ "fetched_at": "2026-10-20T01:47:50+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://paperswithcode.com/api/v1/docs/",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "a06895a38cf039b0e51e76a41a5b51a8b5d32b34f730e923b858456ed1739da8",
+   "fetched_at": "2026-10-20T01:47:50+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=98;t=205",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "home": {
+   "url": "https://paperswithcode.com/",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "5ba219b62c1a623c8e1febbfceb50d4dbd82be0094c5adea94031b028dba4626",
+   "fetched_at": "2026-10-20T01:47:51+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=96;t=204",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "llms": {
+   "url": "https://paperswithcode.com/api/v1/docs/llms.txt",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "613e26444e867daa04943a25144a64114a9f8139ab49dc3494c2ff6af8fbe688",
+   "fetched_at": "2026-10-20T01:47:52+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=94;t=202",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "llms-c4c9f2": {
+   "url": "https://paperswithcode.com/llms.txt",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "f4a5180e23e06ea8b4905461c9a70cbffee3e480a70e4837278e6e9ab98cd940",
+   "fetched_at": "2026-10-20T01:47:53+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=93;t=202",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "llms-3e794e-err": {
+   "url": "https://docs.paperswithcode.com/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.paperswithcode.com/llms.txt",
+   "content_type": "",
+   "bytes": 98,
+   "truncated": false,
+   "sha256": "3bc85200c61d9ef9e6ef6aa67eaf019641bc3966ba241c0f14088573f1ef926b",
+   "fetched_at": "2026-10-20T01:47:54+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://paperswithcode.com/api/v1/docs/",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "d108d57a1b4bd84ad6fb440195d8d9277b0821468c783181d5a5e87431d38709",
+   "fetched_at": "2026-10-20T01:49:48+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=91;t=86",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "policy2": {
+   "url": "https://paperswithcode.com/api/v1/docs/",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "334fd016360e28b928b67c3146d8484fcc5518994c58892b96bfcb862a8c55de",
+   "fetched_at": "2026-10-20T01:51:03+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=89;t=11",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "limits": {
+   "url": "https://paperswithcode.com/api/v1/docs/",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "9b3966db35c1f36139c109e284c2f1ff6720720d29a9075e7a4b03b53fe5d646",
+   "fetched_at": "2026-10-20T01:53:09+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=99;t=186",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "r1": {
+   "url": "https://paperswithcode.com/api/v1/docs/",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "448bcca831c55d8668e9f64a94c4675cec4e67383831e0c01d7c2e1f572723af",
+   "fetched_at": "2026-10-20T01:58:30+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=99;t=164",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  },
+  "r2": {
+   "url": "https://paperswithcode.com/api/v1/docs/",
+   "status": 200,
+   "final_url": "https://huggingface.co/papers/trending",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 1475495,
+   "truncated": false,
+   "sha256": "76d4c48a136634e29fd9ea95926a626deef72bccf9317ef02e7df233d59cea01",
+   "fetched_at": "2026-10-20T02:22:13+00:00",
+   "rate_headers": {
+    "RateLimit": "\"pages\";r=98;t=242",
+    "RateLimit-Policy": "\"fixed window\";\"pages\";q=100;w=300"
+   },
+   "text_bytes": 38599
+  }
+ }
+}

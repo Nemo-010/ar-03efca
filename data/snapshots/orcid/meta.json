@@ -1,0 +1,132 @@
+{
+ "slug": "orcid",
+ "name": "ORCID Public API",
+ "category": "scholarly-graph",
+ "fetched_at": "2026-10-20T01:47:38+00:00",
+ "sources": {
+  "docs-err": {
+   "url": "https://info.orcid.org/documentation/api-reference/",
+   "status": 404,
+   "final_url": "https://info.orcid.org/documentation/api-reference/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147316,
+   "truncated": false,
+   "sha256": "3c25f468182dbaf8d40a0471b5a6a24bf85c5694ebb2f3db6d391a4820af8957",
+   "fetched_at": "2026-10-20T01:47:38+00:00",
+   "rate_headers": {}
+  },
+  "home": {
+   "url": "https://orcid.org/",
+   "status": 200,
+   "final_url": "https://orcid.org/",
+   "content_type": "text/html",
+   "bytes": 67250,
+   "truncated": false,
+   "sha256": "3ef612ddad63990b0b929049d893a522ea29302a2cbd59cf4d0407d6607a25e9",
+   "fetched_at": "2026-10-20T01:47:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 5
+  },
+  "llms-err": {
+   "url": "https://info.orcid.org/documentation/api-reference/llms.txt",
+   "status": 404,
+   "final_url": "https://info.orcid.org/documentation/api-reference/llms.txt",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 146533,
+   "truncated": false,
+   "sha256": "6253bb7fc3e7bdcfa4d1ca20c18a5839b98f089f89d8e5bc4adf0d28f3170fac",
+   "fetched_at": "2026-10-20T01:47:40+00:00",
+   "rate_headers": {}
+  },
+  "llms": {
+   "url": "https://orcid.org/llms.txt",
+   "status": 200,
+   "final_url": "https://orcid.org/404",
+   "content_type": "text/html",
+   "bytes": 67250,
+   "truncated": false,
+   "sha256": "3ef612ddad63990b0b929049d893a522ea29302a2cbd59cf4d0407d6607a25e9",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {},
+   "text_bytes": 5
+  },
+  "llms-4748bf-err": {
+   "url": "https://docs.info.orcid.org/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.info.orcid.org/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:41+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://info.orcid.org/documentation/api-reference/",
+   "status": 404,
+   "final_url": "https://info.orcid.org/documentation/api-reference/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147316,
+   "truncated": false,
+   "sha256": "1035f1eef84e380f5c21d77d6ebe927cc2a1941d14069af1a3106f2dda28980e",
+   "fetched_at": "2026-10-20T01:49:48+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://info.orcid.org/documentation/api-reference/overview/",
+   "status": 404,
+   "final_url": "https://info.orcid.org/documentation/api-reference/overview/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147488,
+   "truncated": false,
+   "sha256": "0263d398078be1a9bdedba4fe5488bcbb09108ad8d8d28f7f9fb78cb069fc942",
+   "fetched_at": "2026-10-20T01:51:13+00:00",
+   "rate_headers": {}
+  },
+  "limits": {
+   "url": "https://info.orcid.org/documentation/api-reference/overview/",
+   "status": 404,
+   "final_url": "https://info.orcid.org/documentation/api-reference/overview/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147488,
+   "truncated": false,
+   "sha256": "ec00c1720f890f0f9db58305439b9a661b1a467d0e139a754a7fcdeb464e6e0d",
+   "fetched_at": "2026-10-20T01:52:56+00:00",
+   "rate_headers": {}
+  },
+  "limits2": {
+   "url": "https://pub.orcid.org/v3.0/",
+   "status": 200,
+   "final_url": "https://pub.orcid.org/v3.0/",
+   "content_type": "text/html;charset=UTF-8",
+   "bytes": 3399,
+   "truncated": false,
+   "sha256": "49e60afde273b154b3fcbb21a8f25474348bd3be52c6dbf7bf298ded4f4f1f4e",
+   "fetched_at": "2026-10-20T01:52:57+00:00",
+   "rate_headers": {},
+   "text_bytes": 270
+  },
+  "r1": {
+   "url": "https://info.orcid.org/documentation/api-reference/",
+   "status": 404,
+   "final_url": "https://info.orcid.org/documentation/api-reference/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147316,
+   "truncated": false,
+   "sha256": "efffc86fa4c70787989276ea107f14c6a9a942b2d398701f497ea3889238e4e0",
+   "fetched_at": "2026-10-20T01:58:16+00:00",
+   "rate_headers": {}
+  },
+  "r2": {
+   "url": "https://info.orcid.org/documentation/api-reference/overview/",
+   "status": 404,
+   "final_url": "https://info.orcid.org/documentation/api-reference/overview/",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 147488,
+   "truncated": false,
+   "sha256": "bcd09086440e48fed4adc9ae9405a138675178c465757286db58af1486df7342",
+   "fetched_at": "2026-10-20T02:21:59+00:00",
+   "rate_headers": {}
+  }
+ }
+}

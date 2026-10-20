@@ -1,0 +1,37 @@
+Knowledge Article 
+  · NLM Customer Support Center 
+ You’re offline. This is a read only version of the page. 
+ Toggle navigation 
+ National Library of Medicine 
+ National Library of Medicine 
+ Support Center Home
+ Home 
+ What is an API Key and how can I get it? 
+ Copy Link
+ Copy Link 
+ Print 
+ Like
+ Dislike
+ Article: KA-05317 
+ What is an API Key and how can I get it?
+ NCBI E-Utilities API service limits the number of requests per second (rps) to 3. You can increase the rate to 10 rps if you obtain and use an API Key. An API key is a unique alphanumeric string that you can generate through your NCBI account.   
+ These are the steps to generate an API Key that will work across multiple NCBI APIs: 
+ Sign in to NCBI. Click your username displayed in the top right corner of any NCBI page. In the displayed menu, click the  Account settings  link. Scroll down the page to the API Key Management section. Click the  Create an API Key  button, which will generate and display a key for you. 
+ You can then copy the API key and enter it as an environmental variable on the command line, for example, or as a data field at a service’s API. For instance, an EUtilities einfo request (entered as a browser-readable URL) will simply append the API key at the end of the link:   
+ https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi?db=pubmed&api_key=ABCD123 
+ Specific procedures and further guidelines for invoking API keys can be found in the documentation for EUtils services.  Note that the same API key that you obtain for E-Utilities will also work for the NCBI Datasets API . 
+ Contact Us 
+ ​ Connect with NLM 
+ National Library of Medicine 
+ 8600 Rockville Pike 
+ Bethesda, MD 20894
+ Web Policies 
+ FOIA 
+ HHS Vulnerability Disclosure 
+ NLM Support Center 
+ Accessibility 
+ Careers 
+ NLM | 
+ NIH | 
+ HHS | 
+ USA.gov

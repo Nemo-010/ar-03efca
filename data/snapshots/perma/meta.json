@@ -1,0 +1,101 @@
+{
+ "slug": "perma",
+ "name": "Perma.cc",
+ "category": "web-archive",
+ "fetched_at": "2026-10-20T01:47:28+00:00",
+ "sources": {
+  "docs": {
+   "url": "https://perma.cc/docs/developer",
+   "status": 200,
+   "final_url": "https://perma.cc/docs/developer",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 52973,
+   "truncated": false,
+   "sha256": "4be5eb469ed3f8b76766bedc6a1b454ded907dccbe3ef00563ea5f9ca225976d",
+   "fetched_at": "2026-10-20T01:47:28+00:00",
+   "rate_headers": {},
+   "text_bytes": 27245
+  },
+  "home": {
+   "url": "https://perma.cc/",
+   "status": 200,
+   "final_url": "https://perma.cc/",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 29013,
+   "truncated": false,
+   "sha256": "933b983d3bdbfd2e47b9a2494b5d1135b55753894111e679855de4792e19fa0d",
+   "fetched_at": "2026-10-20T01:47:29+00:00",
+   "rate_headers": {},
+   "text_bytes": 4961
+  },
+  "llms-err": {
+   "url": "https://docs.perma.cc/llms.txt",
+   "status": 0,
+   "final_url": "https://docs.perma.cc/llms.txt",
+   "content_type": "",
+   "bytes": 52,
+   "truncated": false,
+   "sha256": "c4ec53247fbe7aa814b1101a3b139273fa194a3956ed873ab3d0bab39f2c1a2f",
+   "fetched_at": "2026-10-20T01:47:30+00:00",
+   "rate_headers": {}
+  },
+  "policy": {
+   "url": "https://perma.cc/docs/developer",
+   "status": 403,
+   "final_url": "https://perma.cc/docs/developer",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5643,
+   "truncated": false,
+   "sha256": "a73fed3baf10a107740db19df850057058ce5fd113c195e35f7c7f09f9816fb2",
+   "fetched_at": "2026-10-20T01:49:49+00:00",
+   "rate_headers": {}
+  },
+  "policy2": {
+   "url": "https://perma.cc/docs/developer",
+   "status": 200,
+   "final_url": "https://perma.cc/docs/developer",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 52973,
+   "truncated": false,
+   "sha256": "fdf5ef42411dce9fe3e599fa1b55bf6144bf5919b48b93a6a097415160bb1149",
+   "fetched_at": "2026-10-20T01:51:39+00:00",
+   "rate_headers": {},
+   "text_bytes": 27245
+  },
+  "limits": {
+   "url": "https://perma.cc/docs/developer",
+   "status": 403,
+   "final_url": "https://perma.cc/docs/developer",
+   "content_type": "text/html; charset=UTF-8",
+   "bytes": 5643,
+   "truncated": false,
+   "sha256": "c0ea866e8edb0fbdc37d38a4ebe3d810ff392969450a707c32702f39c348600c",
+   "fetched_at": "2026-10-20T01:54:06+00:00",
+   "rate_headers": {}
+  },
+  "r1": {
+   "url": "https://perma.cc/docs/developer",
+   "status": 200,
+   "final_url": "https://perma.cc/docs/developer",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 52973,
+   "truncated": false,
+   "sha256": "7fcbdcf9c8cc908da07b05c5bb143dcf0989fd0e572f793f6e8dec9499814b67",
+   "fetched_at": "2026-10-20T01:58:44+00:00",
+   "rate_headers": {},
+   "text_bytes": 27245
+  },
+  "r2": {
+   "url": "https://perma.cc/docs/developer",
+   "status": 200,
+   "final_url": "https://perma.cc/docs/developer",
+   "content_type": "text/html; charset=utf-8",
+   "bytes": 52973,
+   "truncated": false,
+   "sha256": "13402a5850d6eb8ca59e2dd5da9a3d0a682639e25e9f58fe4bf4ee3ad26213d9",
+   "fetched_at": "2026-10-20T02:22:18+00:00",
+   "rate_headers": {},
+   "text_bytes": 27245
+  }
+ }
+}
