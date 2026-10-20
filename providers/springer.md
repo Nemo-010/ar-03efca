@@ -4,7 +4,7 @@
 - Home: https://www.springernature.com/
 - Docs: https://dev.springernature.com/
 - Probe endpoint: `https://api.springernature.com/meta/v2/json?q=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://www.archives.gov/research/catalog
 - Docs: https://www.archives.gov/research/catalog/help/api
 - Probe endpoint: `https://catalog.archives.gov/api/v2/records/search?q=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

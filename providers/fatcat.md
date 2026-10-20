@@ -4,7 +4,7 @@
 - Home: https://scholar.archive.org/
 - Docs: https://api.fatcat.wiki/
 - Probe endpoint: `https://api.fatcat.wiki/v0/release/lookup?doi=10.1038/nature12373`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

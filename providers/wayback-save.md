@@ -4,7 +4,7 @@
 - Home: https://web.archive.org/save
 - Docs: https://archive.org/developers/
 - Probe endpoint: `https://web.archive.org/save/status/https://example.com`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

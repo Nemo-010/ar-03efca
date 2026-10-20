@@ -4,7 +4,7 @@
 - Home: https://id.loc.gov/
 - Docs: https://id.loc.gov/
 - Probe endpoint: `https://id.loc.gov/search/?q=openalex&format=json`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: http://timetravel.mementoweb.org/
 - Docs: http://timetravel.mementoweb.org/guide/api/
 - Probe endpoint: `http://timetravel.mementoweb.org/api/json/2020/https://openalex.org`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

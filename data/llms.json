@@ -1,7 +1,7 @@
 {
  "ads": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "altmetric": {
@@ -11,27 +11,27 @@
  },
  "archive-today": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "archives-portal-europe": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "arquivo": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "artic": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "arxiv": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "base": {
@@ -41,17 +41,17 @@
  },
  "biomodels": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "biorxiv": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "biostudies": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "cds-cern": {
@@ -66,12 +66,12 @@
  },
  "chroniclingamerica": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "cleveland-art": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "clinicaltrials": {
@@ -81,27 +81,27 @@
  },
  "commoncrawl": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "conifer": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "core": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "crossref": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "crossref-eventdata": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "datacite": {
@@ -111,37 +111,37 @@
  },
  "dataone": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "dataverse": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "dataverse-nl": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "dblp": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "digitalnz": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "dimensions": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe returned HTTP 404",
   "url": null
  },
  "dnb-sru": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "doab": {
@@ -151,17 +151,17 @@
  },
  "doaj": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "dpla": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "dryad": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ebisearch": {
@@ -171,57 +171,57 @@
  },
  "elsevier": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ensembl": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe returned HTTP 503",
   "url": null
  },
  "epo-ops": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "europeana": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "europepmc": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "fatcat": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "figshare": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe returned HTTP 202",
   "url": null
  },
  "finna": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe returned HTTP 403",
   "url": null
  },
  "gallica": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "gbif": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "gutenberg": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "hal": {
@@ -231,27 +231,27 @@
  },
  "hathitrust": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "huggingface": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ia-fulltext": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ia-metadata": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "id-loc": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "idigbio": {
@@ -261,12 +261,12 @@
  },
  "ieee": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "inaturalist": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "inspirehep": {
@@ -276,7 +276,7 @@
  },
  "jstage": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "jstor-constellate": {
@@ -286,52 +286,52 @@
  },
  "k10plus-sru": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "lareferencia": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "lens": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe returned HTTP 404",
   "url": null
  },
  "loc": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "medrxiv": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "memento": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "met-museum": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "nara": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "nb-no": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ndltd": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ntrs": {
@@ -341,12 +341,12 @@
  },
  "oapen": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "obis": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ols": {
@@ -356,12 +356,12 @@
  },
  "openaire-graph": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "openaire-search": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "openalex": {
@@ -371,7 +371,7 @@
  },
  "opencitations": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "openlibrary": {
@@ -391,7 +391,7 @@
  },
  "openverse": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe returned HTTP 404",
   "url": null
  },
  "orcid": {
@@ -406,7 +406,7 @@
  },
  "osti": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "paperswithcode": {
@@ -421,22 +421,22 @@
  },
  "pdb": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "perma": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "pmc-idconv": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "pmc-oa": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "pubchem": {
@@ -451,12 +451,12 @@
  },
  "re3data": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "repec": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "ror": {
@@ -466,7 +466,7 @@
  },
  "scielo": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "scite": {
@@ -476,42 +476,42 @@
  },
  "semanticscholar": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "sherpa-romeo": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "smithsonian": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "snac": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt probed",
   "url": null
  },
  "softwareheritage": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "springer": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "thoth": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "tna-discovery": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "trove": {
@@ -521,7 +521,7 @@
  },
  "ukwa": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "uniprot": {
@@ -541,12 +541,12 @@
  },
  "viaf": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "wayback-availability": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "wayback-cdx": {
@@ -556,7 +556,7 @@
  },
  "wayback-save": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "wikidata": {
@@ -571,17 +571,17 @@
  },
  "wiley": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe returned HTTP 403",
   "url": null
  },
  "zbmath": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  },
  "zenodo": {
   "bytes": 0,
-  "reason": "empty body",
+  "reason": "no llms.txt found; the probe host did not resolve or refused the connection",
   "url": null
  }
 }

@@ -4,7 +4,7 @@
 - Home: https://www.lens.org/
 - Docs: https://docs.api.lens.org/
 - Probe endpoint: `https://api.lens.org/scholarly/search`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe returned HTTP 404
 
 ## Free access
 

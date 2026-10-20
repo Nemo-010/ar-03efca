@@ -4,7 +4,7 @@
 - Home: https://www.ebi.ac.uk/biomodels/
 - Docs: https://www.ebi.ac.uk/biomodels/docs/
 - Probe endpoint: `https://www.ebi.ac.uk/biomodels/search?query=openalex&format=json`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

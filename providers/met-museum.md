@@ -4,7 +4,7 @@
 - Home: https://www.metmuseum.org/
 - Docs: https://metmuseum.github.io/
 - Probe endpoint: `https://collectionapi.metmuseum.org/public/collection/v1/objects/436535`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

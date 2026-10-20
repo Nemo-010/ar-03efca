@@ -4,7 +4,7 @@
 - Home: https://www.biorxiv.org/
 - Docs: https://api.biorxiv.org/
 - Probe endpoint: `https://api.biorxiv.org/details/biorxiv/10.1101/2020.09.09.20191205`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://commoncrawl.org/
 - Docs: https://commoncrawl.org/cc-index-table
 - Probe endpoint: `https://index.commoncrawl.org/collinfo.json`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

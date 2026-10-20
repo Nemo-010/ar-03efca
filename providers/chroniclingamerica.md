@@ -4,7 +4,7 @@
 - Home: https://chroniclingamerica.loc.gov/
 - Docs: https://chroniclingamerica.loc.gov/about/api/
 - Probe endpoint: `https://chroniclingamerica.loc.gov/search/pages/results/?andtext=openalex&format=json`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

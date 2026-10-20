@@ -416,7 +416,9 @@ PIPELINE = {
  "loc": "The Library of Congress API is the model public-sector API: a per-service rate table "
         "(20/minute for JSON, 150/minute for text and image), the block duration when you exceed "
         "it, and a 100,000-item paging ceiling. For newspaper and print collections it replaces "
-        "the retired Chronicling America API.",
+        "the retired Chronicling America API. The caveat is the probe: a datacentre IP gets a "
+        "Cloudflare challenge before the rate table ever applies, so budget for identifying your "
+        "client properly rather than assuming the documented rate is reachable.",
  "zenodo": "CERN's repository is where a lot of European research data lands, and its rate table "
            "distinguishes guest from authenticated per endpoint — search is 30/minute, not the "
            "60/minute headline. A DOI-to-record lookup is one call; do not walk the whole corpus.",

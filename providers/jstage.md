@@ -4,7 +4,7 @@
 - Home: https://www.jstage.jst.go.jp/
 - Docs: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en
 - Probe endpoint: `https://api.jstage.jst.go.jp/searchapi/do?service=3&q=openalex&count=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

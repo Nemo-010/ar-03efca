@@ -4,7 +4,7 @@
 - Home: https://www.re3data.org/
 - Docs: https://www.re3data.org/api/doc
 - Probe endpoint: `https://www.re3data.org/api/v1/repositories?query=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

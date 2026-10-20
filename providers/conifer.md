@@ -4,7 +4,7 @@
 - Home: https://conifer.rhizome.org/
 - Docs: https://conifer.rhizome.org/api/docs
 - Probe endpoint: `https://conifer.rhizome.org/api/v1/`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

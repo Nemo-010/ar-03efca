@@ -4,7 +4,7 @@
 - Home: https://www.finna.fi/
 - Docs: https://api.finna.fi/
 - Probe endpoint: `https://api.finna.fi/v1/search?lookfor=openalex&limit=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe returned HTTP 403
 
 ## Free access
 

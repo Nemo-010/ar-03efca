@@ -4,7 +4,7 @@
 - Home: https://www.archivesportaleurope.net/
 - Docs: https://www.archivesportaleurope.net/information/api
 - Probe endpoint: `https://www.archivesportaleurope.net/OAI-PMH/?verb=Identify`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

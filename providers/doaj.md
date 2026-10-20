@@ -4,7 +4,7 @@
 - Home: https://doaj.org/
 - Docs: https://doaj.org/api/v4/docs
 - Probe endpoint: `https://doaj.org/api/search/articles/openalex?pageSize=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

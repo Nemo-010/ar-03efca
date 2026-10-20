@@ -4,7 +4,7 @@
 - Home: https://www.clevelandart.org/
 - Docs: https://openaccess-api.clevelandart.org/
 - Probe endpoint: `https://openaccess-api.clevelandart.org/api/artworks/?q=openalex&limit=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

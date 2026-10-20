@@ -4,7 +4,7 @@
 - Home: https://www.ncbi.nlm.nih.gov/pmc/
 - Docs: https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/
 - Probe endpoint: `https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC1000000`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

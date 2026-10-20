@@ -4,7 +4,7 @@
 - Home: https://www.lareferencia.info/
 - Docs: https://api.lareferencia.info/v1/
 - Probe endpoint: `https://api.lareferencia.info/v1/search?query=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

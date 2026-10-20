@@ -4,7 +4,7 @@
 - Home: https://www.oapen.org/
 - Docs: https://library.oapen.org/rest/
 - Probe endpoint: `https://library.oapen.org/rest/search?query=openalex&expand=metadata&limit=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://datadryad.org/
 - Docs: https://datadryad.org/api/v2/docs/
 - Probe endpoint: `https://datadryad.org/api/v2/search?q=openalex&per_page=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

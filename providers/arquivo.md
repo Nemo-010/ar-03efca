@@ -4,7 +4,7 @@
 - Home: https://arquivo.pt/
 - Docs: https://arquivo.pt/api
 - Probe endpoint: `https://arquivo.pt/wayback/cdx?url=openalex.org&output=json&limit=2`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://huggingface.co/
 - Docs: https://huggingface.co/docs/hub/api
 - Probe endpoint: `https://huggingface.co/api/datasets?limit=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

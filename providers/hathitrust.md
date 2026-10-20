@@ -4,7 +4,7 @@
 - Home: https://www.hathitrust.org/
 - Docs: https://www.hathitrust.org/bib_api
 - Probe endpoint: `https://catalog.hathitrust.org/api/volumes/brief/json/oclc:424023`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

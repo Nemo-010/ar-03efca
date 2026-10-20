@@ -4,7 +4,7 @@
 - Home: https://search.ndltd.org/
 - Docs: https://union.ndltd.org/OAI-PMH
 - Probe endpoint: `https://union.ndltd.org/OAI-PMH?verb=Identify`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

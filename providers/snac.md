@@ -4,7 +4,7 @@
 - Home: https://snaccooperative.org/
 - Docs: https://api.snaccooperative.org/
 - Probe endpoint: `https://api.snaccooperative.org/`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt probed
 
 ## Free access
 

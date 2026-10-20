@@ -4,7 +4,7 @@
 - Home: https://www.openaire.eu/
 - Docs: https://api.openaire.eu/
 - Probe endpoint: `https://api.openaire.eu/search/publications?title=openalex&size=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

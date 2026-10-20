@@ -4,7 +4,7 @@
 - Home: https://figshare.com/
 - Docs: https://docs.figshare.com/
 - Probe endpoint: `https://api.figshare.com/v2/articles?page_size=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe returned HTTP 202
 
 ## Free access
 

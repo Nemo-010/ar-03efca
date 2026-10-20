@@ -4,7 +4,7 @@
 - Home: https://opencitations.net/
 - Docs: https://opencitations.net/index/api/v2
 - Probe endpoint: `https://opencitations.net/index/api/v2/citations/doi:10.1038/nature12373`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

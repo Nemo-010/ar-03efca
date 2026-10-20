@@ -4,7 +4,7 @@
 - Home: https://www.gbif.org/
 - Docs: https://techdocs.gbif.org/en/openapi/
 - Probe endpoint: `https://api.gbif.org/v1/occurrence/search?q=openalex&limit=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://zenodo.org/
 - Docs: https://developers.zenodo.org/
 - Probe endpoint: `https://zenodo.org/api/records?q=openalex&size=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

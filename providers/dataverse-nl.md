@@ -4,7 +4,7 @@
 - Home: https://dataverse.nl/
 - Docs: https://guides.dataverse.org/en/latest/api/
 - Probe endpoint: `https://dataverse.nl/api/search?q=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

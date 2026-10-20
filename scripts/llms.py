@@ -140,7 +140,19 @@ def main():
             mp = os.path.join(SNAP, slug, "meta.json")
             if os.path.exists(mp):
                 with open(mp) as fh:
-                    url = (json.load(fh).get("sources", {}).get("llms") or {}).get("url")
+                    srcs = json.load(fh).get("sources", {})
+                url = (srcs.get("llms") or {}).get("url")
+                if not body and not url:
+                    # no snapshot on disk: report why the probe failed rather than
+                    # calling a missing file an "empty body"
+                    errs = [v for k, v in srcs.items() if k.startswith("llms") and k != "llms"]
+                    if errs:
+                        st = errs[0].get("status")
+                        why = ("no llms.txt found; the probe host did not resolve or refused "
+                               "the connection" if not st else
+                               f"no llms.txt found; the probe returned HTTP {st}")
+            if not body and why == "empty body" and not os.path.exists(path):
+                why = "no llms.txt probed"
             if ok and host_of(url) in ("github.com", "raw.githubusercontent.com"):
                 ok, why = False, "belongs to github.com, not the provider"
             if ok and url:

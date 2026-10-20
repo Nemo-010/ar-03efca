@@ -4,7 +4,7 @@
 - Home: https://api.artic.edu/docs/
 - Docs: https://api.artic.edu/docs/
 - Probe endpoint: `https://api.artic.edu/api/v1/artworks?limit=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

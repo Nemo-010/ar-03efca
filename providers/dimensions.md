@@ -4,7 +4,7 @@
 - Home: https://www.dimensions.ai/
 - Docs: https://docs.dimensions.ai/dsl/api.html
 - Probe endpoint: `https://api.dimensions.ai/v2/publications?search_text=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe returned HTTP 404
 
 ## Free access
 

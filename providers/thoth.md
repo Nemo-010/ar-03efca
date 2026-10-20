@@ -4,7 +4,7 @@
 - Home: https://thoth.pub/
 - Docs: https://api.thoth.pub/graphql
 - Probe endpoint: `https://api.thoth.pub/`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

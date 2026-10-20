@@ -4,7 +4,7 @@
 - Home: https://ui.adsabs.harvard.edu/
 - Docs: https://ui.adsabs.harvard.edu/help/api/
 - Probe endpoint: `https://api.adsabs.harvard.edu/v1/search/query?q=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

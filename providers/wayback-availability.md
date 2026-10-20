@@ -4,7 +4,7 @@
 - Home: https://archive.org/
 - Docs: https://archive.org/developers/wayback-cdx-server.html
 - Probe endpoint: `https://archive.org/wayback/available?url=openalex.org`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

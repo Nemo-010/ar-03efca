@@ -4,7 +4,7 @@
 - Home: https://www.elsevier.com/
 - Docs: https://dev.elsevier.com/
 - Probe endpoint: `https://api.elsevier.com/content/search/scopus?query=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

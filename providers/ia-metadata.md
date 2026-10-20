@@ -4,7 +4,7 @@
 - Home: https://archive.org/
 - Docs: https://archive.org/developers/md-read.html
 - Probe endpoint: `https://archive.org/metadata/wikipedia`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

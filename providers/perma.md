@@ -4,7 +4,7 @@
 - Home: https://perma.cc/
 - Docs: https://perma.cc/docs/developer
 - Probe endpoint: `https://api.perma.cc/v1/public/archives/?limit=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

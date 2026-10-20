@@ -4,7 +4,7 @@
 - Home: https://www.eventdata.crossref.org/
 - Docs: https://www.eventdata.crossref.org/guide/
 - Probe endpoint: `https://api.eventdata.crossref.org/v1/events?obj-id=10.1038/nature12373&rows=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

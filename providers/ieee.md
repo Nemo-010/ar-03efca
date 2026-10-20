@@ -4,7 +4,7 @@
 - Home: https://developer.ieee.org/
 - Docs: https://developer.ieee.org/docs
 - Probe endpoint: `https://ieeexploreapi.ieee.org/api/v1/search/articles?querytext=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

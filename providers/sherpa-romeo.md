@@ -4,7 +4,7 @@
 - Home: https://v2.sherpa.ac.uk/
 - Docs: https://v2.sherpa.ac.uk/api/
 - Probe endpoint: `https://v2.sherpa.ac.uk/cgi/retrieve?item-type=publication`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

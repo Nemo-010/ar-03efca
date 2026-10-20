@@ -4,7 +4,7 @@
 - Home: https://dataverse.harvard.edu/
 - Docs: https://guides.dataverse.org/en/latest/api/
 - Probe endpoint: `https://dataverse.harvard.edu/api/search?q=openalex&per_page=1`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 

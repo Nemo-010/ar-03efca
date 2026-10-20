@@ -4,7 +4,7 @@
 - Home: https://dp.la/
 - Docs: https://pro.dp.la/developers/api-codex
 - Probe endpoint: `https://api.dp.la/v2/items?q=openalex`
-- llms.txt: none verified — empty body
+- llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 
 ## Free access
 
