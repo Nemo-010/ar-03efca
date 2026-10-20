@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.finna.fi/
-- Docs: https://api.finna.fi/
+- Docs: https://api.finna.fi/ — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://api.finna.fi/v1/search?lookfor=openalex&limit=1`
 - llms.txt: none verified — no llms.txt found; the probe returned HTTP 403
 

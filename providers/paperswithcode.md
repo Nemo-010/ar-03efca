@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://paperswithcode.com/
-- Docs: https://paperswithcode.com/api/v1/docs/
+- Docs: https://paperswithcode.com/api/v1/docs/ — HTTP 200 at capture
 - Probe endpoint: `https://paperswithcode.com/api/v1/papers/?items_per_page=1`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

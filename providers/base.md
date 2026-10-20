@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://www.base-search.net/
-- Docs: https://api.base-search.net/
+- Docs: https://api.base-search.net/ — HTTP 200 at capture
 - Probe endpoint: `https://api.base-search.net/cgi-bin/BaseHttpSearchInterface.fcgi?func=PerformSearch&query=openalex&format=json`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

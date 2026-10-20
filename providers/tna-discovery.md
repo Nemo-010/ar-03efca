@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://discovery.nationalarchives.gov.uk/
-- Docs: https://discovery.nationalarchives.gov.uk/API/site/search
+- Docs: https://discovery.nationalarchives.gov.uk/API/site/search — HTTP 500 at capture (see Notes)
 - Probe endpoint: `https://discovery.nationalarchives.gov.uk/API/search/records?sps.searchQuery=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

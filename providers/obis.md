@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://obis.org/
-- Docs: https://api.obis.org/
+- Docs: https://api.obis.org/ — HTTP 200 at capture
 - Probe endpoint: `https://api.obis.org/v3/occurrence?size=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

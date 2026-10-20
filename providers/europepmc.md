@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://europepmc.org/
-- Docs: https://europepmc.org/RestfulWebService
+- Docs: https://europepmc.org/RestfulWebService — HTTP 200 at capture
 - Probe endpoint: `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=openalex&format=json&pageSize=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

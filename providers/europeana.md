@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.europeana.eu/
-- Docs: https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation
+- Docs: https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation — HTTP 200 at capture
 - Probe endpoint: `https://api.europeana.eu/record/v2/search.json?query=openalex&wskey=api2demo&rows=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://snaccooperative.org/
-- Docs: https://api.snaccooperative.org/
+- Docs: https://api.snaccooperative.org/ — HTTP 400 at capture (see Notes)
 - Probe endpoint: `https://api.snaccooperative.org/`
 - llms.txt: none verified — no llms.txt probed
 

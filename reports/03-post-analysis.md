@@ -111,6 +111,24 @@ Slowest endpoints in the probe (one request each, so this is a floor, not a benc
 | iDigBio | 2,357 | 200 JSON |
 | Archives Portal Europe | 2,169 | 404 |
 
+## 3b. Did the documentation links work?
+
+Every provider names a docs URL. This is what that URL returned when it was captured — the same request the snapshots came from, so it is a fact about this run rather than about the provider's intentions:
+
+| Docs URL returned | Providers |
+|---|---:|
+| 200 — readable | 84 |
+| 202 — challenge/interstitial | 2 |
+| 403 — refused or bot wall | 9 |
+| 404 — moved or gone | 12 |
+| 500 | 1 |
+| 503 | 1 |
+| no response | 6 |
+
+**84 of 117 documentation links were readable at capture time.** That is the honest denominator for this inventory: for the other 33, the provider may well have a documented allowance, but this run could not read it, and the row says so instead of filling the gap with a guess.
+
+A 403 here is not necessarily a broken link. It is usually a Cloudflare or Anubis challenge aimed at automated clients, which is why the same provider's *API host* often answers perfectly well while its *documentation site* does not — Europe PMC is the clearest case: `www.ebi.ac.uk/europepmc/webservices` returns JSON to a plain client while `europepmc.org/developers` returns a challenge.
+
 ## 4. Where the free capacity actually is
 
 Counting only providers with a published figure, by category:

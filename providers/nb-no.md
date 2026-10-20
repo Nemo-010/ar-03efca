@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.nb.no/
-- Docs: https://api.nb.no/catalog/swagger-ui.html
+- Docs: https://api.nb.no/catalog/swagger-ui.html — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://api.nb.no/catalog/v1/items?q=openalex&size=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

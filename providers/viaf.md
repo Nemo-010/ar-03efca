@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://viaf.org/
-- Docs: https://viaf.org/viaf/data/
+- Docs: https://viaf.org/viaf/data/ — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://viaf.org/viaf/AutoSuggest?query=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

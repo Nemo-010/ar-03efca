@@ -65,7 +65,10 @@ def prov_md(r):
     L = [f"# {r['name']}", ""]
     L.append(f"- Category: `{r['category']}` — {cats.get(r['category'], '')}")
     L.append(f"- Home: {r['home'] or '—'}")
-    L.append(f"- Docs: {r['docs'] or '—'}")
+    ds = r.get("docs_status")
+    L.append(f"- Docs: {r['docs'] or '—'}"
+             + (f" — HTTP {ds} at capture" if ds else " — not captured")
+             + ("" if ds == 200 else " (see Notes)"))
     L.append(f"- Probe endpoint: `{r['api'] or '—'}`")
     if r["llms"]:
         L.append(f"- llms.txt: {r['llms']}")
@@ -600,6 +603,38 @@ def build_post_analysis():
     L.append("|---|---:|---|")
     for r in slow:
         L.append(f"| {r['name']} | {r['probe']['ms']:,} | {verdict_label(r)} |")
+    L.append("")
+
+    # ---- 3b. link health
+    L.append("## 3b. Did the documentation links work?")
+    L.append("")
+    L.append("Every provider names a docs URL. This is what that URL returned when it was "
+             "captured — the same request the snapshots came from, so it is a fact about this run "
+             "rather than about the provider's intentions:")
+    L.append("")
+    st = {}
+    for r in facts:
+        st[r.get("docs_status")] = st.get(r.get("docs_status"), 0) + 1
+    L.append("| Docs URL returned | Providers |")
+    L.append("|---|---:|")
+    for code, label in [(200, "200 — readable"), (202, "202 — challenge/interstitial"),
+                        (403, "403 — refused or bot wall"), (404, "404 — moved or gone"),
+                        (500, "500"), (503, "503"), (0, "no response"),
+                        (None, "not captured")]:
+        if st.get(code):
+            L.append(f"| {label} | {st[code]} |")
+    L.append("")
+    readable = st.get(200, 0)
+    L.append(f"**{readable} of {len(facts)} documentation links were readable at capture time.** "
+             "That is the honest denominator for this inventory: for the other "
+             f"{len(facts)-readable}, the provider may well have a documented allowance, but this "
+             "run could not read it, and the row says so instead of filling the gap with a guess.")
+    L.append("")
+    L.append("A 403 here is not necessarily a broken link. It is usually a Cloudflare or Anubis "
+             "challenge aimed at automated clients, which is why the same provider's *API host* "
+             "often answers perfectly well while its *documentation site* does not — Europe PMC "
+             "is the clearest case: `www.ebi.ac.uk/europepmc/webservices` returns JSON to a plain "
+             "client while `europepmc.org/developers` returns a challenge.")
     L.append("")
 
     # ---- 4. maturity / coverage

@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.loc.gov/
-- Docs: https://www.loc.gov/apis/
+- Docs: https://www.loc.gov/apis/ — HTTP 200 at capture
 - Probe endpoint: `https://www.loc.gov/books/?q=openalex&fo=json`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

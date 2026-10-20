@@ -2,7 +2,7 @@
 
 - Category: `publisher` — Publisher & patent TDM endpoints
 - Home: https://patentsview.org/
-- Docs: https://patentsview.org/apis/api-endpoints
+- Docs: https://patentsview.org/apis/api-endpoints — HTTP 200 at capture
 - Probe endpoint: `https://api.patentsview.org/patents/query?q=%7B%22_gte%22%3A%7B%22patent_date%22%3A%222020-01-01%22%7D%7D`
 - llms.txt: none verified — empty body
 

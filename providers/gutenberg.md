@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.gutenberg.org/
-- Docs: https://gutendex.com/
+- Docs: https://gutendex.com/ — HTTP 200 at capture
 - Probe endpoint: `https://gutendex.com/books/?search=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

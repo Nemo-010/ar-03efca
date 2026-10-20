@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://openverse.org/
-- Docs: https://api.openverse.org/v1/
+- Docs: https://api.openverse.org/v1/ — HTTP 200 at capture
 - Probe endpoint: `https://api.openverse.org/v1/images/?q=openalex&page_size=1`
 - llms.txt: none verified — no llms.txt found; the probe returned HTTP 404
 

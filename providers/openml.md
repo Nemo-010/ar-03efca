@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://www.openml.org/
-- Docs: https://www.openml.org/apis
+- Docs: https://www.openml.org/apis — HTTP 200 at capture
 - Probe endpoint: `https://www.openml.org/api/v1/json/data/list/limit/1`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.ebi.ac.uk/biomodels/
-- Docs: https://www.ebi.ac.uk/biomodels/docs/
+- Docs: https://www.ebi.ac.uk/biomodels/docs/ — HTTP 200 at capture
 - Probe endpoint: `https://www.ebi.ac.uk/biomodels/search?query=openalex&format=json`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

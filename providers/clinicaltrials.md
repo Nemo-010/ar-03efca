@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://clinicaltrials.gov/
-- Docs: https://clinicaltrials.gov/data-api/api
+- Docs: https://clinicaltrials.gov/data-api/api — HTTP 200 at capture
 - Probe endpoint: `https://clinicaltrials.gov/api/v2/studies?pageSize=1`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

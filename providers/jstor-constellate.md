@@ -2,7 +2,7 @@
 
 - Category: `publisher` — Publisher & patent TDM endpoints
 - Home: https://www.jstor.org/
-- Docs: https://constellate.org/docs/
+- Docs: https://constellate.org/docs/ — HTTP 200 at capture
 - Probe endpoint: `https://api.constellate.org/`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

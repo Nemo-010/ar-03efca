@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.rcsb.org/
-- Docs: https://data.rcsb.org/redoc/
+- Docs: https://data.rcsb.org/redoc/ — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://data.rcsb.org/rest/v1/core/entry/4HHB`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

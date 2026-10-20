@@ -2,7 +2,7 @@
 
 - Category: `publisher` — Publisher & patent TDM endpoints
 - Home: https://developer.uspto.gov/
-- Docs: https://developer.uspto.gov/api-catalog
+- Docs: https://developer.uspto.gov/api-catalog — HTTP 200 at capture
 - Probe endpoint: `https://developer.uspto.gov/ibd-api/v1/application/publications?publicationTitleText=engine`
 - llms.txt: none verified — empty body
 

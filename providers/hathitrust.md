@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.hathitrust.org/
-- Docs: https://www.hathitrust.org/bib_api
+- Docs: https://www.hathitrust.org/bib_api — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://catalog.hathitrust.org/api/volumes/brief/json/oclc:424023`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.uniprot.org/
-- Docs: https://www.uniprot.org/help/api
+- Docs: https://www.uniprot.org/help/api — HTTP 200 at capture
 - Probe endpoint: `https://rest.uniprot.org/uniprotkb/search?query=openalex&size=1&format=json`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

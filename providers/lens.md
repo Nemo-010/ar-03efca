@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://www.lens.org/
-- Docs: https://docs.api.lens.org/
+- Docs: https://docs.api.lens.org/ — HTTP 200 at capture
 - Probe endpoint: `https://api.lens.org/scholarly/search`
 - llms.txt: none verified — no llms.txt found; the probe returned HTTP 404
 

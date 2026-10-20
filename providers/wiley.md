@@ -2,7 +2,7 @@
 
 - Category: `publisher` — Publisher & patent TDM endpoints
 - Home: https://www.wiley.com/
-- Docs: https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining
+- Docs: https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fadvs.201900001`
 - llms.txt: none verified — no llms.txt found; the probe returned HTTP 403
 

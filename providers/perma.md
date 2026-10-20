@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://perma.cc/
-- Docs: https://perma.cc/docs/developer
+- Docs: https://perma.cc/docs/developer — HTTP 200 at capture
 - Probe endpoint: `https://api.perma.cc/v1/public/archives/?limit=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -854,6 +854,23 @@ FACTS = {
 }
 
 
+def source_status(slug, url, probes):
+    """Did this exact URL answer 200 when it was captured? Unknown if it was never fetched."""
+    mp = os.path.join(DATA, "snapshots", slug, "meta.json")
+    if not url:
+        return None
+    if os.path.exists(mp):
+        with open(mp) as fh:
+            srcs = json.load(fh).get("sources", {})
+        for v in srcs.values():
+            if v.get("url") == url:
+                return v.get("status")
+    p = probes.get(slug) or {}
+    if p.get("url") == url:
+        return p.get("status")
+    return None
+
+
 def basis_kind(f):
     """Classify how the monthly figure was obtained, so the reports can say it plainly."""
     if not f["monthly"]:
@@ -888,6 +905,8 @@ def main():
         rec = {
             "slug": slug, "name": p["name"], "category": p["category"],
             "home": p.get("home") or "", "docs": p.get("docs") or "",
+            "docs_status": source_status(slug, p.get("docs"), probes),
+            "home_status": source_status(slug, p.get("home"), probes),
             "pricing": p.get("pricing") or "", "api": p.get("api") or "",
             "llms": (llms.get(slug) or {}).get("url"),
             "llms_reason": (llms.get(slug) or {}).get("reason"),

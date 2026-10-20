@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.ebi.ac.uk/ols4/
-- Docs: https://www.ebi.ac.uk/ols4/help
+- Docs: https://www.ebi.ac.uk/ols4/help — HTTP 200 at capture
 - Probe endpoint: `https://www.ebi.ac.uk/ols4/api/search?q=openalex&rows=1`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

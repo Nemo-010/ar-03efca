@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://www.altmetric.com/
-- Docs: https://api.altmetric.com/
+- Docs: https://api.altmetric.com/ — HTTP 200 at capture
 - Probe endpoint: `https://api.altmetric.com/v1/doi/10.1038/nature12373`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

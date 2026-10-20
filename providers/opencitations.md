@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://opencitations.net/
-- Docs: https://opencitations.net/index/api/v2
+- Docs: https://opencitations.net/index/api/v2 — HTTP 200 at capture
 - Probe endpoint: `https://opencitations.net/index/api/v2/citations/doi:10.1038/nature12373`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

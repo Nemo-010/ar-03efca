@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://chroniclingamerica.loc.gov/
-- Docs: https://chroniclingamerica.loc.gov/about/api/
+- Docs: https://chroniclingamerica.loc.gov/about/api/ — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://chroniclingamerica.loc.gov/search/pages/results/?andtext=openalex&format=json`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

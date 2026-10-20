@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://zbmath.org/
-- Docs: https://api.zbmath.org/v1/
+- Docs: https://api.zbmath.org/v1/ — HTTP 200 at capture
 - Probe endpoint: `https://api.zbmath.org/v1/document/_structured_search_query?search_string=openalex&results_per_page=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

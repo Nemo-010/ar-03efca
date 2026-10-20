@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://www.lareferencia.info/
-- Docs: https://api.lareferencia.info/v1/
+- Docs: https://api.lareferencia.info/v1/ — not captured (see Notes)
 - Probe endpoint: `https://api.lareferencia.info/v1/search?query=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

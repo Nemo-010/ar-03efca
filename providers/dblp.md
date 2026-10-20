@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://dblp.org/
-- Docs: https://dblp.org/faq/How+to+use+the+dblp+search+API.html
+- Docs: https://dblp.org/faq/How+to+use+the+dblp+search+API.html — HTTP 202 at capture (see Notes)
 - Probe endpoint: `https://dblp.org/search/publ/api?q=openalex&format=json&h=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

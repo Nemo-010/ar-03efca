@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.idigbio.org/
-- Docs: https://github.com/iDigBio/idigbio-search-api/wiki
+- Docs: https://github.com/iDigBio/idigbio-search-api/wiki — HTTP 200 at capture
 - Probe endpoint: `https://search.idigbio.org/v2/search/records/?q=openalex&limit=1&fields=uuid`
 - llms.txt: none verified — belongs to github.com, not the provider
 

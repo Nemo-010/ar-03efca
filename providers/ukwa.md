@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://www.webarchive.org.uk/
-- Docs: https://www.webarchive.org.uk/en/ukwa/info/api
+- Docs: https://www.webarchive.org.uk/en/ukwa/info/api — not captured (see Notes)
 - Probe endpoint: `https://www.webarchive.org.uk/wayback/archive/cdx?url=openalex.org&limit=2`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

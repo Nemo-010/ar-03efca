@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://id.loc.gov/
-- Docs: https://id.loc.gov/
+- Docs: https://id.loc.gov/ — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://id.loc.gov/search/?q=openalex&format=json`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

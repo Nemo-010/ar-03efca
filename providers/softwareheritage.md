@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://www.softwareheritage.org/
-- Docs: https://archive.softwareheritage.org/api/
+- Docs: https://archive.softwareheritage.org/api/ — HTTP 200 at capture
 - Probe endpoint: `https://archive.softwareheritage.org/api/1/origin/search/openalex/?limit=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

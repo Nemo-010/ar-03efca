@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://k10plus.de/
-- Docs: https://projekt.mvb10plus.de/
+- Docs: https://projekt.mvb10plus.de/ — not captured (see Notes)
 - Probe endpoint: `https://sru.k10plus.de/gvk?version=1.1&operation=searchRetrieve&query=pica.all%3Dopenalex&maximumRecords=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

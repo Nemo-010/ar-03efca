@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://v2.sherpa.ac.uk/
-- Docs: https://v2.sherpa.ac.uk/api/
+- Docs: https://v2.sherpa.ac.uk/api/ — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://v2.sherpa.ac.uk/cgi/retrieve?item-type=publication`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://www.dataone.org/
-- Docs: https://purl.dataone.org/architecture/apis/MN-API.html
+- Docs: https://purl.dataone.org/architecture/apis/MN-API.html — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://cn.dataone.org/cn/v2/query/solr/?q=openalex&rows=1&wt=json`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

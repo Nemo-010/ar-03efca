@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://commoncrawl.org/
-- Docs: https://commoncrawl.org/cc-index-table
+- Docs: https://commoncrawl.org/cc-index-table — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://index.commoncrawl.org/collinfo.json`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

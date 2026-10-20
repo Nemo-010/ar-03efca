@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://archive.org/
-- Docs: https://archive.org/developers/wayback-cdx-server.html
+- Docs: https://archive.org/developers/wayback-cdx-server.html — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://archive.org/wayback/available?url=openalex.org`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://www.osti.gov/
-- Docs: https://www.osti.gov/api/v1/docs
+- Docs: https://www.osti.gov/api/v1/docs — HTTP 200 at capture
 - Probe endpoint: `https://www.osti.gov/api/v1/records?q=openalex&rows=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

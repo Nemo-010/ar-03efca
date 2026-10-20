@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://huggingface.co/
-- Docs: https://huggingface.co/docs/hub/api
+- Docs: https://huggingface.co/docs/hub/api — HTTP 200 at capture
 - Probe endpoint: `https://huggingface.co/api/datasets?limit=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

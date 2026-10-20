@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://www.dimensions.ai/
-- Docs: https://docs.dimensions.ai/dsl/api.html
+- Docs: https://docs.dimensions.ai/dsl/api.html — HTTP 200 at capture
 - Probe endpoint: `https://api.dimensions.ai/v2/publications?search_text=openalex`
 - llms.txt: none verified — no llms.txt found; the probe returned HTTP 404
 

@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://openalex.org/
-- Docs: https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication
+- Docs: https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication — HTTP 200 at capture
 - Probe endpoint: `https://api.openalex.org/works?filter=doi:10.1038/nature12373`
 - llms.txt: https://docs.openalex.org/llms.txt
 

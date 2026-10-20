@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://archive.org/
-- Docs: https://archive.org/developers/md-read.html
+- Docs: https://archive.org/developers/md-read.html — HTTP 200 at capture
 - Probe endpoint: `https://archive.org/metadata/wikipedia`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

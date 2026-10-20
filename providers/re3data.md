@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://www.re3data.org/
-- Docs: https://www.re3data.org/api/doc
+- Docs: https://www.re3data.org/api/doc — HTTP 200 at capture
 - Probe endpoint: `https://www.re3data.org/api/v1/repositories?query=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

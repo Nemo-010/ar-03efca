@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.ensembl.org/
-- Docs: https://rest.ensembl.org/
+- Docs: https://rest.ensembl.org/ — HTTP 200 at capture
 - Probe endpoint: `https://rest.ensembl.org/lookup/id/ENSG00000139618?content-type=application/json`
 - llms.txt: none verified — no llms.txt found; the probe returned HTTP 503
 

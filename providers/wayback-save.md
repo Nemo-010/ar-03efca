@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://web.archive.org/save
-- Docs: https://archive.org/developers/
+- Docs: https://archive.org/developers/ — HTTP 200 at capture
 - Probe endpoint: `https://web.archive.org/save/status/https://example.com`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

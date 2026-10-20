@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://pubchem.ncbi.nlm.nih.gov/
-- Docs: https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest
+- Docs: https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest — HTTP 200 at capture
 - Probe endpoint: `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/MolecularFormula/JSON`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

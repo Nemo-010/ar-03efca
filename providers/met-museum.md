@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.metmuseum.org/
-- Docs: https://metmuseum.github.io/
+- Docs: https://metmuseum.github.io/ — HTTP 200 at capture
 - Probe endpoint: `https://collectionapi.metmuseum.org/public/collection/v1/objects/436535`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

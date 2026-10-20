@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://archive.ph/
-- Docs: https://archive.ph/
+- Docs: https://archive.ph/ — HTTP 200 at capture
 - Probe endpoint: `https://archive.ph/timemap/https://openalex.org`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

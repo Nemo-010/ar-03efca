@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://inspirehep.net/
-- Docs: https://github.com/inspirehep/rest-api-doc
+- Docs: https://github.com/inspirehep/rest-api-doc — HTTP 200 at capture
 - Probe endpoint: `https://inspirehep.net/api/literature?q=openalex&size=1`
 - llms.txt: none verified — belongs to github.com, not the provider
 

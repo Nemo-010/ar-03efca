@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.ebi.ac.uk/chembl/
-- Docs: https://chembl.gitbook.io/chembl-interface-documentation/web-services
+- Docs: https://chembl.gitbook.io/chembl-interface-documentation/web-services — HTTP 200 at capture
 - Probe endpoint: `https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1`
 - llms.txt: https://chembl.gitbook.io/llms.txt
 

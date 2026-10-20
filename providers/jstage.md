@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://www.jstage.jst.go.jp/
-- Docs: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en
+- Docs: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en — HTTP 200 at capture
 - Probe endpoint: `https://api.jstage.jst.go.jp/searchapi/do?service=3&q=openalex&count=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

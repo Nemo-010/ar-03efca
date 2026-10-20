@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://api.artic.edu/docs/
-- Docs: https://api.artic.edu/docs/
+- Docs: https://api.artic.edu/docs/ — HTTP 200 at capture
 - Probe endpoint: `https://api.artic.edu/api/v1/artworks?limit=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

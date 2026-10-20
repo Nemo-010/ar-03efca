@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://www.semanticscholar.org/
-- Docs: https://www.semanticscholar.org/product/api
+- Docs: https://www.semanticscholar.org/product/api — HTTP 200 at capture
 - Probe endpoint: `https://api.semanticscholar.org/graph/v1/paper/DOI:10.1038/nature12373?fields=title`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

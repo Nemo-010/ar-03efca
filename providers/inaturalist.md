@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.inaturalist.org/
-- Docs: https://api.inaturalist.org/v1/docs/
+- Docs: https://api.inaturalist.org/v1/docs/ — HTTP 200 at capture
 - Probe endpoint: `https://api.inaturalist.org/v1/observations?per_page=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://doaj.org/
-- Docs: https://doaj.org/api/v4/docs
+- Docs: https://doaj.org/api/v4/docs — HTTP 200 at capture
 - Probe endpoint: `https://doaj.org/api/search/articles/openalex?pageSize=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

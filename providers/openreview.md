@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://openreview.net/
-- Docs: https://docs.openreview.net/reference/api-v2
+- Docs: https://docs.openreview.net/reference/api-v2 — HTTP 200 at capture
 - Probe endpoint: `https://api2.openreview.net/notes?limit=1`
 - llms.txt: https://docs.openreview.net/llms.txt
 

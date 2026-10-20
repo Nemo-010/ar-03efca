@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://www.crossref.org/
-- Docs: https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/
+- Docs: https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/ — HTTP 200 at capture
 - Probe endpoint: `https://api.crossref.org/works/10.1038/nature12373`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

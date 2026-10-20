@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://www.oapen.org/
-- Docs: https://library.oapen.org/rest/
+- Docs: https://library.oapen.org/rest/ — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://library.oapen.org/rest/search?query=openalex&expand=metadata&limit=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

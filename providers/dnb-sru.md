@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://www.dnb.de/
-- Docs: https://www.dnb.de/EN/Professionell/Metadatendienste/metadatendienste_node.html
+- Docs: https://www.dnb.de/EN/Professionell/Metadatendienste/metadatendienste_node.html — HTTP 200 at capture
 - Probe endpoint: `https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=openalex&recordSchema=oai_dc&maximumRecords=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

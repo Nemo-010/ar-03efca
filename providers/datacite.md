@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://datacite.org/
-- Docs: https://support.datacite.org/docs/api
+- Docs: https://support.datacite.org/docs/api — HTTP 200 at capture
 - Probe endpoint: `https://api.datacite.org/dois?query=openalex&page%5Bsize%5D=1`
 - llms.txt: https://support.datacite.org/llms.txt
 

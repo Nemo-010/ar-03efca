@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://graph.openaire.eu/
-- Docs: https://graph.openaire.eu/docs/
+- Docs: https://graph.openaire.eu/docs/ — HTTP 200 at capture
 - Probe endpoint: `https://api.openaire.eu/graph/v1/researchProducts?search=openalex&pageSize=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

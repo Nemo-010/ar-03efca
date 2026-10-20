@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://core.ac.uk/
-- Docs: https://core.ac.uk/services/api
+- Docs: https://core.ac.uk/services/api — HTTP 200 at capture
 - Probe endpoint: `https://api.core.ac.uk/v3/search/works/?q=openalex&limit=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

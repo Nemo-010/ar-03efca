@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: http://timetravel.mementoweb.org/
-- Docs: http://timetravel.mementoweb.org/guide/api/
+- Docs: http://timetravel.mementoweb.org/guide/api/ — not captured (see Notes)
 - Probe endpoint: `http://timetravel.mementoweb.org/api/json/2020/https://openalex.org`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://osf.io/
-- Docs: https://developer.osf.io/
+- Docs: https://developer.osf.io/ — HTTP 200 at capture
 - Probe endpoint: `https://api.osf.io/v2/nodes/?page%5Bsize%5D=1`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

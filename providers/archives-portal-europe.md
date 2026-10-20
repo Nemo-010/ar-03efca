@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://www.archivesportaleurope.net/
-- Docs: https://www.archivesportaleurope.net/information/api
+- Docs: https://www.archivesportaleurope.net/information/api — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://www.archivesportaleurope.net/OAI-PMH/?verb=Identify`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

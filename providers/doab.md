@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://www.doabooks.org/
-- Docs: https://directory.doabooks.org/rest/
+- Docs: https://directory.doabooks.org/rest/ — HTTP 403 at capture (see Notes)
 - Probe endpoint: `https://directory.doabooks.org/rest/search?query=openalex`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

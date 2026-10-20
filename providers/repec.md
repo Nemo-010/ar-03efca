@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://ideas.repec.org/
-- Docs: https://ideas.repec.org/
+- Docs: https://ideas.repec.org/ — HTTP 200 at capture
 - Probe endpoint: `https://ideas.repec.org/cgi-bin/htsearch?q=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

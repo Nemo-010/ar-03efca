@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://www.ncbi.nlm.nih.gov/pmc/
-- Docs: https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/
+- Docs: https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/ — HTTP 200 at capture
 - Probe endpoint: `https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC1000000`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

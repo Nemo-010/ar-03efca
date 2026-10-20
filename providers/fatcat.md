@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://scholar.archive.org/
-- Docs: https://api.fatcat.wiki/
+- Docs: https://api.fatcat.wiki/ — not captured (see Notes)
 - Probe endpoint: `https://api.fatcat.wiki/v0/release/lookup?doi=10.1038/nature12373`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

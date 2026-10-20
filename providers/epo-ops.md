@@ -2,7 +2,7 @@
 
 - Category: `publisher` — Publisher & patent TDM endpoints
 - Home: https://www.epo.org/
-- Docs: https://developers.epo.org/
+- Docs: https://developers.epo.org/ — HTTP 200 at capture
 - Probe endpoint: `https://ops.epo.org/3.2/rest-services/published-data/search?q=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

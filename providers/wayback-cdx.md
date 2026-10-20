@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://web.archive.org/
-- Docs: https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server
+- Docs: https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server — HTTP 200 at capture
 - Probe endpoint: `https://web.archive.org/cdx/search/cdx?url=openalex.org&limit=2&output=json`
 - llms.txt: none verified — belongs to github.com, not the provider
 

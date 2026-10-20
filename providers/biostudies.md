@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.ebi.ac.uk/biostudies/
-- Docs: https://www.ebi.ac.uk/biostudies/api/v1/swagger-ui.html
+- Docs: https://www.ebi.ac.uk/biostudies/api/v1/swagger-ui.html — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://www.ebi.ac.uk/biostudies/api/v1/search?query=openalex&pageSize=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

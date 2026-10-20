@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://scielo.org/
-- Docs: https://articlemeta.scielo.org/api/v1/
+- Docs: https://articlemeta.scielo.org/api/v1/ — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://articlemeta.scielo.org/api/v1/article/identifiers/?limit=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

@@ -2,7 +2,7 @@
 
 - Category: `data-api` — Life / physical science data APIs
 - Home: https://www.ebi.ac.uk/ebisearch/
-- Docs: https://www.ebi.ac.uk/ebisearch/swagger.ebi
+- Docs: https://www.ebi.ac.uk/ebisearch/swagger.ebi — HTTP 200 at capture
 - Probe endpoint: `https://www.ebi.ac.uk/ebisearch/ws/rest?query=openalex&format=json`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

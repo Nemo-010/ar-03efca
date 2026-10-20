@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://orcid.org/
-- Docs: https://info.orcid.org/documentation/api-reference/
+- Docs: https://info.orcid.org/documentation/api-reference/ — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://pub.orcid.org/v3.0/expanded-search/?q=openalex&rows=1`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

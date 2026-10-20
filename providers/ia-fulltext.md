@@ -2,7 +2,7 @@
 
 - Category: `web-archive` — Web archives & national archive catalogs
 - Home: https://archive.org/search
-- Docs: https://archive.org/developers/search_inside.html
+- Docs: https://archive.org/developers/search_inside.html — HTTP 404 at capture (see Notes)
 - Probe endpoint: `https://ia-fts.archive.org/api/v1/search/hits?q=openalex&size=1`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

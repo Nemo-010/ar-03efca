@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://scite.ai/
-- Docs: https://api.scite.ai/
+- Docs: https://api.scite.ai/ — HTTP 200 at capture
 - Probe endpoint: `https://api.scite.ai/tallies/10.1038/nature12373`
 - llms.txt: https://scite.ai/llms.txt
 

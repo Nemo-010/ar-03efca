@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://cds.cern.ch/
-- Docs: https://cds.cern.ch/help/hacking
+- Docs: https://cds.cern.ch/help/hacking — HTTP 200 at capture
 - Probe endpoint: `https://cds.cern.ch/search?p=openalex&of=recjson&rg=1`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

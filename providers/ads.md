@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://ui.adsabs.harvard.edu/
-- Docs: https://adsabs.github.io/help/api/
+- Docs: https://adsabs.github.io/help/api/ — HTTP 200 at capture
 - Probe endpoint: `https://api.adsabs.harvard.edu/v1/search/query?q=openalex`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

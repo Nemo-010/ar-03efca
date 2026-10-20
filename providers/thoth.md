@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://thoth.pub/
-- Docs: https://api.thoth.pub/graphql
+- Docs: https://api.thoth.pub/graphql — HTTP 405 at capture (see Notes)
 - Probe endpoint: `https://api.thoth.pub/`
 - llms.txt: none verified — no llms.txt found; the probe host did not resolve or refused the connection
 

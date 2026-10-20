@@ -2,7 +2,7 @@
 
 - Category: `repository` — Repositories & research-data archives
 - Home: https://figshare.com/
-- Docs: https://docs.figshare.com/
+- Docs: https://docs.figshare.com/ — HTTP 200 at capture
 - Probe endpoint: `https://api.figshare.com/v2/articles?page_size=1`
 - llms.txt: none verified — no llms.txt found; the probe returned HTTP 202
 

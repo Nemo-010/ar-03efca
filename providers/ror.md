@@ -2,7 +2,7 @@
 
 - Category: `scholarly-graph` — Scholarly graphs, metadata & citation APIs
 - Home: https://ror.org/
-- Docs: https://ror.readme.io/docs/rest-api
+- Docs: https://ror.readme.io/docs/rest-api — HTTP 200 at capture
 - Probe endpoint: `https://api.ror.org/v2/organizations?query=harvard`
 - llms.txt: https://ror.readme.io/llms.txt
 

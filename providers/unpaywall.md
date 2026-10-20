@@ -2,7 +2,7 @@
 
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://unpaywall.org/
-- Docs: https://help.openalex.org/access/unpaywall.md
+- Docs: https://help.openalex.org/access/unpaywall.md — HTTP 200 at capture
 - Probe endpoint: `https://api.unpaywall.org/v2/10.1038/nature12373?email=research@example.org`
 - llms.txt: none verified — not a markdown index (no heading near the top)
 

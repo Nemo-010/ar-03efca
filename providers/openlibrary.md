@@ -2,7 +2,7 @@
 
 - Category: `aggregator` — Library / museum / newspaper aggregators
 - Home: https://openlibrary.org/
-- Docs: https://openlibrary.org/developers/api
+- Docs: https://openlibrary.org/developers/api — HTTP 200 at capture
 - Probe endpoint: `https://openlibrary.org/search.json?q=openalex&limit=1`
 - llms.txt: https://docs.openlibrary.org/llms.txt
 
