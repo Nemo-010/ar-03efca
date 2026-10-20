@@ -545,7 +545,7 @@
    "name": "Unpaywall",
    "category": "index",
    "home": "https://unpaywall.org/",
-   "docs": "https://unpaywall.org/products/api",
+   "docs": "https://help.openalex.org/access/unpaywall.md",
    "api": "https://api.unpaywall.org/v2/10.1038/nature12373?email=research@example.org",
    "pricing": null,
    "llms": null
@@ -595,7 +595,7 @@
    "name": "NASA ADS",
    "category": "index",
    "home": "https://ui.adsabs.harvard.edu/",
-   "docs": "https://ui.adsabs.harvard.edu/help/api/",
+   "docs": "https://adsabs.github.io/help/api/",
    "api": "https://api.adsabs.harvard.edu/v1/search/query?q=openalex",
    "pricing": null,
    "llms": null

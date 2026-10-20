@@ -26,7 +26,7 @@ Columns: **Calls/mo** documented recurring free volume; **Basis** the published 
 | 16 | **Library of Congress JSON API** | aggregator | 864,000 | 20/min x 1,440 min/day x 30 = 864,000 calls/month ceiling | none | no | bot wall | high | [home](https://www.loc.gov/) · [docs](https://www.loc.gov/apis/) · [report](../providers/loc.md) |
 | 17 | **arXiv API** | index | 864,000 | 1 per 3 s = 1,200/hour x 24 x 30 = 864,000 calls/month ceiling | none | no | 200 JSON | high | [home](https://arxiv.org/) · [docs](https://info.arxiv.org/help/api/tou.html) · [report](../providers/arxiv.md) |
 | 18 | **OpenAlex** | scholarly-graph | 300,000 | 10,000 list+filter calls per $1 of daily budget x 30 = 300,000 calls/month; a search costs 10x a | free key | no | 200 JSON | high | [home](https://openalex.org/) · [docs](https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication) · [llms](https://docs.openalex.org/llms.txt) · [report](../providers/openalex.md) |
-| 19 | **NASA ADS** | index | 150,000 | 5,000/day x 30 = 150,000 calls/month (published daily quota) | free key | no | needs key | high | [home](https://ui.adsabs.harvard.edu/) · [docs](https://ui.adsabs.harvard.edu/help/api/) · [report](../providers/ads.md) |
+| 19 | **NASA ADS** | index | 150,000 | 5,000/day x 30 = 150,000 calls/month (published daily quota) | free key | no | needs key | high | [home](https://ui.adsabs.harvard.edu/) · [docs](https://adsabs.github.io/help/api/) · [report](../providers/ads.md) |
 | 20 | **US National Archives Catalog** | web-archive | 10,000 | published monthly figure, not a rate conversion | key on application | no | 200 HTML | high | [home](https://www.archives.gov/research/catalog) · [docs](https://www.archives.gov/research/catalog/help/api) · [report](../providers/nara.md) |
 | 21 | **Common Crawl Index** | web-archive | — | no published call quota; the index is a static file service | none | no | 200 JSON | high | [home](https://commoncrawl.org/) · [docs](https://commoncrawl.org/cc-index-table) · [report](../providers/commoncrawl.md) |
 | 22 | **DOAB** | index | — | all services free of charge; no call quota published | free key | no | needs key | high | [home](https://www.doabooks.org/) · [docs](https://directory.doabooks.org/rest/) · [report](../providers/doab.md) |
@@ -65,7 +65,7 @@ Columns: **Calls/mo** documented recurring free volume; **Basis** the published 
 | 55 | **Springer Nature API** | publisher | — | API key required; higher rate limits are a paid feature | paid only | ? | needs key | medium | [home](https://www.springernature.com/) · [docs](https://dev.springernature.com/) · [report](../providers/springer.md) |
 | 56 | **Thoth Open Metadata** | repository | — | no published quota; GraphQL and export APIs | none | no | 200 JSON | medium | [home](https://thoth.pub/) · [docs](https://api.thoth.pub/graphql) · [report](../providers/thoth.md) |
 | 57 | **Trove (National Library of Australia)** | aggregator | — | call rate is set per application level; the table lists 200m for each level | key on application | no | needs key | medium | [home](https://trove.nla.gov.au/) · [docs](https://trove.nla.gov.au/about/create-something/using-api) · [report](../providers/trove.md) |
-| 58 | **Unpaywall** | index | — | legacy-compatible surface over the OpenAlex database; the OpenAlex $1/day budget is the allowanc | free key | no | 200 JSON | medium | [home](https://unpaywall.org/) · [docs](https://unpaywall.org/products/api) · [report](../providers/unpaywall.md) |
+| 58 | **Unpaywall** | index | — | legacy-compatible surface over the OpenAlex database; the OpenAlex $1/day budget is the allowanc | free key | no | 200 JSON | medium | [home](https://unpaywall.org/) · [docs](https://help.openalex.org/access/unpaywall.md) · [report](../providers/unpaywall.md) |
 | 59 | **Wayback Availability API** | web-archive | — | no published quota | none | no | 200 JSON | medium | [home](https://archive.org/) · [docs](https://archive.org/developers/wayback-cdx-server.html) · [report](../providers/wayback-availability.md) |
 | 60 | **Wayback Machine CDX** | web-archive | — | no published call quota; the CDX endpoint answers unauthenticated callers | none | no | 200 JSON | medium | [home](https://web.archive.org/) · [docs](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server) · [report](../providers/wayback-cdx.md) |
 | 61 | **bioRxiv API** | index | — | no published call quota; 100 results per page, cursor paging | none | no | 200 JSON | medium | [home](https://www.biorxiv.org/) · [docs](https://api.biorxiv.org/) · [report](../providers/biorxiv.md) |
@@ -520,7 +520,7 @@ Every one of the 117 providers has a full report under `providers/` and a row in
 
 - Free access: 150,000 calls/mo — 5,000 regular requests/day for most request types, with a token; higher limits by email request
 - Authentication: free key · confidence high · probe needs key
-- Links: home https://ui.adsabs.harvard.edu/ · docs https://ui.adsabs.harvard.edu/help/api/ · llms.txt — · [full report](../providers/ads.md)
+- Links: home https://ui.adsabs.harvard.edu/ · docs https://adsabs.github.io/help/api/ · llms.txt — · [full report](../providers/ads.md)
 
 ### CERN Document Server
 
@@ -616,7 +616,7 @@ Every one of the 117 providers has a full report under `providers/` and a row in
 
 - Free access: no published number — legacy-compatible surface over the OpenAlex database; the OpenAlex $1/day budget is the allowance that applies
 - Authentication: free key · confidence medium · probe 200 JSON
-- Links: home https://unpaywall.org/ · docs https://unpaywall.org/products/api · llms.txt — · [full report](../providers/unpaywall.md)
+- Links: home https://unpaywall.org/ · docs https://help.openalex.org/access/unpaywall.md · llms.txt — · [full report](../providers/unpaywall.md)
 
 ### bioRxiv API
 
