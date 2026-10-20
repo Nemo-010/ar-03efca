@@ -11,7 +11,7 @@ The discipline is adopted from two earlier inventories, and both debts are speci
 | Borrowed | From | Applied here |
 |---|---|---|
 | snapshot → facts → reports pipeline, with gzip + text + `meta.json` per page and sha256 on every capture | `Nemo-010/w-search-3f9a2c` | `scripts/fetch.py`, `scripts/facts.py`, `scripts/build_reports.py` |
-| integrity test that re-checks every quote verbatim and every figure against its source, and refuses to generate a report citing a provider it does not have | `Nemo-010/w-search-3f9a2c` | `scripts/test_integrity.py`, 18 tests |
+| integrity test that re-checks every quote verbatim and every figure against its source, and refuses to generate a report citing a provider it does not have | `Nemo-010/w-search-3f9a2c` | `scripts/test_integrity.py` |
 | `llms.txt` verification that rejects an HTML soft-404, an empty body, and a file belonging to another site | `Nemo-010/w-search-3f9a2c` | `scripts/llms.py` |
 | per-row evidence index (url, http code, bytes, sha256, capture time) so one number can be traced to one artefact | `talaria0101/w-search-7b668b35` | `meta.json` per provider, plus `data/probes.json` |
 | keeping two independent passes and saying when they disagree instead of reconciling them silently | `talaria0101/w-search-7b668b35` | documentation snapshot vs live probe, reported separately everywhere |

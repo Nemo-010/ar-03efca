@@ -158,9 +158,9 @@ def build_methodology():
     L.append("| snapshot → facts → reports pipeline, with gzip + text + `meta.json` per page and "
              "sha256 on every capture | `Nemo-010/w-search-3f9a2c` | `scripts/fetch.py`, "
              "`scripts/facts.py`, `scripts/build_reports.py` |")
-    L.append("| integrity test that re-checks every quote verbatim and every figure against its "
+    L.append(f"| integrity test that re-checks every quote verbatim and every figure against its "
              "source, and refuses to generate a report citing a provider it does not have | "
-             "`Nemo-010/w-search-3f9a2c` | `scripts/test_integrity.py`, 18 tests |")
+             f"`Nemo-010/w-search-3f9a2c` | `scripts/test_integrity.py` |")
     L.append("| `llms.txt` verification that rejects an HTML soft-404, an empty body, and a file "
              "belonging to another site | `Nemo-010/w-search-3f9a2c` | `scripts/llms.py` |")
     L.append("| per-row evidence index (url, http code, bytes, sha256, capture time) so one number "
@@ -792,9 +792,9 @@ def build_readme():
     L.append("- A rate is not a quota. Ceilings are labelled as ceilings wherever they appear.")
     L.append("- Shared pools (Semantic Scholar) and CPU-time limits (Wikidata) are deliberately not "
              "converted to call counts.")
-    L.append("- `low` confidence means this run could not verify the allowance — a bot "
-             "interstitial, an application shell, a login wall or a dead host — not that the "
-             "service is bad. " + str(lo) + " providers are in that state and each page says why.")
+    L.append(f"- `low` confidence means this run could not verify the allowance — a bot "
+             f"interstitial, an application shell, a login wall or a dead host — not that the "
+             f"service is bad. {lo} providers are in that state and each page says why.")
     L.append("- One probe per endpoint from one IP is evidence that an endpoint answers, not a "
              "load test.")
     L.append("- Free tiers change without notice; every number is as of its snapshot.")
