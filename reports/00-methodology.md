@@ -9,7 +9,9 @@ Compiled 2026-10-20. Scope: academic and archival services that expose a documen
 | **Documentation snapshot** | what the provider *says* the allowance is | `data/snapshots/<slug>/*.txt` + `meta.json` |
 | **Live probe** | what the endpoint *did* for one unauthenticated caller today | `data/probes.json` |
 
-A provider can have a generous documented allowance and still refuse this caller (Semantic Scholar: 1,000 req/s documented, 429 on the probe). A provider can answer happily and publish no number at all (Wayback CDX). The reports keep the two apart and never infer one from the other.
+A provider can have a generous documented allowance and still refuse this caller (Semantic Scholar documents 1,000 req/s and answered a 429 on the first probe run). A provider can answer happily and publish no number at all (Wayback CDX). The reports keep the two apart and never infer one from the other.
+
+Two endpoints even changed their answer between attempts, and both results are kept in the probe history rather than the last one winning: Gallica answered XML on the first run and a Cloudflare challenge on the second; Perma.cc did the reverse. That is the honest state of a public API reached from a datacentre IP, and collapsing it to a single verdict would misrepresent it.
 
 ## Pipeline
 

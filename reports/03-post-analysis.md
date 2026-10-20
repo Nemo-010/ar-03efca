@@ -139,7 +139,7 @@ If the requirement is 'documented allowance, no card, works today', the subset i
 | DOI metadata | Crossref REST API | 5/s public, 10/s with a mailto, no key needed |
 | research-data DOIs | DataCite REST API | 500 per 5 min unidentified, keyless |
 | historical page state | Wayback Machine CDX | the index of record; no quota to exceed |
-| newspapers and print collections | Library of Congress JSON API | explicit 20/min rate table with the block duration |
+| newspapers and print collections | Library of Congress JSON API | explicit 20/min rate table with the block duration — note the probe hit a Cloudflare wall, so expect to identify the client properly |
 | book metadata | Open Library | 1/s unidentified, 3/s with a contact header |
 | open-access journal articles | DOAJ | 2/s published, keyless |
 | biomedical literature | PubMed E-utilities | 3/s keyless, 10/s with a free NCBI key |
@@ -147,3 +147,7 @@ If the requirement is 'documented allowance, no card, works today', the subset i
 | museum objects and images | The Met Collection API | 80/s, no key, no registration |
 
 The honest summary: **an archival pipeline can be built entirely from keyless, rate-published public APIs**, and the binding constraint is not quota but politeness — arXiv's one request every three seconds is the slowest published rate in the set, and it is slow on purpose.
+
+Two caveats on that table, both measured: the Library of Congress API publishes the cleanest rate table here but answered the probe with a Cloudflare challenge, and OpenAlex's free tier is a dollar a day rather than an unlimited keyless pool. Both are still the right choice for their job; neither is frictionless.
+
+What is *not* in the table is just as informative: none of the 120 providers needs a payment card, none offers a one-time trial credit, and the eight publisher and patent endpoints are the only group where no free call figure exists at all.

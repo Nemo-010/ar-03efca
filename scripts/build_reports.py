@@ -149,9 +149,15 @@ def build_methodology():
              "`data/probes.json` |")
     L.append("")
     L.append("A provider can have a generous documented allowance and still refuse this caller "
-             "(Semantic Scholar: 1,000 req/s documented, 429 on the probe). A provider can answer "
-             "happily and publish no number at all (Wayback CDX). The reports keep the two apart "
-             "and never infer one from the other.")
+             "(Semantic Scholar documents 1,000 req/s and answered a 429 on the first probe run). "
+             "A provider can answer happily and publish no number at all (Wayback CDX). The "
+             "reports keep the two apart and never infer one from the other.")
+    L.append("")
+    L.append("Two endpoints even changed their answer between attempts, and both results are kept "
+             "in the probe history rather than the last one winning: Gallica answered XML on the "
+             "first run and a Cloudflare challenge on the second; Perma.cc did the reverse. That "
+             "is the honest state of a public API reached from a datacentre IP, and collapsing it "
+             "to a single verdict would misrepresent it.")
     L.append("")
     L.append("## Pipeline")
     L.append("")
@@ -588,7 +594,8 @@ def build_post_analysis():
              ("datacite", "research-data DOIs", "500 per 5 min unidentified, keyless"),
              ("wayback-cdx", "historical page state", "the index of record; no quota to exceed"),
              ("loc", "newspapers and print collections",
-              "explicit 20/min rate table with the block duration"),
+              "explicit 20/min rate table with the block duration — note the probe hit a "
+              "Cloudflare wall, so expect to identify the client properly"),
              ("openlibrary", "book metadata", "1/s unidentified, 3/s with a contact header"),
              ("doaj", "open-access journal articles", "2/s published, keyless"),
              ("pubmed", "biomedical literature", "3/s keyless, 10/s with a free NCBI key"),
@@ -601,6 +608,15 @@ def build_post_analysis():
              "rate-published public APIs**, and the binding constraint is not quota but "
              "politeness — arXiv's one request every three seconds is the slowest published rate "
              "in the set, and it is slow on purpose.")
+    L.append("")
+    L.append("Two caveats on that table, both measured: the Library of Congress API publishes the "
+             "cleanest rate table here but answered the probe with a Cloudflare challenge, and "
+             "OpenAlex's free tier is a dollar a day rather than an unlimited keyless pool. Both "
+             "are still the right choice for their job; neither is frictionless.")
+    L.append("")
+    L.append("What is *not* in the table is just as informative: none of the 120 providers needs a "
+             "payment card, none offers a one-time trial credit, and the eight publisher and "
+             "patent endpoints are the only group where no free call figure exists at all.")
     return "\n".join(L) + "\n"
 
 
