@@ -11,6 +11,7 @@ What is checked:
   * the generated reports exist and cite no provider that is absent from facts
   * no report contains a number that is not backed by a facts row
 """
+import glob
 import json
 import os
 import re
@@ -194,6 +195,33 @@ class TestLlms(unittest.TestCase):
         bad = [s for s, v in load("llms.json").items()
                if v.get("url") and "github.com" in v["url"]]
         self.assertEqual([], bad, "github.com serves its own llms.txt, never the project's")
+
+
+class TestLinks(unittest.TestCase):
+    def test_every_relative_link_resolves(self):
+        """A report that links to a page it does not ship is a broken deliverable."""
+        bad = []
+        targets = [(p, ".") for p in glob.glob(os.path.join(ROOT, "*.md"))]
+        targets += [(p, "reports") for p in glob.glob(os.path.join(REP, "*.md"))]
+        targets += [(p, "providers") for p in glob.glob(os.path.join(ROOT, "providers", "*.md"))]
+        for path, base in targets:
+            with open(path, encoding="utf-8") as fh:
+                text = fh.read()
+            for m in re.finditer(r"\]\((\.\./[^)]+|providers/[^)]+|[a-z0-9-]+\.md)\)", text):
+                tgt = os.path.normpath(os.path.join(ROOT, base, m.group(1)))
+                if not os.path.exists(tgt):
+                    bad.append(f"{os.path.relpath(path, ROOT)} -> {m.group(1)}")
+        self.assertEqual([], bad)
+
+    def test_no_report_links_to_a_missing_provider_page(self):
+        bad = []
+        for path in glob.glob(os.path.join(REP, "*.md")):
+            with open(path, encoding="utf-8") as fh:
+                text = fh.read()
+            for slug in set(re.findall(r"providers/([a-z0-9-]+)\.md", text)):
+                if not os.path.exists(os.path.join(ROOT, "providers", slug + ".md")):
+                    bad.append(f"{os.path.basename(path)} -> {slug}")
+        self.assertEqual([], bad)
 
 
 class TestProbes(unittest.TestCase):
