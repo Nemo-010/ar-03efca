@@ -3,8 +3,8 @@
 - Category: `index` — Bibliographic indexes & preprint servers
 - Home: https://www.ncbi.nlm.nih.gov/pmc/
 - Docs: https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/
-- Probe endpoint: `https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC13900/unicode`
-- llms.txt: none verified — HTTP 404
+- Probe endpoint: `https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC1000000`
+- llms.txt: none verified — empty body
 
 ## Free access
 

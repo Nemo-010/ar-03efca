@@ -1,6 +1,6 @@
 # Academic and archival APIs by documented free allowance
 
-Compiled 2026-10-20. 120 providers, 20 with a documented call figure. Ranked by the documented recurring free volume, largest first; providers that publish no number follow, ordered by evidence confidence.
+Compiled 2026-10-20. 117 providers, 20 with a documented call figure. Ranked by the documented recurring free volume, largest first; providers that publish no number follow, ordered by evidence confidence.
 
 **Read the volume column as a ceiling, not a quota.** Where a provider publishes a rate (`5 requests/second`) and not a monthly figure, the monthly number is that rate multiplied by the seconds in a 30-day month. Nobody calls at that rate for a month; the column exists so that rates of different shapes can be compared at all. The `Basis` column always says which kind of number it is.
 
@@ -54,84 +54,81 @@ Columns: **Calls/mo** documented recurring free volume; **Basis** the published 
 | 44 | **Lens.org Scholarly API** | scholarly-graph | — | API key required; no free allowance published | paid only | ? | needs key | medium | [home](https://www.lens.org/) · [docs](https://docs.api.lens.org/) · [report](../providers/lens.md) |
 | 45 | **NASA NTRS** | index | — | no published quota captured | none | no | 200 JSON | medium | [home](https://ntrs.nasa.gov/) · [docs](https://sti.nasa.gov/ntrs-api/) · [report](../providers/ntrs.md) |
 | 46 | **OSTI.gov** | index | — | no published quota captured | none | no | 200 JSON | medium | [home](https://www.osti.gov/) · [docs](https://www.osti.gov/api/v1/docs) · [report](../providers/osti.md) |
-| 47 | **OpenAIRE Explore** | index | — | a web UI over the Graph API; no separate allowance | none | no | 200 JSON | medium | [home](https://explore.openaire.eu/) · [docs](https://graph.openaire.eu/docs/) · [report](../providers/openaire-explore.md) |
-| 48 | **OpenAIRE Graph** | scholarly-graph | — | no call quota published; the graph is also downloadable in bulk | none | no | 200 JSON | medium | [home](https://graph.openaire.eu/) · [docs](https://graph.openaire.eu/docs/) · [report](../providers/openaire-graph.md) |
-| 49 | **OpenAIRE Search API** | scholarly-graph | — | no call quota published | none | no | 200 JSON | medium | [home](https://www.openaire.eu/) · [docs](https://api.openaire.eu/) · [report](../providers/openaire-search.md) |
-| 50 | **Openverse** | aggregator | — | anonymous calls allowed; the API publishes no quota in the captured pages | none | no | 200 JSON | medium | [home](https://openverse.org/) · [docs](https://api.openverse.org/v1/) · [report](../providers/openverse.md) |
-| 51 | **PMC ID Converter** | index | — | up to 200 IDs per request; no call quota published | none | no | 200 JSON | medium | [home](https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/) · [docs](https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/) · [report](../providers/pmc-idconv.md) |
-| 52 | **PMC Open Access Subset** | index | — | OAI-PMH and the OA web service; no call quota published | none | no | 200 JSON | medium | [home](https://www.ncbi.nlm.nih.gov/pmc/) · [docs](https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/) · [report](../providers/pmc-oa.md) |
-| 53 | **Perma.cc** | web-archive | — | public-archive endpoints need no key; the rest need an API key | key on application | no | 200 JSON | medium | [home](https://perma.cc/) · [docs](https://perma.cc/docs/developer) · [report](../providers/perma.md) |
-| 54 | **Smithsonian Open Access** | aggregator | — | api_key required; no call quota captured | free key | no | needs key | medium | [home](https://www.si.edu/openaccess) · [docs](https://edan.si.edu/openaccess/apidocs/) · [report](../providers/smithsonian.md) |
-| 55 | **Software Heritage** | web-archive | — | no published quota; the API documents only its routes | none | no | 200 JSON | medium | [home](https://www.softwareheritage.org/) · [docs](https://archive.softwareheritage.org/api/) · [report](../providers/softwareheritage.md) |
-| 56 | **Springer Nature API** | publisher | — | API key required; higher rate limits are a paid feature | paid only | ? | needs key | medium | [home](https://www.springernature.com/) · [docs](https://dev.springernature.com/) · [report](../providers/springer.md) |
-| 57 | **Thoth Open Metadata** | repository | — | no published quota; GraphQL and export APIs | none | no | 200 JSON | medium | [home](https://thoth.pub/) · [docs](https://api.thoth.pub/graphql) · [report](../providers/thoth.md) |
-| 58 | **Trove (National Library of Australia)** | aggregator | — | call rate is set per application level; the table lists 200m for each level | key on application | no | needs key | medium | [home](https://trove.nla.gov.au/) · [docs](https://trove.nla.gov.au/about/create-something/using-api) · [report](../providers/trove.md) |
-| 59 | **Unpaywall** | index | — | legacy-compatible surface over the OpenAlex database; the OpenAlex $1/day budget is the allowanc | free key | no | 200 JSON | medium | [home](https://unpaywall.org/) · [docs](https://unpaywall.org/products/api) · [report](../providers/unpaywall.md) |
-| 60 | **Wayback Availability API** | web-archive | — | no published quota | none | no | 200 JSON | medium | [home](https://archive.org/) · [docs](https://archive.org/developers/wayback-cdx-server.html) · [report](../providers/wayback-availability.md) |
-| 61 | **Wayback Machine CDX** | web-archive | — | no published call quota; the CDX endpoint answers unauthenticated callers | none | no | 200 JSON | medium | [home](https://web.archive.org/) · [docs](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server) · [report](../providers/wayback-cdx.md) |
-| 62 | **bioRxiv API** | index | — | no published call quota; 100 results per page, cursor paging | none | no | 200 JSON | medium | [home](https://www.biorxiv.org/) · [docs](https://api.biorxiv.org/) · [report](../providers/biorxiv.md) |
-| 63 | **iDigBio** | data-api | — | anonymous calls allowed; authenticating raises the limit | none | no | 200 JSON | medium | [home](https://www.idigbio.org/) · [docs](https://github.com/iDigBio/idigbio-search-api/wiki) · [report](../providers/idigbio.md) |
-| 64 | **medRxiv API** | index | — | same service as bioRxiv; no published quota | none | no | 200 JSON | medium | [home](https://www.medrxiv.org/) · [docs](https://api.biorxiv.org/) · [report](../providers/medrxiv.md) |
-| 65 | **re3data** | repository | — | no published quota; the API is a plain REST interface | none | no | 200 JSON | medium | [home](https://www.re3data.org/) · [docs](https://www.re3data.org/api/doc) · [report](../providers/re3data.md) |
-| 66 | **Altmetric** | scholarly-graph | — | API key required; no free allowance captured | key on application | ? | needs key | low | [home](https://www.altmetric.com/) · [docs](https://api.altmetric.com/) · [report](../providers/altmetric.md) |
-| 67 | **Archives Portal Europe** | web-archive | — | OAI-PMH endpoint answered 404 at the documented path | ? | no | 404 | low | [home](https://www.archivesportaleurope.net/) · [docs](https://www.archivesportaleurope.net/information/api) · [report](../providers/archives-portal-europe.md) |
-| 68 | **BioStudies (EBI)** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/biostudies/) · [docs](https://www.ebi.ac.uk/biostudies/api/v1/swagger-ui.html) · [report](../providers/biostudies.md) |
-| 69 | **CERN Document Server** | index | — | no published quota captured; the site now runs an Anubis proof-of-work check | ? | no | 200 HTML | low | [home](https://cds.cern.ch/) · [docs](https://cds.cern.ch/help/hacking) · [report](../providers/cds-cern.md) |
-| 70 | **ChEMBL** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/chembl/) · [docs](https://chembl.gitbook.io/chembl-interface-documentation/web-services) · [llms](https://chembl.gitbook.io/llms.txt) · [report](../providers/chembl.md) |
-| 71 | **ClinicalTrials.gov** | index | — | no published call quota captured | none | no | 200 JSON | low | [home](https://clinicaltrials.gov/) · [docs](https://clinicaltrials.gov/data-api/api) · [report](../providers/clinicaltrials.md) |
-| 72 | **Crossref Event Data** | scholarly-graph | — | not established — the host did not resolve from this machine | ? | no | no answer | low | [home](https://www.eventdata.crossref.org/) · [docs](https://www.eventdata.crossref.org/guide/) · [report](../providers/crossref-eventdata.md) |
-| 73 | **DataONE** | repository | — | not established | ? | no | 200 JSON | low | [home](https://www.dataone.org/) · [docs](https://purl.dataone.org/architecture/apis/MN-API.html) · [report](../providers/dataone.md) |
-| 74 | **DataverseNL** | repository | — | no published call quota captured | none | no | 200 JSON | low | [home](https://dataverse.nl/) · [docs](https://guides.dataverse.org/en/latest/api/) · [report](../providers/dataverse-nl.md) |
-| 75 | **Digital Public Library of America** | aggregator | — | not established (API key required; docs are behind a 403 for this client) | free key | no | needs key | low | [home](https://dp.la/) · [docs](https://pro.dp.la/developers/api-codex) · [report](../providers/dpla.md) |
-| 76 | **DigitalNZ** | aggregator | — | not established (key required; docs served a 202 challenge) | free key | no | 200 JSON | low | [home](https://digitalnz.org/) · [docs](https://digitalnz.org/developers/api) · [report](../providers/digitalnz.md) |
-| 77 | **Dryad** | repository | — | no published quota captured | ? | no | 200 JSON | low | [home](https://datadryad.org/) · [docs](https://datadryad.org/api/v2/docs/) · [report](../providers/dryad.md) |
-| 78 | **EBI Search** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/ebisearch/) · [docs](https://www.ebi.ac.uk/ebisearch/swagger.ebi) · [report](../providers/ebisearch.md) |
-| 79 | **EMBL-EBI Ontology Lookup Service** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/ols4/) · [docs](https://www.ebi.ac.uk/ols4/help) · [report](../providers/ols.md) |
-| 80 | **EPO Open Patent Services** | publisher | — | OAuth credentials required; published free quota is per-registered-user and was not captured | key on application | no | needs key | low | [home](https://www.epo.org/) · [docs](https://developers.epo.org/) · [report](../providers/epo-ops.md) |
-| 81 | **Ensembl REST** | data-api | — | no published quota captured; the REST root documents endpoints only | none | no | 200 JSON | low | [home](https://www.ensembl.org/) · [docs](https://rest.ensembl.org/) · [report](../providers/ensembl.md) |
-| 82 | **Europe PMC** | index | — | no call quota captured; the REST service answers unauthenticated | none | no | 200 JSON | low | [home](https://europepmc.org/) · [docs](https://europepmc.org/RestfulWebService) · [report](../providers/europepmc.md) |
-| 83 | **Finna (Finnish libraries)** | aggregator | — | not established — the API returned 403 to this client | ? | no | bot wall | low | [home](https://www.finna.fi/) · [docs](https://api.finna.fi/) · [report](../providers/finna.md) |
-| 84 | **HAL Open Archive** | index | — | no published call quota captured | none | no | 200 JSON | low | [home](https://hal.science/) · [docs](https://api.archives-ouvertes.fr/docs) · [report](../providers/hal.md) |
-| 85 | **Harvard Dataverse** | repository | — | no published call quota captured | none | no | 200 JSON | low | [home](https://dataverse.harvard.edu/) · [docs](https://guides.dataverse.org/en/latest/api/) · [report](../providers/dataverse.md) |
-| 86 | **Internet Archive Full-Text Search** | web-archive | — | no published quota | ? | no | no answer | low | [home](https://archive.org/search) · [docs](https://archive.org/developers/search_inside.html) · [report](../providers/ia-fulltext.md) |
-| 87 | **Internet Archive Scholar / fatcat** | web-archive | — | no published quota | none | no | no answer | low | [home](https://scholar.archive.org/) · [docs](https://api.fatcat.wiki/) · [report](../providers/fatcat.md) |
-| 88 | **JSTOR / Constellate** | publisher | — | not established; the API host did not resolve | ? | ? | no answer | low | [home](https://www.jstor.org/) · [docs](https://constellate.org/docs/) · [report](../providers/jstor-constellate.md) |
-| 89 | **K10plus SRU** | aggregator | — | SRU service; no published call quota | none | no | 200 JSON | low | [home](https://k10plus.de/) · [docs](https://projekt.mvb10plus.de/) · [report](../providers/k10plus-sru.md) |
-| 90 | **LA Referencia** | index | — | not established — the API host did not resolve | ? | no | no answer | low | [home](https://www.lareferencia.info/) · [docs](https://api.lareferencia.info/v1/) · [report](../providers/lareferencia.md) |
-| 91 | **Memento TimeTravel aggregator** | web-archive | — | not established | ? | no | no answer | low | [home](http://timetravel.mementoweb.org/) · [docs](http://timetravel.mementoweb.org/guide/api/) · [report](../providers/memento.md) |
-| 92 | **NDLTD Union Catalog** | index | — | not established — the OAI endpoint returned 503 | ? | no | 429/503 | low | [home](https://search.ndltd.org/) · [docs](https://union.ndltd.org/OAI-PMH) · [report](../providers/ndltd.md) |
-| 93 | **National Library of Norway API** | aggregator | — | no published quota captured | ? | no | 200 JSON | low | [home](https://www.nb.no/) · [docs](https://api.nb.no/catalog/swagger-ui.html) · [report](../providers/nb-no.md) |
-| 94 | **OAPEN Library** | index | — | no published call quota captured | free key | no | needs key | low | [home](https://www.oapen.org/) · [docs](https://library.oapen.org/rest/) · [report](../providers/oapen.md) |
-| 95 | **OAPEN REST API** | repository | — | no published quota; the API returns an HTML page rather than JSON | ? | no | 200 HTML | low | [home](https://www.oapen.org/) · [docs](https://api.oapen.org/) · [report](../providers/oapen-api.md) |
-| 96 | **OBIS** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://obis.org/) · [docs](https://api.obis.org/) · [report](../providers/obis.md) |
-| 97 | **ORCID Public API** | scholarly-graph | — | public API; the rate-limit page was not captured | free key | no | 200 JSON | low | [home](https://orcid.org/) · [docs](https://info.orcid.org/documentation/api-reference/) · [report](../providers/orcid.md) |
-| 98 | **OSF (Open Science Framework)** | repository | — | no published quota captured | ? | no | 200 JSON | low | [home](https://osf.io/) · [docs](https://developer.osf.io/) · [report](../providers/osf.md) |
-| 99 | **OpenML** | repository | — | no published quota captured | ? | no | 200 JSON | low | [home](https://www.openml.org/) · [docs](https://www.openml.org/apis) · [report](../providers/openml.md) |
-| 100 | **OpenReview** | repository | — | no published call quota captured | ? | no | 200 HTML | low | [home](https://openreview.net/) · [docs](https://docs.openreview.net/reference/api-v2) · [llms](https://docs.openreview.net/llms.txt) · [report](../providers/openreview.md) |
-| 101 | **Papers with Code** | repository | — | no published quota captured | ? | no | 200 HTML | low | [home](https://paperswithcode.com/) · [docs](https://paperswithcode.com/api/v1/docs/) · [report](../providers/paperswithcode.md) |
-| 102 | **PatentsView** | publisher | — | API key required; the docs page rendered as an application shell | key on application | ? | 200 HTML | low | [home](https://patentsview.org/) · [docs](https://patentsview.org/apis/api-endpoints) · [report](../providers/patentsview.md) |
-| 103 | **PubChem PUG REST** | data-api | — | no published quota captured; the docs page returned a bot check to this client | none | no | 200 JSON | low | [home](https://pubchem.ncbi.nlm.nih.gov/) · [docs](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) · [report](../providers/pubchem.md) |
-| 104 | **RCSB PDB Data API** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.rcsb.org/) · [docs](https://data.rcsb.org/redoc/) · [report](../providers/pdb.md) |
-| 105 | **RePEc / IDEAS** | index | — | no published quota captured | ? | no | 200 HTML | low | [home](https://ideas.repec.org/) · [docs](https://ideas.repec.org/) · [report](../providers/repec.md) |
-| 106 | **SNAC API** | web-archive | — | not established | ? | no | no answer | low | [home](https://snaccooperative.org/) · [docs](https://api.snaccooperative.org/) · [report](../providers/snac-api.md) |
-| 107 | **SNAC Cooperative** | web-archive | — | not established | ? | no | no answer | low | [home](https://snaccooperative.org/) · [docs](https://api.snaccooperative.org/) · [report](../providers/snac.md) |
-| 108 | **SciELO ArticleMeta** | index | — | not established | ? | no | 200 JSON | low | [home](https://scielo.org/) · [docs](https://articlemeta.scielo.org/api/v1/) · [report](../providers/scielo.md) |
-| 109 | **Sherpa Romeo** | scholarly-graph | — | API key required; the docs site returned 403 to this client | key on application | no | needs key | low | [home](https://v2.sherpa.ac.uk/) · [docs](https://v2.sherpa.ac.uk/api/) · [report](../providers/sherpa-romeo.md) |
-| 110 | **UK National Archives Discovery** | web-archive | — | not established | ? | no | 200 JSON | low | [home](https://discovery.nationalarchives.gov.uk/) · [docs](https://discovery.nationalarchives.gov.uk/API/site/search) · [report](../providers/tna-discovery.md) |
-| 111 | **UK Web Archive** | web-archive | — | not established | ? | no | no answer | low | [home](https://www.webarchive.org.uk/) · [docs](https://www.webarchive.org.uk/en/ukwa/info/api) · [report](../providers/ukwa.md) |
-| 112 | **USPTO Open Data Portal (IBD)** | publisher | — | no published quota captured; the API answered HTML rather than JSON | ? | ? | 200 HTML | low | [home](https://developer.uspto.gov/) · [docs](https://developer.uspto.gov/api-catalog) · [report](../providers/uspto-ibd.md) |
-| 113 | **VIAF** | aggregator | — | not established; the data page returned 403 | ? | no | 200 JSON | low | [home](https://viaf.org/) · [docs](https://viaf.org/viaf/data/) · [report](../providers/viaf.md) |
-| 114 | **Wayback Save Page Now** | web-archive | — | Save Page Now is rate-limited per account in practice; no number captured | ? | no | 200 JSON | low | [home](https://web.archive.org/save) · [docs](https://archive.org/developers/) · [report](../providers/wayback-save.md) |
-| 115 | **Wiley TDM API** | publisher | — | TDM API token required; no free allowance captured | paid only | ? | no answer | low | [home](https://www.wiley.com/) · [docs](https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining) · [report](../providers/wiley.md) |
-| 116 | **archive.today** | web-archive | — | no published quota; the site throttles bursty callers with 429 | none | no | 200 JSON | low | [home](https://archive.ph/) · [docs](https://archive.ph/) · [report](../providers/archive-today.md) |
-| 117 | **dblp computer science bibliography** | scholarly-graph | — | no published quota; the site answers a JS challenge to non-browser clients | none | no | 200 HTML | low | [home](https://dblp.org/) · [docs](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) · [report](../providers/dblp.md) |
-| 118 | **iNaturalist** | data-api | — | no published quota captured; the recommendations page returned 403 | none | no | 200 JSON | low | [home](https://www.inaturalist.org/) · [docs](https://api.inaturalist.org/v1/docs/) · [report](../providers/inaturalist.md) |
-| 119 | **id.loc.gov (LC Linked Data)** | aggregator | — | not established — the search endpoint returned 403 | ? | no | bot wall | low | [home](https://id.loc.gov/) · [docs](https://id.loc.gov/) · [report](../providers/id-loc.md) |
-| 120 | **zbMATH Open** | index | — | no published quota captured | none | no | 200 JSON | low | [home](https://zbmath.org/) · [docs](https://api.zbmath.org/v1/) · [report](../providers/zbmath.md) |
+| 47 | **OpenAIRE Graph** | scholarly-graph | — | no call quota published; the graph is also downloadable in bulk | none | no | 200 JSON | medium | [home](https://graph.openaire.eu/) · [docs](https://graph.openaire.eu/docs/) · [report](../providers/openaire-graph.md) |
+| 48 | **OpenAIRE Search API** | scholarly-graph | — | no call quota published | none | no | 200 JSON | medium | [home](https://www.openaire.eu/) · [docs](https://api.openaire.eu/) · [report](../providers/openaire-search.md) |
+| 49 | **Openverse** | aggregator | — | anonymous calls allowed; the API publishes no quota in the captured pages | none | no | 200 JSON | medium | [home](https://openverse.org/) · [docs](https://api.openverse.org/v1/) · [report](../providers/openverse.md) |
+| 50 | **PMC ID Converter** | index | — | up to 200 IDs per request; no call quota published | none | no | 200 JSON | medium | [home](https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/) · [docs](https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/) · [report](../providers/pmc-idconv.md) |
+| 51 | **PMC Open Access Subset** | index | — | OAI-PMH and the OA web service; no call quota published | none | no | 200 JSON | medium | [home](https://www.ncbi.nlm.nih.gov/pmc/) · [docs](https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/) · [report](../providers/pmc-oa.md) |
+| 52 | **Perma.cc** | web-archive | — | public-archive endpoints need no key; the rest need an API key | key on application | no | 200 JSON | medium | [home](https://perma.cc/) · [docs](https://perma.cc/docs/developer) · [report](../providers/perma.md) |
+| 53 | **Smithsonian Open Access** | aggregator | — | api_key required; no call quota captured | free key | no | needs key | medium | [home](https://www.si.edu/openaccess) · [docs](https://edan.si.edu/openaccess/apidocs/) · [report](../providers/smithsonian.md) |
+| 54 | **Software Heritage** | web-archive | — | no published quota; the API documents only its routes | none | no | 200 JSON | medium | [home](https://www.softwareheritage.org/) · [docs](https://archive.softwareheritage.org/api/) · [report](../providers/softwareheritage.md) |
+| 55 | **Springer Nature API** | publisher | — | API key required; higher rate limits are a paid feature | paid only | ? | needs key | medium | [home](https://www.springernature.com/) · [docs](https://dev.springernature.com/) · [report](../providers/springer.md) |
+| 56 | **Thoth Open Metadata** | repository | — | no published quota; GraphQL and export APIs | none | no | 200 JSON | medium | [home](https://thoth.pub/) · [docs](https://api.thoth.pub/graphql) · [report](../providers/thoth.md) |
+| 57 | **Trove (National Library of Australia)** | aggregator | — | call rate is set per application level; the table lists 200m for each level | key on application | no | needs key | medium | [home](https://trove.nla.gov.au/) · [docs](https://trove.nla.gov.au/about/create-something/using-api) · [report](../providers/trove.md) |
+| 58 | **Unpaywall** | index | — | legacy-compatible surface over the OpenAlex database; the OpenAlex $1/day budget is the allowanc | free key | no | 200 JSON | medium | [home](https://unpaywall.org/) · [docs](https://unpaywall.org/products/api) · [report](../providers/unpaywall.md) |
+| 59 | **Wayback Availability API** | web-archive | — | no published quota | none | no | 200 JSON | medium | [home](https://archive.org/) · [docs](https://archive.org/developers/wayback-cdx-server.html) · [report](../providers/wayback-availability.md) |
+| 60 | **Wayback Machine CDX** | web-archive | — | no published call quota; the CDX endpoint answers unauthenticated callers | none | no | 200 JSON | medium | [home](https://web.archive.org/) · [docs](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server) · [report](../providers/wayback-cdx.md) |
+| 61 | **bioRxiv API** | index | — | no published call quota; 100 results per page, cursor paging | none | no | 200 JSON | medium | [home](https://www.biorxiv.org/) · [docs](https://api.biorxiv.org/) · [report](../providers/biorxiv.md) |
+| 62 | **iDigBio** | data-api | — | anonymous calls allowed; authenticating raises the limit | none | no | 200 JSON | medium | [home](https://www.idigbio.org/) · [docs](https://github.com/iDigBio/idigbio-search-api/wiki) · [report](../providers/idigbio.md) |
+| 63 | **medRxiv API** | index | — | same service as bioRxiv; no published quota | none | no | 200 JSON | medium | [home](https://www.medrxiv.org/) · [docs](https://api.biorxiv.org/) · [report](../providers/medrxiv.md) |
+| 64 | **re3data** | repository | — | no published quota; the API is a plain REST interface | none | no | 200 JSON | medium | [home](https://www.re3data.org/) · [docs](https://www.re3data.org/api/doc) · [report](../providers/re3data.md) |
+| 65 | **Altmetric** | scholarly-graph | — | API key required; no free allowance captured | key on application | ? | needs key | low | [home](https://www.altmetric.com/) · [docs](https://api.altmetric.com/) · [report](../providers/altmetric.md) |
+| 66 | **Archives Portal Europe** | web-archive | — | OAI-PMH endpoint answered 404 at the documented path | ? | no | 404 | low | [home](https://www.archivesportaleurope.net/) · [docs](https://www.archivesportaleurope.net/information/api) · [report](../providers/archives-portal-europe.md) |
+| 67 | **BioStudies (EBI)** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/biostudies/) · [docs](https://www.ebi.ac.uk/biostudies/api/v1/swagger-ui.html) · [report](../providers/biostudies.md) |
+| 68 | **CERN Document Server** | index | — | no published quota captured; the site now runs an Anubis proof-of-work check | ? | no | 200 HTML | low | [home](https://cds.cern.ch/) · [docs](https://cds.cern.ch/help/hacking) · [report](../providers/cds-cern.md) |
+| 69 | **ChEMBL** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/chembl/) · [docs](https://chembl.gitbook.io/chembl-interface-documentation/web-services) · [llms](https://chembl.gitbook.io/llms.txt) · [report](../providers/chembl.md) |
+| 70 | **ClinicalTrials.gov** | index | — | no published call quota captured | none | no | 200 JSON | low | [home](https://clinicaltrials.gov/) · [docs](https://clinicaltrials.gov/data-api/api) · [report](../providers/clinicaltrials.md) |
+| 71 | **Crossref Event Data** | scholarly-graph | — | not established — the host did not resolve from this machine | ? | no | no answer | low | [home](https://www.eventdata.crossref.org/) · [docs](https://www.eventdata.crossref.org/guide/) · [report](../providers/crossref-eventdata.md) |
+| 72 | **DataONE** | repository | — | not established | ? | no | 200 JSON | low | [home](https://www.dataone.org/) · [docs](https://purl.dataone.org/architecture/apis/MN-API.html) · [report](../providers/dataone.md) |
+| 73 | **DataverseNL** | repository | — | no published call quota captured | none | no | 200 JSON | low | [home](https://dataverse.nl/) · [docs](https://guides.dataverse.org/en/latest/api/) · [report](../providers/dataverse-nl.md) |
+| 74 | **Digital Public Library of America** | aggregator | — | not established (API key required; docs are behind a 403 for this client) | free key | no | needs key | low | [home](https://dp.la/) · [docs](https://pro.dp.la/developers/api-codex) · [report](../providers/dpla.md) |
+| 75 | **DigitalNZ** | aggregator | — | not established (key required; docs served a 202 challenge) | free key | no | 200 JSON | low | [home](https://digitalnz.org/) · [docs](https://digitalnz.org/developers/api) · [report](../providers/digitalnz.md) |
+| 76 | **Dryad** | repository | — | no published quota captured | ? | no | 200 JSON | low | [home](https://datadryad.org/) · [docs](https://datadryad.org/api/v2/docs/) · [report](../providers/dryad.md) |
+| 77 | **EBI Search** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/ebisearch/) · [docs](https://www.ebi.ac.uk/ebisearch/swagger.ebi) · [report](../providers/ebisearch.md) |
+| 78 | **EMBL-EBI Ontology Lookup Service** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.ebi.ac.uk/ols4/) · [docs](https://www.ebi.ac.uk/ols4/help) · [report](../providers/ols.md) |
+| 79 | **EPO Open Patent Services** | publisher | — | OAuth credentials required; published free quota is per-registered-user and was not captured | key on application | no | needs key | low | [home](https://www.epo.org/) · [docs](https://developers.epo.org/) · [report](../providers/epo-ops.md) |
+| 80 | **Ensembl REST** | data-api | — | no published quota captured; the REST root documents endpoints only | none | no | 200 JSON | low | [home](https://www.ensembl.org/) · [docs](https://rest.ensembl.org/) · [report](../providers/ensembl.md) |
+| 81 | **Europe PMC** | index | — | no call quota captured; the REST service answers unauthenticated | none | no | 200 JSON | low | [home](https://europepmc.org/) · [docs](https://europepmc.org/RestfulWebService) · [report](../providers/europepmc.md) |
+| 82 | **Finna (Finnish libraries)** | aggregator | — | not established — the API returned 403 to this client | ? | no | bot wall | low | [home](https://www.finna.fi/) · [docs](https://api.finna.fi/) · [report](../providers/finna.md) |
+| 83 | **HAL Open Archive** | index | — | no published call quota captured | none | no | 200 JSON | low | [home](https://hal.science/) · [docs](https://api.archives-ouvertes.fr/docs) · [report](../providers/hal.md) |
+| 84 | **Harvard Dataverse** | repository | — | no published call quota captured | none | no | 200 JSON | low | [home](https://dataverse.harvard.edu/) · [docs](https://guides.dataverse.org/en/latest/api/) · [report](../providers/dataverse.md) |
+| 85 | **Internet Archive Full-Text Search** | web-archive | — | no published quota | ? | no | no answer | low | [home](https://archive.org/search) · [docs](https://archive.org/developers/search_inside.html) · [report](../providers/ia-fulltext.md) |
+| 86 | **Internet Archive Scholar / fatcat** | web-archive | — | no published quota | none | no | no answer | low | [home](https://scholar.archive.org/) · [docs](https://api.fatcat.wiki/) · [report](../providers/fatcat.md) |
+| 87 | **JSTOR / Constellate** | publisher | — | not established; the API host did not resolve | ? | ? | no answer | low | [home](https://www.jstor.org/) · [docs](https://constellate.org/docs/) · [report](../providers/jstor-constellate.md) |
+| 88 | **K10plus SRU** | aggregator | — | SRU service; no published call quota | none | no | 200 JSON | low | [home](https://k10plus.de/) · [docs](https://projekt.mvb10plus.de/) · [report](../providers/k10plus-sru.md) |
+| 89 | **LA Referencia** | index | — | not established — the API host did not resolve | ? | no | no answer | low | [home](https://www.lareferencia.info/) · [docs](https://api.lareferencia.info/v1/) · [report](../providers/lareferencia.md) |
+| 90 | **Memento TimeTravel aggregator** | web-archive | — | not established | ? | no | no answer | low | [home](http://timetravel.mementoweb.org/) · [docs](http://timetravel.mementoweb.org/guide/api/) · [report](../providers/memento.md) |
+| 91 | **NDLTD Union Catalog** | index | — | not established — the OAI endpoint returned 503 | ? | no | 429/503 | low | [home](https://search.ndltd.org/) · [docs](https://union.ndltd.org/OAI-PMH) · [report](../providers/ndltd.md) |
+| 92 | **National Library of Norway API** | aggregator | — | no published quota captured | ? | no | 200 JSON | low | [home](https://www.nb.no/) · [docs](https://api.nb.no/catalog/swagger-ui.html) · [report](../providers/nb-no.md) |
+| 93 | **OAPEN Library** | index | — | no published call quota captured | free key | no | needs key | low | [home](https://www.oapen.org/) · [docs](https://library.oapen.org/rest/) · [report](../providers/oapen.md) |
+| 94 | **OBIS** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://obis.org/) · [docs](https://api.obis.org/) · [report](../providers/obis.md) |
+| 95 | **ORCID Public API** | scholarly-graph | — | public API; the rate-limit page was not captured | free key | no | 200 JSON | low | [home](https://orcid.org/) · [docs](https://info.orcid.org/documentation/api-reference/) · [report](../providers/orcid.md) |
+| 96 | **OSF (Open Science Framework)** | repository | — | no published quota captured | ? | no | 200 JSON | low | [home](https://osf.io/) · [docs](https://developer.osf.io/) · [report](../providers/osf.md) |
+| 97 | **OpenML** | repository | — | no published quota captured | ? | no | 200 JSON | low | [home](https://www.openml.org/) · [docs](https://www.openml.org/apis) · [report](../providers/openml.md) |
+| 98 | **OpenReview** | repository | — | no published call quota captured | ? | no | 200 HTML | low | [home](https://openreview.net/) · [docs](https://docs.openreview.net/reference/api-v2) · [llms](https://docs.openreview.net/llms.txt) · [report](../providers/openreview.md) |
+| 99 | **Papers with Code** | repository | — | no published quota captured | ? | no | 200 HTML | low | [home](https://paperswithcode.com/) · [docs](https://paperswithcode.com/api/v1/docs/) · [report](../providers/paperswithcode.md) |
+| 100 | **PatentsView** | publisher | — | API key required; the docs page rendered as an application shell | key on application | ? | 200 HTML | low | [home](https://patentsview.org/) · [docs](https://patentsview.org/apis/api-endpoints) · [report](../providers/patentsview.md) |
+| 101 | **PubChem PUG REST** | data-api | — | no published quota captured; the docs page returned a bot check to this client | none | no | 200 JSON | low | [home](https://pubchem.ncbi.nlm.nih.gov/) · [docs](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) · [report](../providers/pubchem.md) |
+| 102 | **RCSB PDB Data API** | data-api | — | no published quota captured | none | no | 200 JSON | low | [home](https://www.rcsb.org/) · [docs](https://data.rcsb.org/redoc/) · [report](../providers/pdb.md) |
+| 103 | **RePEc / IDEAS** | index | — | no published quota captured | ? | no | 200 HTML | low | [home](https://ideas.repec.org/) · [docs](https://ideas.repec.org/) · [report](../providers/repec.md) |
+| 104 | **SNAC Cooperative** | web-archive | — | not established | ? | no | no answer | low | [home](https://snaccooperative.org/) · [docs](https://api.snaccooperative.org/) · [report](../providers/snac.md) |
+| 105 | **SciELO ArticleMeta** | index | — | not established | ? | no | 200 JSON | low | [home](https://scielo.org/) · [docs](https://articlemeta.scielo.org/api/v1/) · [report](../providers/scielo.md) |
+| 106 | **Sherpa Romeo** | scholarly-graph | — | API key required; the docs site returned 403 to this client | key on application | no | needs key | low | [home](https://v2.sherpa.ac.uk/) · [docs](https://v2.sherpa.ac.uk/api/) · [report](../providers/sherpa-romeo.md) |
+| 107 | **UK National Archives Discovery** | web-archive | — | not established | ? | no | 200 JSON | low | [home](https://discovery.nationalarchives.gov.uk/) · [docs](https://discovery.nationalarchives.gov.uk/API/site/search) · [report](../providers/tna-discovery.md) |
+| 108 | **UK Web Archive** | web-archive | — | not established | ? | no | no answer | low | [home](https://www.webarchive.org.uk/) · [docs](https://www.webarchive.org.uk/en/ukwa/info/api) · [report](../providers/ukwa.md) |
+| 109 | **USPTO Open Data Portal (IBD)** | publisher | — | no published quota captured; the API answered HTML rather than JSON | ? | ? | 200 HTML | low | [home](https://developer.uspto.gov/) · [docs](https://developer.uspto.gov/api-catalog) · [report](../providers/uspto-ibd.md) |
+| 110 | **VIAF** | aggregator | — | not established; the data page returned 403 | ? | no | 200 JSON | low | [home](https://viaf.org/) · [docs](https://viaf.org/viaf/data/) · [report](../providers/viaf.md) |
+| 111 | **Wayback Save Page Now** | web-archive | — | Save Page Now is rate-limited per account in practice; no number captured | ? | no | 200 JSON | low | [home](https://web.archive.org/save) · [docs](https://archive.org/developers/) · [report](../providers/wayback-save.md) |
+| 112 | **Wiley TDM API** | publisher | — | TDM API token required; no free allowance captured | paid only | ? | no answer | low | [home](https://www.wiley.com/) · [docs](https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining) · [report](../providers/wiley.md) |
+| 113 | **archive.today** | web-archive | — | no published quota; the site throttles bursty callers with 429 | none | no | 200 JSON | low | [home](https://archive.ph/) · [docs](https://archive.ph/) · [report](../providers/archive-today.md) |
+| 114 | **dblp computer science bibliography** | scholarly-graph | — | no published quota; the site answers a JS challenge to non-browser clients | none | no | 200 HTML | low | [home](https://dblp.org/) · [docs](https://dblp.org/faq/How+to+use+the+dblp+search+API.html) · [report](../providers/dblp.md) |
+| 115 | **iNaturalist** | data-api | — | no published quota captured; the recommendations page returned 403 | none | no | 200 JSON | low | [home](https://www.inaturalist.org/) · [docs](https://api.inaturalist.org/v1/docs/) · [report](../providers/inaturalist.md) |
+| 116 | **id.loc.gov (LC Linked Data)** | aggregator | — | not established — the search endpoint returned 403 | ? | no | bot wall | low | [home](https://id.loc.gov/) · [docs](https://id.loc.gov/) · [report](../providers/id-loc.md) |
+| 117 | **zbMATH Open** | index | — | no published quota captured | none | no | 200 JSON | low | [home](https://zbmath.org/) · [docs](https://api.zbmath.org/v1/) · [report](../providers/zbmath.md) |
 
 ## The ranking is not the dataset
 
-Every one of the 120 providers has a full report under `providers/` and a row in the category catalogue below, including the ones with no published figure. A provider absent from the ranked top of the table is not absent from the work.
+Every one of the 117 providers has a full report under `providers/` and a row in the category catalogue below, including the ones with no published figure. A provider absent from the ranked top of the table is not absent from the work.
 
 ## Web archives & national archive catalogs
 
@@ -194,12 +191,6 @@ Every one of the 120 providers has a full report under `providers/` and a row in
 - Free access: no published number — public-archive endpoints need no key; the rest need an API key
 - Authentication: key on application · confidence medium · probe 200 JSON
 - Links: home https://perma.cc/ · docs https://perma.cc/docs/developer · llms.txt — · [full report](../providers/perma.md)
-
-### SNAC API
-
-- Free access: no published number — not established
-- Authentication: ? · confidence low · probe no answer
-- Links: home https://snaccooperative.org/ · docs https://api.snaccooperative.org/ · llms.txt — · [full report](../providers/snac-api.md)
 
 ### SNAC Cooperative
 
@@ -597,12 +588,6 @@ Every one of the 120 providers has a full report under `providers/` and a row in
 - Authentication: none · confidence medium · probe 200 JSON
 - Links: home https://www.osti.gov/ · docs https://www.osti.gov/api/v1/docs · llms.txt — · [full report](../providers/osti.md)
 
-### OpenAIRE Explore
-
-- Free access: no published number — a web UI over the Graph API; no separate allowance
-- Authentication: none · confidence medium · probe 200 JSON
-- Links: home https://explore.openaire.eu/ · docs https://graph.openaire.eu/docs/ · llms.txt — · [full report](../providers/openaire-explore.md)
-
 ### PMC ID Converter
 
 - Free access: no published number — up to 200 IDs per request; no call quota published
@@ -694,12 +679,6 @@ Every one of the 120 providers has a full report under `providers/` and a row in
 - Free access: no published number — limits are per request class and published through RateLimit headers, not as one table; the docs use '100 requests per 5 minutes' only as an example of the header format
 - Authentication: free key · confidence medium · probe 200 JSON
 - Links: home https://huggingface.co/ · docs https://huggingface.co/docs/hub/api · llms.txt — · [full report](../providers/huggingface.md)
-
-### OAPEN REST API
-
-- Free access: no published number — no published quota; the API returns an HTML page rather than JSON
-- Authentication: ? · confidence low · probe 200 HTML
-- Links: home https://www.oapen.org/ · docs https://api.oapen.org/ · llms.txt — · [full report](../providers/oapen-api.md)
 
 ### OSF (Open Science Framework)
 

@@ -4,7 +4,7 @@
 - Home: https://web.archive.org/save
 - Docs: https://archive.org/developers/
 - Probe endpoint: `https://web.archive.org/save/status/https://example.com`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

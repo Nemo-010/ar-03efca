@@ -4,7 +4,7 @@
 - Home: https://www.ensembl.org/
 - Docs: https://rest.ensembl.org/
 - Probe endpoint: `https://rest.ensembl.org/lookup/id/ENSG00000139618?content-type=application/json`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

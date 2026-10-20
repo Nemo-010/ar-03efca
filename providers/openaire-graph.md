@@ -4,7 +4,7 @@
 - Home: https://graph.openaire.eu/
 - Docs: https://graph.openaire.eu/docs/
 - Probe endpoint: `https://api.openaire.eu/graph/v1/researchProducts?search=openalex&pageSize=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 
@@ -16,7 +16,7 @@
 
 ## Notes
 
-The Graph API answered 200 unauthenticated in the probe. Bulk download is the intended route for volume, and the licence is CC-BY or CC-0.
+The Graph API answered 200 unauthenticated in the probe. Bulk download is the intended route for volume, and the licence is CC-BY or CC-0. The explore.openaire.eu web UI is a front end over this same API, so it is not counted as a separate provider.
 
 ## Evidence
 

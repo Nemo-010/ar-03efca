@@ -4,7 +4,7 @@
 - Home: https://doaj.org/
 - Docs: https://doaj.org/api/v4/docs
 - Probe endpoint: `https://doaj.org/api/search/articles/openalex?pageSize=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

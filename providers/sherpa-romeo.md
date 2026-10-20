@@ -4,7 +4,7 @@
 - Home: https://v2.sherpa.ac.uk/
 - Docs: https://v2.sherpa.ac.uk/api/
 - Probe endpoint: `https://v2.sherpa.ac.uk/cgi/retrieve?item-type=publication`
-- llms.txt: none verified — HTTP 403
+- llms.txt: none verified — empty body
 
 ## Free access
 

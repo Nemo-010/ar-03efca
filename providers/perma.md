@@ -4,7 +4,7 @@
 - Home: https://perma.cc/
 - Docs: https://perma.cc/docs/developer
 - Probe endpoint: `https://api.perma.cc/v1/public/archives/?limit=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

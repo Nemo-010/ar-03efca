@@ -1,16 +1,16 @@
 # Academic and archival APIs: documented free allowances
 
-An inventory of **120 academic and archival services that expose an HTTP API** — web archives, national archive catalogues, library and museum aggregators, scholarly graphs, bibliographic indexes, research-data repositories, life-science data services and publisher TDM endpoints. Compiled 2026-10-20.
+An inventory of **117 academic and archival services that expose an HTTP API** — web archives, national archive catalogues, library and museum aggregators, scholarly graphs, bibliographic indexes, research-data repositories, life-science data services and publisher TDM endpoints. Compiled 2026-10-20.
 
 Each provider gets a page with its documented rate, the verbatim sentence that states it, a link to the captured snapshot, and the result of one live unauthenticated request against its API.
 
 | Metric | Value |
 |---|---|
-| Providers catalogued | 120 |
+| Providers catalogued | 117 |
 | With a documented call figure | 20 |
 | Documented volume, 1 account each | 812,188,000 calls/month |
 | Documented volume, 5 accounts each | 4,060,940,000 calls/month |
-| Answered an unauthenticated probe | 89 of 120 |
+| Answered an unauthenticated probe | 87 of 117 |
 | Serve a verified llms.txt | 7 |
 | Require a payment card for the free tier | 0 |
 
@@ -51,7 +51,7 @@ make check     # re-fetch every recorded source and compare sha256
 
 - A rate is not a quota. Ceilings are labelled as ceilings wherever they appear.
 - Shared pools (Semantic Scholar) and CPU-time limits (Wikidata) are deliberately not converted to call counts.
-- `low` confidence means this run could not verify the allowance — a bot interstitial, an application shell, a login wall or a dead host — not that the service is bad. 55 providers are in that state and each page says why.
+- `low` confidence means this run could not verify the allowance — a bot interstitial, an application shell, a login wall or a dead host — not that the service is bad. 53 providers are in that state and each page says why.
 - One probe per endpoint from one IP is evidence that an endpoint answers, not a load test.
 - Free tiers change without notice; every number is as of its snapshot.
 - No terms-of-service analysis. This is a technical inventory of documented allowances and makes no claim that any particular use is permitted.

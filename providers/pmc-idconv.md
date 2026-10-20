@@ -4,7 +4,7 @@
 - Home: https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/
 - Docs: https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/
 - Probe endpoint: `https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids=PMC13900&format=json`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

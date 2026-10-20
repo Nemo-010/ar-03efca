@@ -4,7 +4,7 @@
 - Home: https://dataverse.harvard.edu/
 - Docs: https://guides.dataverse.org/en/latest/api/
 - Probe endpoint: `https://dataverse.harvard.edu/api/search?q=openalex&per_page=1`
-- llms.txt: none verified — HTTP 202
+- llms.txt: none verified — empty body
 
 ## Free access
 

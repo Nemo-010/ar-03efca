@@ -4,7 +4,7 @@
 - Home: https://huggingface.co/
 - Docs: https://huggingface.co/docs/hub/api
 - Probe endpoint: `https://huggingface.co/api/datasets?limit=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

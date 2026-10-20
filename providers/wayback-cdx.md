@@ -4,7 +4,7 @@
 - Home: https://web.archive.org/
 - Docs: https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server
 - Probe endpoint: `https://web.archive.org/cdx/search/cdx?url=openalex.org&limit=2&output=json`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — belongs to github.com, not the provider
 
 ## Free access
 

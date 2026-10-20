@@ -4,7 +4,7 @@
 - Home: https://query.wikidata.org/
 - Docs: https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual
 - Probe endpoint: `https://query.wikidata.org/sparql?format=json&query=SELECT%20%3Fitem%20WHERE%20%7B%3Fitem%20wdt%3AP31%20wd%3AQ5%7D%20LIMIT%201`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

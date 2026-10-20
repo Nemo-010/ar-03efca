@@ -4,7 +4,7 @@
 - Home: https://dataverse.nl/
 - Docs: https://guides.dataverse.org/en/latest/api/
 - Probe endpoint: `https://dataverse.nl/api/search?q=openalex`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

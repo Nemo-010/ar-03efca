@@ -4,7 +4,7 @@
 - Home: https://www.jstor.org/
 - Docs: https://constellate.org/docs/
 - Probe endpoint: `https://api.constellate.org/`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

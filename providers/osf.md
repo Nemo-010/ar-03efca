@@ -4,7 +4,7 @@
 - Home: https://osf.io/
 - Docs: https://developer.osf.io/
 - Probe endpoint: `https://api.osf.io/v2/nodes/?page%5Bsize%5D=1`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

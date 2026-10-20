@@ -4,7 +4,7 @@
 - Home: https://europepmc.org/
 - Docs: https://europepmc.org/RestfulWebService
 - Probe endpoint: `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=openalex&format=json&pageSize=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://discovery.nationalarchives.gov.uk/
 - Docs: https://discovery.nationalarchives.gov.uk/API/site/search
 - Probe endpoint: `https://discovery.nationalarchives.gov.uk/API/search/records?sps.searchQuery=openalex`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

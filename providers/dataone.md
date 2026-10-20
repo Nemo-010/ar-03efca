@@ -4,7 +4,7 @@
 - Home: https://www.dataone.org/
 - Docs: https://purl.dataone.org/architecture/apis/MN-API.html
 - Probe endpoint: `https://cn.dataone.org/cn/v2/query/solr/?q=openalex&rows=1&wt=json`
-- llms.txt: none verified — HTTP 401
+- llms.txt: none verified — empty body
 
 ## Free access
 

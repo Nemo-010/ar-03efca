@@ -4,7 +4,7 @@
 - Home: https://dblp.org/
 - Docs: https://dblp.org/faq/How+to+use+the+dblp+search+API.html
 - Probe endpoint: `https://dblp.org/search/publ/api?q=openalex&format=json&h=1`
-- llms.txt: none verified — HTTP 202
+- llms.txt: none verified — empty body
 
 ## Free access
 

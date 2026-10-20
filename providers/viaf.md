@@ -4,7 +4,7 @@
 - Home: https://viaf.org/
 - Docs: https://viaf.org/viaf/data/
 - Probe endpoint: `https://viaf.org/viaf/AutoSuggest?query=openalex`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

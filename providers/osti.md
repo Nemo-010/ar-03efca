@@ -4,7 +4,7 @@
 - Home: https://www.osti.gov/
 - Docs: https://www.osti.gov/api/v1/docs
 - Probe endpoint: `https://www.osti.gov/api/v1/records?q=openalex&rows=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

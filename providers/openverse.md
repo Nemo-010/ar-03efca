@@ -4,7 +4,7 @@
 - Home: https://openverse.org/
 - Docs: https://api.openverse.org/v1/
 - Probe endpoint: `https://api.openverse.org/v1/images/?q=openalex&page_size=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

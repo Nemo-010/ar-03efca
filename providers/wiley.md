@@ -4,7 +4,7 @@
 - Home: https://www.wiley.com/
 - Docs: https://onlinelibrary.wiley.com/library-info/resources/text-and-datamining
 - Probe endpoint: `https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fadvs.201900001`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — empty body
 
 ## Free access
 

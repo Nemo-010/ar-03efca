@@ -4,7 +4,7 @@
 - Home: https://trove.nla.gov.au/
 - Docs: https://trove.nla.gov.au/about/create-something/using-api
 - Probe endpoint: `https://api.trove.nla.gov.au/v3/result?q=openalex&category=book&n=1`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

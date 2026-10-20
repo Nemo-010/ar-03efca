@@ -4,7 +4,7 @@
 - Home: https://pubchem.ncbi.nlm.nih.gov/
 - Docs: https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest
 - Probe endpoint: `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/MolecularFormula/JSON`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

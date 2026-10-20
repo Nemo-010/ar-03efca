@@ -4,7 +4,7 @@
 - Home: https://paperswithcode.com/
 - Docs: https://paperswithcode.com/api/v1/docs/
 - Probe endpoint: `https://paperswithcode.com/api/v1/papers/?items_per_page=1`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

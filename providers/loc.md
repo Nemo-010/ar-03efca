@@ -4,7 +4,7 @@
 - Home: https://www.loc.gov/
 - Docs: https://www.loc.gov/apis/
 - Probe endpoint: `https://www.loc.gov/books/?q=openalex&fo=json`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

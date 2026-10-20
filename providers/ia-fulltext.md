@@ -4,7 +4,7 @@
 - Home: https://archive.org/search
 - Docs: https://archive.org/developers/search_inside.html
 - Probe endpoint: `https://ia-fts.archive.org/api/v1/search/hits?q=openalex&size=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

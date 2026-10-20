@@ -4,7 +4,7 @@
 - Home: https://www.metmuseum.org/
 - Docs: https://metmuseum.github.io/
 - Probe endpoint: `https://collectionapi.metmuseum.org/public/collection/v1/objects/436535`
-- llms.txt: none verified — HTTP 429
+- llms.txt: none verified — empty body
 
 ## Free access
 

@@ -158,14 +158,9 @@ FACTS = {
  "snac": dict(
    monthly=None, rate="not established", derivation=None, one_time=None, card=False,
    key=None, confidence=L,
-   note="Social Networks and Archival Context, counted once under its API row (snac-api). This row "
-        "exists so the catalogue and the fact table stay in step.",
-   quote="", url="", snap=""),
- "snac-api": dict(
-   monthly=None, rate="not established", derivation=None, one_time=None, card=False,
-   key=None, confidence=L,
-   note="Social Networks and Archival Context. The API root answers 400 to a bare GET (it wants a "
-        "query), so the probe proves the host answers but not the allowance.",
+   note="Social Networks and Archival Context, the archival-authority cooperative. Its API root "
+        "answers 400 to a bare GET because it wants a query, so the probe proves the host answers "
+        "but not the allowance.",
    quote="", url="", snap=""),
 
  # ------------------------------------------------------------ library aggregators
@@ -308,7 +303,8 @@ FACTS = {
    monthly=None, rate="no call quota published; the graph is also downloadable in bulk",
    derivation=None, one_time=None, card=False, key="none", confidence=M,
    note="The Graph API answered 200 unauthenticated in the probe. Bulk download is the intended "
-        "route for volume, and the licence is CC-BY or CC-0.",
+        "route for volume, and the licence is CC-BY or CC-0. The explore.openaire.eu web UI is a "
+        "front end over this same API, so it is not counted as a separate provider.",
    quote="The Graph is freely available for download and re-use to all as CC-BY or CC-0.",
    url="https://graph.openaire.eu/", snap="openaire-graph/home.txt"),
  "openaire-search": dict(
@@ -512,17 +508,11 @@ FACTS = {
  "oapen": dict(
    monthly=None, rate="no published call quota captured", derivation=None, one_time=None,
    card=False, key="free", confidence=L,
-   note="Open-access book library. The REST search answered 403 to this client and the site API "
-        "returns an HTML shell, so nothing is claimed.",
+   note="Open-access book library. Two surfaces were tried: the library's REST search answered "
+        "403 to this client, and the api.oapen.org host returns an HTML page rather than JSON. "
+        "Neither is a working gateway target as configured here, so nothing is claimed.",
    quote="OAPEN connects libraries , publishers , researchers , and funders with a global infrastructure for peer-reviewed open access books",
    url="https://www.oapen.org/", snap="oapen/home.txt"),
- "oapen-api": dict(
-   monthly=None, rate="no published quota; the API returns an HTML page rather than JSON",
-   derivation=None, one_time=None, card=False, key=None, confidence=L,
-   note="Recorded honestly: this endpoint answered 200 but with HTML, so it is not a working JSON "
-        "API as configured here.",
-   quote="OAPEN connects libraries , publishers , researchers , and funders with a global infrastructure for peer-reviewed open access books",
-   url="https://api.oapen.org/", snap="oapen-api/home.txt"),
  "doab": dict(
    monthly=None, rate="all services free of charge; no call quota published", derivation=None,
    one_time=None, card=False, key="free", confidence=H,
@@ -535,13 +525,6 @@ FACTS = {
    one_time=None, card=False, key=None, confidence=L,
    note="Theses and dissertations. Recorded as unverified: the OAI-PMH endpoint answered 503.",
    quote="", url="", snap=""),
- "openaire-explore": dict(
-   monthly=None, rate="a web UI over the Graph API; no separate allowance", derivation=None,
-   one_time=None, card=False, key="none", confidence=M,
-   note="Counted separately from the Graph API because it is a different surface, but its quota "
-        "is the Graph's.",
-   quote="A comprehensive and open dataset of research information covering 239 M publications",
-   url="https://explore.openaire.eu/", snap="openaire-explore/home.txt"),
 
  # ------------------------------------------------------------- repositories
  "zenodo": dict(

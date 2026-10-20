@@ -4,7 +4,7 @@
 - Home: https://thoth.pub/
 - Docs: https://api.thoth.pub/graphql
 - Probe endpoint: `https://api.thoth.pub/`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://www.nb.no/
 - Docs: https://api.nb.no/catalog/swagger-ui.html
 - Probe endpoint: `https://api.nb.no/catalog/v1/items?q=openalex&size=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

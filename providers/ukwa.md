@@ -4,7 +4,7 @@
 - Home: https://www.webarchive.org.uk/
 - Docs: https://www.webarchive.org.uk/en/ukwa/info/api
 - Probe endpoint: `https://www.webarchive.org.uk/wayback/archive/cdx?url=openalex.org&limit=2`
-- llms.txt: none verified — HTTP 0
+- llms.txt: none verified — empty body
 
 ## Free access
 

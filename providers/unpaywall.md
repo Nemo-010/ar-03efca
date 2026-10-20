@@ -4,7 +4,7 @@
 - Home: https://unpaywall.org/
 - Docs: https://unpaywall.org/products/api
 - Probe endpoint: `https://api.unpaywall.org/v2/10.1038/nature12373?email=research@example.org`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

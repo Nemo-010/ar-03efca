@@ -4,7 +4,7 @@
 - Home: https://www.mediawiki.org/wiki/API:Main_page
 - Docs: https://www.mediawiki.org/wiki/API:Etiquette
 - Probe endpoint: `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=openalex&format=json&srlimit=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

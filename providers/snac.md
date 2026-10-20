@@ -4,7 +4,7 @@
 - Home: https://snaccooperative.org/
 - Docs: https://api.snaccooperative.org/
 - Probe endpoint: `https://api.snaccooperative.org/`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 
@@ -16,7 +16,7 @@
 
 ## Notes
 
-Social Networks and Archival Context, counted once under its API row (snac-api). This row exists so the catalogue and the fact table stay in step.
+Social Networks and Archival Context, the archival-authority cooperative. Its API root answers 400 to a bare GET because it wants a query, so the probe proves the host answers but not the allowance.
 
 ## Live probe
 

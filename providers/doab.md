@@ -4,7 +4,7 @@
 - Home: https://www.doabooks.org/
 - Docs: https://directory.doabooks.org/rest/
 - Probe endpoint: `https://directory.doabooks.org/rest/search?query=openalex`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

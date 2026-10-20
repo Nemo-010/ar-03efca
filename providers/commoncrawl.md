@@ -4,7 +4,7 @@
 - Home: https://commoncrawl.org/
 - Docs: https://commoncrawl.org/cc-index-table
 - Probe endpoint: `https://index.commoncrawl.org/collinfo.json`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

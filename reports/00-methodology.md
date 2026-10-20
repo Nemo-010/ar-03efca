@@ -1,6 +1,8 @@
 # Methodology and verification
 
-Compiled 2026-10-20. Scope: academic and archival services that expose a documented HTTP API — web archives, national archive catalogues, library and museum aggregators, scholarly graphs, bibliographic indexes, research-data repositories, life-science data services, and publisher/patent text-and-data-mining endpoints. 120 providers are catalogued.
+Compiled 2026-10-20. Scope: academic and archival services that expose a documented HTTP API — web archives, national archive catalogues, library and museum aggregators, scholarly graphs, bibliographic indexes, research-data repositories, life-science data services, and publisher/patent text-and-data-mining endpoints. 117 providers are catalogued.
+
+One provider is one API surface. Where a service publishes two distinct APIs (bioRxiv/medRxiv share a host but serve different corpora; OAPEN's library REST search and its api host were tried and are reported as one row) the row names the surface that was probed, so the count is of endpoints, not of companies.
 
 ## Two evidence classes, never mixed
 
@@ -37,10 +39,10 @@ A derived number is a **ceiling**: it is what the published rate permits if you 
 ## What the confidence column means
 
 - **high** (28 providers) — an explicit number, or an explicit statement that access is free and keyless, in official documentation that was captured.
-- **medium** (37) — an official statement that access is free or needs a key, without a number that can be converted to a call count.
-- **low** (55) — nothing usable survived capture: a login wall, a JavaScript shell, a 403 challenge, a bot check, a dead host, or a documentation page that documents endpoints but never states an allowance.
+- **medium** (36) — an official statement that access is free or needs a key, without a number that can be converted to a call count.
+- **low** (53) — nothing usable survived capture: a login wall, a JavaScript shell, a 403 challenge, a bot check, a dead host, or a documentation page that documents endpoints but never states an allowance.
 
-`low` is not a verdict that the provider is bad. It means this run could not verify the allowance, and the report says so rather than guessing. Of the 120 providers, 89 answered an unauthenticated call during the probe, which is a different and independent fact.
+`low` is not a verdict that the provider is bad. It means this run could not verify the allowance, and the report says so rather than guessing. Of the 117 providers, 87 answered an unauthenticated call during the probe, which is a different and independent fact.
 
 ## Why some well-known services are marked low
 

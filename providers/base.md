@@ -4,7 +4,7 @@
 - Home: https://www.base-search.net/
 - Docs: https://api.base-search.net/
 - Probe endpoint: `https://api.base-search.net/cgi-bin/BaseHttpSearchInterface.fcgi?func=PerformSearch&query=openalex&format=json`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

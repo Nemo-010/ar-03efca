@@ -4,7 +4,7 @@
 - Home: https://www.ebi.ac.uk/ols4/
 - Docs: https://www.ebi.ac.uk/ols4/help
 - Probe endpoint: `https://www.ebi.ac.uk/ols4/api/search?q=openalex&rows=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

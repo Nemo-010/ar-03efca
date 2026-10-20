@@ -4,7 +4,7 @@
 - Home: https://www.openaire.eu/
 - Docs: https://api.openaire.eu/
 - Probe endpoint: `https://api.openaire.eu/search/publications?title=openalex&size=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

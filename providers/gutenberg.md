@@ -4,7 +4,7 @@
 - Home: https://www.gutenberg.org/
 - Docs: https://gutendex.com/
 - Probe endpoint: `https://gutendex.com/books/?search=openalex`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

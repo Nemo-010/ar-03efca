@@ -127,7 +127,7 @@ def main():
                 print(f"{p['slug']:24s} {'OK  ' if out[p['slug']]['url'] else 'none'} "
                       f"{out[p['slug']]['reason']}", flush=True)
     else:
-        # judge from the snapshots already on disk
+        # judge from the snapshots already on disk, applying the same rules as a live probe
         for p in cands:
             slug = p["slug"]
             path = os.path.join(SNAP, slug, "llms.txt")
@@ -136,13 +136,19 @@ def main():
                 with open(path, "rb") as fh:
                     body = fh.read()
             ok, why = is_markdown_index(body)
-            mp = os.path.join(SNAP, slug, "meta.json")
             url = None
+            mp = os.path.join(SNAP, slug, "meta.json")
             if os.path.exists(mp):
                 with open(mp) as fh:
                     url = (json.load(fh).get("sources", {}).get("llms") or {}).get("url")
-            out[slug] = {"url": url if ok else None, "bytes": len(body),
-                         "reason": why if ok else why}
+            if ok and host_of(url) in ("github.com", "raw.githubusercontent.com"):
+                ok, why = False, "belongs to github.com, not the provider"
+            if ok and url:
+                host = registrable(host_of(p.get("home") or ""))
+                doc_host = host_of(p.get("docs") or "")
+                if registrable(host_of(url)) != host and host_of(url) != doc_host:
+                    ok, why = False, f"host {host_of(url)} is not the provider's"
+            out[slug] = {"url": url if ok else None, "bytes": len(body), "reason": why}
     with open(OUT, "w") as fh:
         json.dump(out, fh, indent=1, sort_keys=True)
     good = [s for s, v in out.items() if v["url"]]

@@ -4,7 +4,7 @@
 - Home: https://inspirehep.net/
 - Docs: https://github.com/inspirehep/rest-api-doc
 - Probe endpoint: `https://inspirehep.net/api/literature?q=openalex&size=1`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — belongs to github.com, not the provider
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://zbmath.org/
 - Docs: https://api.zbmath.org/v1/
 - Probe endpoint: `https://api.zbmath.org/v1/document/_structured_search_query?search_string=openalex&results_per_page=1`
-- llms.txt: none verified — HTTP 403
+- llms.txt: none verified — empty body
 
 ## Free access
 

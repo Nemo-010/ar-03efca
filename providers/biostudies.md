@@ -4,7 +4,7 @@
 - Home: https://www.ebi.ac.uk/biostudies/
 - Docs: https://www.ebi.ac.uk/biostudies/api/v1/swagger-ui.html
 - Probe endpoint: `https://www.ebi.ac.uk/biostudies/api/v1/search?query=openalex&pageSize=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

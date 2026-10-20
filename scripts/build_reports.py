@@ -144,6 +144,11 @@ def build_methodology():
              "life-science data services, and publisher/patent text-and-data-mining endpoints. "
              f"{n} providers are catalogued.")
     L.append("")
+    L.append("One provider is one API surface. Where a service publishes two distinct APIs "
+             "(bioRxiv/medRxiv share a host but serve different corpora; OAPEN's library REST "
+             "search and its api host were tried and are reported as one row) the row names the "
+             "surface that was probed, so the count is of endpoints, not of companies.")
+    L.append("")
     L.append("## Two evidence classes, never mixed")
     L.append("")
     L.append("| class | what it proves | where it lives |")

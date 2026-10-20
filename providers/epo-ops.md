@@ -4,7 +4,7 @@
 - Home: https://www.epo.org/
 - Docs: https://developers.epo.org/
 - Probe endpoint: `https://ops.epo.org/3.2/rest-services/published-data/search?q=openalex`
-- llms.txt: none verified — HTTP 403
+- llms.txt: none verified — empty body
 
 ## Free access
 

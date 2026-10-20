@@ -4,7 +4,7 @@
 - Home: https://pubmed.ncbi.nlm.nih.gov/
 - Docs: https://www.ncbi.nlm.nih.gov/books/NBK25497/
 - Probe endpoint: `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=openalex&retmode=json&retmax=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

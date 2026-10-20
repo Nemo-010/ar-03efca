@@ -4,7 +4,7 @@
 - Home: https://www.semanticscholar.org/
 - Docs: https://www.semanticscholar.org/product/api
 - Probe endpoint: `https://api.semanticscholar.org/graph/v1/paper/DOI:10.1038/nature12373?fields=title`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

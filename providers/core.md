@@ -4,7 +4,7 @@
 - Home: https://core.ac.uk/
 - Docs: https://core.ac.uk/services/api
 - Probe endpoint: `https://api.core.ac.uk/v3/search/works/?q=openalex&limit=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

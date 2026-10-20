@@ -4,7 +4,7 @@
 - Home: https://developer.ieee.org/
 - Docs: https://developer.ieee.org/docs
 - Probe endpoint: `https://ieeexploreapi.ieee.org/api/v1/search/articles?querytext=openalex`
-- llms.txt: none verified — HTTP 202
+- llms.txt: none verified — empty body
 
 ## Free access
 

@@ -169,6 +169,33 @@ class TestReports(unittest.TestCase):
             self.assertIn(n, allowed, f"{n} in the ranking table is not a facts figure")
 
 
+class TestLlms(unittest.TestCase):
+    def test_llms_records_cover_every_provider(self):
+        facts = {r["slug"] for r in load("facts.json")}
+        rec = load("llms.json")
+        self.assertEqual(facts, set(rec), "llms.json and facts.json disagree")
+
+    def test_accepted_llms_url_has_a_snapshot(self):
+        bad = []
+        for slug, v in load("llms.json").items():
+            if not v.get("url"):
+                continue
+            path = os.path.join(DATA, "snapshots", slug, "llms.txt")
+            if not os.path.exists(path) or os.path.getsize(path) < 100:
+                bad.append(f"{slug}: url accepted but snapshot is missing or tiny")
+        self.assertEqual([], bad)
+
+    def test_rejected_llms_records_say_why(self):
+        bad = [s for s, v in load("llms.json").items()
+               if not v.get("url") and not v.get("reason")]
+        self.assertEqual([], bad)
+
+    def test_no_llms_url_points_at_github(self):
+        bad = [s for s, v in load("llms.json").items()
+               if v.get("url") and "github.com" in v["url"]]
+        self.assertEqual([], bad, "github.com serves its own llms.txt, never the project's")
+
+
 class TestProbes(unittest.TestCase):
     def test_probe_verdicts_are_known(self):
         ok = {"ok", "ok-html", "auth", "bot-wall", "payment", "blocked", "not-found",

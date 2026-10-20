@@ -4,7 +4,7 @@
 - Home: https://archive.ph/
 - Docs: https://archive.ph/
 - Probe endpoint: `https://archive.ph/timemap/https://openalex.org`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

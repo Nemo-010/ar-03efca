@@ -4,7 +4,7 @@
 - Home: https://archive.org/
 - Docs: https://archive.org/developers/md-read.html
 - Probe endpoint: `https://archive.org/metadata/wikipedia`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

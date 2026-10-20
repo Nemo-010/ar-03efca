@@ -73,10 +73,8 @@ Verdicts: `ok` = 2xx with a machine-readable body; `ok-html` = 2xx but an HTML p
 | National Library of Norway API | 200 | 200 JSON | 1067 | — | `https://api.nb.no/catalog/v1/items?q=openalex&size=1` |
 | NDLTD Union Catalog | 503 | 429/503 | 734 | `Retry-After: 86400` | `https://union.ndltd.org/OAI-PMH?verb=Identify` |
 | OAPEN Library | 403 | needs key | 538 | — | `https://library.oapen.org/rest/search?query=openalex&expand=metadata&limit=1` |
-| OAPEN REST API | 200 | 200 HTML | 864 | — | `https://api.oapen.org/search?query=openalex` |
 | OBIS | 200 | 200 JSON | 885 | — | `https://api.obis.org/v3/occurrence?size=1` |
 | Open Library | 200 | 200 JSON | 580 | — | `https://openlibrary.org/search.json?q=openalex&limit=1` |
-| OpenAIRE Explore | 200 | 200 JSON | 707 | `x-ratelimit-limit: 7199`, `x-ratelimit-used: 18` | `https://api.openaire.eu/search/publications?keywords=openalex&size=1` |
 | OpenAIRE Graph | 200 | 200 JSON | 678 | `x-ratelimit-limit: 7199`, `x-ratelimit-used: 16` | `https://api.openaire.eu/graph/v1/researchProducts?search=openalex&pageSize=1` |
 | OpenAIRE Search API | 200 | 200 JSON | 830 | `x-ratelimit-limit: 7199`, `x-ratelimit-used: 17` | `https://api.openaire.eu/search/publications?title=openalex&size=1` |
 | OpenAlex | 200 | 200 JSON | 595 | `X-RateLimit-Cost-USD: 0.0001`, `X-RateLimit-Credits-Used: 1`, `X-RateLimit-Limit: 1000` | `https://api.openalex.org/works?filter=doi:10.1038/nature12373` |
@@ -104,7 +102,6 @@ Verdicts: `ok` = 2xx with a machine-readable body; `ok-html` = 2xx but an HTML p
 | Semantic Scholar Graph API | 200 | 200 JSON | 266 | — | `https://api.semanticscholar.org/graph/v1/paper/DOI:10.1038/nature12373?fields=title` |
 | Sherpa Romeo | 403 | needs key | 583 | — | `https://v2.sherpa.ac.uk/cgi/retrieve?item-type=publication` |
 | Smithsonian Open Access | 403 | needs key | 626 | — | `https://api.si.edu/openaccess/api/v1.0/search?q=openalex` |
-| SNAC API | 400 | no answer | 328 | — | `https://api.snaccooperative.org/` |
 | SNAC Cooperative | 400 | no answer | 263 | — | `https://api.snaccooperative.org/` |
 | Software Heritage | 200 | 200 JSON | 785 | `X-Ratelimit-Limit: 10`, `X-Ratelimit-Remaining: 8`, `X-Ratelimit-Reset: 1792464519` | `https://archive.softwareheritage.org/api/1/origin/search/openalex/?limit=1` |
 | Springer Nature API | 401 | needs key | 792 | — | `https://api.springernature.com/meta/v2/json?q=openalex` |
@@ -149,7 +146,6 @@ These are the only endpoints that told the probe its budget in the response head
 - **Scite** — `RateLimit-Limit: 60`, `RateLimit-Remaining: 59`, `RateLimit-Reset: 12`, `X-RateLimit-Limit-Minute: 60`, `X-RateLimit-Remaining-Minute: 59`
 - **PubMed E-utilities** — `X-Ratelimit-Limit: 3`, `X-Ratelimit-Remaining: 2`
 - **NDLTD Union Catalog** — `Retry-After: 86400`
-- **OpenAIRE Explore** — `x-ratelimit-limit: 7199`, `x-ratelimit-used: 18`
 - **Zenodo** — `retry-after: 11`, `x-ratelimit-limit: 30`, `x-ratelimit-remaining: 28`, `x-ratelimit-reset: 1792464529`
 - **Hugging Face Hub** — `RateLimit: "api";r=498;t=123`, `RateLimit-Policy: "fixed window";"api";q=500;w=300`
 - **Papers with Code** — `RateLimit: "pages";r=98;t=122`, `RateLimit-Policy: "fixed window";"pages";q=100;w=300`

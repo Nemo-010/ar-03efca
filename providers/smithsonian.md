@@ -4,7 +4,7 @@
 - Home: https://www.si.edu/openaccess
 - Docs: https://edan.si.edu/openaccess/apidocs/
 - Probe endpoint: `https://api.si.edu/openaccess/api/v1.0/search?q=openalex`
-- llms.txt: none verified — HTTP 403
+- llms.txt: none verified — empty body
 
 ## Free access
 

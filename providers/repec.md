@@ -4,7 +4,7 @@
 - Home: https://ideas.repec.org/
 - Docs: https://ideas.repec.org/
 - Probe endpoint: `https://ideas.repec.org/cgi-bin/htsearch?q=openalex`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

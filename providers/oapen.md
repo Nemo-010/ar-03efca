@@ -4,7 +4,7 @@
 - Home: https://www.oapen.org/
 - Docs: https://library.oapen.org/rest/
 - Probe endpoint: `https://library.oapen.org/rest/search?query=openalex&expand=metadata&limit=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 
@@ -16,7 +16,7 @@
 
 ## Notes
 
-Open-access book library. The REST search answered 403 to this client and the site API returns an HTML shell, so nothing is claimed.
+Open-access book library. Two surfaces were tried: the library's REST search answered 403 to this client, and the api.oapen.org host returns an HTML page rather than JSON. Neither is a working gateway target as configured here, so nothing is claimed.
 
 ## Evidence
 

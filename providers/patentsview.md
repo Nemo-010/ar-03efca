@@ -4,7 +4,7 @@
 - Home: https://patentsview.org/
 - Docs: https://patentsview.org/apis/api-endpoints
 - Probe endpoint: `https://api.patentsview.org/patents/query?q=%7B%22_gte%22%3A%7B%22patent_date%22%3A%222020-01-01%22%7D%7D`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — empty body
 
 ## Free access
 

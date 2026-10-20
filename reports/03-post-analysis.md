@@ -74,11 +74,11 @@ None of the captured pages in this set offer a one-time credit grant. That is a 
 
 | Friction | Count | Meaning | Examples |
 |---|---:|---|---|
-| keyless | 65 | works with no key at all | Wayback Machine CDX, Wayback Availability API, Internet Archive Metadata API, Internet Archive Scholar / fatcat, Common Crawl Index, Arquivo.pt |
+| keyless | 64 | works with no key at all | Wayback Machine CDX, Wayback Availability API, Internet Archive Metadata API, Internet Archive Scholar / fatcat, Common Crawl Index, Arquivo.pt |
 | free key | 14 | sign-up, no payment | Conifer (Rhizome), Europeana, Digital Public Library of America, DigitalNZ, Smithsonian Open Access, OpenAlex |
 | key on application | 10 | a human approves the key | Perma.cc, US National Archives Catalog, Trove (National Library of Australia), BASE (Bielefeld), Dimensions, Altmetric |
 | paid only | 4 | no free API tier found | Lens.org Scholarly API, Elsevier Scopus / ScienceDirect API, Springer Nature API, Wiley TDM API |
-| not established | 27 | capture did not settle it | Wayback Save Page Now, Internet Archive Full-Text Search, UK Web Archive, Memento TimeTravel aggregator, UK National Archives Discovery, Archives Portal Europe, SNAC Cooperative, Crossref Event Data |
+| not established | 25 | capture did not settle it | Wayback Save Page Now, Internet Archive Full-Text Search, UK Web Archive, Memento TimeTravel aggregator, UK National Archives Discovery, Archives Portal Europe, SNAC Cooperative, Crossref Event Data |
 
 **Payment cards demanded for the free tier: 0.** None of the captured pages requires a card to reach a free academic or archival API.
 
@@ -88,15 +88,15 @@ The gated ones matter more than the count suggests. NARA, BASE, Dimensions, IEEE
 
 | Verdict | Count | What it means |
 |---|---:|---|
-| ok | 80 | 200 with a machine-readable body |
-| ok-html | 9 | 200 but an HTML page, not the API |
+| ok | 79 | 200 with a machine-readable body |
+| ok-html | 8 | 200 but an HTML page, not the API |
 | auth | 13 | 401/403 with a JSON or plain refusal — a key is required |
 | bot-wall | 4 | 403/503 carrying a Cloudflare/Anubis/reCAPTCHA challenge |
 | blocked | 1 | 429/503 — refused at probe time |
 | not-found | 2 | 404 — the documented path is gone |
-| error | 11 | no answer: DNS, TLS or timeout |
+| error | 10 | no answer: DNS, TLS or timeout |
 
-89 of 120 endpoints answered an unauthenticated call. The most common failure is not a paywall: it is a bot interstitial or an application shell, which returns 200 with no usable body. That is why the probe records `ok-html` separately from `ok`.
+87 of 117 endpoints answered an unauthenticated call. The most common failure is not a paywall: it is a bot interstitial or an application shell, which returns 200 with no usable body. That is why the probe records `ok-html` separately from `ok`.
 
 Slowest endpoints in the probe (one request each, so this is a floor, not a benchmark):
 
@@ -117,17 +117,17 @@ Counting only providers with a published figure, by category:
 
 | Category | With a figure | Total in category | Share |
 |---|---:|---:|---:|
-| web-archive | 2 | 19 | 11% |
+| web-archive | 2 | 18 | 11% |
 | aggregator | 4 | 23 | 17% |
 | scholarly-graph | 7 | 18 | 39% |
-| index | 5 | 25 | 20% |
-| repository | 1 | 14 | 7% |
+| index | 5 | 24 | 21% |
+| repository | 1 | 13 | 8% |
 | data-api | 1 | 13 | 8% |
 | publisher | 0 | 8 | 0% |
 
 Web archives are the least quantified category in this inventory: the Wayback CDX server, the single largest index of the web's past, publishes no call quota at all. The well-quantified categories are bibliographic indexes and life-science data, where the funder pays for the infrastructure and the API is the product.
 
-llms.txt is barely used in this space: 7 of 120 providers serve a verified markdown index at a canonical path (Open Library, OpenAlex, DataCite REST API, Research Organization Registry, Scite, OpenReview, ChEMBL). Academic and archival infrastructure predates that convention, and several hosts that do return 200 at `/llms.txt` serve an HTML shell there, which the verifier rejects.
+llms.txt is barely used in this space: 7 of 117 providers serve a verified markdown index at a canonical path (Open Library, OpenAlex, DataCite REST API, Research Organization Registry, Scite, OpenReview, ChEMBL). Academic and archival infrastructure predates that convention, and several hosts that do return 200 at `/llms.txt` serve an HTML shell there, which the verifier rejects.
 
 ## 5. A stack built only from verified figures
 

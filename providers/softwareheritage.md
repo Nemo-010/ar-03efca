@@ -4,7 +4,7 @@
 - Home: https://www.softwareheritage.org/
 - Docs: https://archive.softwareheritage.org/api/
 - Probe endpoint: `https://archive.softwareheritage.org/api/1/origin/search/openalex/?limit=1`
-- llms.txt: none verified — HTTP 0
+- llms.txt: none verified — empty body
 
 ## Free access
 

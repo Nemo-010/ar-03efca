@@ -1,5630 +1,587 @@
 {
  "ads": {
   "bytes": 0,
-  "reason": "HTTP 202",
-  "tried": [
-   {
-    "bytes": 2099,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://ui.adsabs.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ui.adsabs.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ui.adsabs.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.ui.adsabs.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ui.adsabs.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 2099,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://ui.adsabs.harvard.edu/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "altmetric": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 102530,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.altmetric.com/llms.txt"
-   },
-   {
-    "bytes": 50463,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://api.altmetric.com/llms.txt"
-   },
-   {
-    "bytes": 102530,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://altmetric.com/llms.txt"
-   },
-   {
-    "bytes": 48385,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.altmetric.com/llms.txt"
-   },
-   {
-    "bytes": 83007,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.altmetric.com/llms.txt"
-   },
-   {
-    "bytes": 111017,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://support.altmetric.com/llms.txt"
-   },
-   {
-    "bytes": 102530,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://developers.altmetric.com/llms.txt"
-   },
-   {
-    "bytes": 102530,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://altmetric.com/llms-full.txt"
-   }
-  ],
+  "bytes": 2873,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "archive-today": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 13,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.ph/llms.txt"
-   },
-   {
-    "bytes": 63,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.archive.ph/llms.txt"
-   },
-   {
-    "bytes": 63,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.archive.ph/llms.txt"
-   },
-   {
-    "bytes": 63,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.archive.ph/llms.txt"
-   },
-   {
-    "bytes": 63,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.archive.ph/llms.txt"
-   },
-   {
-    "bytes": 13,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.ph/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "archives-portal-europe": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.archivesportaleurope.net/llms.txt"
-   },
-   {
-    "bytes": 146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archivesportaleurope.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.archivesportaleurope.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.archivesportaleurope.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.archivesportaleurope.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.archivesportaleurope.net/llms.txt"
-   },
-   {
-    "bytes": 146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archivesportaleurope.net/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "arquivo": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 8687,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://arquivo.pt/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.arquivo.pt/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.arquivo.pt/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.arquivo.pt/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.arquivo.pt/llms.txt"
-   },
-   {
-    "bytes": 8687,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://arquivo.pt/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "artic": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 6586,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.artic.edu/llms.txt"
-   },
-   {
-    "bytes": 5652,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://artic.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.artic.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.artic.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.artic.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.artic.edu/llms.txt"
-   },
-   {
-    "bytes": 5667,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://artic.edu/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "arxiv": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 7221,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://arxiv.org/llms.txt"
-   },
-   {
-    "bytes": 76450,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://info.arxiv.org/llms.txt"
-   },
-   {
-    "bytes": 76450,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.arxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.arxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.arxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.arxiv.org/llms.txt"
-   },
-   {
-    "bytes": 7226,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://arxiv.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "base": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 7825,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://www.base-search.net/llms.txt"
-   },
-   {
-    "bytes": 999,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.base-search.net/llms.txt"
-   },
-   {
-    "bytes": 7825,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://base-search.net/llms.txt"
-   },
-   {
-    "bytes": 19,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.base-search.net/llms.txt"
-   },
-   {
-    "bytes": 19,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.base-search.net/llms.txt"
-   },
-   {
-    "bytes": 19,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.base-search.net/llms.txt"
-   },
-   {
-    "bytes": 19,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://developers.base-search.net/llms.txt"
-   },
-   {
-    "bytes": 7825,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://base-search.net/llms-full.txt"
-   }
-  ],
+  "bytes": 1514,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "biomodels": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "biorxiv": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 22389,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 196,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 22389,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 22401,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://biorxiv.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "biostudies": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "cds-cern": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 7574,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://cds.cern.ch/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.cds.cern.ch/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.cds.cern.ch/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.cds.cern.ch/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.cds.cern.ch/llms.txt"
-   },
-   {
-    "bytes": 7574,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://cds.cern.ch/llms-full.txt"
-   }
-  ],
+  "bytes": 1345,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "chembl": {
   "bytes": 4044,
   "reason": "ok",
-  "tried": [
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 4044,
-    "reason": "ok",
-    "status": 200,
-    "url": "https://chembl.gitbook.io/llms.txt"
-   }
-  ],
   "url": "https://chembl.gitbook.io/llms.txt"
  },
  "chroniclingamerica": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 85015,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://chroniclingamerica.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.chroniclingamerica.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.chroniclingamerica.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.chroniclingamerica.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.chroniclingamerica.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 85015,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://chroniclingamerica.loc.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "cleveland-art": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 26188,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.clevelandart.org/llms.txt"
-   },
-   {
-    "bytes": 22,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://openaccess-api.clevelandart.org/llms.txt"
-   },
-   {
-    "bytes": 26188,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://clevelandart.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.clevelandart.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.clevelandart.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.clevelandart.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.clevelandart.org/llms.txt"
-   },
-   {
-    "bytes": 26188,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://clevelandart.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "clinicaltrials": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 94247,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://clinicaltrials.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.clinicaltrials.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.clinicaltrials.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.clinicaltrials.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.clinicaltrials.gov/llms.txt"
-   },
-   {
-    "bytes": 94247,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://clinicaltrials.gov/llms-full.txt"
-   }
-  ],
+  "bytes": 183,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "commoncrawl": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 4558,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://commoncrawl.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.commoncrawl.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.commoncrawl.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.commoncrawl.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.commoncrawl.org/llms.txt"
-   },
-   {
-    "bytes": 4558,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://commoncrawl.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "conifer": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 7550,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://conifer.rhizome.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.conifer.rhizome.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.conifer.rhizome.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.conifer.rhizome.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.conifer.rhizome.org/llms.txt"
-   },
-   {
-    "bytes": 7550,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://conifer.rhizome.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "core": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 55077,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://core.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.core.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.core.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 1815,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.core.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.core.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 55077,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://core.ac.uk/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "crossref": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 306,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 306,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://crossref.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 9,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 29730,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 311,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://crossref.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "crossref-eventdata": {
   "bytes": 0,
-  "reason": "HTTP 0",
-  "tried": [
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://www.eventdata.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://eventdata.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.eventdata.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.eventdata.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.eventdata.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.eventdata.crossref.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://eventdata.crossref.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "datacite": {
   "bytes": 37922,
   "reason": "ok",
-  "tried": [
-   {
-    "bytes": 52,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://datacite.org/llms.txt"
-   },
-   {
-    "bytes": 37922,
-    "reason": "ok",
-    "status": 200,
-    "url": "https://support.datacite.org/llms.txt"
-   }
-  ],
   "url": "https://support.datacite.org/llms.txt"
  },
  "dataone": {
   "bytes": 0,
-  "reason": "HTTP 401",
-  "tried": [
-   {
-    "bytes": 381,
-    "reason": "HTTP 401",
-    "status": 401,
-    "url": "https://www.dataone.org/llms.txt"
-   },
-   {
-    "bytes": 5981,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://purl.dataone.org/llms.txt"
-   },
-   {
-    "bytes": 381,
-    "reason": "HTTP 401",
-    "status": 401,
-    "url": "https://dataone.org/llms.txt"
-   },
-   {
-    "bytes": 196,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.dataone.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.dataone.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.dataone.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.dataone.org/llms.txt"
-   },
-   {
-    "bytes": 381,
-    "reason": "HTTP 401",
-    "status": 401,
-    "url": "https://dataone.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "dataverse": {
   "bytes": 0,
-  "reason": "HTTP 202",
-  "tried": [
-   {
-    "bytes": 2071,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://dataverse.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 153,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://guides.dataverse.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.dataverse.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.dataverse.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 399,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://support.dataverse.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.dataverse.harvard.edu/llms.txt"
-   },
-   {
-    "bytes": 2071,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://dataverse.harvard.edu/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "dataverse-nl": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 5836,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dataverse.nl/llms.txt"
-   },
-   {
-    "bytes": 153,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://guides.dataverse.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.dataverse.nl/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.dataverse.nl/llms.txt"
-   },
-   {
-    "bytes": 1815,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.dataverse.nl/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.dataverse.nl/llms.txt"
-   },
-   {
-    "bytes": 5836,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dataverse.nl/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "dblp": {
   "bytes": 0,
-  "reason": "HTTP 202",
-  "tried": [
-   {
-    "bytes": 3005,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://dblp.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.dblp.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.dblp.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.dblp.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.dblp.org/llms.txt"
-   },
-   {
-    "bytes": 3309,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://dblp.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "digitalnz": {
   "bytes": 0,
-  "reason": "HTTP 202",
-  "tried": [
-   {
-    "bytes": 2450,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://digitalnz.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.digitalnz.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.digitalnz.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.digitalnz.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.digitalnz.org/llms.txt"
-   },
-   {
-    "bytes": 2450,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://digitalnz.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "dimensions": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 101019,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.dimensions.ai/llms.txt"
-   },
-   {
-    "bytes": 363,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.dimensions.ai/llms.txt"
-   },
-   {
-    "bytes": 101019,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dimensions.ai/llms.txt"
-   },
-   {
-    "bytes": 83636,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.dimensions.ai/llms.txt"
-   },
-   {
-    "bytes": 98,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.dimensions.ai/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.dimensions.ai/llms.txt"
-   },
-   {
-    "bytes": 101019,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dimensions.ai/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "dnb-sru": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 37699,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.dnb.de/llms.txt"
-   },
-   {
-    "bytes": 37699,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dnb.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.dnb.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.dnb.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.dnb.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.dnb.de/llms.txt"
-   },
-   {
-    "bytes": 37699,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dnb.de/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "doab": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 51956,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://www.doabooks.org/llms.txt"
-   },
-   {
-    "bytes": 10621,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://directory.doabooks.org/llms.txt"
-   },
-   {
-    "bytes": 51956,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://doabooks.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://docs.doabooks.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://help.doabooks.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://support.doabooks.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://developers.doabooks.org/llms.txt"
-   },
-   {
-    "bytes": 51956,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://doabooks.org/llms-full.txt"
-   }
-  ],
+  "bytes": 4230,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "doaj": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 54048,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://doaj.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.doaj.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.doaj.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.doaj.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.doaj.org/llms.txt"
-   },
-   {
-    "bytes": 54053,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://doaj.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "dpla": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 919,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://dp.la/llms.txt"
-   },
-   {
-    "bytes": 919,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://pro.dp.la/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.dp.la/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.dp.la/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.dp.la/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.dp.la/llms.txt"
-   },
-   {
-    "bytes": 919,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://dp.la/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "dryad": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 0,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://datadryad.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.datadryad.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.datadryad.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.datadryad.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.datadryad.org/llms.txt"
-   },
-   {
-    "bytes": 0,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://datadryad.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ebisearch": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms-full.txt"
-   }
-  ],
+  "bytes": 21,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "elsevier": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 176889,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.elsevier.com/llms.txt"
-   },
-   {
-    "bytes": 1121,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dev.elsevier.com/llms.txt"
-   },
-   {
-    "bytes": 176889,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://elsevier.com/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.elsevier.com/llms.txt"
-   },
-   {
-    "bytes": 39,
-    "reason": "HTTP 401",
-    "status": 401,
-    "url": "https://help.elsevier.com/llms.txt"
-   },
-   {
-    "bytes": 39,
-    "reason": "HTTP 401",
-    "status": 401,
-    "url": "https://support.elsevier.com/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.elsevier.com/llms.txt"
-   },
-   {
-    "bytes": 176889,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://elsevier.com/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ensembl": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 83,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ensembl.org/llms.txt"
-   },
-   {
-    "bytes": 106,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://rest.ensembl.org/llms.txt"
-   },
-   {
-    "bytes": 83,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ensembl.org/llms.txt"
-   },
-   {
-    "bytes": 10591,
-    "reason": "HTTP 503",
-    "status": 503,
-    "url": "https://docs.ensembl.org/llms.txt"
-   },
-   {
-    "bytes": 10591,
-    "reason": "HTTP 503",
-    "status": 503,
-    "url": "https://help.ensembl.org/llms.txt"
-   },
-   {
-    "bytes": 10591,
-    "reason": "HTTP 503",
-    "status": 503,
-    "url": "https://support.ensembl.org/llms.txt"
-   },
-   {
-    "bytes": 10591,
-    "reason": "HTTP 503",
-    "status": 503,
-    "url": "https://developers.ensembl.org/llms.txt"
-   },
-   {
-    "bytes": 83,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ensembl.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "epo-ops": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 146,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://www.epo.org/llms.txt"
-   },
-   {
-    "bytes": 38483,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://developers.epo.org/llms.txt"
-   },
-   {
-    "bytes": 146,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://epo.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.epo.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.epo.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.epo.org/llms.txt"
-   },
-   {
-    "bytes": 146,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://epo.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "europeana": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 5697,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://www.europeana.eu/llms.txt"
-   },
-   {
-    "bytes": 2015,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://europeana.atlassian.net/llms.txt"
-   },
-   {
-    "bytes": 5697,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://europeana.eu/llms.txt"
-   },
-   {
-    "bytes": 103,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.europeana.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.europeana.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.europeana.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.europeana.eu/llms.txt"
-   },
-   {
-    "bytes": 5734,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://europeana.eu/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "europepmc": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 275,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://europepmc.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.europepmc.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.europepmc.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.europepmc.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.europepmc.org/llms.txt"
-   },
-   {
-    "bytes": 275,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://europepmc.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "fatcat": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 179,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://scholar.archive.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://api.fatcat.wiki/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.scholar.archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.scholar.archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.scholar.archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.scholar.archive.org/llms.txt"
-   },
-   {
-    "bytes": 179,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://scholar.archive.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "figshare": {
   "bytes": 0,
-  "reason": "HTTP 202",
-  "tried": [
-   {
-    "bytes": 1995,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://figshare.com/llms.txt"
-   },
-   {
-    "bytes": 146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.figshare.com/llms.txt"
-   },
-   {
-    "bytes": 62481,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.figshare.com/llms.txt"
-   },
-   {
-    "bytes": 83818,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.figshare.com/llms.txt"
-   },
-   {
-    "bytes": 1995,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://developers.figshare.com/llms.txt"
-   },
-   {
-    "bytes": 1995,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://figshare.com/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "finna": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 5607,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://www.finna.fi/llms.txt"
-   },
-   {
-    "bytes": 5607,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://api.finna.fi/llms.txt"
-   },
-   {
-    "bytes": 5603,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://finna.fi/llms.txt"
-   },
-   {
-    "bytes": 5608,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://docs.finna.fi/llms.txt"
-   },
-   {
-    "bytes": 5630,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://help.finna.fi/llms.txt"
-   },
-   {
-    "bytes": 5633,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://support.finna.fi/llms.txt"
-   },
-   {
-    "bytes": 5658,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://developers.finna.fi/llms.txt"
-   },
-   {
-    "bytes": 5618,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://finna.fi/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "gallica": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 1319,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://gallica.bnf.fr/llms.txt"
-   },
-   {
-    "bytes": 184,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.bnf.fr/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.gallica.bnf.fr/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.gallica.bnf.fr/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.gallica.bnf.fr/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.gallica.bnf.fr/llms.txt"
-   },
-   {
-    "bytes": 1319,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://gallica.bnf.fr/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "gbif": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 5523,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://www.gbif.org/llms.txt"
-   },
-   {
-    "bytes": 6947,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://techdocs.gbif.org/llms.txt"
-   },
-   {
-    "bytes": 5523,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://gbif.org/llms.txt"
-   },
-   {
-    "bytes": 315,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.gbif.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.gbif.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.gbif.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.gbif.org/llms.txt"
-   },
-   {
-    "bytes": 5538,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://gbif.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "gutenberg": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 6559,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.gutenberg.org/llms.txt"
-   },
-   {
-    "bytes": 611,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://gutendex.com/llms.txt"
-   },
-   {
-    "bytes": 6559,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://gutenberg.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.gutenberg.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.gutenberg.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.gutenberg.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.gutenberg.org/llms.txt"
-   },
-   {
-    "bytes": 6559,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://gutenberg.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "hal": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 48597,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://hal.science/llms.txt"
-   },
-   {
-    "bytes": 10027,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://api.archives-ouvertes.fr/llms.txt"
-   },
-   {
-    "bytes": 44,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.hal.science/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.hal.science/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.hal.science/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.hal.science/llms.txt"
-   },
-   {
-    "bytes": 48602,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://hal.science/llms-full.txt"
-   }
-  ],
+  "bytes": 870,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "hathitrust": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 14356,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.hathitrust.org/llms.txt"
-   },
-   {
-    "bytes": 14356,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://hathitrust.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.hathitrust.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.hathitrust.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.hathitrust.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.hathitrust.org/llms.txt"
-   },
-   {
-    "bytes": 14356,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://hathitrust.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "huggingface": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 52349,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://huggingface.co/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.huggingface.co/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.huggingface.co/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.huggingface.co/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.huggingface.co/llms.txt"
-   },
-   {
-    "bytes": 52359,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://huggingface.co/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ia-fulltext": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 4963,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.archive.org/llms.txt"
-   },
-   {
-    "bytes": 21031,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.archive.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.archive.org/llms.txt"
-   },
-   {
-    "bytes": 4963,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ia-metadata": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 4963,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.archive.org/llms.txt"
-   },
-   {
-    "bytes": 21031,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.archive.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.archive.org/llms.txt"
-   },
-   {
-    "bytes": 4963,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "id-loc": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 5627,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://id.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.id.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.id.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.id.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.id.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 5663,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://id.loc.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "idigbio": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 1157,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.idigbio.org/llms.txt"
-   },
-   {
-    "bytes": 28658,
-    "reason": "belongs to github.com, not the provider",
-    "status": 200,
-    "url": "https://github.com/llms.txt"
-   },
-   {
-    "bytes": 1157,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://idigbio.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.idigbio.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.idigbio.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.idigbio.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.idigbio.org/llms.txt"
-   },
-   {
-    "bytes": 1157,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://idigbio.org/llms-full.txt"
-   }
-  ],
+  "bytes": 28658,
+  "reason": "belongs to github.com, not the provider",
   "url": null
  },
  "ieee": {
   "bytes": 0,
-  "reason": "HTTP 202",
-  "tried": [
-   {
-    "bytes": 15382,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://developer.ieee.org/llms.txt"
-   },
-   {
-    "bytes": 2047,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://ieee.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ieee.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ieee.org/llms.txt"
-   },
-   {
-    "bytes": 18,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.ieee.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ieee.org/llms.txt"
-   },
-   {
-    "bytes": 2047,
-    "reason": "HTTP 202",
-    "status": 202,
-    "url": "https://ieee.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "inaturalist": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 5658,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://www.inaturalist.org/llms.txt"
-   },
-   {
-    "bytes": 147,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.inaturalist.org/llms.txt"
-   },
-   {
-    "bytes": 5658,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://inaturalist.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.inaturalist.org/llms.txt"
-   },
-   {
-    "bytes": 1815,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.inaturalist.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.inaturalist.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.inaturalist.org/llms.txt"
-   },
-   {
-    "bytes": 5694,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://inaturalist.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "inspirehep": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 2896,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://inspirehep.net/llms.txt"
-   },
-   {
-    "bytes": 28658,
-    "reason": "belongs to github.com, not the provider",
-    "status": 200,
-    "url": "https://github.com/llms.txt"
-   },
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.inspirehep.net/llms.txt"
-   },
-   {
-    "bytes": 25662,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.inspirehep.net/llms.txt"
-   },
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.inspirehep.net/llms.txt"
-   },
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.inspirehep.net/llms.txt"
-   },
-   {
-    "bytes": 2896,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://inspirehep.net/llms-full.txt"
-   }
-  ],
+  "bytes": 28658,
+  "reason": "belongs to github.com, not the provider",
   "url": null
  },
  "jstage": {
   "bytes": 0,
-  "reason": "HTTP 0",
-  "tried": [
-   {
-    "bytes": 19905,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.jstage.jst.go.jp/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://jstage.jst.go.jp/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.jstage.jst.go.jp/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.jstage.jst.go.jp/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.jstage.jst.go.jp/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.jstage.jst.go.jp/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://jstage.jst.go.jp/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "jstor-constellate": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 3038,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://www.jstor.org/llms.txt"
-   },
-   {
-    "bytes": 138238,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://constellate.org/llms.txt"
-   },
-   {
-    "bytes": 3038,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://jstor.org/llms.txt"
-   },
-   {
-    "bytes": 3418,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.jstor.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.jstor.org/llms.txt"
-   },
-   {
-    "bytes": 9914,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.jstor.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.jstor.org/llms.txt"
-   },
-   {
-    "bytes": 3038,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://jstor.org/llms-full.txt"
-   }
-  ],
+  "bytes": 3497,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "k10plus-sru": {
   "bytes": 0,
-  "reason": "HTTP 0",
-  "tried": [
-   {
-    "bytes": 151,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://k10plus.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://projekt.mvb10plus.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.k10plus.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.k10plus.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.k10plus.de/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.k10plus.de/llms.txt"
-   },
-   {
-    "bytes": 151,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://k10plus.de/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "lareferencia": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 6250,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.lareferencia.info/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://api.lareferencia.info/llms.txt"
-   },
-   {
-    "bytes": 6250,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://lareferencia.info/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.lareferencia.info/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.lareferencia.info/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.lareferencia.info/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.lareferencia.info/llms.txt"
-   },
-   {
-    "bytes": 6250,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://lareferencia.info/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "lens": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 162,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.lens.org/llms.txt"
-   },
-   {
-    "bytes": 9379,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.api.lens.org/llms.txt"
-   },
-   {
-    "bytes": 162,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://lens.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.lens.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.lens.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://support.lens.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.lens.org/llms.txt"
-   },
-   {
-    "bytes": 162,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://lens.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "loc": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 206,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 206,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.loc.gov/llms.txt"
-   },
-   {
-    "bytes": 211,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://loc.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "medrxiv": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 22518,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.medrxiv.org/llms.txt"
-   },
-   {
-    "bytes": 196,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.biorxiv.org/llms.txt"
-   },
-   {
-    "bytes": 22518,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://medrxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.medrxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.medrxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.medrxiv.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.medrxiv.org/llms.txt"
-   },
-   {
-    "bytes": 22533,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://medrxiv.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "memento": {
   "bytes": 0,
-  "reason": "HTTP 0",
-  "tried": [
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://timetravel.mementoweb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.timetravel.mementoweb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.timetravel.mementoweb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.timetravel.mementoweb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.timetravel.mementoweb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://timetravel.mementoweb.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "met-museum": {
   "bytes": 0,
-  "reason": "HTTP 429",
-  "tried": [
-   {
-    "bytes": 34222,
-    "reason": "HTTP 429",
-    "status": 429,
-    "url": "https://www.metmuseum.org/llms.txt"
-   },
-   {
-    "bytes": 9379,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://metmuseum.github.io/llms.txt"
-   },
-   {
-    "bytes": 34222,
-    "reason": "HTTP 429",
-    "status": 429,
-    "url": "https://metmuseum.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.metmuseum.org/llms.txt"
-   },
-   {
-    "bytes": 69077,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://help.metmuseum.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.metmuseum.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.metmuseum.org/llms.txt"
-   },
-   {
-    "bytes": 34220,
-    "reason": "HTTP 429",
-    "status": 429,
-    "url": "https://metmuseum.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "nara": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 30146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.archives.gov/llms.txt"
-   },
-   {
-    "bytes": 30146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archives.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.archives.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.archives.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.archives.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.archives.gov/llms.txt"
-   },
-   {
-    "bytes": 30146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archives.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "nb-no": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 149873,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.nb.no/llms.txt"
-   },
-   {
-    "bytes": 146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.nb.no/llms.txt"
-   },
-   {
-    "bytes": 149873,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://nb.no/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.nb.no/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.nb.no/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.nb.no/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.nb.no/llms.txt"
-   },
-   {
-    "bytes": 149873,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://nb.no/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ndltd": {
   "bytes": 0,
-  "reason": "HTTP 503",
-  "tried": [
-   {
-    "bytes": 505,
-    "reason": "HTTP 503",
-    "status": 503,
-    "url": "https://search.ndltd.org/llms.txt"
-   },
-   {
-    "bytes": 505,
-    "reason": "HTTP 503",
-    "status": 503,
-    "url": "https://union.ndltd.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.search.ndltd.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.search.ndltd.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.search.ndltd.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.search.ndltd.org/llms.txt"
-   },
-   {
-    "bytes": 505,
-    "reason": "HTTP 503",
-    "status": 503,
-    "url": "https://search.ndltd.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ntrs": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 46705,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://ntrs.nasa.gov/llms.txt"
-   },
-   {
-    "bytes": 146,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://sti.nasa.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ntrs.nasa.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ntrs.nasa.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.ntrs.nasa.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ntrs.nasa.gov/llms.txt"
-   },
-   {
-    "bytes": 46705,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://ntrs.nasa.gov/llms-full.txt"
-   }
-  ],
+  "bytes": 607,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "oapen": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 44109,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 10622,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://library.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 44109,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://docs.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://help.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://support.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://developers.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 44109,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://oapen.org/llms-full.txt"
-   }
-  ],
-  "url": null
- },
- "oapen-api": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 44109,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://api.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 44109,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://docs.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://help.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://support.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 55912,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://developers.oapen.org/llms.txt"
-   },
-   {
-    "bytes": 44109,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://oapen.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "obis": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 153,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://obis.org/llms.txt"
-   },
-   {
-    "bytes": 147,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.obis.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.obis.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.obis.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.obis.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.obis.org/llms.txt"
-   },
-   {
-    "bytes": 153,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://obis.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ols": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ebi.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 20544,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ebi.ac.uk/llms-full.txt"
-   }
-  ],
-  "url": null
- },
- "openaire-explore": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 136,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://explore.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 3902,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://graph.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.explore.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.explore.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.explore.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.explore.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 136,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://explore.openaire.eu/llms-full.txt"
-   }
-  ],
+  "bytes": 29,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "openaire-graph": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 3902,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://graph.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.graph.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.graph.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.graph.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.graph.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 3902,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://graph.openaire.eu/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "openaire-search": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 162,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 66,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 162,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 459,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.openaire.eu/llms.txt"
-   },
-   {
-    "bytes": 162,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://openaire.eu/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "openalex": {
   "bytes": 34907,
   "reason": "ok",
-  "tried": [
-   {
-    "bytes": 5779,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://openalex.org/llms.txt"
-   },
-   {
-    "bytes": 34907,
-    "reason": "ok",
-    "status": 200,
-    "url": "https://docs.openalex.org/llms.txt"
-   }
-  ],
   "url": "https://docs.openalex.org/llms.txt"
  },
  "opencitations": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 99200,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://opencitations.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.opencitations.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.opencitations.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.opencitations.net/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.opencitations.net/llms.txt"
-   },
-   {
-    "bytes": 99190,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://opencitations.net/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "openlibrary": {
   "bytes": 4880,
   "reason": "ok",
-  "tried": [
-   {
-    "bytes": 42629,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://openlibrary.org/llms.txt"
-   },
-   {
-    "bytes": 4880,
-    "reason": "ok",
-    "status": 200,
-    "url": "https://docs.openlibrary.org/llms.txt"
-   }
-  ],
   "url": "https://docs.openlibrary.org/llms.txt"
  },
  "openml": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 682,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://www.openml.org/llms.txt"
-   },
-   {
-    "bytes": 682,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://openml.org/llms.txt"
-   },
-   {
-    "bytes": 101375,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.openml.org/llms.txt"
-   },
-   {
-    "bytes": 113,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.openml.org/llms.txt"
-   },
-   {
-    "bytes": 113,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.openml.org/llms.txt"
-   },
-   {
-    "bytes": 113,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.openml.org/llms.txt"
-   },
-   {
-    "bytes": 682,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://openml.org/llms-full.txt"
-   }
-  ],
+  "bytes": 6,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "openreview": {
   "bytes": 69137,
   "reason": "ok",
-  "tried": [
-   {
-    "bytes": 11910,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://openreview.net/llms.txt"
-   },
-   {
-    "bytes": 69137,
-    "reason": "ok",
-    "status": 200,
-    "url": "https://docs.openreview.net/llms.txt"
-   }
-  ],
   "url": "https://docs.openreview.net/llms.txt"
  },
  "openverse": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 146420,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://openverse.org/llms.txt"
-   },
-   {
-    "bytes": 540,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.openverse.org/llms.txt"
-   },
-   {
-    "bytes": 118471,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.openverse.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.openverse.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.openverse.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.openverse.org/llms.txt"
-   },
-   {
-    "bytes": 146455,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://openverse.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "orcid": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 67250,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://orcid.org/llms.txt"
-   },
-   {
-    "bytes": 146038,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://info.orcid.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.orcid.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.orcid.org/llms.txt"
-   },
-   {
-    "bytes": 48454,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.orcid.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.orcid.org/llms.txt"
-   },
-   {
-    "bytes": 67250,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://orcid.org/llms-full.txt"
-   }
-  ],
+  "bytes": 5,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "osf": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 4207,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://osf.io/llms.txt"
-   },
-   {
-    "bytes": 243,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://developer.osf.io/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.osf.io/llms.txt"
-   },
-   {
-    "bytes": 1020,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.osf.io/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.osf.io/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.osf.io/llms.txt"
-   },
-   {
-    "bytes": 4207,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://osf.io/llms-full.txt"
-   }
-  ],
+  "bytes": 3,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "osti": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 264830,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.osti.gov/llms.txt"
-   },
-   {
-    "bytes": 264830,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://osti.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.osti.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.osti.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.osti.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.osti.gov/llms.txt"
-   },
-   {
-    "bytes": 264830,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://osti.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "paperswithcode": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 1475495,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://paperswithcode.com/llms.txt"
-   },
-   {
-    "bytes": 98,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.paperswithcode.com/llms.txt"
-   },
-   {
-    "bytes": 98,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.paperswithcode.com/llms.txt"
-   },
-   {
-    "bytes": 98,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.paperswithcode.com/llms.txt"
-   },
-   {
-    "bytes": 98,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.paperswithcode.com/llms.txt"
-   },
-   {
-    "bytes": 1475495,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://paperswithcode.com/llms-full.txt"
-   }
-  ],
+  "bytes": 38703,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "patentsview": {
   "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 20666,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://patentsview.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.patentsview.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.patentsview.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.patentsview.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.patentsview.org/llms.txt"
-   },
-   {
-    "bytes": 20666,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://patentsview.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "pdb": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 40706,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.rcsb.org/llms.txt"
-   },
-   {
-    "bytes": 275,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://data.rcsb.org/llms.txt"
-   },
-   {
-    "bytes": 40706,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://rcsb.org/llms.txt"
-   },
-   {
-    "bytes": 103,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.rcsb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.rcsb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.rcsb.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.rcsb.org/llms.txt"
-   },
-   {
-    "bytes": 40706,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://rcsb.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "perma": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 6610,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://perma.cc/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.perma.cc/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.perma.cc/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.perma.cc/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.perma.cc/llms.txt"
-   },
-   {
-    "bytes": 6615,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://perma.cc/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "pmc-idconv": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 135070,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 135070,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 46185,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://support.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 135070,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ncbi.nlm.nih.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "pmc-oa": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 135070,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 135070,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 46185,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://support.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 135070,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ncbi.nlm.nih.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "pubchem": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 357757,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://pubchem.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.pubchem.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.pubchem.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.pubchem.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.pubchem.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 357762,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://pubchem.ncbi.nlm.nih.gov/llms-full.txt"
-   }
-  ],
+  "bytes": 169,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "pubmed": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 26450,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://pubmed.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 135070,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.pubmed.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.pubmed.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.pubmed.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.pubmed.ncbi.nlm.nih.gov/llms.txt"
-   },
-   {
-    "bytes": 26460,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://pubmed.ncbi.nlm.nih.gov/llms-full.txt"
-   }
-  ],
+  "bytes": 165,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "re3data": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 9147,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.re3data.org/llms.txt"
-   },
-   {
-    "bytes": 9147,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://re3data.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.re3data.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.re3data.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.re3data.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.re3data.org/llms.txt"
-   },
-   {
-    "bytes": 9147,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://re3data.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "repec": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 17343,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ideas.repec.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.ideas.repec.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.ideas.repec.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.ideas.repec.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.ideas.repec.org/llms.txt"
-   },
-   {
-    "bytes": 17358,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://ideas.repec.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "ror": {
   "bytes": 4312,
   "reason": "ok",
-  "tried": [
-   {
-    "bytes": 34228,
-    "reason": "HTTP 429",
-    "status": 429,
-    "url": "https://ror.org/llms.txt"
-   },
-   {
-    "bytes": 4312,
-    "reason": "ok",
-    "status": 200,
-    "url": "https://ror.readme.io/llms.txt"
-   }
-  ],
   "url": "https://ror.readme.io/llms.txt"
  },
  "scielo": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 7059,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://scielo.org/llms.txt"
-   },
-   {
-    "bytes": 152,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://articlemeta.scielo.org/llms.txt"
-   },
-   {
-    "bytes": 2350,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.scielo.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.scielo.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.scielo.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.scielo.org/llms.txt"
-   },
-   {
-    "bytes": 7059,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://scielo.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "scite": {
   "bytes": 5125,
   "reason": "ok",
-  "tried": [
-   {
-    "bytes": 5125,
-    "reason": "ok",
-    "status": 200,
-    "url": "https://scite.ai/llms.txt"
-   }
-  ],
   "url": "https://scite.ai/llms.txt"
  },
  "semanticscholar": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 97358,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.semanticscholar.org/llms.txt"
-   },
-   {
-    "bytes": 97358,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://semanticscholar.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.semanticscholar.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.semanticscholar.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.semanticscholar.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.semanticscholar.org/llms.txt"
-   },
-   {
-    "bytes": 97358,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://semanticscholar.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "sherpa-romeo": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 650982,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://v2.sherpa.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.v2.sherpa.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.v2.sherpa.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.v2.sherpa.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.v2.sherpa.ac.uk/llms.txt"
-   },
-   {
-    "bytes": 650982,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://v2.sherpa.ac.uk/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "smithsonian": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 507,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://www.si.edu/llms.txt"
-   },
-   {
-    "bytes": 196,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://edan.si.edu/llms.txt"
-   },
-   {
-    "bytes": 507,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://si.edu/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.si.edu/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.si.edu/llms.txt"
-   },
-   {
-    "bytes": 507,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://support.si.edu/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.si.edu/llms.txt"
-   },
-   {
-    "bytes": 507,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://si.edu/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "snac": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 4296,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 196,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 50,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 50,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 168,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 50,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 4296,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://snaccooperative.org/llms-full.txt"
-   }
-  ],
-  "url": null
- },
- "snac-api": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 4296,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 196,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 50,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 50,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 168,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 50,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.snaccooperative.org/llms.txt"
-   },
-   {
-    "bytes": 4296,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://snaccooperative.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "softwareheritage": {
   "bytes": 0,
-  "reason": "HTTP 0",
-  "tried": [
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://www.softwareheritage.org/llms.txt"
-   },
-   {
-    "bytes": 12304,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.softwareheritage.org/llms.txt"
-   },
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://softwareheritage.org/llms.txt"
-   },
-   {
-    "bytes": 153,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://docs.softwareheritage.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.softwareheritage.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.softwareheritage.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.softwareheritage.org/llms.txt"
-   },
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://softwareheritage.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "springer": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 21443,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.springernature.com/llms.txt"
-   },
-   {
-    "bytes": 85586,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://dev.springernature.com/llms.txt"
-   },
-   {
-    "bytes": 21443,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://springernature.com/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.springernature.com/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.springernature.com/llms.txt"
-   },
-   {
-    "bytes": 1815,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.springernature.com/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.springernature.com/llms.txt"
-   },
-   {
-    "bytes": 21528,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://springernature.com/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "thoth": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 31978,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://thoth.pub/llms.txt"
-   },
-   {
-    "bytes": 0,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.thoth.pub/llms.txt"
-   },
-   {
-    "bytes": 113,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.thoth.pub/llms.txt"
-   },
-   {
-    "bytes": 446,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.thoth.pub/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.thoth.pub/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.thoth.pub/llms.txt"
-   },
-   {
-    "bytes": 31978,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://thoth.pub/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "tna-discovery": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 76142,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://discovery.nationalarchives.gov.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.discovery.nationalarchives.gov.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.discovery.nationalarchives.gov.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.discovery.nationalarchives.gov.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.discovery.nationalarchives.gov.uk/llms.txt"
-   },
-   {
-    "bytes": 76142,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://discovery.nationalarchives.gov.uk/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "trove": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 7533,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://trove.nla.gov.au/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.trove.nla.gov.au/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.trove.nla.gov.au/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.trove.nla.gov.au/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.trove.nla.gov.au/llms.txt"
-   },
-   {
-    "bytes": 7533,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://trove.nla.gov.au/llms-full.txt"
-   }
-  ],
+  "bytes": 1345,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "ukwa": {
   "bytes": 0,
-  "reason": "HTTP 0",
-  "tried": [
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://www.webarchive.org.uk/llms.txt"
-   },
-   {
-    "bytes": 98,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://webarchive.org.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.webarchive.org.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.webarchive.org.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.webarchive.org.uk/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.webarchive.org.uk/llms.txt"
-   },
-   {
-    "bytes": 98,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://webarchive.org.uk/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "uniprot": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 6577,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://www.uniprot.org/llms.txt"
-   },
-   {
-    "bytes": 6577,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://uniprot.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.uniprot.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.uniprot.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.uniprot.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.uniprot.org/llms.txt"
-   },
-   {
-    "bytes": 6577,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://uniprot.org/llms-full.txt"
-   }
-  ],
+  "bytes": 404,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "unpaywall": {
-  "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 1421,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://unpaywall.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.unpaywall.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.unpaywall.org/llms.txt"
-   },
-   {
-    "bytes": 34588,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://support.unpaywall.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.unpaywall.org/llms.txt"
-   },
-   {
-    "bytes": 1421,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://unpaywall.org/llms-full.txt"
-   }
-  ],
+  "bytes": 9,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "uspto-ibd": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 20666,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://developer.uspto.gov/llms.txt"
-   },
-   {
-    "bytes": 128234,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://uspto.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.uspto.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.uspto.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.uspto.gov/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.uspto.gov/llms.txt"
-   },
-   {
-    "bytes": 128234,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://uspto.gov/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "viaf": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 243,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://viaf.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.viaf.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.viaf.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.viaf.org/llms.txt"
-   },
-   {
-    "bytes": 62,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.viaf.org/llms.txt"
-   },
-   {
-    "bytes": 243,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://viaf.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "wayback-availability": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 4963,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.archive.org/llms.txt"
-   },
-   {
-    "bytes": 21031,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.archive.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.archive.org/llms.txt"
-   },
-   {
-    "bytes": 25,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.archive.org/llms.txt"
-   },
-   {
-    "bytes": 4963,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "wayback-cdx": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 151559,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 28658,
-    "reason": "belongs to github.com, not the provider",
-    "status": 200,
-    "url": "https://github.com/llms.txt"
-   },
-   {
-    "bytes": 161,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 161,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 164,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 167,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 151574,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://web.archive.org/llms-full.txt"
-   }
-  ],
+  "bytes": 28658,
+  "reason": "belongs to github.com, not the provider",
   "url": null
  },
  "wayback-save": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 151559,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 4963,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://archive.org/llms.txt"
-   },
-   {
-    "bytes": 161,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 161,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 164,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 167,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.web.archive.org/llms.txt"
-   },
-   {
-    "bytes": 151574,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://web.archive.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "wikidata": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 236,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://query.wikidata.org/llms.txt"
-   },
-   {
-    "bytes": 1868,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.mediawiki.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.query.wikidata.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.query.wikidata.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.query.wikidata.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.query.wikidata.org/llms.txt"
-   },
-   {
-    "bytes": 236,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://query.wikidata.org/llms-full.txt"
-   }
-  ],
+  "bytes": 18292,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "wikipedia-api": {
-  "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 1868,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.mediawiki.org/llms.txt"
-   },
-   {
-    "bytes": 1868,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://mediawiki.org/llms.txt"
-   },
-   {
-    "bytes": 86039,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://docs.mediawiki.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.mediawiki.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.mediawiki.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.mediawiki.org/llms.txt"
-   },
-   {
-    "bytes": 1883,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://mediawiki.org/llms-full.txt"
-   }
-  ],
+  "bytes": 18292,
+  "reason": "not a markdown index (no heading near the top)",
   "url": null
  },
  "wiley": {
   "bytes": 0,
-  "reason": "served HTML at a .txt path",
-  "tried": [
-   {
-    "bytes": 352023,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://www.wiley.com/llms.txt"
-   },
-   {
-    "bytes": 5755,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://onlinelibrary.wiley.com/llms.txt"
-   },
-   {
-    "bytes": 515908,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://wiley.com/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.wiley.com/llms.txt"
-   },
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.wiley.com/llms.txt"
-   },
-   {
-    "bytes": 128,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.wiley.com/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.wiley.com/llms.txt"
-   },
-   {
-    "bytes": 515908,
-    "reason": "served HTML at a .txt path",
-    "status": 200,
-    "url": "https://wiley.com/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "zbmath": {
   "bytes": 0,
-  "reason": "HTTP 403",
-  "tried": [
-   {
-    "bytes": 5648,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://zbmath.org/llms.txt"
-   },
-   {
-    "bytes": 293,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://api.zbmath.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.zbmath.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://help.zbmath.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://support.zbmath.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://developers.zbmath.org/llms.txt"
-   },
-   {
-    "bytes": 5663,
-    "reason": "HTTP 403",
-    "status": 403,
-    "url": "https://zbmath.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  },
  "zenodo": {
   "bytes": 0,
-  "reason": "HTTP 404",
-  "tried": [
-   {
-    "bytes": 14101,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://zenodo.org/llms.txt"
-   },
-   {
-    "bytes": 9379,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://developers.zenodo.org/llms.txt"
-   },
-   {
-    "bytes": 52,
-    "reason": "HTTP 0",
-    "status": 0,
-    "url": "https://docs.zenodo.org/llms.txt"
-   },
-   {
-    "bytes": 9379,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://help.zenodo.org/llms.txt"
-   },
-   {
-    "bytes": 446,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://support.zenodo.org/llms.txt"
-   },
-   {
-    "bytes": 14106,
-    "reason": "HTTP 404",
-    "status": 404,
-    "url": "https://zenodo.org/llms-full.txt"
-   }
-  ],
+  "reason": "empty body",
   "url": null
  }
 }

@@ -4,7 +4,7 @@
 - Home: https://developer.uspto.gov/
 - Docs: https://developer.uspto.gov/api-catalog
 - Probe endpoint: `https://developer.uspto.gov/ibd-api/v1/application/publications?publicationTitleText=engine`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

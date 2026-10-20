@@ -4,7 +4,7 @@
 - Home: https://id.loc.gov/
 - Docs: https://id.loc.gov/
 - Probe endpoint: `https://id.loc.gov/search/?q=openalex&format=json`
-- llms.txt: none verified — HTTP 403
+- llms.txt: none verified — empty body
 
 ## Free access
 

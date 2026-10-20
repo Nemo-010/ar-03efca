@@ -4,7 +4,7 @@
 - Home: https://obis.org/
 - Docs: https://api.obis.org/
 - Probe endpoint: `https://api.obis.org/v3/occurrence?size=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

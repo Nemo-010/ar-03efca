@@ -4,7 +4,7 @@
 - Home: https://scielo.org/
 - Docs: https://articlemeta.scielo.org/api/v1/
 - Probe endpoint: `https://articlemeta.scielo.org/api/v1/article/identifiers/?limit=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://orcid.org/
 - Docs: https://info.orcid.org/documentation/api-reference/
 - Probe endpoint: `https://pub.orcid.org/v3.0/expanded-search/?q=openalex&rows=1`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

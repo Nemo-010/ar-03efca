@@ -4,7 +4,7 @@
 - Home: https://clinicaltrials.gov/
 - Docs: https://clinicaltrials.gov/data-api/api
 - Probe endpoint: `https://clinicaltrials.gov/api/v2/studies?pageSize=1`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

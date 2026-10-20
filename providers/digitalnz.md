@@ -4,7 +4,7 @@
 - Home: https://digitalnz.org/
 - Docs: https://digitalnz.org/developers/api
 - Probe endpoint: `https://api.digitalnz.org/v3/records.json?text=openalex`
-- llms.txt: none verified — HTTP 202
+- llms.txt: none verified — empty body
 
 ## Free access
 

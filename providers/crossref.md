@@ -4,7 +4,7 @@
 - Home: https://www.crossref.org/
 - Docs: https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/
 - Probe endpoint: `https://api.crossref.org/works/10.1038/nature12373`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

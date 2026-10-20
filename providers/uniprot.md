@@ -4,7 +4,7 @@
 - Home: https://www.uniprot.org/
 - Docs: https://www.uniprot.org/help/api
 - Probe endpoint: `https://rest.uniprot.org/uniprotkb/search?query=openalex&size=1&format=json`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

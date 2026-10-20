@@ -4,7 +4,7 @@
 - Home: https://www.archives.gov/research/catalog
 - Docs: https://www.archives.gov/research/catalog/help/api
 - Probe endpoint: `https://catalog.archives.gov/api/v2/records/search?q=openalex`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

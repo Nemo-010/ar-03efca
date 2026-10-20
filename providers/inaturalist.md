@@ -4,7 +4,7 @@
 - Home: https://www.inaturalist.org/
 - Docs: https://api.inaturalist.org/v1/docs/
 - Probe endpoint: `https://api.inaturalist.org/v1/observations?per_page=1`
-- llms.txt: none verified — HTTP 403
+- llms.txt: none verified — empty body
 
 ## Free access
 

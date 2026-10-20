@@ -4,7 +4,7 @@
 - Home: https://www.europeana.eu/
 - Docs: https://europeana.atlassian.net/wiki/spaces/EF/pages/2477260801/API+documentation
 - Probe endpoint: `https://api.europeana.eu/record/v2/search.json?query=openalex&wskey=api2demo&rows=1`
-- llms.txt: none verified — HTTP 403
+- llms.txt: none verified — empty body
 
 ## Free access
 

@@ -4,7 +4,7 @@
 - Home: https://hal.science/
 - Docs: https://api.archives-ouvertes.fr/docs
 - Probe endpoint: `https://api.archives-ouvertes.fr/search/?q=openalex&rows=1&wt=json`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

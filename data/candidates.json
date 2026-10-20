@@ -526,7 +526,7 @@
    "category": "index",
    "home": "https://www.ncbi.nlm.nih.gov/pmc/",
    "docs": "https://www.ncbi.nlm.nih.gov/pmc/tools/oa-service/",
-   "api": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC13900/unicode",
+   "api": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC1000000",
    "pricing": null,
    "llms": null
   },
@@ -677,16 +677,6 @@
    "home": "https://search.ndltd.org/",
    "docs": "https://union.ndltd.org/OAI-PMH",
    "api": "https://union.ndltd.org/OAI-PMH?verb=Identify",
-   "pricing": null,
-   "llms": null
-  },
-  {
-   "slug": "openaire-explore",
-   "name": "OpenAIRE Explore",
-   "category": "index",
-   "home": "https://explore.openaire.eu/",
-   "docs": "https://graph.openaire.eu/docs/",
-   "api": "https://api.openaire.eu/search/publications?keywords=openalex&size=1",
    "pricing": null,
    "llms": null
   },
@@ -1101,32 +1091,12 @@
    "llms": null
   },
   {
-   "slug": "oapen-api",
-   "name": "OAPEN REST API",
-   "category": "repository",
-   "home": "https://www.oapen.org/",
-   "docs": "https://api.oapen.org/",
-   "api": "https://api.oapen.org/search?query=openalex",
-   "pricing": null,
-   "llms": null
-  },
-  {
    "slug": "uspto-ibd",
    "name": "USPTO Open Data Portal (IBD)",
    "category": "publisher",
    "home": "https://developer.uspto.gov/",
    "docs": "https://developer.uspto.gov/api-catalog",
    "api": "https://developer.uspto.gov/ibd-api/v1/application/publications?publicationTitleText=engine",
-   "pricing": null,
-   "llms": null
-  },
-  {
-   "slug": "snac-api",
-   "name": "SNAC API",
-   "category": "web-archive",
-   "home": "https://snaccooperative.org/",
-   "docs": "https://api.snaccooperative.org/",
-   "api": "https://api.snaccooperative.org/",
    "pricing": null,
    "llms": null
   },

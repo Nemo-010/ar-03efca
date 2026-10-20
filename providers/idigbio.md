@@ -4,7 +4,7 @@
 - Home: https://www.idigbio.org/
 - Docs: https://github.com/iDigBio/idigbio-search-api/wiki
 - Probe endpoint: `https://search.idigbio.org/v2/search/records/?q=openalex&limit=1&fields=uuid`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — belongs to github.com, not the provider
 
 ## Free access
 

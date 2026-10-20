@@ -4,7 +4,7 @@
 - Home: https://zenodo.org/
 - Docs: https://developers.zenodo.org/
 - Probe endpoint: `https://zenodo.org/api/records?q=openalex&size=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

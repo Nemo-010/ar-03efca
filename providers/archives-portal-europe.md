@@ -4,7 +4,7 @@
 - Home: https://www.archivesportaleurope.net/
 - Docs: https://www.archivesportaleurope.net/information/api
 - Probe endpoint: `https://www.archivesportaleurope.net/OAI-PMH/?verb=Identify`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

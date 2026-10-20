@@ -1082,21 +1082,6 @@
   "url": "https://library.oapen.org/rest/search?query=openalex&expand=metadata&limit=1",
   "verdict": "auth"
  },
- "oapen-api": {
-  "body_head": "<!doctype html> <html lang=\"en\" data-bulma-theme=\"light\"> <head> <meta charset=\"utf-8\"/> <meta content=\"text/html; charset=UTF-8\" http-equiv=\"Content-Type\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/> <title>Book Analytics Service | OAPEN</title> <!-- Preconnect to DSpace --> <link rel=\"preconnect\" href=\"https://library.oapen.org\" crossorigin> <link rel=\"",
-  "bytes": 55912,
-  "content_type": "text/html;charset=UTF-8",
-  "final_url": "https://oapen.org/article/book-analytics-service",
-  "ms": 864,
-  "name": "OAPEN REST API",
-  "probed_at": "2026-10-20T02:49:19+00:00",
-  "rate_headers": {},
-  "sha256": "e430c157a60d7676344144528435a732a546e0bce5b2f78188c2fabcdeb1c4fe",
-  "slug": "oapen-api",
-  "status": 200,
-  "url": "https://api.oapen.org/search?query=openalex",
-  "verdict": "ok-html"
- },
  "obis": {
   "body_head": "{\"total\":228719495,\"results\":[{\"basisOfRecord\":\"MaterialSample\",\"bibliographicCitation\":\"Brown, M. V. et al. Continental scale monitoring of marine microbiota by the Australian Marine Microbial Biodiversity Initiative. Sci. Data 5:180130 doi: 10.1038/sdata.2018.130 (2018).\",\"brackish\":true,\"catalogNumber\":\"102.100.100/35552-EF9455B8FFF22EFC18B3DCB746553DB9\",\"class\":\"Coccolithophyceae\",\"classid\":59",
   "bytes": 3136,
@@ -1125,24 +1110,6 @@
   "slug": "ols",
   "status": 200,
   "url": "https://www.ebi.ac.uk/ols4/api/search?q=openalex&rows=1",
-  "verdict": "ok"
- },
- "openaire-explore": {
-  "body_head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <response> <header> <query>(oaftype exact result) and (resulttypeid exact publication) and ( openalex)</query> <locale>en_US</locale> <size>1</size> <page>1</page> <total>1602</total> <fields> </fields> </header> <results> <result xmlns:dri=\"http://www.driver-repository.eu/namespace/dri\" ",
-  "bytes": 19528,
-  "content_type": "application/xml;charset=UTF-8",
-  "final_url": "https://api.openaire.eu/search/publications?keywords=openalex&size=1",
-  "ms": 707,
-  "name": "OpenAIRE Explore",
-  "probed_at": "2026-10-20T02:49:11+00:00",
-  "rate_headers": {
-   "x-ratelimit-limit": "7199",
-   "x-ratelimit-used": "18"
-  },
-  "sha256": "b0a4020e04fd1dfab835fc70fca686ddfd74fac097794f32ead9a900041b8ad4",
-  "slug": "openaire-explore",
-  "status": 200,
-  "url": "https://api.openaire.eu/search/publications?keywords=openalex&size=1",
   "verdict": "ok"
  },
  "openaire-graph": {
@@ -1611,21 +1578,6 @@
   "rate_headers": {},
   "sha256": "c6c1411c2897eb67e4877c11527da1e17c681c96480040fcea778321d3152304",
   "slug": "snac",
-  "status": 400,
-  "url": "https://api.snaccooperative.org/",
-  "verdict": "error"
- },
- "snac-api": {
-  "body_head": "{ \"error\": { \"type\": \"Input Error\", \"message\": \"No input given to the server\" }, \"timing\": 1.89 }",
-  "bytes": 125,
-  "content_type": "application/json",
-  "final_url": "https://api.snaccooperative.org/",
-  "ms": 328,
-  "name": "SNAC API",
-  "probed_at": "2026-10-20T02:49:20+00:00",
-  "rate_headers": {},
-  "sha256": "e6e1a10f94dc139c1c5821ffa69eee4d374352ea6f81df711fd0bbb167a646f3",
-  "slug": "snac-api",
   "status": 400,
   "url": "https://api.snaccooperative.org/",
   "verdict": "error"

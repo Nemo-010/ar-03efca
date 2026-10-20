@@ -4,7 +4,7 @@
 - Home: https://www.rcsb.org/
 - Docs: https://data.rcsb.org/redoc/
 - Probe endpoint: `https://data.rcsb.org/rest/v1/core/entry/4HHB`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 

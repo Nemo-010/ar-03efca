@@ -4,7 +4,7 @@
 - Home: https://ntrs.nasa.gov/
 - Docs: https://sti.nasa.gov/ntrs-api/
 - Probe endpoint: `https://ntrs.nasa.gov/api/citations/search?q=openalex&page.size=1`
-- llms.txt: none verified — served HTML at a .txt path
+- llms.txt: none verified — not a markdown index (no heading near the top)
 
 ## Free access
 

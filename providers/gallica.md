@@ -4,7 +4,7 @@
 - Home: https://gallica.bnf.fr/
 - Docs: https://api.bnf.fr/api-gallica-de-recherche
 - Probe endpoint: `https://gallica.bnf.fr/SRU?operation=searchRetrieve&version=1.2&query=gallica%20all%20%22openalex%22&maximumRecords=1`
-- llms.txt: none verified — HTTP 404
+- llms.txt: none verified — empty body
 
 ## Free access
 
