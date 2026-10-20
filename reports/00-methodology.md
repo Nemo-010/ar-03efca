@@ -4,6 +4,20 @@ Compiled 2026-10-20. Scope: academic and archival services that expose a documen
 
 One provider is one API surface. Where a service publishes two distinct APIs (bioRxiv/medRxiv share a host but serve different corpora; OAPEN's library REST search and its api host were tried and are reported as one row) the row names the surface that was probed, so the count is of endpoints, not of companies.
 
+## Where the method comes from
+
+The discipline is adopted from two earlier inventories, and both debts are specific:
+
+| Borrowed | From | Applied here |
+|---|---|---|
+| snapshot → facts → reports pipeline, with gzip + text + `meta.json` per page and sha256 on every capture | `Nemo-010/w-search-3f9a2c` | `scripts/fetch.py`, `scripts/facts.py`, `scripts/build_reports.py` |
+| integrity test that re-checks every quote verbatim and every figure against its source, and refuses to generate a report citing a provider it does not have | `Nemo-010/w-search-3f9a2c` | `scripts/test_integrity.py`, 18 tests |
+| `llms.txt` verification that rejects an HTML soft-404, an empty body, and a file belonging to another site | `Nemo-010/w-search-3f9a2c` | `scripts/llms.py` |
+| per-row evidence index (url, http code, bytes, sha256, capture time) so one number can be traced to one artefact | `talaria0101/w-search-7b668b35` | `meta.json` per provider, plus `data/probes.json` |
+| keeping two independent passes and saying when they disagree instead of reconciling them silently | `talaria0101/w-search-7b668b35` | documentation snapshot vs live probe, reported separately everywhere |
+
+What is different here: this inventory is academic and archival, so the commercial-API apparatus (signup bonuses, credit-card requirements, anti-bot rankings) mostly does not apply. Three of 117 providers publish a quota; 0 ask for a card; 0 offer a trial credit. The work that mattered instead was distinguishing a published rate from a quota, a missing credential from a bot wall, and a live page from a dead host.
+
 ## Two evidence classes, never mixed
 
 | class | what it proves | where it lives |
