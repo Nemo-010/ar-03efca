@@ -150,4 +150,4 @@ The honest summary: **an archival pipeline can be built entirely from keyless, r
 
 Two caveats on that table, both measured: the Library of Congress API publishes the cleanest rate table here but answered the probe with a Cloudflare challenge, and OpenAlex's free tier is a dollar a day rather than an unlimited keyless pool. Both are still the right choice for their job; neither is frictionless.
 
-What is *not* in the table is just as informative: none of the 120 providers needs a payment card, none offers a one-time trial credit, and the eight publisher and patent endpoints are the only group where no free call figure exists at all.
+What is *not* in the table is just as informative: none of the 117 providers needs a payment card, none offers a one-time trial credit, and the 8 publisher and patent endpoints are the only group where no free call figure exists at all.

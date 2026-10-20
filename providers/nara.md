@@ -17,7 +17,7 @@
 
 ## Notes
 
-US National Archives Catalog API. The only provider here that publishes a plain monthly call quota with named higher tiers. A keyless call gets the single-page application shell rather than JSON, which is what the probe recorded — the quota is real, but the endpoint is not open.
+US National Archives Catalog API. Publishes a plain monthly call quota with named higher tiers to 1.5M/month for partners. A keyless call gets the single-page application shell rather than JSON, which is what the probe recorded — the quota is real, but the endpoint is not open.
 
 ## Evidence
 

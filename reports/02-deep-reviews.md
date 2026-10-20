@@ -122,11 +122,11 @@ Source: https://metmuseum.github.io/ · snapshot `data/snapshots/met-museum/docs
 
 **Live probe.** `GET https://catalog.archives.gov/api/v2/records/search?q=openalex` returned HTTP 200 in 293 ms (200 HTML).
 
-**What it is.** US National Archives Catalog API. The only provider here that publishes a plain monthly call quota with named higher tiers. A keyless call gets the single-page application shell rather than JSON, which is what the probe recorded — the quota is real, but the endpoint is not open.
+**What it is.** US National Archives Catalog API. Publishes a plain monthly call quota with named higher tiers to 1.5M/month for partners. A keyless call gets the single-page application shell rather than JSON, which is what the probe recorded — the quota is real, but the endpoint is not open.
 
 > NARA limits the number of Catalog API requests to a default rate of 10,000 queries per month per API key.
 
 Source: https://www.archives.gov/research/catalog/help/api · snapshot `data/snapshots/nara/docs.txt`
 
-**In a pipeline.** The only provider in this set that publishes a plain monthly call quota: 10,000 queries/month per key by default, with named tiers to 1.5M for partners. That makes it easy to plan and hard to scale without an application — the key is free but gated.
+**In a pipeline.** The only provider in this set that publishes a plain monthly call quota: 10,000 queries/month per key by default, with named tiers to 1.5M for partners. That makes it easy to plan and hard to scale without an application — the key is free but gated, and a keyless call gets the single-page application shell rather than JSON.
 

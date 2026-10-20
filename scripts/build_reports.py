@@ -431,7 +431,8 @@ PIPELINE = {
                "download, which sidesteps the API entirely.",
  "nara": "The only provider in this set that publishes a plain monthly call quota: 10,000 "
          "queries/month per key by default, with named tiers to 1.5M for partners. That makes it "
-         "easy to plan and hard to scale without an application — the key is free but gated.",
+         "easy to plan and hard to scale without an application — the key is free but gated, and "
+         "a keyless call gets the single-page application shell rather than JSON.",
 }
 
 
@@ -664,9 +665,11 @@ def build_post_analysis():
              "OpenAlex's free tier is a dollar a day rather than an unlimited keyless pool. Both "
              "are still the right choice for their job; neither is frictionless.")
     L.append("")
-    L.append("What is *not* in the table is just as informative: none of the 120 providers needs a "
-             "payment card, none offers a one-time trial credit, and the eight publisher and "
-             "patent endpoints are the only group where no free call figure exists at all.")
+    pub = [r for r in facts if r["category"] == "publisher"]
+    L.append(f"What is *not* in the table is just as informative: none of the {len(facts)} providers "
+             f"needs a payment card, none offers a one-time trial credit, and the "
+             f"{len(pub)} publisher and patent endpoints are the only group where no free call "
+             "figure exists at all.")
     return "\n".join(L) + "\n"
 
 

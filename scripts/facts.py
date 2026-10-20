@@ -135,8 +135,8 @@ FACTS = {
    monthly=10000, rate="10,000 queries/month per API key (default); higher tiers to 1.5M/month",
    derivation="published monthly figure, not a rate conversion",
    one_time=None, card=False, key="apply", confidence=H,
-   note="US National Archives Catalog API. The only provider here that publishes a plain monthly "
-        "call quota with named higher tiers. A keyless call gets the single-page application "
+   note="US National Archives Catalog API. Publishes a plain monthly call quota with named "
+        "higher tiers to 1.5M/month for partners. A keyless call gets the single-page application "
         "shell rather than JSON, which is what the probe recorded — the quota is real, but the "
         "endpoint is not open.",
    quote="NARA limits the number of Catalog API requests to a default rate of 10,000 queries per month per API key.",
