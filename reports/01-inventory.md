@@ -2,7 +2,7 @@
 
 Compiled 2026-10-20. 117 providers, 20 with a documented call figure. Ranked by the documented recurring free volume, largest first; providers that publish no number follow, ordered by evidence confidence.
 
-**Read the volume column as a ceiling, not a quota.** Where a provider publishes a rate (`5 requests/second`) and not a monthly figure, the monthly number is that rate multiplied by the seconds in a 30-day month. Nobody calls at that rate for a month; the column exists so that rates of different shapes can be compared at all. The `Basis` column always says which kind of number it is.
+**Read the volume column as a ceiling, not a quota.** Seventeen of the twenty figures are a published rate (`5 requests/second`, `500 per 5 minutes`) multiplied by the seconds in a 30-day month. Nobody calls at that rate for a month; the column exists so that rates of different shapes can be compared at all. Only NARA (10,000/month), ADS (5,000/day) and OpenAlex (a $1/day budget with a published price list) state a quota a caller can plan against without assuming saturation. The `Basis` column always says which kind of number it is.
 
 Columns: **Calls/mo** documented recurring free volume; **Basis** the published figure or the arithmetic; **Key** whether an API key or account is needed; **Card** whether a payment card is demanded; **Probe** what one unauthenticated request returned; **Conf** evidence confidence.
 

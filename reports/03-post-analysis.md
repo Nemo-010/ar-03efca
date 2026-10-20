@@ -82,7 +82,7 @@ None of the captured pages in this set offer a one-time credit grant. That is a 
 
 **Payment cards demanded for the free tier: 0.** None of the captured pages requires a card to reach a free academic or archival API.
 
-The gated ones matter more than the count suggests. NARA, BASE, Dimensions, IEEE, Trove, EPO and Altmetric all require an application or an institutional entitlement, which means they cannot be added to a pipeline by a script — a human has to ask.
+The gated ones matter more than the count suggests. Perma.cc, US National Archives Catalog, Trove (National Library of Australia), BASE (Bielefeld), Dimensions, Altmetric, Sherpa Romeo, IEEE Xplore API, EPO Open Patent Services, PatentsView all require an application or an institutional entitlement, which means they cannot be added to a pipeline by a script — a human has to ask. Two of them publish a call figure beyond the gate (US National Archives Catalog, Dimensions), which is what makes filing the application worthwhile; the rest publish none.
 
 ## 3. What the endpoints actually answered
 

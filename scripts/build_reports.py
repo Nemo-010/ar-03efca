@@ -274,11 +274,13 @@ def build_inventory():
              "call figure. Ranked by the documented recurring free volume, largest first; "
              "providers that publish no number follow, ordered by evidence confidence.")
     L.append("")
-    L.append("**Read the volume column as a ceiling, not a quota.** Where a provider publishes a "
-             "rate (`5 requests/second`) and not a monthly figure, the monthly number is that "
-             "rate multiplied by the seconds in a 30-day month. Nobody calls at that rate for a "
-             "month; the column exists so that rates of different shapes can be compared at all. "
-             "The `Basis` column always says which kind of number it is.")
+    L.append("**Read the volume column as a ceiling, not a quota.** Seventeen of the twenty "
+             "figures are a published rate (`5 requests/second`, `500 per 5 minutes`) multiplied by "
+             "the seconds in a 30-day month. Nobody calls at that rate for a month; the column "
+             "exists so that rates of different shapes can be compared at all. Only NARA (10,000/"
+             "month), ADS (5,000/day) and OpenAlex (a $1/day budget with a published price list) "
+             "state a quota a caller can plan against without assuming saturation. The `Basis` "
+             "column always says which kind of number it is.")
     L.append("")
     L.append("Columns: **Calls/mo** documented recurring free volume; **Basis** the published "
              "figure or the arithmetic; **Key** whether an API key or account is needed; "
@@ -519,10 +521,15 @@ def build_post_analysis():
              + ("None of the captured pages requires a card to reach a free academic or archival "
                 "API." if not cards else ", ".join(cards) + "."))
     L.append("")
-    L.append("The gated ones matter more than the count suggests. NARA, BASE, Dimensions, IEEE, "
-             "Trove, EPO and Altmetric all require an application or an institutional "
-             "entitlement, which means they cannot be added to a pipeline by a script — a human "
-             "has to ask.")
+    L.append("The gated ones matter more than the count suggests. "
+             + ", ".join(r["name"] for r in buckets["apply"])
+             + " all require an application or an institutional entitlement, which means they "
+             "cannot be added to a pipeline by a script — a human has to ask. "
+             + ("Two of them publish a call figure beyond the gate ("
+                + ", ".join(r["name"] for r in buckets["apply"] if r["monthly_calls"])
+                + "), which is what makes filing the application worthwhile; the rest publish "
+                "none." if any(r["monthly_calls"] for r in buckets["apply"]) else
+                "None of them publishes a call figure beyond the gate."))
     L.append("")
 
     # ---- 3. probe results
