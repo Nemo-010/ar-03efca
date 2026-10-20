@@ -861,6 +861,8 @@ def basis_kind(f):
     d = f["derivation"] or ""
     if "published monthly figure" in d:
         return "published-monthly"
+    if "published daily quota" in d:
+        return "published-daily"
     if "daily budget" in d:
         return "daily-budget"
     return "rate-ceiling"

@@ -2478,7 +2478,7 @@
   "llms": null,
   "llms_reason": "empty body",
   "monthly_calls": 150000,
-  "basis_kind": "rate-ceiling",
+  "basis_kind": "published-daily",
   "rate": "5,000 regular requests/day for most request types, with a token; higher limits by email request",
   "derivation": "5,000/day x 30 = 150,000 calls/month (published daily quota)",
   "one_time": null,

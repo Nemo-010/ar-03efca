@@ -404,7 +404,8 @@ PIPELINE = {
 # ------------------------------------------------------------------ post-analysis
 def build_post_analysis():
     numbered = sorted([r for r in facts if r["monthly_calls"]], key=lambda r: -r["monthly_calls"])
-    quotas = [r for r in numbered if r["basis_kind"] in ("published-monthly", "daily-budget")]
+    quotas = [r for r in numbered if r["basis_kind"] in (
+        "published-monthly", "published-daily", "daily-budget")]
     ceilings = [r for r in numbered if r["basis_kind"] == "rate-ceiling"]
     total = sum(r["monthly_calls"] for r in numbered)
     L = ["# Post-analysis", ""]
@@ -415,13 +416,13 @@ def build_post_analysis():
     # ---- 1. totals
     L.append("## 1. Total documented volume, one account and five")
     L.append("")
-    L.append("Of the providers with a number, **only one publishes a monthly quota** and **one "
-             "publishes a daily budget with a price list**. The other "
+    L.append("Of the providers with a number, **three publish a quota** — one monthly, one daily, "
+             "and one as a daily dollar budget with a published price list. The other "
              f"{len(ceilings)} publish a *rate* (requests per second or minute), and their monthly "
              "figure is arithmetic on that rate, not a promise. The two groups are kept apart "
              "because they mean different things.")
     L.append("")
-    L.append("### 1a. Published monthly or daily budgets")
+    L.append("### 1a. Published quotas")
     L.append("")
     L.append("| Provider | Per account /mo | ×5 | What the provider actually publishes |")
     L.append("|----------|---:|---:|-------|")
@@ -431,8 +432,8 @@ def build_post_analysis():
     L.append(f"| **Subtotal** | **{fmt(sum(r['monthly_calls'] for r in quotas))}** | "
              f"**{fmt(sum(r['monthly_calls'] for r in quotas)*5)}** | |")
     L.append("")
-    L.append("These two are the only numbers in this inventory that a caller can plan against "
-             "without assuming saturation. NARA states the monthly figure outright; OpenAlex "
+    L.append("These three are the only numbers in this inventory that a caller can plan against "
+             "without assuming saturation. NARA and ADS state the quota outright; OpenAlex "
              "publishes a daily dollar budget and a price per operation, so the call count follows "
              "from two published facts.")
     L.append("")
@@ -705,11 +706,11 @@ def build_readme():
     L.append(f"| Serve a verified llms.txt | {sum(1 for r in facts if r['llms'])} |")
     L.append(f"| Require a payment card for the free tier | {sum(1 for r in facts if r['card'] is True)} |")
     L.append("")
-    L.append("The two volume figures are **ceilings**: only one provider publishes a monthly "
-             "quota and one a daily budget with a price list; for the rest the monthly number is "
-             "the published rate times the seconds in a 30-day month. "
-             "`reports/03-post-analysis.md` splits published quotas from rate ceilings and shows "
-             "that two rows account for 89% of the total.")
+    L.append("The two volume figures are **ceilings**: only three providers publish a quota "
+             "(monthly, daily, or a daily dollar budget with a price list); for the rest the "
+             "monthly number is the published rate times the seconds in a 30-day month. "
+             "`reports/03-post-analysis.md` splits the three published quotas from the rate "
+             "ceilings and shows that two rows account for 89% of the total.")
     L.append("")
     L.append("## Reports")
     L.append("")

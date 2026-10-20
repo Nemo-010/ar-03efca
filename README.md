@@ -14,7 +14,7 @@ Each provider gets a page with its documented rate, the verbatim sentence that s
 | Serve a verified llms.txt | 7 |
 | Require a payment card for the free tier | 0 |
 
-The two volume figures are **ceilings**: only one provider publishes a monthly quota and one a daily budget with a price list; for the rest the monthly number is the published rate times the seconds in a 30-day month. `reports/03-post-analysis.md` splits published quotas from rate ceilings and shows that two rows account for 89% of the total.
+The two volume figures are **ceilings**: only three providers publish a quota (monthly, daily, or a daily dollar budget with a price list); for the rest the monthly number is the published rate times the seconds in a 30-day month. `reports/03-post-analysis.md` splits the three published quotas from the rate ceilings and shows that two rows account for 89% of the total.
 
 ## Reports
 

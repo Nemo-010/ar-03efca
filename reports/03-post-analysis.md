@@ -4,17 +4,18 @@ All figures derive from `data/facts.json` (captured 2026-10-20). Nothing here is
 
 ## 1. Total documented volume, one account and five
 
-Of the providers with a number, **only one publishes a monthly quota** and **one publishes a daily budget with a price list**. The other 18 publish a *rate* (requests per second or minute), and their monthly figure is arithmetic on that rate, not a promise. The two groups are kept apart because they mean different things.
+Of the providers with a number, **three publish a quota** — one monthly, one daily, and one as a daily dollar budget with a published price list. The other 17 publish a *rate* (requests per second or minute), and their monthly figure is arithmetic on that rate, not a promise. The two groups are kept apart because they mean different things.
 
-### 1a. Published monthly or daily budgets
+### 1a. Published quotas
 
 | Provider | Per account /mo | ×5 | What the provider actually publishes |
 |----------|---:|---:|-------|
 | OpenAlex | 300,000 | **1,500,000** | 10,000 list+filter calls per $1 of daily budget x 30 = 300,000 calls/month; a search costs 10x a |
+| NASA ADS | 150,000 | **750,000** | 5,000/day x 30 = 150,000 calls/month (published daily quota) |
 | US National Archives Catalog | 10,000 | **50,000** | published monthly figure, not a rate conversion |
-| **Subtotal** | **310,000** | **1,550,000** | |
+| **Subtotal** | **460,000** | **2,300,000** | |
 
-These two are the only numbers in this inventory that a caller can plan against without assuming saturation. NARA states the monthly figure outright; OpenAlex publishes a daily dollar budget and a price per operation, so the call count follows from two published facts.
+These three are the only numbers in this inventory that a caller can plan against without assuming saturation. NARA and ADS state the quota outright; OpenAlex publishes a daily dollar budget and a price per operation, so the call count follows from two published facts.
 
 ### 1b. Rate ceilings
 
@@ -37,8 +38,7 @@ These two are the only numbers in this inventory that a caller can plan against 
 | Dimensions | 30 requests/minute per IP; free access only for eligible research projects | 1,296,000 | **6,480,000** |
 | Library of Congress JSON API | 20 requests/minute for the JSON/YAML API; 150/min for text and image services | 864,000 | **4,320,000** |
 | arXiv API | no more than one request every three seconds, single connection | 864,000 | **4,320,000** |
-| NASA ADS | 5,000 regular requests/day for most request types, with a token; higher limits by em | 150,000 | **750,000** |
-| **Subtotal** | | **811,878,000** | **4,059,390,000** |
+| **Subtotal** | | **811,728,000** | **4,058,640,000** |
 
 A ceiling is what the published rate permits if a client called continuously for 30 days. No real client does that, and several of these docs ask callers not to.
 
