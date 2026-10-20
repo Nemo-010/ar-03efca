@@ -86,11 +86,15 @@ def probe(p: dict) -> dict:
 
 
 def main():
-    cands = json.load(open(os.path.join(DATA, "candidates.json")))["providers"]
+    with open(os.path.join(DATA, "candidates.json")) as fh:
+        cands = json.load(fh)["providers"]
     want = set(sys.argv[1:])
     if want:
         cands = [p for p in cands if p["slug"] in want]
-    prev = json.load(open(OUT)) if os.path.exists(OUT) else {}
+    prev = {}
+    if os.path.exists(OUT):
+        with open(OUT) as fh:
+            prev = json.load(fh)
     out = dict(prev)
     t0 = time.time()
     with cf.ThreadPoolExecutor(6) as ex:
@@ -113,7 +117,8 @@ def main():
             out[slug] = r
             print(f"{slug:24s} {r.get('status'):>4} {r.get('verdict'):10s} "
                   f"{r.get('ms', 0):>6}ms {r.get('url', '')}", flush=True)
-            json.dump(out, open(OUT, "w"), indent=1, sort_keys=True)
+            with open(OUT, "w") as fh:
+                json.dump(out, fh, indent=1, sort_keys=True)
     ok = sum(1 for r in out.values() if str(r.get("verdict", "")).startswith("ok"))
     print(f"\n{len(out)} probed, {ok} answered unauthenticated, {time.time()-t0:.0f}s")
 

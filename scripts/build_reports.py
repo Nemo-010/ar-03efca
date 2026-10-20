@@ -20,10 +20,15 @@ REP = os.path.join(ROOT, "reports")
 PROV = os.path.join(ROOT, "providers")
 TODAY = "2026-10-20"
 
-facts = json.load(open(os.path.join(DATA, "facts.json")))
-probes = json.load(open(os.path.join(DATA, "probes.json")))
-llms = json.load(open(os.path.join(DATA, "llms.json")))
-cats = json.load(open(os.path.join(DATA, "candidates.json")))["categories"]
+def load(name):
+    with open(os.path.join(DATA, name)) as fh:
+        return json.load(fh)
+
+
+facts = load("facts.json")
+probes = load("probes.json")
+llms = load("llms.json")
+cats = load("candidates.json")["categories"]
 BY = {r["slug"]: r for r in facts}
 
 SEC = 2592000  # seconds in a 30-day month
@@ -755,14 +760,18 @@ def build_readme():
 def main():
     os.makedirs(REP, exist_ok=True)
     os.makedirs(PROV, exist_ok=True)
+    def put(path, text):
+        with open(path, "w") as fh:
+            fh.write(text)
+
     for r in facts:
-        open(os.path.join(PROV, r["slug"] + ".md"), "w").write(prov_md(r))
-    open(os.path.join(REP, "00-methodology.md"), "w").write(build_methodology())
-    open(os.path.join(REP, "01-inventory.md"), "w").write(build_inventory())
-    open(os.path.join(REP, "02-deep-reviews.md"), "w").write(build_reviews())
-    open(os.path.join(REP, "03-post-analysis.md"), "w").write(build_post_analysis())
-    open(os.path.join(REP, "04-probes.md"), "w").write(build_probes())
-    open(os.path.join(ROOT, "README.md"), "w").write(build_readme())
+        put(os.path.join(PROV, r["slug"] + ".md"), prov_md(r))
+    put(os.path.join(REP, "00-methodology.md"), build_methodology())
+    put(os.path.join(REP, "01-inventory.md"), build_inventory())
+    put(os.path.join(REP, "02-deep-reviews.md"), build_reviews())
+    put(os.path.join(REP, "03-post-analysis.md"), build_post_analysis())
+    put(os.path.join(REP, "04-probes.md"), build_probes())
+    put(os.path.join(ROOT, "README.md"), build_readme())
     print(f"wrote 5 reports, {len(facts)} provider pages and README.md")
 
 

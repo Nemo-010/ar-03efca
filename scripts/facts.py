@@ -884,11 +884,16 @@ def basis_kind(f):
 
 
 def main():
-    cands = json.load(open(os.path.join(DATA, "candidates.json")))["providers"]
-    probes = json.load(open(os.path.join(DATA, "probes.json"))) if os.path.exists(
-        os.path.join(DATA, "probes.json")) else {}
-    llms = json.load(open(os.path.join(DATA, "llms.json"))) if os.path.exists(
-        os.path.join(DATA, "llms.json")) else {}
+    def load(name):
+        path = os.path.join(DATA, name)
+        if not os.path.exists(path):
+            return {}
+        with open(path) as fh:
+            return json.load(fh)
+
+    cands = load("candidates.json")["providers"]
+    probes = load("probes.json")
+    llms = load("llms.json")
     out = []
     for p in cands:
         slug = p["slug"]
@@ -914,6 +919,7 @@ def main():
         out.append(rec)
     with open(os.path.join(DATA, "facts.json"), "w") as fh:
         json.dump(out, fh, indent=1)
+        fh.write("\n")
     nums = [r for r in out if r["monthly_calls"]]
     print(f"facts.json: {len(out)} providers, {len(nums)} with a documented call figure")
     print(f"  confidence: " + ", ".join(

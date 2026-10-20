@@ -155,8 +155,10 @@ def one(slug: str) -> str:
                 f.write(txt)
             res["text_bytes"] = len(txt)
         meta_path = os.path.join(d, "meta.json")
-        meta = json.load(open(meta_path)) if os.path.exists(meta_path) else {
-            "slug": slug, "sources": {}}
+        meta = {"slug": slug, "sources": {}}
+        if os.path.exists(meta_path):
+            with open(meta_path) as fh:
+                meta = json.load(fh)
         meta.setdefault("sources", {})[kind] = res
         with open(meta_path, "w") as f:
             json.dump(meta, f, indent=1)

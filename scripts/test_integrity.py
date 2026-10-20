@@ -77,7 +77,8 @@ class TestEvidence(unittest.TestCase):
                 path = os.path.join(ROOT, sp)
                 if not os.path.exists(path):
                     continue
-                txt = norm(open(path, encoding="utf-8", errors="replace").read())
+                with open(path, encoding="utf-8", errors="replace") as fh:
+                    txt = norm(fh.read())
                 for frag in [f for f in re.split(r"\s*(?:\.\.\.|…)\s*", q) if f.strip()]:
                     if norm(frag) not in txt:
                         bad.append(f"{r['slug']}: {frag[:70]!r} not in {sp}")
@@ -143,8 +144,12 @@ class TestReports(unittest.TestCase):
 
     def test_reports_cite_only_catalogued_providers(self):
         facts = {r["slug"] for r in load("facts.json")}
-        text = "".join(open(os.path.join(REP, n), encoding="utf-8").read()
-                       for n in os.listdir(REP) if n.endswith(".md"))
+        chunks = []
+        for n in os.listdir(REP):
+            if n.endswith(".md"):
+                with open(os.path.join(REP, n), encoding="utf-8") as fh:
+                    chunks.append(fh.read())
+        text = "".join(chunks)
         cited = set(re.findall(r"providers/([a-z0-9-]+)\.md", text))
         self.assertEqual(set(), cited - facts, "report cites a provider report that is not in facts")
 
@@ -157,7 +162,8 @@ class TestReports(unittest.TestCase):
     def test_report_numbers_match_facts(self):
         """Every thousand-separated figure in the ranking table must be a facts figure."""
         facts = {r["slug"]: r for r in load("facts.json")}
-        text = open(os.path.join(REP, "01-inventory.md"), encoding="utf-8").read()
+        with open(os.path.join(REP, "01-inventory.md"), encoding="utf-8") as fh:
+            text = fh.read()
         allowed = {f"{r['monthly_calls']:,}" for r in facts.values() if r["monthly_calls"]}
         for n in re.findall(r"\|\s*([\d,]{4,})\s*\|", text):
             self.assertIn(n, allowed, f"{n} in the ranking table is not a facts figure")

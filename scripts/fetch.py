@@ -94,7 +94,8 @@ def save(slug: str, kind: str, res: dict) -> dict:
     os.makedirs(d, exist_ok=True)
     with gzip.open(os.path.join(d, kind + ".gz"), "wb", compresslevel=9) as f:
         f.write(res.pop("raw"))
-    txt = to_text(gzip.open(os.path.join(d, kind + ".gz"), "rb").read(), res["content_type"])
+    with gzip.open(os.path.join(d, kind + ".gz"), "rb") as gz:
+        txt = to_text(gz.read(), res["content_type"])
     with open(os.path.join(d, kind + ".txt"), "w") as f:
         f.write(txt)
     res["text_bytes"] = len(txt)

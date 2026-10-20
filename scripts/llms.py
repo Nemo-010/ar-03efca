@@ -101,16 +101,21 @@ def probe(slug: str, home: str, docs: str = "") -> dict:
             with open(os.path.join(d, "llms.txt"), "w") as f:
                 f.write(to_text(raw, res["content_type"]))
             mp = os.path.join(d, "meta.json")
-            meta = json.load(open(mp)) if os.path.exists(mp) else {"slug": slug, "sources": {}}
+            meta = {"slug": slug, "sources": {}}
+            if os.path.exists(mp):
+                with open(mp) as fh:
+                    meta = json.load(fh)
             meta.setdefault("sources", {})["llms"] = {**res, "text_bytes": len(raw)}
-            json.dump(meta, open(mp, "w"), indent=1)
+            with open(mp, "w") as fh:
+                json.dump(meta, fh, indent=1)
             return {"url": url, "bytes": len(raw), "reason": "ok", "tried": tried}
     return {"url": None, "bytes": 0,
             "reason": tried[-1]["reason"] if tried else "no candidate host", "tried": tried}
 
 
 def main():
-    cands = json.load(open(os.path.join(DATA, "candidates.json")))["providers"]
+    with open(os.path.join(DATA, "candidates.json")) as fh:
+        cands = json.load(fh)["providers"]
     out = {}
     if "--fetch" in sys.argv:
         with cf.ThreadPoolExecutor(6) as ex:
@@ -126,15 +131,20 @@ def main():
         for p in cands:
             slug = p["slug"]
             path = os.path.join(SNAP, slug, "llms.txt")
-            body = open(path, "rb").read() if os.path.exists(path) else b""
+            body = b""
+            if os.path.exists(path):
+                with open(path, "rb") as fh:
+                    body = fh.read()
             ok, why = is_markdown_index(body)
             mp = os.path.join(SNAP, slug, "meta.json")
             url = None
             if os.path.exists(mp):
-                url = (json.load(open(mp)).get("sources", {}).get("llms") or {}).get("url")
+                with open(mp) as fh:
+                    url = (json.load(fh).get("sources", {}).get("llms") or {}).get("url")
             out[slug] = {"url": url if ok else None, "bytes": len(body),
                          "reason": why if ok else why}
-    json.dump(out, open(OUT, "w"), indent=1, sort_keys=True)
+    with open(OUT, "w") as fh:
+        json.dump(out, fh, indent=1, sort_keys=True)
     good = [s for s, v in out.items() if v["url"]]
     print(f"\nllms.json: {len(good)} of {len(out)} providers serve a verified markdown index")
     for s in good:

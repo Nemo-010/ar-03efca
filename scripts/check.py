@@ -29,7 +29,8 @@ def main():
         metas = [m for m in metas if os.path.basename(os.path.dirname(m)) in a.slug]
     jobs = []
     for mp in metas:
-        meta = json.load(open(mp))
+        with open(mp) as fh:
+            meta = json.load(fh)
         for kind, s in meta.get("sources", {}).items():
             if s.get("status") != 200:
                 continue
