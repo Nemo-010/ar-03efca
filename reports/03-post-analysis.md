@@ -55,7 +55,7 @@ Both are per-second rates on scientific data APIs. Dropping them leaves **86,428
 2. **Shared pools.** Semantic Scholar's 1,000 requests/second is shared by every unauthenticated caller in the world, so it is excluded from the sum entirely rather than counted as one caller's allowance.
 3. **Per-key gates.** NARA's quota and Dimensions' eligibility rule mean a second account needs a second approval, so the ×5 column is arithmetic rather than access.
 
-### 1d. Ceiling by category
+### 1d. The same total, by category
 
 | Category | With a figure | Ceiling /mo, 1 account | ×5 |
 |---|---:|---:|---:|

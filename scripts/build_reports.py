@@ -38,6 +38,12 @@ def fmt(n):
     return f"{n:,}" if isinstance(n, int) else "—"
 
 
+def top2_share():
+    """Share of the documented total contributed by the two largest rows."""
+    nums = sorted([r["monthly_calls"] for r in facts if r["monthly_calls"]], reverse=True)
+    return (nums[0] + nums[1]) / sum(nums) * 100
+
+
 def ranked():
     """Providers with a documented figure, largest first, then the rest by confidence."""
     with_num = sorted([r for r in facts if r["monthly_calls"]], key=lambda r: -r["monthly_calls"])
@@ -510,7 +516,7 @@ def build_post_analysis():
     L.append("3. **Per-key gates.** NARA's quota and Dimensions' eligibility rule mean a second "
              "account needs a second approval, so the ×5 column is arithmetic rather than access.")
     L.append("")
-    L.append("### 1d. Ceiling by category")
+    L.append("### 1d. The same total, by category")
     L.append("")
     L.append("| Category | With a figure | Ceiling /mo, 1 account | ×5 |")
     L.append("|---|---:|---:|---:|")
@@ -781,13 +787,15 @@ def build_readme():
     L.append(f"| Documented volume, 5 accounts each | {fmt(sum(r['monthly_calls'] for r in numbered)*5)} calls/month |")
     L.append(f"| Answered an unauthenticated probe | {ok} of {len(facts)} |")
     L.append(f"| Serve a verified llms.txt | {sum(1 for r in facts if r['llms'])} |")
+    L.append(f"| Docs URL readable at capture | "
+             f"{sum(1 for r in facts if r.get('docs_status') == 200)} of {len(facts)} |")
     L.append(f"| Require a payment card for the free tier | {sum(1 for r in facts if r['card'] is True)} |")
     L.append("")
     L.append("The two volume figures are **ceilings**: only three providers publish a quota "
              "(monthly, daily, or a daily dollar budget with a price list); for the rest the "
              "monthly number is the published rate times the seconds in a 30-day month. "
              "`reports/03-post-analysis.md` splits the three published quotas from the rate "
-             "ceilings and shows that two rows account for 89% of the total.")
+             f"ceilings and shows that two rows account for {top2_share():.0f}% of it.")
     L.append("")
     L.append("## Reports")
     L.append("")

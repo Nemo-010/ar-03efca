@@ -12,9 +12,10 @@ Each provider gets a page with its documented rate, the verbatim sentence that s
 | Documented volume, 5 accounts each | 4,060,940,000 calls/month |
 | Answered an unauthenticated probe | 87 of 117 |
 | Serve a verified llms.txt | 7 |
+| Docs URL readable at capture | 84 of 117 |
 | Require a payment card for the free tier | 0 |
 
-The two volume figures are **ceilings**: only three providers publish a quota (monthly, daily, or a daily dollar budget with a price list); for the rest the monthly number is the published rate times the seconds in a 30-day month. `reports/03-post-analysis.md` splits the three published quotas from the rate ceilings and shows that two rows account for 89% of the total.
+The two volume figures are **ceilings**: only three providers publish a quota (monthly, daily, or a daily dollar budget with a price list); for the rest the monthly number is the published rate times the seconds in a 30-day month. `reports/03-post-analysis.md` splits the three published quotas from the rate ceilings and shows that two rows account for 89% of it.
 
 ## Reports
 
